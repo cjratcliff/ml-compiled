@@ -8,23 +8,23 @@ Sum rule
 
 Product rule
 .. math::
-    (fg)' = fg' + f'g
+    `(fg)' = fg' + f'g`
 
 Quotient rule
 .. math::
-    (f/g)' = (f'g + fg')/g^2
+    `(f/g)' = (f'g + fg')/g^2`
 
 Reciprocal rule
 .. math::
-    (1/f)' = -f'/f^2
+    `(1/f)' = -f'/f^2`
 
 Chain rule
 .. math::
-    \frac{dy}{dx} = \frac{dy}{dz} \cdot \frac{dz}{dx}
+    `\frac{dy}{dx} = \frac{dy}{dz} \cdot \frac{dz}{dx}`
 
 Multivariate chain rule
 .. math::
-    \frac{dy}{dx} = \frac{dy}{da} \cdot \frac{da}{dx} + \frac{dy}{db} \cdot \frac{db}{dx}
+    `\frac{dy}{dx} = \frac{dy}{da} \cdot \frac{da}{dx} + \frac{dy}{db} \cdot \frac{db}{dx}`
 
 Used to calculate total derivatives.
 

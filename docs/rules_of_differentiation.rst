@@ -29,7 +29,7 @@ Multivariate chain rule
 Used to calculate total derivatives.
 
 Function wrt function
-Can be done using the chain rule. For example, $\partial x^6/\partial x^2$ can be found by setting $y=x^6$ and $z=x^2$. Then do $\partial y/\partial z = \partial y/\partial x \cdot \partial x/\partial z = 6x^5 \cdot 1/{2x} = 3x^4$.
+Can be done using the chain rule. For example, :math:`\partial x^6/\partial x^2` can be found by setting :math:`y=x^6` and :math:`z=x^2`. Then do :math:`\partial y/\partial z = \partial y/\partial x \cdot \partial x/\partial z = 6x^5 \cdot 1/{2x} = 3x^4`.
 
 Inverse relationship
 In general dy/dx is the inverse of dx/dy. However there are some conditions attached (unknown at the time of writing).

@@ -1,11 +1,15 @@
-============
+========================
 Rules of differentiation
-============
+========================
 
+""""""""
 Sum rule
+""""""""
 .. math:: `(f+g)' = f' + g'`
 
+""""""""""""
 Product rule
+""""""""""""
 .. math:: `(fg)' = fg' + f'g`
 
 Quotient rule

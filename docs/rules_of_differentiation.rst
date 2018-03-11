@@ -3,28 +3,22 @@ Rules of differentiation
 ============
 
 Sum rule
-.. math::
-    `(f+g)' = f' + g'`
+.. math:: `(f+g)' = f' + g'`
 
 Product rule
-.. math::
-    `(fg)' = fg' + f'g`
+.. math:: `(fg)' = fg' + f'g`
 
 Quotient rule
-.. math::
-    `(f/g)' = (f'g + fg')/g^2`
+.. math:: `(f/g)' = (f'g + fg')/g^2`
 
 Reciprocal rule
-.. math::
-    `(1/f)' = -f'/f^2`
+.. math:: `(1/f)' = -f'/f^2`
 
 Chain rule
-.. math::
-    `\frac{dy}{dx} = \frac{dy}{dz} \cdot \frac{dz}{dx}`
+.. math::`\frac{dy}{dx} = \frac{dy}{dz} \cdot \frac{dz}{dx}`
 
 Multivariate chain rule
-.. math::
-    `\frac{dy}{dx} = \frac{dy}{da} \cdot \frac{da}{dx} + \frac{dy}{db} \cdot \frac{db}{dx}`
+.. math::`\frac{dy}{dx} = \frac{dy}{da} \cdot \frac{da}{dx} + \frac{dy}{db} \cdot \frac{db}{dx}`
 
 Used to calculate total derivatives.
 

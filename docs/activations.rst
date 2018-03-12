@@ -6,7 +6,9 @@ Activation functions
 ELU
 """
 An activation function with the form:
+
 .. math:: 
+
     f(x) = 
     \begin{cases}
       x, & x > 0 \\
@@ -14,7 +16,9 @@ An activation function with the form:
     \end{cases}
 
 The first derivative is:
+
 .. math:: 
+
     f(x) = 
     \begin{cases}
       1, &  x > 0 \\
@@ -57,6 +61,7 @@ The Leaky ReLU and the Parametric ReLU (PReLU) attempt to solve this problem by 
 Sigmoid
 """""""
 Activation function that maps outputs to be between 0 and 1.
+
 .. math::
 
   f(x) = \frac{e^x}{e^x + 1}
@@ -69,6 +74,7 @@ Softmax
 All entries in the output vector are in the range (0,1) and sum to 1, making the result a valid probability distribution.
 
 .. math:: 
+
     f(z)_j = \frac{e^{z_j}}{\sum_{k=1}^K e^{z_k}}, j \in {1,...,K}
 
 """"

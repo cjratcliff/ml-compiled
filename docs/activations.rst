@@ -27,7 +27,7 @@ Compared to ReLUs, ELUs have a mean activation closer to zero which is helpful. 
 
 The more gradual decrease of the gradient should also make them less susceptible to the dying ReLU problem, although they will suffer from the vanishing gradients problem instead.
 
-Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs), Clevert et al. (2015)
+`Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs), Clevert et al. (2015) <https://arxiv.org/abs/1511.07289>`_
 
 """"""
 Maxout
@@ -57,7 +57,7 @@ Sigmoid
 """""""
 Activation function that maps outputs to be between 0 and 1.
 .. math:: 
-    `f(x) = \frac{e^x}{e^x + 1}`
+    f(x) = \frac{e^x}{e^x + 1}
 
 Has problems with saturation. This makes vanishing and exploding gradients a problem and initialization extremely important.
 
@@ -67,7 +67,7 @@ Softmax
 All entries in the output vector are in the range (0,1) and sum to 1, making the result a valid probability distribution.
 
 .. math:: 
-    `f(z)_j = \frac{e^{z_j}}{\sum_{k=1}^K e^{z_k}}, j \in {1,...,K}`
+    f(z)_j = \frac{e^{z_j}}{\sum_{k=1}^K e^{z_k}}, j \in {1,...,K}
 
 """"
 Tanh

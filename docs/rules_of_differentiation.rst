@@ -31,6 +31,7 @@ Chain rule
 Multivariate chain rule
 """"""""""""""""""""""""
 Used to calculate total derivatives.
+
 .. math:: \frac{dy}{dx} = \frac{dy}{da} \cdot \frac{da}{dx} + \frac{dy}{db} \cdot \frac{db}{dx}
 
 """"""""""""""""""""""""

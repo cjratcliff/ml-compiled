@@ -48,7 +48,7 @@ The fact that the gradient is 1 when the input is positive means it does not suf
 The Dying ReLU Problem
 When the input to a neuron is negative, the gradient will be zero. This means that gradient descent will not update the weights so long as the input remains negative.
 A smaller learning rate helps solve this problem.
-The Leaky ReLU and the Parametric ReLU (PReLU) attempt to solve this problem by using :math:`f(x=max\{ax,x\}` where a is a small constant like 0.1. However, this small gradient when the input in negative means vanishing gradients are once again a problem.
+The Leaky ReLU and the Parametric ReLU (PReLU) attempt to solve this problem by using :math:`f(x)=max\{ax,x\}` where a is a small constant like 0.1. However, this small gradient when the input in negative means vanishing gradients are once again a problem.
 
 `Rectified Linear Units Improve Restricted Boltzmann Machines, Nair and Hinton (2010) <http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.165.6419&rep=rep1&type=pdf>`_
 

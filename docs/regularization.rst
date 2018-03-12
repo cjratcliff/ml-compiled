@@ -7,8 +7,9 @@ Small changes in the inputs should not produce large changes in the outputs.
 Sparsity. Most features should be inactive most of the time.
 It should be possible to model the data well using a relatively low dimensional distribution of independent latent factors.
 
+"""""""
 Methods
--------
+"""""""
 * Dropout
 * Weight decay
 * Early stopping
@@ -19,9 +20,9 @@ Methods
 * Bagging and ensembling
 * Optimisation algorithms like SGD that prefer wide minima
 
-"""""""
+
 Dropout
-"""""""
+-------
 Regularization method. For each training case, omit each hidden unit with some constant probability. This results in a network for each training case, the outputs of which are combined through averaging. If a unit is not omitted, its value is shared across all the models. Prevents units from co-adapting too much.
 
 Dropout’s effectiveness could be due to:
@@ -32,20 +33,22 @@ Can be interpreted as injecting noise inside the network.
 
 `Dropout: A Simple Way to Prevent Neural Networks from Overfitting, Srivastava et al. (2014) <http://jmlr.org/papers/volume15/srivastava14a.old/srivastava14a.pdf>`_
 
-"""""""""""""""
-Weight decay
-"""""""""""""""
 
+Weight decay
+------------
+
+""""""""""""""
 L1 weight decay
----------------
+"""""""""""""""
 Regularization method. Adds the following term to the cost function:
 
     C \sum_{i=1}^k |\theta_i|
 
 $C > 0$ is a hyperparameter.
 
+"""""""""""""""
 L2 weight decay
-----------------
+"""""""""""""""
 Regularization method. Adds the following term to the loss function:
 
     C \sum_{i=1}^k {\theta_i}^2

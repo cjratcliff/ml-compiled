@@ -22,7 +22,7 @@ Eigendecomposition
 
 .. math::
 
-A = Q \Lambda Q^*
+    A = Q \Lambda Q^*
 
 Where the columns of Q are the eigenvectors of A and diagonal entries of :math:`\Lambda` are the eigenvalues of A.
 
@@ -51,7 +51,7 @@ Orthogonal matrix
 
 ..math:: 
 
-A^TA = AA^T = I
+    A^TA = AA^T = I
 
 Outer product
 ==============
@@ -118,11 +118,11 @@ Transpose
 ==============
 .. math::
 
-(A+B)^T = A^T + B^T
+    (A+B)^T = A^T + B^T
 
-(AB)^T = B^TA^T
+    (AB)^T = B^TA^T
 
-(A^T)^{-1} = (A^{-1})^T
+    (A^T)^{-1} = (A^{-1})^T
 
 Unitary matrix
 =====================

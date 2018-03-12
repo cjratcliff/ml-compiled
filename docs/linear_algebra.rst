@@ -19,6 +19,7 @@ The matrix obtained by taking the transpose followed by the complex conjugate of
 
 Eigendecomposition
 =====================
+
 .. math::
 
 A = Q \Lambda Q^*
@@ -47,7 +48,9 @@ Normal matrix
 
 Orthogonal matrix
 =====================
+
 ..math:: 
+
 A^TA = AA^T = I
 
 Outer product
@@ -115,12 +118,11 @@ Transpose
 ==============
 .. math::
 
-    (A+B)^T = A^T + B^T
+(A+B)^T = A^T + B^T
 
-    (AB)^T = B^TA^T
+(AB)^T = B^TA^T
 
-    (A^T)^{-1} = (A^{-1})^T
-
+(A^T)^{-1} = (A^{-1})^T
 
 Unitary matrix
 =====================

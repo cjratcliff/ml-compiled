@@ -21,7 +21,7 @@ The first derivative is:
       f(x) + \alpha, & x \leq 0
     \end{cases}
 
-In practice the hyperparameter alpha is always set to 1.
+In practice the hyperparameter :math:`\alpha` is always set to 1.
 
 Compared to ReLUs, ELUs have a mean activation closer to zero which is helpful. However, this advantage is probably nullified by batch normalization.
 

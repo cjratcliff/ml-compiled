@@ -11,7 +11,7 @@ AdaDelta
 """"""""
 Adadelta is a gradient descent based learning algorithm that adapts the learning rate per parameter over time. It was proposed as an improvement over AdaGrad, which is more sensitive to hyperparameters and may decrease the learning rate too aggressively. Adadelta It is similar to rmsprop and can be used instead of vanilla SGD.
 
-AdaDelta: An Adaptive Learning Rate Method, Zeiler (2012)
+`AdaDelta: An Adaptive Learning Rate Method, Zeiler (2012) <https://arxiv.org/abs/1212.5701>`_
 
 """"""""
 Adam
@@ -24,7 +24,7 @@ The bias correction term counteracts bias caused by initializing the moment esti
 
 Does not require a stationary objective and works with sparse gradients. Is invariant to the scale of the gradients.
 
-Adam: A Method for Stochastic Optimization
+`Adam: A Method for Stochastic Optimization, Kingma et al. (2015) <https://arxiv.org/pdf/1412.6980.pdf>`_
 
 """"""""""""""""""""""""
 Averaged SGD (ASGD)
@@ -74,6 +74,6 @@ RMSProp
 """"""""
 Similar to Adagrad, but introduces an additional decay term to counteract AdaGrad’s rapid decrease in the learning rate. Divides the gradient by a running average of its recent magnitude. Parameters are the learning rate, alpha and epsilon. 0.001 is a good default value for the learning rate. The name comes from Root Mean Square Propagation.
 
-% TODO
+.. TODO
 
-\url{http://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf}
+http://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf

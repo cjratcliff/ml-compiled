@@ -26,7 +26,7 @@ Dropout
 Regularization method. For each training case, omit each hidden unit with some constant probability. This results in a network for each training case, the outputs of which are combined through averaging. If a unit is not omitted, its value is shared across all the models. Prevents units from co-adapting too much.
 
 Dropout’s effectiveness could be due to:
-* An ensembling effect. ‘Training a neural network with dropout can be seen as training a collection of $2^n$ thinned networks with extensive weight sharing’ - Srivastava et al. (2014)
+* An ensembling effect. ‘Training a neural network with dropout can be seen as training a collection of :math:`2^n` thinned networks with extensive weight sharing’ - Srivastava et al. (2014)
 * Restricting the network’s ability to co-adapt weights. The idea is that if a node is not reliably included, it would be ineffective for nodes in the next layer to rely on it’s output. Weights that depend strongly on each other correspond to a sharp local minimum as a small change in the weights is likely to damage accuracy significantly. Conversely, nodes that take input from a variety of sources will be more resilient and reside in a shallower local minimum.
 
 Can be interpreted as injecting noise inside the network.
@@ -42,18 +42,22 @@ L1 weight decay
 """""""""""""""
 Regularization method. Adds the following term to the cost function:
 
+.. math::
+
     C \sum_{i=1}^k |\theta_i|
 
-$C > 0$ is a hyperparameter.
+:math:`C > 0` is a hyperparameter.
 
 """""""""""""""
 L2 weight decay
 """""""""""""""
 Regularization method. Adds the following term to the loss function:
 
+.. math::
+
     C \sum_{i=1}^k {\theta_i}^2
 
-$C > 0$ is a hyperparameter.
+:math:`C > 0` is a hyperparameter.
 
 Intuition
 Weight decay works by making large parameters costly. Therefore during optimisation the most important parameters will tend to have the largest magnitude. The unimportant ones will be close to zero.

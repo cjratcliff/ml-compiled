@@ -5,6 +5,7 @@
 
 Welcome to ML Compiled!
 ==================================================
+Quick definitions and intuitive explanations around machine learning.
 
 Contents:
 

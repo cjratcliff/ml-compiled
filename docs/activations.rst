@@ -46,6 +46,7 @@ Rectified Linear Unit. The non-saturating activation function :math:`f(x)=\max\{
 The fact that the gradient is 1 when the input is positive means it does not suffer from vanishing and exploding gradients. However, it suffers from its own 'dying ReLU problem' instead.
 
 The Dying ReLU Problem
+-------------------------
 When the input to a neuron is negative, the gradient will be zero. This means that gradient descent will not update the weights so long as the input remains negative.
 A smaller learning rate helps solve this problem.
 The Leaky ReLU and the Parametric ReLU (PReLU) attempt to solve this problem by using :math:`f(x)=max\{ax,x\}` where a is a small constant like 0.1. However, this small gradient when the input in negative means vanishing gradients are once again a problem.
@@ -56,8 +57,9 @@ The Leaky ReLU and the Parametric ReLU (PReLU) attempt to solve this problem by 
 Sigmoid
 """""""
 Activation function that maps outputs to be between 0 and 1.
-.. math:: 
-    f(x) = \frac{e^x}{e^x + 1}
+.. math::
+
+  f(x) = \frac{e^x}{e^x + 1}
 
 Has problems with saturation. This makes vanishing and exploding gradients a problem and initialization extremely important.
 

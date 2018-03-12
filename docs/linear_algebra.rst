@@ -11,7 +11,7 @@ A linear combination of vectors where the weights sum to 1. Unlike a convex comb
 
 Cholesky decomposition
 ============================
-A = LL*, where A is Hermitian and positive-definite, L is lower-triangular and L* is its conjugate transpose. Can be used for solving SLEs.
+:math:`A = LL^*`, where A is Hermitian and positive-definite, L is lower-triangular and :math:`L^*` is its conjugate transpose. Can be used for solving SLEs.
 
 Conjugate transpose
 =====================
@@ -23,7 +23,7 @@ Eigendecomposition
 
 A = Q \Lambda Q^*
 
-Where the columns of Q are the eigenvectors of A and diagonal entries of $\Lambda$ are the eigenvalues of A.
+Where the columns of Q are the eigenvectors of A and diagonal entries of :math:`\Lambda` are the eigenvalues of A.
 
 Gaussian elimination
 =====================
@@ -31,7 +31,7 @@ An algorithm for solving SLEs that iteratively transforms the matrix into an upp
 
 Hermitian matrix
 =====================
-The complex equivalent of a symmetric matrix. A = A*, where * represents the conjugate transpose.
+The complex equivalent of a symmetric matrix. :math:`A = A^*`, where * represents the conjugate transpose.
 
 Hadamard product
 =====================
@@ -55,10 +55,12 @@ Outer product
 
 Positive (semi-)definite
 A matrix :math:`A \in \mathbb{R}^{n \times n}` is positive definite if:
-\begin{equation}
+
+.. math::
+
     z^TAz > 0, \forall z \in \mathbb{R}^n, z \neq 0 
-\end{equation}
-Positive semi-definite matrices are defined analogously, except with $z^TAz \geq 0$
+
+Positive semi-definite matrices are defined analogously, except with :math:`z^TAz \geq 0`
 
 Rank
 =======

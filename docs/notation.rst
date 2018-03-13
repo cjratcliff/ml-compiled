@@ -9,7 +9,7 @@ Functions
 :math:`\sigma`       Sigmoid function
 :math:`\Sigma`       Sum
 :math:`\Pi`          Product
-:math:`\E`           Expectation
+:math:`E`           Expectation
 =================  =============================
 
 Linear algebra

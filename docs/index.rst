@@ -10,7 +10,7 @@ Quick definitions and intuitive explanations around machine learning.
 Contents:
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :glob:
 
    *

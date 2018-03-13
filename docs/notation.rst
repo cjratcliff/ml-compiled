@@ -9,6 +9,7 @@ Functions
 :math:`\sigma`       Sigmoid function
 :math:`\Sigma`       Sum
 :math:`\Pi`          Product
+:math:`\E`           Expectation
 =================  =============================
 
 Linear algebra
@@ -16,8 +17,10 @@ Linear algebra
 =================  =============================
   Symbol             Meaning   
 =================  ============================= 
-:math:`A^T`         Transpose of A
-:math:`A^{-1}`         Inverse of A
+:math:`x`            A vector
+:math:`X`            A matrix
+:math:`X^T`         Transpose of X
+:math:`X^{-1}`         Inverse of X
 :math:`I`            Identity matrix
 =================  =============================
 

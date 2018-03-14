@@ -5,9 +5,9 @@ Covariance matrix
 ----------------------
 There are three types of covariance matrix:
 
-* Full - All entries are specified. Has O(n2) parameters.
-* Diagonal - The matrix is diagonal, meaning all off-diagonal entries are zero. Variances can differ across dimensions but there is no interplay between the dimensions. Has O(n) parameters.
-* Spherical - The matrix is equal to the identity matrix multiplied by a constant. This means the variance is the same in all dimensions. Has O(1) parameters.
+* Full - All entries are specified. Has :math:`O(n^2)` parameters.
+* Diagonal - The matrix is diagonal, meaning all off-diagonal entries are zero. Variances can differ across dimensions but there is no interplay between the dimensions. Has :math:`O(n)` parameters.
+* Spherical - The matrix is equal to the identity matrix multiplied by a constant. This means the variance is the same in all dimensions. Has :math:`O(1)` parameters.
 
 A valid covariance matrix is always symmetric and positive semi-definite.
 

@@ -32,3 +32,8 @@ Definition
 """"""""""""""""
 Squared loss
 """"""""""""""""
+A loss function used for regression. 
+
+.. math::
+
+  L(y,\^{y}) = \sum_i (y - \^{y})^2

@@ -49,7 +49,7 @@ Normal matrix
 Orthogonal matrix
 =====================
 
-..math:: 
+.. math:: 
 
     A^TA = AA^T = I
 

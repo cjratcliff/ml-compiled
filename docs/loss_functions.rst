@@ -36,4 +36,4 @@ A loss function used for regression.
 
 .. math::
 
-  L(y,\^{y}) = \sum_i (y - \^{y})^2
+  L(y,\hat{y}) = \sum_i (y_i - \hat{y}_i)^2

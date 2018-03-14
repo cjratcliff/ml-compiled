@@ -43,7 +43,6 @@ Calculus
 :math:`f'`        False    
 ==========  ==================== 
 
-
 Machine learning
 -----------------
 =================  =============================
@@ -51,6 +50,9 @@ Machine learning
 =================  =============================
 :math:`\theta`      Parameters of the model  
 :math:`O`           Observations or data
+:math:`x`           Feature vector
+:math:`y`            Label
+:math:`\hat{y}`      Prediction
 =================  =============================
 
 Reinforcement learning

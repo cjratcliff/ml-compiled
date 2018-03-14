@@ -25,8 +25,6 @@ Huber loss
 """"""""""""""""
 A loss function used for regression. It is less sensitive to outliers than the squared loss.
 
-Definition
-
 .. math::
 
   L(y,\hat{y};\delta) = 

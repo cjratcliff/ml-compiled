@@ -93,6 +93,7 @@ The most basic sort of probability, :math:`P(x)`. Contrast with the conditional 
 
 Marginal likelihood
 ----------------------
+A likelihood function in which some variable has been marginalised out (removed by summation).
 
 MAP estimation
 ----------------

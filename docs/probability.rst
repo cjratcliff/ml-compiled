@@ -23,7 +23,7 @@ The joint distribution for all the variables in a network is equal to the produc
 
     P(X1,...,X_n) = \prod_i P(X_i|Par(X_i))
 
-where :math:`Par(X_i)` denotes the parents of :math:`X_i`)
+where :math:`Par(X_i)` denotes the parents of :math:`X_i`
 
 Bayes' rule
 -------------

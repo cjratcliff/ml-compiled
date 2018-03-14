@@ -19,7 +19,7 @@ The chain rule for Bayesian networks
 
 The joint distribution for all the variables in a network is equal to the product of the distributions for all the individual variables, conditional on their parents.
 
-..math::
+.. math::
 
     P(X1,...,X_n) = \prod_i P(X_i|Par(X_i))
 
@@ -35,7 +35,7 @@ Bayes' rule
 Chain rule of probability
 ---------------------------
 
-..math::
+.. math::
   P(A_3,A_2,A_1) = P(A_3|A_2,A_1) \cdot P(A_2|A_1) \cdot P(A_1)
 
 Conjugate prior
@@ -91,7 +91,7 @@ MAP estimation
 ----------------
 A type of point estimate. Can be seen as a regularization of MLE since it also incorporates a prior distribution. Uses Bayes rule to incorporate a prior over the parameters and find the parameters that are most likely given the data (rather than the other way around). Unlike with MLE (which is a bit of a simplification), the most likely parameters given the data are exactly what we want to find.
 
-..math::
+.. math::
 
     \hat{\theta}_{MAP}(O) = \arg \max_\theta p(\theta|O) = \arg \max_\theta \frac{p(\theta|O)q(\theta)}{\int_{\theta'} p(\theta'|O)q(\theta') d\theta'}=  \arg \max_\theta p(\theta|O)q(\theta)
 

@@ -32,3 +32,7 @@ Harmonic mean
 .. math::
 
     H(x_1,x_2,...,x_n) = n/\sum_{i=1}^n \frac{1}{x_i} 
+    
+Point estimate
+----------------
+An estimate for a parameter.

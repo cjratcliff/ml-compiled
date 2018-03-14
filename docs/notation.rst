@@ -20,6 +20,7 @@ Linear algebra
 :math:`x`            A vector
 :math:`X`            A matrix
 :math:`X^T`         Transpose of X
+:math:`X^*`         Conjugate transpose of X
 :math:`X^{-1}`         Inverse of X
 :math:`I`            Identity matrix
 =================  =============================

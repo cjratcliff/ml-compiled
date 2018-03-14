@@ -20,6 +20,12 @@ Geometric mean
 
 Only applicable to positive numbers.
 
+Gumbel distribution
+---------------------
+Used to model the distribution of the maximum (or the minimum) of a number of samples of various distributions.
+
+`Categorical Reparameterization with Gumbel-Softmax, Jang et al. (2016) <https://arxiv.org/abs/1611.01144>`_
+
 Harmonic mean
 ---------------
 

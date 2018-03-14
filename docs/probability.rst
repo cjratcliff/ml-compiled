@@ -79,6 +79,12 @@ Uninformative:
 
 Likelihood
 -----------
+The likelihood of the parameters given the data is equal to the probability of the data given the parameters.
+
+.. math::
+
+    L(\theta|O) = P(O|\theta)
+
 
 Marginal distribution
 ---------------------------------------

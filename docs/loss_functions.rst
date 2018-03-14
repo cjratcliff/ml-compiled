@@ -9,6 +9,12 @@ Contrastive loss
 """"""""""""""""""""""""""""""""
 Cross-entropy loss
 """"""""""""""""""""""""""""""""
+Loss function for classification.
+
+.. math::
+
+  L(y,\hat{y}) = -\sum_i y_i \log(\hat{y}_i)
+
 
 """"""""""""""""
 Hinge loss
@@ -23,10 +29,10 @@ Definition
 
 .. math::
 
-  L(e;\delta) = 
+  L(y,\hat{y};\delta) = 
           \begin{cases}
-              \frac{1}{2}e^2, & \ |e| \leq \delta \\
-              \delta(|e| - \frac{1}{2}\delta), & \text{otherwise}
+              \frac{1}{2}(y_i - \hat{y}_i)^2, & \ |y_i - \hat{y}_i| \leq \delta \\
+              \delta(|y_i - \hat{y}_i| - \frac{1}{2}\delta), & \text{otherwise}
           \end{cases}
 
 """"""""""""""""

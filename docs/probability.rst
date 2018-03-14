@@ -48,9 +48,10 @@ A prior for a likelihood function is conjugate if it is from the same family of 
  Bernoulli               Beta
  Binomial                Beta
  Negative binomial        Beta
-Categorical               Dirichlet
+ Categorical               Dirichlet
  Multinomial              Dirichlet
- Poisson                  Gamma 
+ Poisson                  Gamma
+====================== ======================
 
 Improper prior
 ----------------

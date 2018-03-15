@@ -48,7 +48,7 @@ Krylov subspace descent
 """"""""""""""""""""""""""""""""
 Second-order optimization method. Inferior to SGD.
 
-Krylov Subspace Descent for Deep Learning, Vinyals and Povey (2011)
+`Krylov Subspace Descent for Deep Learning, Vinyals and Povey (2011) <https://arxiv.org/abs/1111.4259>`_
 
 """"""""
 Momentum
@@ -62,7 +62,7 @@ Natural gradient
 """"""""""""""""
 At each iteration attempts to perform the update which minimizes the loss function subject to the constraint that the KL-divergence between the probability distribution output by the network before and after the update is equal to a constant.
 
-Revisiting natural gradient for deep networks, Pascanu and Bengio (2014)
+`Revisiting natural gradient for deep networks, Pascanu and Bengio (2014) <https://arxiv.org/abs/1301.3584>`_
 
 """"""""""""""""""""""""
 Nesterov’s method

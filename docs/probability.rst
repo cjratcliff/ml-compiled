@@ -22,7 +22,7 @@ The joint distribution for all the variables in a network is equal to the produc
 
 .. math::
 
-    P(X1,...,X_n) = \prod_i P(X_i|Par(X_i))
+    P(X_1,...,X_n) = \prod_i P(X_i|Par(X_i))
 
 where :math:`Par(X_i)` denotes the parents of :math:`X_i`
 
@@ -77,6 +77,13 @@ Uninformative:
 * All temperatures are equally likely.
 
 'Uninformative' can be a misnomer. 'Not very informative' would be more accurate.
+
+Law of total probability
+--------------------------
+
+.. math::
+
+  P(X) = \sum_i P(X|Y=y_i)P(Y=y_i)
 
 Likelihood
 -----------

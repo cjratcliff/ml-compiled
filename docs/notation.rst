@@ -49,8 +49,8 @@ Probability
 ========================================  =================================================================================
   Symbol                                     Meaning   
 ========================================  =================================================================================
-X                                          A random variable  
-P(X)                                        The probability of a particular value of X. Shorthand for :math:`P(X=x_i)`
+:math:`X`                                      A random variable  
+:math:`P(X)`                                   The probability of a particular value of X. Shorthand for :math:`P(X=x_i)`
 ========================================  =================================================================================
 
 Machine learning

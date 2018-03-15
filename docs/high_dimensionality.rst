@@ -77,3 +77,20 @@ A metric :math:`d(x,y)` must have the following properties:
     d(x,y) = d(y,x)    
 
     d(x,z) \leq d(x,y) + d(y,z)    
+    
+Polar interpolation
+-----------------------
+For two vectors x and y, linear interpolation is :math:`px + (1-p)y`, where :math:`0 \leq p \leq 1`.
+
+Polar interpolation by contrast, is:
+
+.. math::
+
+    \sqrt{p}x + \sqrt{1-p}y
+
+
+Unlike linear interpolation, the sum of the coefficients can exceed 1.
+
+\url{http://www.inference.vc/high-dimensional-gaussian-distributions-are-soap-bubble/}
+
+    

@@ -1,6 +1,10 @@
 Geometry
 """""""""""""""""""""""
 
+Affine transformation
+-----------------------
+A linear mapping that preserves points, lines and planes. Examples include translation, scale, rotation or shear.
+
 Cosine similarity
 -----------------------
 Measures the similarity of two vectors by calculating the cosine of the angle between them. The similarity is 1 if the vectors are pointing in the same direction, 0 if they are orthogonal, and -1 if they are pointing in exactly opposite directions.
@@ -14,8 +18,8 @@ This means it is distinct from the Euclidean distance, which takes magnitude int
 
 The major differences between the Euclidean and cosine similarity are as follows:
 
-* item Unlike the Euclidean distance, the cosine distance does not suffer from the curse of dimensionality, making it useful for comparing high-dimensional feature vectors.
-* item The cosine distance ‘wraps around’. This means it does not satisfy the triangle inequality. Requires one extra dimension in the vectors, relative to the Euclidean distance, to store the same amount of information. * The 2D cosine similarity is a circle, which is 1D.
+* Unlike the Euclidean distance, the cosine distance does not suffer from the curse of dimensionality, making it useful for comparing high-dimensional feature vectors.
+* The cosine distance ‘wraps around’. This means it does not satisfy the triangle inequality. Requires one extra dimension in the vectors, relative to the Euclidean distance, to store the same amount of information. * The 2D cosine similarity is a circle, which is 1D.
 
 Euclidean distance
 -----------------------
@@ -55,6 +59,10 @@ Inner product of random samples
 https://www.cs.cmu.edu/~venkatg/teaching/CStheory-infoage/chap1-high-dim-space.pdf  
 
 http://www.inference.vc/high-dimensional-gaussian-distributions-are-soap-bubble
+
+Manifold
+-----------
+Type of topological space. Includes lines, circles, planes, spheres and tori.
 
 Metric
 --------

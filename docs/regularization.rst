@@ -8,7 +8,7 @@ Sparsity. Most features should be inactive most of the time.
 It should be possible to model the data well using a relatively low dimensional distribution of independent latent factors.
 
 Methods
-"""""""
+""""""""
 * Dropout
 * Weight decay
 * Early stopping
@@ -19,9 +19,9 @@ Methods
 * Bagging and ensembling
 * Optimisation algorithms like SGD that prefer wide minima
 
-
+""""""""
 Dropout
--------
+""""""""
 For each training case, omit each hidden unit with some constant probability. This results in a network for each training case, the outputs of which are combined through averaging. If a unit is not omitted, its value is shared across all the models. Prevents units from co-adapting too much.
 
 Dropout’s effectiveness could be due to:
@@ -40,7 +40,7 @@ Applied to RNNs. Unlike normal dropout, the same dropout mask is retained over a
 
 
 Weight decay
-------------
+"""""""""""""""
 
 """""""""""""""
 L1 weight decay

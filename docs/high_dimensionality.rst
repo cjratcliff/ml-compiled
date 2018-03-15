@@ -91,6 +91,6 @@ Polar interpolation by contrast, is:
 
 Unlike linear interpolation, the sum of the coefficients can exceed 1.
 
-\url{http://www.inference.vc/high-dimensional-gaussian-distributions-are-soap-bubble/}
+http://www.inference.vc/high-dimensional-gaussian-distributions-are-soap-bubble/
 
     

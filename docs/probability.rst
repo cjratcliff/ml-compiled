@@ -7,7 +7,11 @@ If a variable ‘admits a distribution’, that means it can be described by a p
 
 .. math::
 
-  P(X=a) = 0.5 if a is 0 or 1, 0 otherwise.
+  P(X=a) = 
+    \begin{cases} 
+      1 if a = 0 \\
+      0 otherwise
+    \end{cases}
 
 which cannot be described by a pdf.
 

@@ -9,8 +9,8 @@ If a variable ‘admits a distribution’, that means it can be described by a p
 
   P(X=a) = 
     \begin{cases} 
-      1 if a = 0 \\
-      0 otherwise
+      1 ,& \text{if } a = 0 \\
+      0 ,& \text{otherwise}
     \end{cases}
 
 which cannot be described by a pdf.

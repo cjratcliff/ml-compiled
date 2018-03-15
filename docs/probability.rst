@@ -16,6 +16,7 @@ Bayesian network
 A directed acyclic graph where the nodes represent random variables.
 
 The chain rule for Bayesian networks
+''''''''''''''''''''''''''''''''''''''''''
 
 The joint distribution for all the variables in a network is equal to the product of the distributions for all the individual variables, conditional on their parents.
 

@@ -1,0 +1,118 @@
+Recurrent networks
+""""""""""""""""""""
+
+Bidirectional RNN
+---------------------
+Combines the outputs of two RNNs, one processing the input sequence from left to right (forwards in time) and the other from right to left (backwards in time). The two RNNs are stacked on top of each other and their states are typically combined by appending the two vectors. Bidirectional RNNs are often used in Natural Language problems, where we want to take the context from both before and after a word into account before making a prediction.
+
+Bidirectional Recurrent Neural Networks, Schuster and Paliwal (1997)
+
+GRU (Gated Recurrent Unit)
+-------------------------------
+Variation of the LSTM that is simpler to compute and implement.
+Merges the cell and the hidden state.
+Comparable performance to LSTMs on a translation task. Has two gates, a reset gate r and an update gate z. Not reducible from LSTM as there is only one tanh nonlinearity.
+Cannot ‘count’ as LSTMs can.
+Partially negates the vanishing gradient problem, as LSTMs do.
+
+The formulation is:
+\begin{equation}
+    z = \sigma(x_t U_z + h_{t-1} W_z)
+\end{equation}
+\begin{equation}
+    r=\sigma(x_t U_r + h_{t-1} W_r)
+\end{equation}
+\begin{equation}
+    o=\tanh(x_tU_o + (h_{t-1}*r)W_h)
+\end{equation}
+\begin{equation}
+    h_t=(1-z)*o + z*h_{t-1}
+\end{equation}
+
+Where * represents element-wise multiplication. Biases have been omitted for simplicity.
+
+z is used for constructing the new hidden vector and dictates which information is updated from the new output and which is remembered from the old hidden vector.
+r is used for constructing the output and decides which parts of the hidden vector will be used and which won’t be. The input for the current time-step is always used.
+
+\subsubsection*{Papers}
+Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation, Cho et al. (2014)
+Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling, Chung et al. (2014)
+
+LSTM (Long Short-Term Memory)
+--------------------------------
+A type of RNN with a memory cell as the hidden state. Uses a gating mechanism to ensure proper propagation of information through many timesteps. Traditional RNNs struggle to train for behaviour requiring long lags due to the exponential loss in error as back propagation proceeds through time (vanishing gradient problem). LSTMs store the error in the memory cell, making long memories possible. However, repeated access to the cell means the issue remains for many problems.
+
+Can have multiple layers. The input gate determines when the input is significant enough to remember. The output gate decides when to output the value. The forget gate determines when the value should be forgotten.
+
+\begin{center}
+    \includegraphics[]{lstm.PNG}
+\end{center}
+
+
+The activations of the input, forget and output gates are ,$f_t$ and $o_t$ respectively. The state of the memory cell is Ct.
+% TODO: C tilde
+\begin{equation}
+    i_t=\sigma(W_i x_t + U_i h_{t-1})
+\end{equation}
+\begin{equation}
+    f_t=\sigma(W_f x_t + U_f h_{t-1})
+\end{equation}
+\begin{equation}
+    \tilde C_t=\tanh(W_c x_t + U_c h_{t-1})
+\end{equation}
+\begin{equation}
+    C_t=i_t*C_t + f_t*C_{t-1}
+\end{equation}
+\begin{equation}
+    o_t=(W_o x_t + U_o h_{t-1} + V_o C_t)
+\end{equation}
+\begin{equation}
+    h_t=o_t*\tanh(C_t)
+\end{equation} 
+
+Where represents element-wise multiplication. Biases have been omitted for simplicity.
+
+Each of the input, output and forget gates is surrounded by a sigmoid nonlinearity. This squashes the input so it is between 0 (let nothing through the gate) and 1 (let everything through).
+
+The new cell state is the candidate cell state scaled by the input gate activation, representing how much we want to remember each value and added to the old cell state, scaled by the forget gate activation, how much we want to forget each of those values.
+
+The tanh functions don’t seem to have any particular function except to add nonlinearities.
+
+Using an LSTM does not protect from exploding gradients. 
+
+Hochreiter and Schmidhuber (1997)
+
+\subsubsection*{Forget bias initialization}
+Helpful to initialize the bias of the forget gate to 1 in order to reduce the scale of forgetting at the start of training. This is done by default in TensorFlow.
+
+\subsubsection*{Weight tying}
+Tie the input and output embeddings. May only be applicable to generative models. Discriminative ones do not have an output embedding.
+Using the Output Embedding to Improve LMs, Press and Wolf (2016)
+
+\subsubsection*{Projection layer}
+Optional linear recurrent layer. Used to address problems in computational complexity.
+LSTM RNN Architectures for Large Scale Acoustic Modeling, Sak et al. (2014)
+
+\subsubsection*{Cell clipping}
+Clip the activations of the memory cells to a range such as [-3,3] or [-50,50]. Helps with convergence problems by preventing exploding gradients and saturation in the sigmoid/tanh nonlinearities.
+Deep Recurrent Neural Networks for Acoustic Modelling, Chan and Lane (2015)
+LSTM RNN Architectures for Large Scale Acoustic Modeling, Sak et al. (2014)
+
+\subsubsection*{Peep-hole connections}
+Allows precise timing to be learned, such as the frequency of a signal and other periodic patterns.
+Learning Precise Timing with LSTM Recurrent Networks, Ger et al. (2002)
+LSTM RNN Architectures for Large Scale Acoustic Modeling, Sak et al. (2014)
+
+\subsubsection*{Block cell}
+Alternative formulation that seems to be the same apart from not adding the cell state to the calculation (inside the sigmoid) for the output gate.
+
+\subsection{Orthogonal initialization}
+Useful for training very deep networks.
+Can be used to help with vanishing and exploding gradients in RNNs.
+All you need is a good init, Mishkin and Matas (2016)
+Explaining and illustrating orthogonal initialization for recurrent neural networks, Merity (2016)
+
+Recurrent Neural Network (RNN)
+----------------------------------
+The most basic type has the functional form:
+

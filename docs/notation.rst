@@ -22,6 +22,7 @@ Linear algebra
 :math:`X^T`         Transpose of X
 :math:`X^*`         Conjugate transpose of X
 :math:`X^{-1}`         Inverse of X
+:math:||x||_2        Euclidean norm of x
 :math:`I`            Identity matrix
 =================  =============================
 

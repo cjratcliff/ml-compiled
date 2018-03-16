@@ -45,10 +45,10 @@ A loss function used for regression.
 """"""""""""""""
 Triplet loss
 """"""""""""""""
-Used for training triplet networks. A triplet is composed of an anchor, a positive example and a negative example.
+Used for training triplet networks. A triplet is composed of an anchor (:math:`a`), a positive example (:math:`p`)and a negative example (:math:`n`).
 
 .. math::
 
-  L = \sum_i \max(0, m - d(a_i,p_i) + d(a_i,n_i))
+  L(a,p,n) = \sum_i \max\{0, m - d(a_i,p_i) + d(a_i,n_i)\}
   
 Where :math:`m` is a hyperparameter called the margin.

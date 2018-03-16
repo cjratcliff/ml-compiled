@@ -41,3 +41,14 @@ A loss function used for regression.
 .. math::
 
   L(y,\hat{y}) = \sum_i (y_i - \hat{y}_i)^2
+  
+""""""""""""""""
+Triplet loss
+""""""""""""""""
+Used for training triplet networks. A triplet is composed of an anchor, a positive example and a negative example.
+
+.. math::
+
+  L = \sum_i \max(0, m - d(a_i,p_i) + d(a_i,n_i))
+  
+Where :math:`m` is a hyperparameter called the margin.

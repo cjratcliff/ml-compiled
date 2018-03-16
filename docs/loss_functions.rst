@@ -51,4 +51,4 @@ Used for training triplet networks. A triplet is composed of an anchor (:math:`a
 
   L(a,p,n) = \sum_i \max\{0, m - d(a_i,p_i) + d(a_i,n_i)\}
   
-Where :math:`m` is a hyperparameter called the margin.
+Where :math:`m` is a hyperparameter called the margin. d(x,y) is a distance function.

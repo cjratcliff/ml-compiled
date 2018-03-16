@@ -45,10 +45,10 @@ A loss function used for regression.
 """"""""""""""""
 Triplet loss
 """"""""""""""""
-Used for training triplet networks. A triplet is composed of an anchor (:math:`a`), a positive example (:math:`p`)and a negative example (:math:`n`).
+Used for training triplet networks. A triplet is composed of an anchor (:math:`a`), a positive example (:math:`p`) and a negative example (:math:`n`).
 
 .. math::
 
   L(a,p,n) = \sum_i \max\{0, m - d(a_i,p_i) + d(a_i,n_i)\}
   
-Where :math:`m` is a hyperparameter called the margin. d(x,y) is a distance function.
+Where :math:`m` is a hyperparameter called the margin. :math:`d(x,y)` is a distance function, usually the Euclidean or cosine distance.

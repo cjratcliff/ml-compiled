@@ -19,6 +19,8 @@ Loss function for classification.
 """"""""""""""""
 Hinge loss
 """"""""""""""""
+Loss function for classification.
+
 
 """"""""""""""""
 Huber loss

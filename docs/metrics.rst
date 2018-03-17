@@ -9,7 +9,7 @@ Score for assessing translation tasks. Also used for image captioning. Stands fo
 Ranges from 0 to 1, where 1 corresponds to being identical to the reference translation.
 Often uses multiple reference translations.
 
-BLEU: a Method for Automatic Evaluation of Machine Translation, Papineni et al. (2002)
+`BLEU: a Method for Automatic Evaluation of Machine Translation, Papineni et al. (2002) <https://www.aclweb.org/anthology/P02-1040.pdf>`_
 
 F1-score
 ----------

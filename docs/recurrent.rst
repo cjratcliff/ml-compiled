@@ -84,7 +84,8 @@ Helpful to initialize the bias of the forget gate to 1 in order to reduce the sc
 Weight tying
 """"""""""""""""""""""""""""
 Tie the input and output embeddings. May only be applicable to generative models. Discriminative ones do not have an output embedding.
-Using the Output Embedding to Improve LMs, Press and Wolf (2016)
+
+`Using the Output Embedding to Improve LMs, Press and Wolf (2016) <https://arxiv.org/abs/1608.05859>`_
 
 """"""""""""""""""""""""""""
 Cell clipping

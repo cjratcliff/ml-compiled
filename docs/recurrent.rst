@@ -23,9 +23,9 @@ The formulation is:
 
     r=\sigma(x_t U_r + h_{t-1} W_r)
 
-    o=\tanh(x_tU_o + (h_{t-1}*r)W_h)
+    o_t = \tanh(x_tU_o + (h_{t-1}*r)W_h)
 
-    h_t=(1-z)*o + z*h_{t-1}
+    h_t = (1-z)*o + z*h_{t-1}
 
 
 Where * represents element-wise multiplication. Biases have been omitted for simplicity.
@@ -45,7 +45,7 @@ A type of RNN with a memory cell as the hidden state. Uses a gating mechanism to
 
 Can have multiple layers. The input gate determines when the input is significant enough to remember. The output gate decides when to output the value. The forget gate determines when the value should be forgotten.
 
-The activations of the input, forget and output gates are ,:math:`f_t` and :math:`o_t` respectively. The state of the memory cell is :math:`C_t`.
+The activations of the input, forget and output gates are :math:`f_t` and :math:`o_t` respectively. The state of the memory cell is :math:`C_t`.
 % TODO: C tilde
 
 .. math::
@@ -104,3 +104,7 @@ RNN (Recurrent Neural Network)
 ----------------------------------
 The most basic type of RNN has the functional form:
 
+.. math::
+
+  o_t = \tanh(W_o x_t + U_o h_{t-1})
+  h_t = \tanh(W_h x_t + U_h h_{t-1})

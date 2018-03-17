@@ -13,6 +13,11 @@ Often uses multiple reference translations.
 
 F1-score
 ----------
+The F1-score is the harmonic mean of the precision and the recall.
+
+.. math:: 
+
+  F_1 = 2 \cdot \frac{\text{precision} \cdot \text{recall}}{\text{precision} + \text{recall}}
 
 Intersection over Union (IoU)
 ------------------------------

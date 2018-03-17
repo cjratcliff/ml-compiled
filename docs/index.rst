@@ -10,9 +10,32 @@ Quick definitions and intuitive explanations around machine learning.
 Contents:
 
 .. toctree::
-   :maxdepth: 2
-   :glob:
+   :maxdepth: 1
+   
+   notation
 
-   *
+.. toctree::
+   :caption: Maths
+   :maxdepth: 1
+
+   calculus
+   entropy
+   high_dimensionality
+   linear_algebra
+   monte_carlo
+   probability
+   statistics
+   
+.. toctree::
+   :caption: Machine learning
+   :maxdepth: 1
+   
+   activations
+   initialization
+   loss_function
+   metrics
+   optimizers
+   recurrent
+   regularization
 
 

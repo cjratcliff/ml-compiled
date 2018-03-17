@@ -17,6 +17,6 @@ Sometimes referred to as Glorot initialization.
 
 .. math::
 
-  -\frac{\sqrt{6}}{\sqrt{m+n}},\frac{\sqrt{6}}{\sqrt{m+n}}
+  U(-\frac{\sqrt{6}}{\sqrt{m+n}},\frac{\sqrt{6}}{\sqrt{m+n}})
 
 `Understanding the difficulty of training deep feedforward neural networks, Glorot and Bengio (2010) <http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf>`_

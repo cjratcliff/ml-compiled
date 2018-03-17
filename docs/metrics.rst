@@ -35,8 +35,20 @@ Used to measure how well a probabilistic model predicts a sample. It is equivale
 Precision
 ------------
 
+.. math::
+
+  \text{precision} = \frac{\text{TP}}{\text{TP} + \text{FP}}
+
+Where TP is the number of true positives and FP is the number of false positives.
+
 Recall
 --------
+
+.. math::
+
+  \text{recall} = \frac{\text{TP}}{\text{TP} + \text{FN}}
+  
+Where TP is the number of true positives and FN is the number of false negatives.
 
 RMSE
 -----

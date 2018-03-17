@@ -11,7 +11,7 @@ GRU (Gated Recurrent Unit)
 -------------------------------
 Variation of the LSTM that is simpler to compute and implement.
 Merges the cell and the hidden state.
-Comparable performance to LSTMs on a translation task. Has two gates, a reset gate r and an update gate z. Not reducible from LSTM as there is only one tanh nonlinearity.
+Comparable performance to LSTMs on a translation task. Has two gates, a reset gate :math:`r` and an update gate :math:`z`. Not reducible from LSTM as there is only one tanh nonlinearity.
 Cannot ‘count’ as LSTMs can.
 Partially negates the vanishing gradient problem, as LSTMs do.
 
@@ -30,8 +30,8 @@ The formulation is:
 
 Where * represents element-wise multiplication. Biases have been omitted for simplicity.
 
-z is used for constructing the new hidden vector and dictates which information is updated from the new output and which is remembered from the old hidden vector.
-r is used for constructing the output and decides which parts of the hidden vector will be used and which won’t be. The input for the current time-step is always used.
+:math:`z` is used for constructing the new hidden vector and dictates which information is updated from the new output and which is remembered from the old hidden vector.
+:math:`r` is used for constructing the output and decides which parts of the hidden vector will be used and which won’t be. The input for the current time-step is always used.
 
 """""""
 Papers
@@ -45,7 +45,7 @@ A type of RNN with a memory cell as the hidden state. Uses a gating mechanism to
 
 Can have multiple layers. The input gate determines when the input is significant enough to remember. The output gate decides when to output the value. The forget gate determines when the value should be forgotten.
 
-The activations of the input, forget and output gates are ,$f_t$ and $o_t$ respectively. The state of the memory cell is Ct.
+The activations of the input, forget and output gates are ,:math:`f_t` and :math:`o_t` respectively. The state of the memory cell is :math:`C_t`.
 % TODO: C tilde
 
 .. math::
@@ -99,14 +99,6 @@ Peep-hole connections
 Allows precise timing to be learned, such as the frequency of a signal and other periodic patterns.
 Learning Precise Timing with LSTM Recurrent Networks, Ger et al. (2002)
 LSTM RNN Architectures for Large Scale Acoustic Modeling, Sak et al. (2014)
-
-""""""""""""""""""""""""""""
-Orthogonal initialization
-""""""""""""""""""""""""""""
-Useful for training very deep networks.
-Can be used to help with vanishing and exploding gradients in RNNs.
-All you need is a good init, Mishkin and Matas (2016)
-Explaining and illustrating orthogonal initialization for recurrent neural networks, Merity (2016)
 
 RNN (Recurrent Neural Network)
 ----------------------------------

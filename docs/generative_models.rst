@@ -19,7 +19,9 @@ Generative Adversarial Network (GAN)
 ------------------------------------------------
 Unsupervised, generative image model. A GAN consists of two components; a generator, G which converts random noise into images and a discriminator, D which tries to distinguish between generated and real images. Here, 'real' means that the image came from the training set of images in contrast to the generated fakes.
 
+-----------------
 Problems
+-----------------
 * The training process can be unstable when trained solely with the adversarial loss as G can create images to confuse D that are not close to the actual image distribution. D will then learn to discriminate amongst these samples, causing G to create new confusing samples. This problem can be addressed by adding an L2 loss which penalizes a lack of similarity with the input distribution.
 * Mode collapse. This is when the network stops generating certain classes (or more generally, modes). For example, it may only create 6’s on MNIST.
 * There is no way of telling how well it is doing except by manually inspecting the image outputs. This makes comparing different approaches difficult and early stopping impossible.
@@ -30,7 +32,9 @@ InfoGAN, 2016 - Is able to disentangle various aspects like pose vs lighting and
 Wasserstein GAN (WGAN), 2017 - Replaces the original loss function, improving stability. The WGAN-GP (2017) is a further improved version.
 Boundary Equilibrium GAN (BEGAN), 2017 - Gets similar quality results as the WGAN-GP.
 
-\subsubsection*{Further reading}
+-----------------
+Further reading
+-----------------
 Generative Adversarial Nets, Goodfellow et al. (2014)
 How to Train a GAN? Tips and tricks to make GANs work, Chintala (2016)
 Fantastic GANs and where to find them part one and two
@@ -46,7 +50,9 @@ Multiscale hierarchical architecture.
 Images
 Generates the image pixel by pixel, conditioned on previous predictions.
 
-\subsubsection*{Example papers}
+-----------------
+Example papers
+-----------------
 Pixel Recurrent Neural Networks, van den Oord et al. (2016)
 Conditional Image Generation with PixelCNN Decoders, van den Oord et al. (2016)
 PixelCNN++: Improving the PixelCNN with Discretized Logistic Mixture Likelihood and Other Modifications, Salimans et al. (2016)
@@ -65,7 +71,7 @@ The total loss is the sum of the reconstruction loss (mean squared error) and th
 
 The assumption of independence in the entries of the hidden vector may also contribute to poor results.
 
-Provides better results when combined with a GAN. \url{https://github.com/skaae/vaeblog}
+Provides better results when combined with a GAN. https://github.com/skaae/vaeblog
 
 Tutorial on Variational Autoencoders, 2016
 Introduction to Variational Autoencoders

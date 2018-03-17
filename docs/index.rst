@@ -32,7 +32,7 @@ Contents:
    
    activations
    initialization
-   loss_function
+   loss_functions
    metrics
    optimizers
    recurrent

@@ -21,7 +21,7 @@ Monte Carlo method that attempts to estimate the mean of a distribution with zer
 
 Can be used to deal with the computational problems of very large vocabularies in NLP but suffers from stability problems.
 
-`Quick Training of Probabilistic Neural Nets by Importance Sampling, Bengio and Senecal (2003)<http://www.iro.umontreal.ca/~lisa/publications2/index.php/attachments/single/21>`_
+`Quick Training of Probabilistic Neural Nets by Importance Sampling, Bengio and Senecal (2003)  <http://www.iro.umontreal.ca/~lisa/publications2/index.php/attachments/single/21>`_
 
 Deep Learning, Section 17.2
 

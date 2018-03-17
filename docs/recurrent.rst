@@ -107,4 +107,5 @@ The most basic type of RNN has the functional form:
 .. math::
 
   h_t = \tanh(W_h x_t + U_h h_{t-1})
+  
   o_t = V h_t

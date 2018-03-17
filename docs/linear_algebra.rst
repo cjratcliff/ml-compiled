@@ -52,6 +52,10 @@ Orthogonal matrix
 .. math:: 
 
     A^TA = AA^T = I
+    
+Orthonormal vectors
+====================
+Two vectors are orthonormal if they are orthogonal and both unit vectors.
 
 Outer product
 ==============

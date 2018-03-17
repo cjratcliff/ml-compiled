@@ -28,6 +28,10 @@ Mean Average Precision
 The main evaluation metric for object detection.
 To calculate it first define the overlap criterion. This could be that the IoU for two bounding boxes be greater than 0.5. Since the ground truth is always that the class is present, this means each predicted box is either a true-positive or a false-positive. This means the precision can be calculated using TP/(TP+FN).
 
+Perplexity
+------------
+Used to measure how well a probabilistic model predicts a sample. It is equivalent to the exponential of the cross-entropy loss.
+
 Precision
 ------------
 

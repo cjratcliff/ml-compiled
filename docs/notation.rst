@@ -63,6 +63,14 @@ Probability
 :math:`P(X)`                                   The probability of a particular value of X. Shorthand for :math:`P(X=x_i)`
 ========================================  =================================================================================
 
+Statistics
+========================  =============================
+  Symbol                   Meaning   
+========================  ============================= 
+:math:`U(a,b)`             The uniform distribution
+:math:`N(\mu,\sigma^2)`    The normal distribution
+========================  =============================
+
 Machine learning
 -----------------
 =================  =============================

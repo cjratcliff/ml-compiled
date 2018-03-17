@@ -31,6 +31,7 @@ Contents:
    :maxdepth: 1
    
    activations
+   generative_models
    initialization
    loss_functions
    metrics

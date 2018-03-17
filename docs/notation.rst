@@ -10,6 +10,7 @@ Functions
 :math:`\Sigma`       Sum
 :math:`\Pi`          Product
 :math:`E`           Expectation
+:math:`*`            Element-wise product
 =================  =============================
 
 Sets

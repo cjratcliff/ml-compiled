@@ -127,3 +127,8 @@ Transpose
 Unitary matrix
 =====================
 A matrix where its inverse is the same as its complex conjugate. The complex version of an orthogonal matrix.
+
+.. math::
+
+  A*A = AA* = I
+  

@@ -26,19 +26,25 @@ Problems
 * Mode collapse. This is when the network stops generating certain classes (or more generally, modes). For example, it may only create 6’s on MNIST.
 * There is no way of telling how well it is doing except by manually inspecting the image outputs. This makes comparing different approaches difficult and early stopping impossible.
 
+-----------------
 Notable variants
-DCGAN, 2015 - Has a number of architectural improvements over the original GAN but is not fundamentally different.
-InfoGAN, 2016 - Is able to disentangle various aspects like pose vs lighting and digit shape vs writing style.
-Wasserstein GAN (WGAN), 2017 - Replaces the original loss function, improving stability. The WGAN-GP (2017) is a further improved version.
-Boundary Equilibrium GAN (BEGAN), 2017 - Gets similar quality results as the WGAN-GP.
+-----------------
+* DCGAN, 2015 - Has a number of architectural improvements over the original GAN but is not fundamentally different.
+* InfoGAN, 2016 - Is able to disentangle various aspects like pose vs lighting and digit shape vs writing style.
+* Wasserstein GAN (WGAN), 2017 - Replaces the original loss function, improving stability. The WGAN-GP (2017) is a further improved version.
+* Boundary Equilibrium GAN (BEGAN), 2017 - Gets similar quality results as the WGAN-GP.
 
 -----------------
 Further reading
 -----------------
 Generative Adversarial Nets, Goodfellow et al. (2014)
+
 How to Train a GAN? Tips and tricks to make GANs work, Chintala (2016)
+
 Fantastic GANs and where to find them part one and two
+
 The GAN Zoo
+
 Are GANs Created Equal? A Large-Scale Study, Lucic et al. (2017)
 
 Generative Autoregressive Networks
@@ -53,11 +59,15 @@ Generates the image pixel by pixel, conditioned on previous predictions.
 -----------------
 Example papers
 -----------------
-Pixel Recurrent Neural Networks, van den Oord et al. (2016)
-Conditional Image Generation with PixelCNN Decoders, van den Oord et al. (2016)
-PixelCNN++: Improving the PixelCNN with Discretized Logistic Mixture Likelihood and Other Modifications, Salimans et al. (2016)
-WaveNet: A Generative Model for Raw Audio, van den Oord et al. (2016)
-Neural Machine Translation in Linear Time, Kalchbrenner et al. (2017)
+`Pixel Recurrent Neural Networks, van den Oord et al. (2016) <https://arxiv.org/abs/1601.06759>`_
+
+`Conditional Image Generation with PixelCNN Decoders, van den Oord et al. (2016) <https://arxiv.org/abs/1606.05328>`_
+
+`PixelCNN++: Improving the PixelCNN with Discretized Logistic Mixture Likelihood and Other Modifications, Salimans et al. (2016) <https://arxiv.org/abs/1701.05517>`_
+
+`WaveNet: A Generative Model for Raw Audio, van den Oord et al. (2016) <https://arxiv.org/abs/1609.03499>`_
+
+`Neural Machine Translation in Linear Time, Kalchbrenner et al. (2017) <https://arxiv.org/abs/1610.10099>`_
 
 Variational Autoencoder (VAE)
 ------------------------------------

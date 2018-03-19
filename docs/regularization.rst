@@ -3,9 +3,10 @@ Regularization
 ===============
 
 General principles
-Small changes in the inputs should not produce large changes in the outputs.
-Sparsity. Most features should be inactive most of the time.
-It should be possible to model the data well using a relatively low dimensional distribution of independent latent factors.
+""""""""""""""""""""
+* Small changes in the inputs should not produce large changes in the outputs.
+* Sparsity. Most features should be inactive most of the time.
+* It should be possible to model the data well using a relatively low dimensional distribution of independent latent factors.
 
 Methods
 """"""""

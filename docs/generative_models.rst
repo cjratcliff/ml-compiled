@@ -2,6 +2,10 @@
 Generative models
 """"""""""""""""""""""""""
 
+Models the joint distribution over the features, ignoring any labels, :math:`P(x;\theta)`.
+
+The model can be estimated by trying to maximise the probability of the observations given the parameters. However, this can be close to intractable for cases like images where the number of possible outcomes is huge.
+
 Autoencoder
 ------------
 A network for dimensionality reduction. The target output is the same as the input.

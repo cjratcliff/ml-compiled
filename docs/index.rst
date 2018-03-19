@@ -13,6 +13,7 @@ Contents:
    :maxdepth: 1
    
    notation
+   contribute
 
 .. toctree::
    :caption: Maths

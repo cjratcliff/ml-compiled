@@ -13,6 +13,7 @@ Notable results - CIFAR-10
 * 93.5% - Fast and Accurate Deep Network Learning by Exponential Linear Units
 
 Notable results - CIFAR-100
+
 * 75.7% - Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs)
 * 72.3% - All you need is a good init
 

@@ -12,6 +12,14 @@ Network in Network, Lin et al. (2014)
 
 http://iamaaditya.github.io/2016/03/one-by-one-convolution/
 
+Affine layer
+--------------
+A fully-connected layer.
+
+Batch normalization
+-------------------------
+Normalizes the input vector to a layer to have zero mean and unit variance. Training deep neural networks is complicated by the fact that the distribution of each layer’s inputs changes during training, as the parameters of the previous layers change. This slows down the training by requiring lower learning rates and careful parameter initialization. This phenomenon is referred to as internal covariate shift.
+
 Convolutional layer
 -----------------------
 Transforms an image according to the convolution operation shown below, where the image on the left is the input and the image being created on the right is the output:
@@ -28,6 +36,11 @@ The number of parameters can be further reduced by setting a stride so the convo
 
 Can be represented by a fully-connected layer in theory. Such a layer would be mostly zeros as the effects are local. This is especially true if the layer is replicating multiple filters.
 
+'''''''''''''''''''''''''''''
+Separable convolution/filter
+'''''''''''''''''''''''''''''
+A filter or kernel is separable if it (a matrix) can be expressed as the product of a row vector and a column vector. This decomposition can reduce the computational cost of the convolution. Examples include the Sobel edge detection and Gaussian blur filters.
+
 Inception layer
 --------------------
 
@@ -36,3 +49,7 @@ RoI pooling
 Used to solve the problem that the regions of interest (RoI) identified by the bounding boxes can be different shapes in object recognition. The CNN requires all inputs to have the same dimensions.
 
 The RoI is divided into a number of rectangles of fixed size (except at the edges). If doing 3x3 RoI pooling there will be 9 rectangles in each RoI. We do max-pooling over each RoI to get 3x3 numbers.
+
+Upsampling layer
+-----------------
+Used in convolutional autoencoders to go from the the bottleneck layer up to full image.

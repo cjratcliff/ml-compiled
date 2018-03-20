@@ -36,6 +36,7 @@ Contents:
    datasets
    generative_models
    initialization
+   layers
    loss_functions
    metrics
    optimizers

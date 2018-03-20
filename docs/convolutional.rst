@@ -1,5 +1,5 @@
 """"""""""""""""""""""""""
-Convolutional models
+Convolutional networks
 """"""""""""""""""""""""""
 
 AlexNet

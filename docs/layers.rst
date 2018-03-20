@@ -20,8 +20,9 @@ TODO
 
 Applying the kernel to pixels near or at the edges of the image will result in needing pixel values that do not exist. There are two ways of resolving this:
 
-Only apply the kernel to pixels where the operation is valid. For a kernel of size k this will reduce the image by (k-1)/2 pixels on each side.
-Pad the image with zeros to allow the operation to be defined.
+* Only apply the kernel to pixels where the operation is valid. For a kernel of size k this will reduce the image by (k-1)/2 pixels on each side.
+* Pad the image with zeros to allow the operation to be defined.
+
 The same convolution operation is applied to every pixel in the image, resulting in a considerable amount of weight sharing. This means convolutional layers are quite efficient in terms of parameters.
 
 The number of parameters can be further reduced by setting a stride so the convolution operation is only applied every m pixels.

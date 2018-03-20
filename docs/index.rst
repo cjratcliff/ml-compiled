@@ -32,6 +32,7 @@ Contents:
    :maxdepth: 1
    
    activations
+   convolutional
    datasets
    generative_models
    initialization

@@ -6,6 +6,14 @@ Affine layer
 --------------
 A fully-connected layer.
 
+Attention
+------------
+Has been used to improve image classification, image captioning, speech recognition, generative models and learning algorithmic tasks, but it has probably had the largest impact on neural machine translation.
+
+In translation, rather than creating a fixed-length vector from the outputs of encoder, it retains them all and concatenates them into a ‘memory tensor’. At each step of the decoder, a weighted average over the memory tensor is computed, allowing the decoder to ‘focus’ on different parts of the input. A similar logic applies in the image captioning task, focusing on areas of the image instead.
+
+In translation, each output word depends on a weighted combination of all input words. Computing these weights can take time proportional to the product of the length of the input and output sequences. In content-based attention the weights are computed as the dot product between the items in the sequence and the ‘query’ outputted by the attending RNN.
+
 Batch normalization
 -------------------------
 Normalizes the input vector to a layer to have zero mean and unit variance. Training deep neural networks is complicated by the fact that the distribution of each layer’s inputs changes during training, as the parameters of the previous layers change. This slows down the training by requiring lower learning rates and careful parameter initialization. This phenomenon is referred to as internal covariate shift.

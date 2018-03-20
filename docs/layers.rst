@@ -2,16 +2,6 @@
 Layers
 """""""""""""""
 
-1x1 convolutions
-------------------------
-These are actually matrix multiplications, not convolutions. They are a useful way of increasing the depth of the neural network since they are equivalent to f(Wh), where f is the activation function.
-
-If the number of channels decreases from one layer to the next they can be also be used for dimensionality reduction.
-
-Network in Network, Lin et al. (2014)
-
-http://iamaaditya.github.io/2016/03/one-by-one-convolution/
-
 Affine layer
 --------------
 A fully-connected layer.
@@ -35,6 +25,17 @@ The same convolution operation is applied to every pixel in the image, resulting
 The number of parameters can be further reduced by setting a stride so the convolution operation is only applied every m pixels.
 
 Can be represented by a fully-connected layer in theory. Such a layer would be mostly zeros as the effects are local. This is especially true if the layer is replicating multiple filters.
+
+'''''''''''''''''''''''''''''
+1x1 convolutions
+'''''''''''''''''''''''''''''
+These are actually matrix multiplications, not convolutions. They are a useful way of increasing the depth of the neural network since they are equivalent to f(Wh), where f is the activation function.
+
+If the number of channels decreases from one layer to the next they can be also be used for dimensionality reduction.
+
+Network in Network, Lin et al. (2014)
+
+http://iamaaditya.github.io/2016/03/one-by-one-convolution/
 
 '''''''''''''''''''''''''''''
 Separable convolution/filter

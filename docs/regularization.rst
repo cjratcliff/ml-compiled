@@ -32,13 +32,14 @@ Dropout’s effectiveness could be due to:
 
 Can be interpreted as injecting noise inside the network.
 
+`Dropout: A Simple Way to Prevent Neural Networks from Overfitting, Srivastava et al. (2014) <http://jmlr.org/papers/volume15/srivastava14a.old/srivastava14a.pdf>`_
+
 """"""""""""""""""""""""""""""
 Variational dropout
 """"""""""""""""""""""""""""""
 Applied to RNNs. Unlike normal dropout, the same dropout mask is retained over all timesteps, rather than sampling a new one each time the cell is called. Compared to normal dropout, this is less likely to disrupt the RNN’s ability to learn long-term dependencies.
 
-`Dropout: A Simple Way to Prevent Neural Networks from Overfitting, Srivastava et al. (2014) <http://jmlr.org/papers/volume15/srivastava14a.old/srivastava14a.pdf>`_
-
+`Variational Dropout and the Local Reparameterization Trick, Kingma et al. (2015) <https://arxiv.org/abs/1506.02557>`_
 
 Weight decay
 """""""""""""""

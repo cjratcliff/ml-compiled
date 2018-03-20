@@ -1,5 +1,5 @@
 """"""""""""""""""""""""""
-Generative models
+Generative networks
 """"""""""""""""""""""""""
 
 Models the joint distribution over the features, ignoring any labels, :math:`P(x;\theta)`.

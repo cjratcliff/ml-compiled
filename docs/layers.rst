@@ -34,6 +34,8 @@ Normalizes the input vector to a layer to have zero mean and unit variance. Trai
 .. math::
 
   BN(x) = \gamma \frac{x - \mu_x}{\sqrt{\sigma_x^2 + \epsilon}} + \beta
+  
+Where \gamma and \beta are learned. \epsilon is a hyperparameter.
 
 `Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift (2015) <https://arxiv.org/abs/1502.03167>`_
 

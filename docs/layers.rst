@@ -66,7 +66,7 @@ A filter or kernel is separable if it (a matrix) can be expressed as the product
 
 .. math::
 
-  K = xx^T, x \in \mathbb{R^{n \times 1}}
+  K = xx^T, x \in \mathbb{R}^{n \times 1}
 
 Inception layer
 --------------------

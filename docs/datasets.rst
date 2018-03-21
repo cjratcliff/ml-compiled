@@ -38,6 +38,7 @@ Dataset for sentiment classification.
 MNIST
 ------
 Dataset of handwritten digits.
+
 https://keras.io/datasets/#mnist-database-of-handwritten-digits
 
 Omniglot

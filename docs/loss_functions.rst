@@ -5,6 +5,7 @@ Loss functions
 """"""""""""""""
 Contrastive loss
 """"""""""""""""
+Loss function for learning embeddings.
 
 .. math::
 

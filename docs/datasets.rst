@@ -8,7 +8,7 @@ Dataset for question answering.
 
 CIFAR-10/100
 -------------
-60000 32x32 colour images in 10 (100) classes with 6000 (600) images each.
+60000 32x32 colour images in 10 (100) classes with 6000 (600) images each. 50000 images in the training set and 10000 in the test.
 
 Notable results - CIFAR-10
 
@@ -37,7 +37,7 @@ Dataset for sentiment classification.
 
 MNIST
 ------
-Dataset of handwritten digits.
+70000 28x28 pixel grayscale images of handwritten digits (10 classes), 60000 in the training set and 10000 in the test set.
 
 https://keras.io/datasets/#mnist-database-of-handwritten-digits
 

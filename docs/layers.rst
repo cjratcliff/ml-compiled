@@ -64,6 +64,10 @@ Separable convolution/filter
 '''''''''''''''''''''''''''''
 A filter or kernel is separable if it (a matrix) can be expressed as the product of a row vector and a column vector. This decomposition can reduce the computational cost of the convolution. Examples include the Sobel edge detection and Gaussian blur filters.
 
+.. math::
+
+  K = xx^T, x \in \mathbb{R^{n \times 1}}
+
 Inception layer
 --------------------
 At each layer of a traditional CNN we can choose it to be either a convolutional or a pooling layer. If it is convolutional we then need to choose the kernel size (1x1, 3x3, 5x5 etc.). The inception module negates this choice by choosing them all and concatenating the results.

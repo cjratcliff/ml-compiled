@@ -14,6 +14,19 @@ In translation, rather than creating a fixed-length vector from the outputs of e
 
 In translation, each output word depends on a weighted combination of all input words. Computing these weights can take time proportional to the product of the length of the input and output sequences. In content-based attention the weights are computed as the dot product between the items in the sequence and the ‘query’ outputted by the attending RNN.
 
+Usage for decoding in translation:
+
+* The decoder (an RNN) is initialized.
+* The attention given to a particular input word depends on the encoding of that input and the hidden state of the RNN.
+* Attention is calculated over all words at each timestep to form a weighted sum, known as the context vector.
+* The context vector is the input to the decoder RNN at the next time-step.
+* The decoder then takes the context vector and its own previous hidden state to produce a softmax over possible words as the translated text for that timestep.
+* Instead of just predicting the most likely word it is also possible to use the top k predictions and do beam search.
+
+Trained using the REINFORCE algorithm when using hard attention, since it is not differentiable. Can be trained with standard back-propagation when using deterministic soft attention.
+
+`Neural Machine Translation by Jointly Learning to Align and Translate, Bahdanau et al. (2015) <https://arxiv.org/abs/1409.0473>`_
+
 Batch normalization
 -------------------------
 Normalizes the input vector to a layer to have zero mean and unit variance. Training deep neural networks is complicated by the fact that the distribution of each layer’s inputs changes during training, as the parameters of the previous layers change. This slows down the training by requiring lower learning rates and careful parameter initialization. This phenomenon is referred to as internal covariate shift.

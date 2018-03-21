@@ -38,6 +38,10 @@ Maxout
 """"""
 An activation function used with dropout. Can be a piecewise linear approximation for arbitrary convex activation functions. This means it can approximate ReLU, LReLU, ELU and linear activations but not tanh or sigmoid.
 
+.. math::
+
+  f(x) = \max_{j \in [1,k]} x^T W_j + b_j
+
 Was used to get state of the art performance on MNIST, SVHN, CIFAR-10 and CIFAR-100.
 
 `Maxout Networks, Goodfellow et al. (2013) <https://arxiv.org/pdf/1302.4389.pdf>`_

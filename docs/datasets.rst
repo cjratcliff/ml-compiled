@@ -2,6 +2,10 @@
 Datasets
 """""""""""""
 
+bAbI
+-----
+Dataset for question answering.
+
 CIFAR-10/100
 -------------
 60000 32x32 colour images in 10 (100) classes with 6000 (600) images each.
@@ -17,6 +21,33 @@ Notable results - CIFAR-100
 * 75.7% - Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs)
 * 72.3% - All you need is a good init
 
+CLEVR
+------
+Dataset for visual question answering.
+
 COCO
 -------
 Common objects in context. A dataset for image recognition, segmentation and captioning.
+
+IMDB
+-----
+Dataset for sentiment classification.
+
+Omniglot
+----------
+
+Pascal VOC
+-----------
+
+PTB
+------
+Penn Treebank. 
+
+SVHN
+----
+Street View House Numbers.
+
+TIMIT
+-------
+
+

@@ -53,7 +53,7 @@ Can be represented by a fully-connected layer in theory. Such a layer would be m
 '''''''''''''''''''''''''''''
 1x1 convolutions
 '''''''''''''''''''''''''''''
-These are actually matrix multiplications, not convolutions. They are a useful way of increasing the depth of the neural network since they are equivalent to f(Wh), where f is the activation function.
+These are actually matrix multiplications, not convolutions. They are a useful way of increasing the depth of the neural network since they are equivalent to :math:`f(Wh)`, where :math:`f` is the activation function.
 
 If the number of channels decreases from one layer to the next they can be also be used for dimensionality reduction.
 

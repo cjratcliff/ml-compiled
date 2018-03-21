@@ -44,8 +44,6 @@ These are actually matrix multiplications, not convolutions. They are a useful w
 
 If the number of channels decreases from one layer to the next they can be also be used for dimensionality reduction.
 
-Network in Network, Lin et al. (2014)
-
 http://iamaaditya.github.io/2016/03/one-by-one-convolution/
 
 '''''''''''''''''''''''''''''

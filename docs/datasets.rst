@@ -21,6 +21,8 @@ Notable results - CIFAR-100
 * 75.7% - Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs)
 * 72.3% - All you need is a good init
 
+https://keras.io/datasets/#cifar10-small-image-classification
+
 CLEVR
 ------
 Dataset for visual question answering.
@@ -32,6 +34,11 @@ Common objects in context. A dataset for image recognition, segmentation and cap
 IMDB
 -----
 Dataset for sentiment classification.
+
+MNIST
+------
+Dataset of handwritten digits.
+https://keras.io/datasets/#mnist-database-of-handwritten-digits
 
 Omniglot
 ----------

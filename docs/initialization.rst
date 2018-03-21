@@ -17,8 +17,8 @@ Sometimes referred to as Glorot initialization.
 
 .. math::
 
-  \theta^(i) U(-\frac{\sqrt{6}}{\sqrt{n_i+n_{i+1}}},\frac{\sqrt{6}}{\sqrt{n_i+n_{i+1}}})
+  \theta^{(i)} U(-\frac{\sqrt{6}}{\sqrt{n_i+n_{i+1}}},\frac{\sqrt{6}}{\sqrt{n_i+n_{i+1}}})
   
-where :math:`\theta^(i)` are the parameters for layer :math:`i` of the network and :math:`n_i` is the size of layer :math:`i` of the network.
+where :math:`\theta^{(i)}` are the parameters for layer :math:`i` of the network and :math:`n_i` is the size of layer :math:`i` of the network.
 
 `Understanding the difficulty of training deep feedforward neural networks, Glorot and Bengio (2010) <http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf>`_

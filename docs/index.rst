@@ -42,5 +42,6 @@ Contents:
    optimizers
    recurrent
    regularization
+   word_vectors
 
 

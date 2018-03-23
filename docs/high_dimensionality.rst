@@ -93,4 +93,26 @@ Unlike linear interpolation, the sum of the coefficients can exceed 1.
 
 http://www.inference.vc/high-dimensional-gaussian-distributions-are-soap-bubble/
 
+Wasserstein distance
+-------------------------
+Also known as the earth mover distance. Like the Kullback-Leibler divergence, it is a way of measuring the difference between two different probability distributions.
+
+Intuition
+'''''''''''''''''''''''
+If the two probability distributions are visualised as mounds of earth, the Wasserstein distance is the amount of effort required to turn one mound into the other. That is, the amount of earth mutliplied by the distance it has to be moved.
+
+Defining the Wasserstein distance
+''''''''''''''''''''''''''''''''''''''''''''''
+There are many different ways to move the earth so calculating the Wasserstein distance requires solving an optimisation problem, in general.
+
+An exact solution exists if both distributions are normal.
+
+Properties
+'''''''''''''''''''''''
+Unlike the Kullback-Leibler divergence, Jensen-Shannon divergence and total variation distance, this metric does not have zero gradients when the supports of P and Q are disjoint (the probability distributions have no overlap).
+
+Exact computation of the Wasserstein distance is intractable.
+
+\url{https://vincentherrmann.github.io/blog/wasserstein/}
+
     

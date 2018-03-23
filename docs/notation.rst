@@ -38,7 +38,7 @@ Information theory
 ========================================  =================================================================
   Symbol                                     Meaning   
 ========================================  =================================================================
-:math:`D_{KL}(P||Q)`                        The KL-divergence between two distributions, P and Q
+:math:`D_{KL}(P||Q)`                        KL-divergence between two distributions, P and Q
 ========================================  =================================================================
 
 Linear algebra
@@ -61,7 +61,7 @@ Probability
   Symbol                                     Meaning   
 ========================================  =================================================================================
 :math:`X`                                      A random variable  
-:math:`P(X)`                                   The probability of a particular value of X. Shorthand for :math:`P(X=x_i)`
+:math:`P(X)`                                   Probability of a particular value of X. Shorthand for :math:`P(X=x_i)`
 ========================================  =================================================================================
 
 Statistics
@@ -69,8 +69,8 @@ Statistics
 ========================================  =================================================================
   Symbol                                     Meaning   
 ========================================  =================================================================
-:math:`U(a,b)`                               The uniform distribution
-:math:`N(\mu,\sigma^2)`                      The normal distribution
+:math:`U(a,b)`                               Uniform distribution
+:math:`N(\mu,\sigma^2)`                      Normal distribution
 ========================================  =================================================================
 
 Machine learning

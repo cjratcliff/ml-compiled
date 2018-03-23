@@ -46,3 +46,10 @@ An estimate for a parameter.
 
 Zipf distribution
 ---------------------
+For a population of size n, the frequency of the kth most frequent item is:
+
+.. math::
+
+  \frac{1/{k^s}{\sum_{i=1}^n 1/i^s}
+  
+where :math:`s \geq 0` is a hyperparameter

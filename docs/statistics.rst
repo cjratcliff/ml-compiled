@@ -33,6 +33,16 @@ Harmonic mean
 
     H(x_1,x_2,...,x_n) = n/\sum_{i=1}^n \frac{1}{x_i} 
     
+Moments
+--------
+* 1st moment - Mean
+* 2nd moment - Variance
+* 3rd moment - Skewness
+* 4th moment - Kurtosis
+    
 Point estimate
 ----------------
 An estimate for a parameter.
+
+Zipf distribution
+---------------------

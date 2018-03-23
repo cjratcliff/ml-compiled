@@ -50,6 +50,14 @@ Note that if a point is outside the support of Q (Q(i) = 0), the KL-divergence w
 
 The KL-divergence is not symmetric.
 
+Mutual information
+-----------------------
+Measures the dependence of two random variables.
+
+.. math::
+
+   I(X,Y) = -\sum_{x \in X} \sum_{y \in Y} p(x,y) \log \frac{p(x,y)}{p(x)p(y)}
+
 Total variation distance
 -----------------------------
 Like the Kullback-Leibler divergence, it is also a way of measuring the difference between two different probability distributions.

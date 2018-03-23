@@ -43,6 +43,7 @@ https://keras.io/datasets/#mnist-database-of-handwritten-digits
 
 Omniglot
 ----------
+1623 handwritten characters from 50 alphabets. Useful for one-shot learning.
 
 Pascal VOC
 -----------

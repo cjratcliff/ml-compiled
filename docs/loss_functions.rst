@@ -56,7 +56,7 @@ When only learning embeddings a simpler formula can be used. It is:
 
 .. math::
 
-  L(a,b,y) = \sum_{i=1}^n y_i\log \sigma(a_i \cdot b_i) + (1-y_i)\log(1-\sigma(a_i \cdot b_i))
+  L(a,b,y) = \sum_i y_i\log \sigma(a_i \cdot b_i) + (1-y_i)\log(1-\sigma(a_i \cdot b_i))
 
 where :math:`a` and :math:`b` are embeddings and :math:`y = 1` if the pair :math:`(a,b)` are expected to be similar and :math:`y = 0` if not (because they have been sampled from the negative distribution). The dot product measures the distance between the two embeddings and the sigmoid function transforms it into a probability.
 

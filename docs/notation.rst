@@ -84,8 +84,9 @@ Machine learning
 :math:`L(...)`           Loss function
 :math:`y`            Label
 :math:`\hat{y}`      Prediction
-:math:`g_t`         The gradient at time t
-:math:`u_t`         The parameter update at time t
+:math:`g_t`         Gradient at time t
+:math:`u_t`         Parameter update at time t
+:math:`\eta`        Learning rate
 =================  ====================================
 
 Reinforcement learning

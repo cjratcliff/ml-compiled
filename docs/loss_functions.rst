@@ -50,7 +50,7 @@ Loss functions for efficient learning when the number of output classes is large
 
 A binary classification task is created to disambiguate pairs that are expected to be close to each other from ‘noisy’ examples put together at random. Makes training time at the output layer independent of the number of classes. It remains linear in time at evaluation, however.
 
-Learning embeddings
+Embeddings
 ----------------------
 When only learning embeddings a simpler formula can be used. It is:
 
@@ -79,10 +79,11 @@ where
       
 k is a hyperparameter, denoting the number of noise samples for each real sample.
 
-Explanation for learning embeddings, Newell (2016)
-RNNLM Training with NCE for Speech Recognition, Chen et al. (2015)
-Noise Contrastive Estimation: A New Estimation Principle for Unnormalized Statistical Models, Gutmann and Hyvarinen (2010)
-Learning Word Embeddings Efficiently with Noise Contrastive Estimation, Mnih and Kavukcuoglu (2013)
+`RNNLM Training with NCE for Speech Recognition, Chen et al. (2015) <https://www.repository.cam.ac.uk/bitstream/handle/1810/247439/Chen_et_al-2015-ICASSP.pdf?sequence=1>`_
+
+`Noise Contrastive Estimation: A New Estimation Principle for Unnormalized Statistical Models, Gutmann and Hyvarinen (2010) <http://proceedings.mlr.press/v9/gutmann10a/gutmann10a.pdf>`_
+
+`Learning Word Embeddings Efficiently with Noise Contrastive Estimation, Mnih and Kavukcuoglu (2013) <https://papers.nips.cc/paper/5165-learning-word-embeddings-efficiently-with-noise-contrastive-estimation>`_
 
 """"""""""""""""
 Squared loss

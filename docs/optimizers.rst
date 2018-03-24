@@ -71,7 +71,7 @@ An iterative method for finding the roots of an equation.
 
 .. math::
 
-    x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n}
+    x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}
 
 In the context of gradient descent, Newton’s method is applied to the derivative of the function to find the points where the derivative is equal to zero (the local optima). Therefore in this context it is a second order method.
 

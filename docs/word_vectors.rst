@@ -12,13 +12,13 @@ Used to create word embeddings. Predicts a word given its context. The context i
 
 Several times faster to train than the skip-gram model and has slightly better accuracy for words which occur frequently.
 
-Efficient Estimation of Word Representations in Vector Space, Mikolov et al. (2013)
+`Efficient Estimation of Word Representations in Vector Space, Mikolov et al. (2013) <https://arxiv.org/abs/1301.3781>`_
 
 GloVe
 ------
 Method for learning word vectors.
 
-GloVe: Global Vectors for Word Representation
+`GloVe: Global Vectors for Word Representation, Pennington et al. (2014) <https://www.aclweb.org/anthology/D14-1162>`_
 
 Skip-gram
 -----------
@@ -33,8 +33,7 @@ Subsampling frequent words. Words like ‘the’ and ‘is’ occur very frequen
 Negative sampling, a simplification of noise-contrastive estimation.
 With some minor changes, skip-grams can also be used to calculate embeddings for phrases such as ‘North Sea’. However, this can increase the size of the vocabulary dramatically.
 
-Efficient Estimation of Word Representations in Vector Space, Mikolov et al. (2013)
-Distributed Representations of Words and Phrases and their Compositionality, Mikolov et al. (2013)
+`Efficient Estimation of Word Representations in Vector Space, Mikolov et al. (2013) <https://arxiv.org/abs/1301.3781>`_
 
 Word2vec
 ---------

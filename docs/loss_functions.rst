@@ -43,13 +43,19 @@ A loss function used for regression. It is less sensitive to outliers than the s
           \end{cases}
           
 """"""""""""""""""""""""""""""""
+Negative sampling
+""""""""""""""""""""""""""""""""
+Loss function for efficient learning when the number of output classes is large.
+
+""""""""""""""""""""""""""""""""
 Noise Contrastive Estimation
 """"""""""""""""""""""""""""""""
-A method for learning language models over large vocabularies efficiently. A binary classification task is created to disambiguate groups of words that are actually near each other from ‘noisy’ words put together at random. Makes training time at the output layer independent of vocabulary size. It remains linear in time at evaluation, however.
+Loss function for efficient learning when the number of output classes is large.
+
+A binary classification task is created to disambiguate groups of words that are actually near each other from ‘noisy’ words put together at random. Makes training time at the output layer independent of vocabulary size. It remains linear in time at evaluation, however.
 
 Section 1
 --------------
-The objective is to maximize the negative of the cross-entropy loss:
 
 .. math::
 

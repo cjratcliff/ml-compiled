@@ -72,11 +72,12 @@ Attempts to solve instabilities that can arise from using momentum by keeping th
 """"""""
 RMSProp
 """"""""
-Similar to Adagrad, but introduces an additional decay term to counteract AdaGrad’s rapid decrease in the learning rate. Divides the gradient by a running average of its recent magnitude. 0.001 is a good default value for the learning rate (:math:`eta`) and 0.9 is a good default value for :math:`\alpha`. The name comes from Root Mean Square Propagation.
+Similar to Adagrad, but introduces an additional decay term to counteract AdaGrad’s rapid decrease in the learning rate. Divides the gradient by a running average of its recent magnitude. 0.001 is a good default value for the learning rate (:math:`\eta`) and 0.9 is a good default value for :math:`\alpha`. The name comes from Root Mean Square Propagation.
 
 .. math::
 
   \mu_t = \alpha \mu_{t-1} + (1 - \alpha) g_t^2
+  
   u_t = - \eta \frac{g_t}{\sqrt{\mu_t + \epsilon}}
 
 http://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf

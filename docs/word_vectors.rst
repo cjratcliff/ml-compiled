@@ -14,12 +14,6 @@ Several times faster to train than the skip-gram model and has slightly better a
 
 `Efficient Estimation of Word Representations in Vector Space, Mikolov et al. (2013) <https://arxiv.org/abs/1301.3781>`_
 
-FastText
----------
-A fast, baseline classifier for text.
-
-`Bag of Tricks for Efficient Text Classification Joulin et al. (2016) https://arxiv.org/abs/1607.01759`_
-
 GloVe
 ------
 Method for learning word vectors.

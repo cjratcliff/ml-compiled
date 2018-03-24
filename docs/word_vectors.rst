@@ -38,4 +38,6 @@ With some minor changes, skip-grams can also be used to calculate embeddings for
 Word2vec
 ---------
 
+`Efficient Estimation of Word Representations in Vector Space, Mikolov et al. (2013) <https://arxiv.org/abs/1301.3781>`_
+
 

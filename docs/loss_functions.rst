@@ -67,17 +67,17 @@ Classification
 
 .. math::
 
-    L() = -1/N_w \sum_{i=1}^{N_w}\log P(C_{w_i}^{RNN}=1|w_i,h_i) + \sum_{j=1}^k \log P(C^n_{w_{ij}}=1|w_{ij},h_i)
+    L(y,\hat{y}) = -\frac{1}{N_w} \sum_{i=1}^{N_w}\log P(C_{w_i}^{RNN}=1|w_i) + \sum_{j=1}^k \log P(C^n_{w_{ij}}=1|w_{ij})
 
 where
 
 .. math::
 
-    P(C_{w_i}^{RNN}=1|w_i,h_i) = \frac{P^{NCE}_{RNN}(w|h_i)}{P^{NCE}_{RNN}(w|h_i) + kP_n(w|h_i)}
+    P(C_{w_i}^{RNN}=1|w_i) = \frac{P^{NCE}_{RNN}(w|h_i)}{P^{NCE}_{RNN}(w) + kP_n(w)}
 
-    P(C_{w}^{n}=1|w_i,h_i) = \frac{kP_n(w|h_i)}{P^{NCE}_{RNN}(w|h_i) + kP_n(w|h_i)})      
+    P(C_{w}^{n}=1|w_i) = \frac{kP_n(w|h_i)}{P^{NCE}_{RNN}(w) + kP_n(w)})      
       
-$w_{ij}$ is the word sampled from the noise distribution for the training set word 
+k is a hyperparameter, denoting the number of noise samples for each real sample.
 
 Explanation for learning embeddings, Newell (2016)
 RNNLM Training with NCE for Speech Recognition, Chen et al. (2015)

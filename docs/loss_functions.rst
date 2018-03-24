@@ -45,9 +45,9 @@ A loss function used for regression. It is less sensitive to outliers than the s
 """"""""""""""""""""""""""""""""
 Noise Contrastive Estimation
 """"""""""""""""""""""""""""""""
-Loss functions for efficient learning when the number of output classes is large.
+Loss functions for efficient learning when the number of output classes is large. Useful for language modelling.
 
-A binary classification task is created to disambiguate groups of words that are actually near each other from ‘noisy’ words put together at random. Makes training time at the output layer independent of vocabulary size. It remains linear in time at evaluation, however.
+A binary classification task is created to disambiguate pairs that are expected to be close to each other from ‘noisy’ examples put together at random. Makes training time at the output layer independent of the number of classes. It remains linear in time at evaluation, however.
 
 Learning embeddings
 ----------------------
@@ -57,7 +57,7 @@ When only learning embeddings a simpler formula can be used. It is:
 
   L(a,b,y) = \sum_{i=1}^n y_i\log \sigma(a_i \cdot b_i) + (1-y_i)\log(1-\sigma(a_i \cdot b_i))
 
-where :math:`a` and :math:`b` are embeddings and y = 1 if the pair :math:`(a,b)` are expected to be similar and y = 0 if not (because they have been sampled from the negative distribution). The dot product measures the distance between the two embeddings and the sigmoid function transforms it into a probability.
+where :math:`a` and :math:`b` are embeddings and y = 1 if the pair :math:`(a,b)` are expected to be similar and :math:`y = 0` if not (because they have been sampled from the negative distribution). The dot product measures the distance between the two embeddings and the sigmoid function transforms it into a probability.
 
 This means maximising the probability that actual samples are in the dataset and that noise samples aren’t in the dataset. Parameter update complexity is linear in the size of the vocabulary. The model is improved by having more noise than training samples, with around 15 times more being optimal.
 

@@ -75,16 +75,18 @@ Statistics
 
 Machine learning
 -----------------
-=================  =============================
+=================  ====================================
   Symbol             Meaning   
-=================  =============================
+=================  ====================================
 :math:`\theta`      Parameters of the model  
 :math:`O`           Observations or data
 :math:`x`           Feature vector
 :math:`L(...)`           Loss function
 :math:`y`            Label
 :math:`\hat{y}`      Prediction
-=================  =============================
+:math:`g_t`         The gradient at time t
+:math:`u_t`         The parameter update at time t
+=================  ====================================
 
 Reinforcement learning
 ------------------------

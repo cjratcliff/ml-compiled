@@ -19,7 +19,8 @@ This means it is distinct from the Euclidean distance, which takes magnitude int
 The major differences between the Euclidean and cosine similarity are as follows:
 
 * Unlike the Euclidean distance, the cosine distance does not suffer from the curse of dimensionality, making it useful for comparing high-dimensional feature vectors.
-* The cosine distance ‘wraps around’. This means it does not satisfy the triangle inequality. Requires one extra dimension in the vectors, relative to the Euclidean distance, to store the same amount of information. * The 2D cosine similarity is a circle, which is 1D.
+* The cosine distance ‘wraps around’. This means it does not satisfy the triangle inequality. Requires one extra dimension in the vectors, relative to the Euclidean distance, to store the same amount of information. 
+* The 2D cosine similarity is a circle, which is 1D.
 
 Euclidean distance
 -----------------------

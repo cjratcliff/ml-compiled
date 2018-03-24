@@ -73,9 +73,9 @@ where
 
 .. math::
 
-    P(C_{w_i}^{RNN}=1|w_i) = \frac{P^{NCE}_{RNN}(w|h_i)}{P^{NCE}_{RNN}(w) + kP_n(w)}
+    P(C_{w_i}^{RNN}=1|w_i) = \frac{P^{NCE}_{RNN}(w)}{P^{NCE}_{RNN}(w) + kP_n(w)}
 
-    P(C_{w}^{n}=1|w_i) = \frac{kP_n(w|h_i)}{P^{NCE}_{RNN}(w) + kP_n(w)})      
+    P(C_{w}^{n}=1|w_i) = \frac{kP_n(w)}{P^{NCE}_{RNN}(w) + kP_n(w)})      
       
 k is a hyperparameter, denoting the number of noise samples for each real sample.
 

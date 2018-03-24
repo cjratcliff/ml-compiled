@@ -81,6 +81,7 @@ Machine learning
 :math:`\theta`      Parameters of the model  
 :math:`O`           Observations or data
 :math:`x`           Feature vector
+:math:`L(...)`           Loss function
 :math:`y`            Label
 :math:`\hat{y}`      Prediction
 =================  =============================

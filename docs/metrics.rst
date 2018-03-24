@@ -2,6 +2,12 @@
 Metrics
 """"""""""""
 
+Bits per character (BPC)
+---------------------------
+Used for assessing character-level language models.
+
+Identical to the cross-entropy loss, but uses base 2 for the logarithm.
+
 BLEU
 ------
 Score for assessing translation tasks. Also used for image captioning. Stands for BiLingual Evaluation Understudy.

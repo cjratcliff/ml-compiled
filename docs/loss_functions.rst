@@ -57,11 +57,9 @@ When only learning embeddings a simpler formula can be used. It is:
 
   L(a,b,y) = \sum_{i=1}^n y_i\log \sigma(a_i \cdot b_i) + (1-y_i)\log(1-\sigma(a_i \cdot b_i))
 
-where :math:`a` and :math:`b` are embeddings and y = 0 if the pair (w,c) was sampled from the noise distribution and 1 if it was sampled from the data distribution. The dot product models the distance between the two embeddings and the sigmoid function transforms it into a probability.
+where :math:`a` and :math:`b` are embeddings and y = 1 if the pair :math:`(a,b)` are expected to be similar and y = 0 if not (because they have been sampled from the negative distribution). The dot product measures the distance between the two embeddings and the sigmoid function transforms it into a probability.
 
 This means maximising the probability that actual samples are in the dataset and that noise samples aren’t in the dataset. Parameter update complexity is linear in the size of the vocabulary. The model is improved by having more noise than training samples, with around 15 times more being optimal.
-
-Using NCE rather than a more traditional method means modelling $p(C=1|w,c)$ rather than $p(c|w)$.
 
 Classification
 ----------------

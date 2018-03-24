@@ -64,6 +64,21 @@ At each iteration attempts to perform the update which minimizes the loss functi
 
 `Revisiting natural gradient for deep networks, Pascanu and Bengio (2014) <https://arxiv.org/abs/1301.3584>`_
 
+""""""""""""""""
+Newton’s method
+""""""""""""""""
+An iterative method for finding the roots of an equation.
+
+.. math::
+
+    x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n}
+
+In the context of gradient descent, Newton’s method is applied to the derivative of the function to find the points where the derivative is equal to zero (the local optima). Therefore in this context it is a second order method.
+
+:math:`x_t=H_{t-1}g_t` where :math:`H_{t-1}` is the inverse of the Hessian matrix at iteration t.
+
+Picks the optimal step size for quadratic problems but is also prohibitively expensive to compute for large models due to the size of the Hessian matrix, which is quadratic in the number of parameters.
+
 """"""""""""""""""""""""
 Nesterov’s method
 """"""""""""""""""""""""

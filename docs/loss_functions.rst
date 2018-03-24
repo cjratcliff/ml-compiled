@@ -20,8 +20,9 @@ Loss function for classification.
 
 .. math::
 
-  L(y,\hat{y}) = -\sum_i y_i \log(\hat{y}_i)
+  L(y,\hat{y}) = -\sum_i \sum_c y_{i,c} \log(\hat{y}_{i,c})
 
+where c are the classes.
 
 """"""""""""""""
 Hinge loss

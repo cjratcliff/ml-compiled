@@ -19,6 +19,8 @@ Bayesian network
 ------------------
 A directed acyclic graph where the nodes represent random variables.
 
+Not to be confused with Bayesian neural networks.
+
 The chain rule for Bayesian networks
 ''''''''''''''''''''''''''''''''''''''''''
 

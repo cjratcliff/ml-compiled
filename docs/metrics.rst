@@ -15,6 +15,8 @@ F1-score
 ----------
 The F1-score is the harmonic mean of the precision and the recall.
 
+Using the harmonic mean has the effect that a good F1-score requires both a good precision and a good recall.
+
 .. math:: 
 
   F_1 = 2 \cdot \frac{\text{precision} \cdot \text{recall}}{\text{precision} + \text{recall}}
@@ -34,6 +36,7 @@ Used to measure how well a probabilistic model predicts a sample. It is equivale
 
 Precision
 ------------
+The probability that an example is in fact a positive, given that it was classified as one.
 
 .. math::
 
@@ -43,6 +46,7 @@ Where TP is the number of true positives and FP is the number of false positives
 
 Recall
 --------
+The probability of classifying an example as a positive given that it is infact a positive.
 
 .. math::
 

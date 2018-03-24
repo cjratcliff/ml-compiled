@@ -44,6 +44,7 @@ Contents
    loss_functions
    metrics
    optimizers
+   preprocessing
    recurrent
    regularization
    word_vectors

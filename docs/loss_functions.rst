@@ -58,32 +58,22 @@ When only learning embeddings a simpler formula can be used. It is:
 
   L(a,b,y) = \sum_i y_i\log \sigma(a_i \cdot b_i) + (1-y_i)\log(1-\sigma(a_i \cdot b_i))
 
-where :math:`a` and :math:`b` are embeddings and :math:`y = 1` if the pair :math:`(a,b)` are expected to be similar and :math:`y = 0` if not (because they have been sampled from the negative distribution). The dot product measures the distance between the two embeddings and the sigmoid function transforms it into a probability.
+where :math:`a` and :math:`b` are embeddings and :math:`y = 1` if the pair :math:`(a,b)` are expected to be similar and :math:`y = 0` if not (because they have been sampled from the noise distribution). The dot product measures the distance between the two embeddings and the sigmoid function transforms it into a probability.
 
 This means maximising the probability that actual samples are in the dataset and that noise samples aren’t in the dataset. Parameter update complexity is linear in the size of the vocabulary. The model is improved by having more noise than training samples, with around 15 times more being optimal.
 
 Classification
 ----------------
 
-.. math::
-
-    L(y,\hat{y}) = -\frac{1}{N_w} \sum_{i=1}^{N_w}\log P(C_{w_i}^{RNN}=1|w_i) + \sum_{j=1}^k \log P(C^n_{w_{ij}}=1|w_{ij})
-
-where
-
-.. math::
-
-    P(C_{w_i}^{RNN}=1|w_i) = \frac{P^{NCE}_{RNN}(w)}{P^{NCE}_{RNN}(w) + kP_n(w)}
-
-    P(C_{w}^{n}=1|w_i) = \frac{kP_n(w)}{P^{NCE}_{RNN}(w) + kP_n(w)})      
+  TODO  
       
 k is a hyperparameter, denoting the number of noise samples for each real sample.
-
-`RNNLM Training with NCE for Speech Recognition, Chen et al. (2015) <https://www.repository.cam.ac.uk/bitstream/handle/1810/247439/Chen_et_al-2015-ICASSP.pdf?sequence=1>`_
 
 `Noise Contrastive Estimation: A New Estimation Principle for Unnormalized Statistical Models, Gutmann and Hyvarinen (2010) <http://proceedings.mlr.press/v9/gutmann10a/gutmann10a.pdf>`_
 
 `Learning Word Embeddings Efficiently with Noise Contrastive Estimation, Mnih and Kavukcuoglu (2013) <https://papers.nips.cc/paper/5165-learning-word-embeddings-efficiently-with-noise-contrastive-estimation>`_
+
+`RNNLM Training with NCE for Speech Recognition, Chen et al. (2015) <https://www.repository.cam.ac.uk/bitstream/handle/1810/247439/Chen_et_al-2015-ICASSP.pdf?sequence=1>`_
 
 """"""""""""""""
 Squared loss

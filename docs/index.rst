@@ -7,7 +7,11 @@ Welcome to ML Compiled!
 ==================================================
 Quick definitions and intuitive explanations around machine learning.
 
-Contents:
+This is a work in progress and is being continually updated.
+
+"""""""""
+Contents
+"""""""""
 
 .. toctree::
    :maxdepth: 1

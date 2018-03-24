@@ -6,11 +6,11 @@ Functions
 =================  =============================
   Symbol             Meaning   
 =================  =============================
-:math:`\sigma`       Sigmoid function
 :math:`\Sigma`       Sum
 :math:`\Pi`          Product
-:math:`E`           Expectation
-:math:`*`            Element-wise product
+:math:`\sigma`       Sigmoid function
+:math:`E`            Expectation
+:math:`|x|`          Absolute value of x
 =================  =============================
 
 Sets
@@ -53,6 +53,7 @@ Linear algebra
 :math:`X^{-1}`         Inverse of X
 :math:`||x||_2`        Euclidean norm of x
 :math:`I`            Identity matrix
+:math:`*`            Element-wise product
 =================  =============================
 
 Probability

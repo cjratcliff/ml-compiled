@@ -45,26 +45,11 @@ A loss function used for regression. It is less sensitive to outliers than the s
 """"""""""""""""""""""""""""""""
 Noise Contrastive Estimation
 """"""""""""""""""""""""""""""""
-A method for learning language models over large vocabularies efficiently. A binary classification task is created to disambiguate groups of words that are actually near each other from ‘noisy’ words put together at random. Makes training time at the output layer independent of vocabulary size. It remains linear in time at evaluation, however.
-
-The objective is to maximize the negative of the cross-entropy loss:
+A method used for learning language models over large vocabularies efficiently. A binary classification task is created to disambiguate groups of words that are actually near each other from ‘noisy’ words put together at random. Makes training time at the output layer independent of vocabulary size. It remains linear in time at evaluation, however.
 
 .. math::
 
-    \sum_{w,c}C\ln \sigma(w \cdot v) + (1-C)\ln(1-\sigma(w \cdot v))
-
-
-where w is a word vector, c is its context, v is another word vector and C is 0 if the pair (w,c) was sampled from the noise distribution and 1 if it was sampled from the data distribution. Using the dot product models the distance between the two word vectors and the sigmoid function transforms it into a probability.
-
-This means maximising the probability that actual samples are in the dataset and that noise samples aren’t in the dataset. Parameter update complexity is linear in the size of the vocabulary. The model is improved by having more noise than training samples, with around 15 times more being optimal.
-
-Using NCE rather than a more traditional method means modelling $p(C=1|w,c)$ rather than $p(c|w)$.
-
-For learning a generative language model instead of only embeddings, the formulation is slightly different: 
-
-.. math::
-
-    -1/N_w \sum_{i=1}^{N_w}\ln P(C_{w_i}^{RNN}=1|w_i,h_i) + \sum_{j=1}^k \ln P(C^n_{w_{ij}}=1|w_{ij},h_i)
+    L() = -1/N_w \sum_{i=1}^{N_w}\ln P(C_{w_i}^{RNN}=1|w_i,h_i) + \sum_{j=1}^k \ln P(C^n_{w_{ij}}=1|w_{ij},h_i)
 
 where
 

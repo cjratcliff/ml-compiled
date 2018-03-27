@@ -13,8 +13,8 @@ Parametric and non-parametric models
 Rademacher complexity
 VC dimension
 
-* [Bagging](https://github.com/cjratcliff/notes/wiki/Bagging)
-* [Boosting](https://github.com/cjratcliff/notes/wiki/Boosting)
+Bagging
+Boosting
 * [Class imbalance problem](https://github.com/cjratcliff/notes/wiki/Class-imbalance-problem)
 * [Curriculum learning](https://github.com/cjratcliff/notes/wiki/Curriculum%20learning)
 * [Discriminative model](https://github.com/cjratcliff/notes/wiki/Discriminative%20model)
@@ -29,7 +29,6 @@ VC dimension
 * [Overcomplete representation](https://github.com/cjratcliff/notes/wiki/Overcomplete%20representation)
 * [Random forest](https://github.com/cjratcliff/notes/wiki/Random%20forest)
 * [Self-training](https://github.com/cjratcliff/notes/wiki/Self-training)
-* [Whitening](https://github.com/cjratcliff/notes/wiki/Whitening)
 * [Zero-shot learning](https://github.com/cjratcliff/notes/wiki/Zero-shot-learning)
 
 ### Deep learning (general)
@@ -58,20 +57,14 @@ Deep Boltzmann Machine
 Restricted Boltzmann Machine (RBM)
 
 ### Computer vision
-* [1x1 convolutions](https://github.com/cjratcliff/notes/wiki/1x1%20convolutions)
-* [Convolutional layer](https://github.com/cjratcliff/notes/wiki/Convolutional%20layer)
 * [Convolutional Neural Network (CNN)](https://github.com/cjratcliff/notes/wiki/Convolutional%20Neural%20Network%20(CNN))
-* [Coordinate frame](https://github.com/cjratcliff/notes/wiki/Coordinate%20frame)
 * [ILSVRC](https://github.com/cjratcliff/notes/wiki/ILSVRC)
-* [ImageNet](https://github.com/cjratcliff/notes/wiki/ImageNet)
 * [Image retrieval](https://github.com/cjratcliff/notes/wiki/Image%20retrieval)
 * [Instance segmentation](https://github.com/cjratcliff/notes/wiki/Instance%20segmentation)
 * [LeNet 5](https://github.com/cjratcliff/notes/wiki/LeNet%205)
 * [Region of Interest (RoI)](https://github.com/cjratcliff/notes/wiki/Region%20of%20Interest%20(RoI))
-* [Residual network](https://github.com/cjratcliff/notes/wiki/Residual%20network)
 * [Saliency map](https://github.com/cjratcliff/notes/wiki/Saliency%20map)
 * [Semantic segmentation](https://github.com/cjratcliff/notes/wiki/Semantic%20segmentation)
-* [Separable convolution/filter](https://github.com/cjratcliff/notes/wiki/Separable-convolution-or-filter)
 * [Weakly supervised segmentation](https://github.com/cjratcliff/notes/wiki/Weakly%20supervised%20segmentation)
 
 ### NLP
@@ -93,11 +86,9 @@ Bidirectional RNN
 * [Exploding gradient problem](https://github.com/cjratcliff/notes/wiki/Exploding%20gradient%20problem)
 * [Full gradient descent](https://github.com/cjratcliff/notes/wiki/Full%20gradient%20descent)
 * [Gradient clipping](https://github.com/cjratcliff/notes/wiki/Gradient%20clipping)
-* [Krylov subspace descent](https://github.com/cjratcliff/notes/wiki/Krylov%20subspace%20descent)
 * [Learning rate](https://github.com/cjratcliff/notes/wiki/Learning%20rate)
 * [Mini-batch gradient descent](https://github.com/cjratcliff/notes/wiki/Mini-batch%20gradient%20descent)
 * [Natural gradient](https://github.com/cjratcliff/notes/wiki/Natural-gradient)
-* [Nesterov’s method](https://github.com/cjratcliff/notes/wiki/Nesterov's%20method)
 * [Saddle points](https://github.com/cjratcliff/notes/wiki/Saddle%20points)
 
 ### Reinforcement learning

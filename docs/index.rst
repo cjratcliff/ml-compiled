@@ -48,5 +48,9 @@ Contents
    recurrent
    regularization
    word_vectors
+   
+.. toctree::
+   :caption: Reinforcement learning
+   :maxdepth: 1
 
 

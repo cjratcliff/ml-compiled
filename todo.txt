@@ -44,7 +44,6 @@ Boosting
 * [Epoch](https://github.com/cjratcliff/notes/wiki/Epoch)
 * [Error surface (of a neuron)](https://github.com/cjratcliff/notes/wiki/Error%20surface%20(of%20a%20neuron))
 * [Feedforward](https://github.com/cjratcliff/notes/wiki/Feedforward)
-* [Internal covariate shift](https://github.com/cjratcliff/notes/wiki/Internal%20covariate%20shift)
 * [Ladder Network](https://github.com/cjratcliff/notes/wiki/Ladder%20Network)
 * [Neural Turing Machine (NTM)](https://github.com/cjratcliff/notes/wiki/Neural%20Turing%20Machine%20(NTM))
 * Siamese network

@@ -1,0 +1,157 @@
+Matrix differentiation
+
+Beta distribution
+Chi-squared distribution
+Dirichlet distribution
+Mean field approach
+Partition function 
+Variational Bayes
+Weibull distribution
+
+Parametric and non-parametric models
+
+Rademacher complexity
+VC dimension
+
+* [Bagging](https://github.com/cjratcliff/notes/wiki/Bagging)
+* [Boosting](https://github.com/cjratcliff/notes/wiki/Boosting)
+* [Class imbalance problem](https://github.com/cjratcliff/notes/wiki/Class-imbalance-problem)
+* [Curriculum learning](https://github.com/cjratcliff/notes/wiki/Curriculum%20learning)
+* [Discriminative model](https://github.com/cjratcliff/notes/wiki/Discriminative%20model)
+* [Distributed representation](https://github.com/cjratcliff/notes/wiki/Distributed-representation) 
+* [Ensemble methods](https://github.com/cjratcliff/wiki/Ensemble%20methods)
+* [Energy-based model](https://github.com/cjratcliff/notes/wiki/Energy-based%20model)
+* [Expectation-maximisation (EM)](https://github.com/cjratcliff/notes/wiki/Expectation-maximisation%20(EM))
+* [Inductive bias](https://github.com/cjratcliff/notes/wiki/Inductive%20bias)
+* [Lattice model](https://github.com/cjratcliff/notes/wiki/Lattice%20model)
+* [Multimodal learning](https://github.com/cjratcliff/notes/wiki/Multimodal-learning)
+* [One-shot learning](https://github.com/cjratcliff/notes/wiki/One-shot-learning)
+* [Overcomplete representation](https://github.com/cjratcliff/notes/wiki/Overcomplete%20representation)
+* [Random forest](https://github.com/cjratcliff/notes/wiki/Random%20forest)
+* [Self-training](https://github.com/cjratcliff/notes/wiki/Self-training)
+* [Whitening](https://github.com/cjratcliff/notes/wiki/Whitening)
+* [Zero-shot learning](https://github.com/cjratcliff/notes/wiki/Zero-shot-learning)
+
+### Deep learning (general)
+* Activation
+* [Adversarial examples](https://github.com/cjratcliff/notes/wiki/Adversarial%20examples)
+* [Bayesian neural network](https://github.com/cjratcliff/notes/wiki/Bayesian%20neural%20network)
+* [Bias (of a neuron)](https://github.com/cjratcliff/notes/wiki/Bias%20(of%20a%20neuron))
+* [Catastrophic forgetting](https://github.com/cjratcliff/notes/wiki/Catastrophic%20forgetting)
+* [Deep Belief Network (DBN)](https://github.com/cjratcliff/notes/wiki/Deep%20Belief%20Network%20(DBN))
+* [Depth](https://github.com/cjratcliff/notes/wiki/Depth)
+* [Differentiable Neural Computer (DNC)](https://github.com/cjratcliff/notes/wiki/Differentiable%20Neural%20Computer%20(DNC))
+* [End-to-end](https://github.com/cjratcliff/notes/wiki/End-to-end)
+* [Epoch](https://github.com/cjratcliff/notes/wiki/Epoch)
+* [Error surface (of a neuron)](https://github.com/cjratcliff/notes/wiki/Error%20surface%20(of%20a%20neuron))
+* [Feedforward](https://github.com/cjratcliff/notes/wiki/Feedforward)
+* [Internal covariate shift](https://github.com/cjratcliff/notes/wiki/Internal%20covariate%20shift)
+* [Ladder Network](https://github.com/cjratcliff/notes/wiki/Ladder%20Network)
+* [Neural Turing Machine (NTM)](https://github.com/cjratcliff/notes/wiki/Neural%20Turing%20Machine%20(NTM))
+* Siamese network
+* [Sparsity](https://github.com/cjratcliff/notes/wiki/Sparsity)
+* Triplet network
+* [Unsupervised pretraining](https://github.com/cjratcliff/notes/wiki/Unsupervised%20pretraining)
+* [Visual question answering](https://github.com/cjratcliff/notes/wiki/Visual%20question%20answering)
+
+Deep Boltzmann Machine
+Restricted Boltzmann Machine (RBM)
+
+### Computer vision
+* [1x1 convolutions](https://github.com/cjratcliff/notes/wiki/1x1%20convolutions)
+* [Convolutional layer](https://github.com/cjratcliff/notes/wiki/Convolutional%20layer)
+* [Convolutional Neural Network (CNN)](https://github.com/cjratcliff/notes/wiki/Convolutional%20Neural%20Network%20(CNN))
+* [Coordinate frame](https://github.com/cjratcliff/notes/wiki/Coordinate%20frame)
+* [ILSVRC](https://github.com/cjratcliff/notes/wiki/ILSVRC)
+* [ImageNet](https://github.com/cjratcliff/notes/wiki/ImageNet)
+* [Image retrieval](https://github.com/cjratcliff/notes/wiki/Image%20retrieval)
+* [Instance segmentation](https://github.com/cjratcliff/notes/wiki/Instance%20segmentation)
+* [LeNet 5](https://github.com/cjratcliff/notes/wiki/LeNet%205)
+* [Region of Interest (RoI)](https://github.com/cjratcliff/notes/wiki/Region%20of%20Interest%20(RoI))
+* [Residual network](https://github.com/cjratcliff/notes/wiki/Residual%20network)
+* [Saliency map](https://github.com/cjratcliff/notes/wiki/Saliency%20map)
+* [Semantic segmentation](https://github.com/cjratcliff/notes/wiki/Semantic%20segmentation)
+* [Separable convolution/filter](https://github.com/cjratcliff/notes/wiki/Separable-convolution-or-filter)
+* [Weakly supervised segmentation](https://github.com/cjratcliff/notes/wiki/Weakly%20supervised%20segmentation)
+
+### NLP
+* [Latent Dirichlet Allocation (LDA)](https://github.com/cjratcliff/notes/wiki/Latent%20Dirichlet%20Allocation%20(LDA))
+* [Morpheme](https://github.com/cjratcliff/notes/wiki/Morpheme)
+* [Named Entity Recognition](https://github.com/cjratcliff/notes/wiki/Named%20Entity%20Recognition)
+* [Part of speech tagging (POS tagging)](https://github.com/cjratcliff/notes/wiki/Part%20of%20speech%20tagging%20(POS%20tagging))
+* [Phoneme](https://github.com/cjratcliff/notes/wiki/Phoneme)
+* [RNN Encoder-Decoder](https://github.com/cjratcliff/notes/wiki/RNN%20Encoder-Decoder)
+
+Backpropagation through time (BPTT)
+Beam search
+Bidirectional RNN
+
+### Optimization
+* [Automatic differentiation](https://github.com/cjratcliff/notes/wiki/Automatic%20differentiation)
+* [Backpropagation](https://github.com/cjratcliff/notes/wiki/Backpropagation)
+* [Batch size](https://github.com/cjratcliff/notes/wiki/Batch%20size)
+* [Exploding gradient problem](https://github.com/cjratcliff/notes/wiki/Exploding%20gradient%20problem)
+* [Full gradient descent](https://github.com/cjratcliff/notes/wiki/Full%20gradient%20descent)
+* [Gradient clipping](https://github.com/cjratcliff/notes/wiki/Gradient%20clipping)
+* [Krylov subspace descent](https://github.com/cjratcliff/notes/wiki/Krylov%20subspace%20descent)
+* [Learning rate](https://github.com/cjratcliff/notes/wiki/Learning%20rate)
+* [Mini-batch gradient descent](https://github.com/cjratcliff/notes/wiki/Mini-batch%20gradient%20descent)
+* [Natural gradient](https://github.com/cjratcliff/notes/wiki/Natural-gradient)
+* [Nesterov’s method](https://github.com/cjratcliff/notes/wiki/Nesterov's%20method)
+* [Saddle points](https://github.com/cjratcliff/notes/wiki/Saddle%20points)
+
+### Reinforcement learning
+* [Absorbing state](https://github.com/cjratcliff/notes/wiki/Absorbing%20state)
+* [Action-value function](https://github.com/cjratcliff/notes/wiki/Action-value%20function)
+* [Actor-critic method](https://github.com/cjratcliff/notes/wiki/Actor-critic%20method)
+* [Advantage function](https://github.com/cjratcliff/notes/wiki/Advantage%20function)
+* [AlphaGo](https://github.com/cjratcliff/notes/wiki/AlphaGo)
+* [AlphaGo Zero](https://github.com/cjratcliff/notes/wiki/AlphaGo%20Zero)
+* [Asynchronous Advantage Actor-Critic (A3C)](https://github.com/cjratcliff/notes/wiki/Asynchronous%20Advantage%20Actor-Critic%20(A3C))
+* [Behaviour distribution](https://github.com/cjratcliff/notes/wiki/Behaviour%20distribution)
+* [Bellman equation](https://github.com/cjratcliff/notes/wiki/Bellman%20equation)
+* [Boltzmann exploration](https://github.com/cjratcliff/notes/wiki/Boltzmann%20exploration)
+* [Breadth](https://github.com/cjratcliff/notes/wiki/Breadth)
+* [Control policy](https://github.com/cjratcliff/notes/wiki/Control%20policy)
+* [Counterfactual regret minimization](https://github.com/cjratcliff/notes/wiki/Counterfactual%20regret%20minimization)
+* [Credit assignment problem](https://github.com/cjratcliff/notes/wiki/Credit%20assignment%20problem)
+* [Deep Q-learning](https://github.com/cjratcliff/notes/wiki/Deep%20Q-learning)
+* [Depth](https://github.com/cjratcliff/notes/wiki/Depth%20(RL))
+* [Direct policy search](https://github.com/cjratcliff/notes/wiki/Direct%20policy%20search)
+* [Discount factor](https://github.com/cjratcliff/notes/wiki/Discount%20factor)
+* [Episode](https://github.com/cjratcliff/notes/wiki/Episode)
+* [Epsilon-greedy policy](https://github.com/cjratcliff/notes/wiki/Epsilon-greedy%20policy)
+* [Experience replay](https://github.com/cjratcliff/notes/wiki/Experience%20replay)
+* [Greedy policy](https://github.com/cjratcliff/notes/wiki/Greedy%20policy)
+* [Information set (imperfect information games)](https://github.com/cjratcliff/notes/wiki/Information%20set%20(imperfect%20information%20games))
+* [Markov decision process (MDP)](https://github.com/cjratcliff/notes/wiki/Markov%20decision%20process%20(MDP))
+* [Model-based reinforcement learning](https://github.com/cjratcliff/notes/wiki/Model-based%20reinforcement%20learning)
+* [Model-free reinforcement learning](https://github.com/cjratcliff/notes/wiki/Model-free%20reinforcement%20learning)
+* [Monte Carlo rollout](https://github.com/cjratcliff/notes/wiki/Monte%20Carlo%20rollout)
+* [Monte Carlo Tree Search (MCTS)](https://github.com/cjratcliff/notes/wiki/Monte%20Carlo%20Tree%20Search%20(MCTS))
+* [Multiple Armed Bandit Problem](https://github.com/cjratcliff/notes/wiki/Multiple%20Armed%20Bandit%20Problem)
+* [Off-policy learning](https://github.com/cjratcliff/notes/wiki/Off-policy%20learning)
+* [On-policy learning](https://github.com/cjratcliff/notes/wiki/On-policy%20learning)
+* [Partially observable markov decision process (POMDP)](https://github.com/cjratcliff/notes/wiki/Partially%20observable%20markov%20decision%20process%20(POMDP))
+* [Policy](https://github.com/cjratcliff/notes/wiki/Policy)
+* [Policy-based method](https://github.com/cjratcliff/notes/wiki/Policy-based%20method)
+* [Policy gradient method](https://github.com/cjratcliff/notes/wiki/Policy%20gradient%20method)
+* [Prioritized experience replay](https://github.com/cjratcliff/notes/wiki/Prioritized%20experience%20replay)
+* [Q-function](https://github.com/cjratcliff/notes/wiki/Q-function)
+* [Q-learning](https://github.com/cjratcliff/notes/wiki/Q-learning)
+* [REINFORCE](https://github.com/cjratcliff/notes/wiki/REINFORCE)
+* [Regret matching](https://github.com/cjratcliff/notes/wiki/Regret%20matching)
+* [Reward function](https://github.com/cjratcliff/notes/wiki/Reward%20function)
+* [Reward clipping](https://github.com/cjratcliff/notes/wiki/Reward%20clipping)
+* Reward sparsity
+* [Rollout](https://github.com/cjratcliff/notes/wiki/Rollout)
+* [SARSA](https://github.com/cjratcliff/notes/wiki/SARSA)
+* [Starcraft](https://github.com/cjratcliff/notes/wiki/Starcraft)
+* [Temporal difference learning (TD learning)](https://github.com/cjratcliff/notes/wiki/Temporal%20difference%20learning%20(TD%20learning))
+* [Thompson sampling](https://github.com/cjratcliff/notes/wiki/Thompson%20sampling)
+* [Trajectory](https://github.com/cjratcliff/notes/wiki/Trajectory)
+* [Transition function](https://github.com/cjratcliff/notes/wiki/Transition%20function)
+* [Trust region policy optimization](https://github.com/cjratcliff/notes/wiki/Trust%20region%20policy%20optimization)
+* [Value function](https://github.com/cjratcliff/notes/wiki/Value%20function)
+* [Value-based methods](https://github.com/cjratcliff/notes/wiki/Value-based%20methods)
+* [Value iteration](https://github.com/cjratcliff/notes/wiki/Value%20iteration)

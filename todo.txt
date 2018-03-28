@@ -31,6 +31,9 @@ Random forest
 Self-training
 Zero-shot learning
 
+Backpropagation through time (BPTT)
+Beam search
+
 ### Deep learning (general)
 * Activation
 * [Adversarial examples](https://github.com/cjratcliff/notes/wiki/Adversarial%20examples)
@@ -72,10 +75,6 @@ Restricted Boltzmann Machine (RBM)
 * [Part of speech tagging (POS tagging)](https://github.com/cjratcliff/notes/wiki/Part%20of%20speech%20tagging%20(POS%20tagging))
 * [Phoneme](https://github.com/cjratcliff/notes/wiki/Phoneme)
 * [RNN Encoder-Decoder](https://github.com/cjratcliff/notes/wiki/RNN%20Encoder-Decoder)
-
-Backpropagation through time (BPTT)
-Beam search
-Bidirectional RNN
 
 ### Optimization
 * [Automatic differentiation](https://github.com/cjratcliff/notes/wiki/Automatic%20differentiation)

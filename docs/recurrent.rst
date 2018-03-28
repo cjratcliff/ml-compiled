@@ -7,6 +7,18 @@ Combines the outputs of two RNNs, one processing the input sequence from left to
 
 Bidirectional Recurrent Neural Networks, Schuster and Paliwal (1997)
 
+Differentiable Neural Computer (DNC)
+-------------------------------------------
+The memory is an NxW matrix. There are N locations, which can be selectively read and written to.
+Read vectors are weighted sums over the memory locations.
+
+The heads use three forms of differentiable attention which:
+
+* Look up content.
+* Record transitions between consecutively written locations in an NxN temporal link matrix L.
+* Allocate memory for writing.
+
+
 GRU (Gated Recurrent Unit)
 -------------------------------
 Variation of the LSTM that is simpler to compute and implement.
@@ -100,6 +112,24 @@ Peep-hole connections
 Allows precise timing to be learned, such as the frequency of a signal and other periodic patterns.
 Learning Precise Timing with LSTM Recurrent Networks, Ger et al. (2002)
 LSTM RNN Architectures for Large Scale Acoustic Modeling, Sak et al. (2014)
+
+Neural Turing Machine (NTM)
+------------------------------
+Can infer simple algorithms like copying, sorting and associative recall. Has two principal components, a controller (often an LSTM) and a memory matrix. The controller interacts with the memory via a number of read and write heads. Read and write operations are ‘blurry’. A read is a convex combination of ‘locations’ or rows in the memory matrix, according to a weight vector over locations assigned to the read head. Writing uses an erase vector and an add vector. Both content-based and location-based addressing systems are used. The LSTM in the controller provides a secondary memory to the network. The controller takes the inputs and emits the outputs for the NTM as a whole.
+
+Content-based addressing compares a key vector to each location in memory, Mt(i) to produce a normalised weighting, wtc(i). :math:`t>0` is the key strength, used to amplify or attenuate the focus.
+
+Similarity between vectors is measured by the cosine similarity.
+
+Location-based addressing is designed for both iteration across locations and random-access jumps.
+
+Interpolation blends the weighting produced at the previous time step and the content weighting. An ‘interpolation gate’ is emitted by each head. If :math:`g_t=1` the addressing is entirely content-based. If :math:`g_t=0`, the addressing is entirely location-based.
+
+Convolutional shift provides a rotation to the weight vector wtg. All index arithmetic is computed modulo N. The shift weighting stis a vector emitted by each head and defines a distribution over the allowed integer shifts.
+
+Sharpening combats possible dispersion of weightings over time if the shift weighting is not sharp. t1is emitted by the head.
+
+`Neural Turing Machines, Graves et al. (2014) <https://arxiv.org/abs/1410.5401>`_
 
 RNN (Recurrent Neural Network)
 ----------------------------------

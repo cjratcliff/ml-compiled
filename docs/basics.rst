@@ -32,7 +32,7 @@ Analogous to a game. Ends when a terminal state is reached or after a predetermi
 
 Policy
 ----------
-A function, $\pi$ that maps states to actions.
+A function, :math:`\pi` that maps states to actions.
 
 Reward function
 ------------------

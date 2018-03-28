@@ -15,21 +15,21 @@ VC dimension
 
 Bagging
 Boosting
-* [Class imbalance problem](https://github.com/cjratcliff/notes/wiki/Class-imbalance-problem)
-* [Curriculum learning](https://github.com/cjratcliff/notes/wiki/Curriculum%20learning)
-* [Discriminative model](https://github.com/cjratcliff/notes/wiki/Discriminative%20model)
-* [Distributed representation](https://github.com/cjratcliff/notes/wiki/Distributed-representation) 
-* [Ensemble methods](https://github.com/cjratcliff/wiki/Ensemble%20methods)
-* [Energy-based model](https://github.com/cjratcliff/notes/wiki/Energy-based%20model)
-* [Expectation-maximisation (EM)](https://github.com/cjratcliff/notes/wiki/Expectation-maximisation%20(EM))
-* [Inductive bias](https://github.com/cjratcliff/notes/wiki/Inductive%20bias)
-* [Lattice model](https://github.com/cjratcliff/notes/wiki/Lattice%20model)
-* [Multimodal learning](https://github.com/cjratcliff/notes/wiki/Multimodal-learning)
-* [One-shot learning](https://github.com/cjratcliff/notes/wiki/One-shot-learning)
-* [Overcomplete representation](https://github.com/cjratcliff/notes/wiki/Overcomplete%20representation)
-* [Random forest](https://github.com/cjratcliff/notes/wiki/Random%20forest)
-* [Self-training](https://github.com/cjratcliff/notes/wiki/Self-training)
-* [Zero-shot learning](https://github.com/cjratcliff/notes/wiki/Zero-shot-learning)
+Class imbalance problem
+Curriculum learning
+Discriminative model
+Distributed representation
+Ensemble methods
+Energy-based model
+Expectation-maximisation (EM)
+Inductive bias
+Lattice model
+Multimodal learning
+One-shot learning
+Overcomplete representation
+Random forest
+Self-training
+Zero-shot learning
 
 ### Deep learning (general)
 * Activation
@@ -60,7 +60,6 @@ Restricted Boltzmann Machine (RBM)
 * [ILSVRC](https://github.com/cjratcliff/notes/wiki/ILSVRC)
 * [Image retrieval](https://github.com/cjratcliff/notes/wiki/Image%20retrieval)
 * [Instance segmentation](https://github.com/cjratcliff/notes/wiki/Instance%20segmentation)
-* [LeNet 5](https://github.com/cjratcliff/notes/wiki/LeNet%205)
 * [Region of Interest (RoI)](https://github.com/cjratcliff/notes/wiki/Region%20of%20Interest%20(RoI))
 * [Saliency map](https://github.com/cjratcliff/notes/wiki/Saliency%20map)
 * [Semantic segmentation](https://github.com/cjratcliff/notes/wiki/Semantic%20segmentation)

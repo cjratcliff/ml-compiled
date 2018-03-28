@@ -42,13 +42,11 @@ Beam search
 * [Catastrophic forgetting](https://github.com/cjratcliff/notes/wiki/Catastrophic%20forgetting)
 * [Deep Belief Network (DBN)](https://github.com/cjratcliff/notes/wiki/Deep%20Belief%20Network%20(DBN))
 * [Depth](https://github.com/cjratcliff/notes/wiki/Depth)
-* [Differentiable Neural Computer (DNC)](https://github.com/cjratcliff/notes/wiki/Differentiable%20Neural%20Computer%20(DNC))
 * [End-to-end](https://github.com/cjratcliff/notes/wiki/End-to-end)
 * [Epoch](https://github.com/cjratcliff/notes/wiki/Epoch)
 * [Error surface (of a neuron)](https://github.com/cjratcliff/notes/wiki/Error%20surface%20(of%20a%20neuron))
 * [Feedforward](https://github.com/cjratcliff/notes/wiki/Feedforward)
 * [Ladder Network](https://github.com/cjratcliff/notes/wiki/Ladder%20Network)
-* [Neural Turing Machine (NTM)](https://github.com/cjratcliff/notes/wiki/Neural%20Turing%20Machine%20(NTM))
 * Siamese network
 * [Sparsity](https://github.com/cjratcliff/notes/wiki/Sparsity)
 * Triplet network

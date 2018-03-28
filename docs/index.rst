@@ -52,6 +52,7 @@ Contents
 .. toctree::
    :caption: Reinforcement learning
    :maxdepth: 1
+   
    basics
    explore_exploit
    td

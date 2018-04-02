@@ -1,6 +1,88 @@
 ===============
-Optimizers
+Optimization
 ===============
+
+--------------------------
+Automatic differentiation
+--------------------------
+Has two distinct modes - forward and reverse.
+
+Forward mode takes an input to the graph and evaluates the derivative of all subsequent nodes with respect to it.
+
+Reverse mode takes an output (eg the loss) and differentiates it with respect to all inputs. This is usually more useful in neural networks since it can be used to get the derivatives for all the parameters in one pass.
+
+--------------------------
+Backpropagation
+--------------------------
+Naively summing the product of derivatives over all paths to a node is computationally intractable because the number of paths increases exponentially with depth.
+
+Instead, the sum over paths is calculated by merging paths back together at the nodes. Derivatives can be computed either forward or backward with this method.
+
+http://colah.github.io/posts/2015-08-Backprop/
+
+-------------
+Batch size
+-------------
+Pros of large batch sizes:
+
+* Decreases the variance of the updates, making convergence more stable. From this perspective, increasing the batch size has very similar effects to decreasing the learning rate.
+* Matrix computation is more efficient.
+
+Cons of large batch sizes:
+
+* Very large batch sizes may not fit in memory.
+* Smaller number of updates for processing the same amount of data, slowing training.
+* Hypothesized by Keskar et al. (2016) to have worse generalization performance since they result in sharper local minima being reached.
+
+On Large-Batch Training for Deep Learning: Generalization Gap and Sharp Minima, Keskar et al. (2016)
+
+Coupling Adaptive Batch Sizes with Learning Rates (2016)
+
+Big Batch SGD: Automated Inference using Adaptive Batch Sizes (2016)
+
+--------------------------
+Curriculum learning
+--------------------------
+Training the classifier with easy examples initially and gradually transitioning to the harder ones. Useful for architectures which are very hard to train.
+
+-------------
+End-to-end
+-------------
+The entire model is trained in one process, not as separate modules. For example, a pipeline consisting of object recognition and description algorithms that are trained individually would not be trained end-to-end.
+
+-------------
+Epoch
+-------------
+A single pass through the training data.
+
+--------------
+Error surface
+--------------
+The surface obtained by plotting the weights of the network against the loss. For a linear network with a squared error function, the surface is a quadratic bowl.
+
+----------------------------
+Exploding gradient problem
+----------------------------
+The gradient grows exponentially as we move backward through the layers.
+
+Gradient clipping can be an effective antidote.
+
+On the difficulty of training recurrent neural networks, Pascanu et al. (2013)
+
+----------------------------
+Gradient clipping
+----------------------------
+Used to avoid exploding gradients in very deep networks by normalizing the gradients of the parameter vector when the L2 norm exceeds a certain threshold.
+
+On the difficulty of training recurrent neural networks, Pascanu et al. (2013)
+
+----------------------------
+Learning rate
+----------------------------
+
+-------------
+Optimizers
+-------------
 
 """"""""
 AdaBoost
@@ -98,3 +180,12 @@ Similar to Adagrad, but introduces an additional decay term to counteract AdaGra
 http://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf
 
 http://ruder.io/optimizing-gradient-descent/index.html#rmsprop
+
+-------------------
+Saddle points
+-------------------
+
+Gradients around saddle points are close to zero which makes learning slow. The problem can be partially solved by using a noisy estimate of the gradient, which SGD does implicitly.
+
+Identifying and attacking the saddle point problem in high-dimensional non-convex optimization, Dauphin et al. (2014)
+

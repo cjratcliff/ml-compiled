@@ -27,7 +27,7 @@ For each training case, omit each hidden unit with some constant probability. Th
 
 Dropout’s effectiveness could be due to:
 
-* An ensembling effect. ‘Training a neural network with dropout can be seen as training a collection of :math:`2^n` thinned networks with extensive weight sharing’ - Srivastava et al. (2014)
+* An ensembling effect. ‘Training a neural network with dropout can be seen as training a collection of :math:`2^n` thinned networks with extensive weight sharing’ - `Srivastava et al. (2014) <http://jmlr.org/papers/volume15/srivastava14a.old/srivastava14a.pdf>`_
 * Restricting the network’s ability to co-adapt weights. The idea is that if a node is not reliably included, it would be ineffective for nodes in the next layer to rely on it’s output. Weights that depend strongly on each other correspond to a sharp local minimum as a small change in the weights is likely to damage accuracy significantly. Conversely, nodes that take input from a variety of sources will be more resilient and reside in a shallower local minimum.
 
 Can be interpreted as injecting noise inside the network.

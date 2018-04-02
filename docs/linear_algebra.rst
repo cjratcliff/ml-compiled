@@ -120,6 +120,13 @@ The sum of the elements along the main diagonal of a square matrix.
 
 Transpose
 ==============
+
+.. math::
+
+  (A^T)_{ij} = A_{ji}
+
+Satisfies the following properties:
+
 .. math::
 
     (A+B)^T = A^T + B^T

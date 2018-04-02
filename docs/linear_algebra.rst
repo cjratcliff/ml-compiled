@@ -61,6 +61,7 @@ Outer product
 ==============
 
 Positive (semi-)definite
+============================
 A matrix :math:`A \in \mathbb{R}^{n \times n}` is positive definite if:
 
 .. math::

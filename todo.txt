@@ -16,7 +16,6 @@ VC dimension
 Bagging
 Boosting
 Class imbalance problem
-Curriculum learning
 Discriminative model
 Distributed representation
 Ensemble methods
@@ -34,7 +33,6 @@ Zero-shot learning
 Backpropagation through time (BPTT)
 Beam search
 
-### Deep learning (general)
 * Activation
 * [Adversarial examples](https://github.com/cjratcliff/notes/wiki/Adversarial%20examples)
 * [Bayesian neural network](https://github.com/cjratcliff/notes/wiki/Bayesian%20neural%20network)
@@ -42,9 +40,6 @@ Beam search
 * [Catastrophic forgetting](https://github.com/cjratcliff/notes/wiki/Catastrophic%20forgetting)
 * [Deep Belief Network (DBN)](https://github.com/cjratcliff/notes/wiki/Deep%20Belief%20Network%20(DBN))
 * [Depth](https://github.com/cjratcliff/notes/wiki/Depth)
-* [End-to-end](https://github.com/cjratcliff/notes/wiki/End-to-end)
-* [Epoch](https://github.com/cjratcliff/notes/wiki/Epoch)
-* [Error surface (of a neuron)](https://github.com/cjratcliff/notes/wiki/Error%20surface%20(of%20a%20neuron))
 * [Feedforward](https://github.com/cjratcliff/notes/wiki/Feedforward)
 * [Ladder Network](https://github.com/cjratcliff/notes/wiki/Ladder%20Network)
 * Siamese network
@@ -74,17 +69,9 @@ Restricted Boltzmann Machine (RBM)
 * [Phoneme](https://github.com/cjratcliff/notes/wiki/Phoneme)
 * [RNN Encoder-Decoder](https://github.com/cjratcliff/notes/wiki/RNN%20Encoder-Decoder)
 
-### Optimization
-* [Automatic differentiation](https://github.com/cjratcliff/notes/wiki/Automatic%20differentiation)
-* [Backpropagation](https://github.com/cjratcliff/notes/wiki/Backpropagation)
-* [Batch size](https://github.com/cjratcliff/notes/wiki/Batch%20size)
-* [Exploding gradient problem](https://github.com/cjratcliff/notes/wiki/Exploding%20gradient%20problem)
-* [Full gradient descent](https://github.com/cjratcliff/notes/wiki/Full%20gradient%20descent)
-* [Gradient clipping](https://github.com/cjratcliff/notes/wiki/Gradient%20clipping)
-* [Learning rate](https://github.com/cjratcliff/notes/wiki/Learning%20rate)
-* [Mini-batch gradient descent](https://github.com/cjratcliff/notes/wiki/Mini-batch%20gradient%20descent)
-* [Natural gradient](https://github.com/cjratcliff/notes/wiki/Natural-gradient)
-* [Saddle points](https://github.com/cjratcliff/notes/wiki/Saddle%20points)
+Full gradient descent
+Mini-batch gradient descent
+Natural gradient
 
 ### Reinforcement learning
 * [Advantage function](https://github.com/cjratcliff/notes/wiki/Advantage%20function)

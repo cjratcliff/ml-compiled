@@ -30,7 +30,6 @@ Random forest
 Self-training
 Zero-shot learning
 
-Backpropagation through time (BPTT)
 Beam search
 
 Activation

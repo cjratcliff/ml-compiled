@@ -42,6 +42,14 @@ Reward function
 ------------------
 Maps state-action pairs to rewards.
 
+Trajectory
+--------------
+The sequence of states and actions experienced by the agent.
+
+Transition function
+---------------------
+Maps a state and an action to a new state.
+
 Value function
 ----------------
 The value of a state is equal to the expectation of the reward function given the state and the policy. 
@@ -49,3 +57,4 @@ The value of a state is equal to the expectation of the reward function given th
 .. math::
 
     V(s) = E[R|s,\pi]
+

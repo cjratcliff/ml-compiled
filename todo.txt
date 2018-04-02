@@ -33,11 +33,11 @@ Zero-shot learning
 Backpropagation through time (BPTT)
 Beam search
 
-* Activation
-* [Adversarial examples](https://github.com/cjratcliff/notes/wiki/Adversarial%20examples)
-* [Bayesian neural network](https://github.com/cjratcliff/notes/wiki/Bayesian%20neural%20network)
-* [Bias (of a neuron)](https://github.com/cjratcliff/notes/wiki/Bias%20(of%20a%20neuron))
-* [Catastrophic forgetting](https://github.com/cjratcliff/notes/wiki/Catastrophic%20forgetting)
+Activation
+Adversarial examples
+Bayesian neural network]
+Bias (of a neuron)
+Catastrophic forgetting
 * [Deep Belief Network (DBN)](https://github.com/cjratcliff/notes/wiki/Deep%20Belief%20Network%20(DBN))
 * [Depth](https://github.com/cjratcliff/notes/wiki/Depth)
 * [Feedforward](https://github.com/cjratcliff/notes/wiki/Feedforward)
@@ -103,8 +103,6 @@ Natural gradient
 * [Rollout](https://github.com/cjratcliff/notes/wiki/Rollout)
 * [SARSA](https://github.com/cjratcliff/notes/wiki/SARSA)
 * [Starcraft](https://github.com/cjratcliff/notes/wiki/Starcraft)
-* [Trajectory](https://github.com/cjratcliff/notes/wiki/Trajectory)
-* [Transition function](https://github.com/cjratcliff/notes/wiki/Transition%20function)
 * [Trust region policy optimization](https://github.com/cjratcliff/notes/wiki/Trust%20region%20policy%20optimization)
 * [Value-based methods](https://github.com/cjratcliff/notes/wiki/Value-based%20methods)
 * [Value iteration](https://github.com/cjratcliff/notes/wiki/Value%20iteration)

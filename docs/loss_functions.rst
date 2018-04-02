@@ -32,7 +32,9 @@ Loss function for classification.
 
 .. math::
 
-  L(y,\hat{y}) = \sum_i \max\{0, (y_i - \hat{y}_i)^2\}
+  L(y,\hat{y}) = \sum_i \max\{0, m - f(y_i)\hat{y}_i\}
+  
+Where :math:`f(y)` remaps y so that negatives are labelled as :math:`-1` rather than :math:`0`.
 
 """"""""""""""""
 Huber loss

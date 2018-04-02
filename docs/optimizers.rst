@@ -34,11 +34,11 @@ Cons of large batch sizes:
 * Smaller number of updates for processing the same amount of data, slowing training.
 * Hypothesized by Keskar et al. (2016) to have worse generalization performance since they result in sharper local minima being reached.
 
-On Large-Batch Training for Deep Learning: Generalization Gap and Sharp Minima, Keskar et al. (2016)
+`On Large-Batch Training for Deep Learning: Generalization Gap and Sharp Minima, Keskar et al. (2016) <https://arxiv.org/abs/1609.04836>`_
 
-Coupling Adaptive Batch Sizes with Learning Rates (2016)
+`Coupling Adaptive Batch Sizes with Learning Rates (2016) <https://arxiv.org/abs/1612.05086>`_
 
-Big Batch SGD: Automated Inference using Adaptive Batch Sizes (2016)
+`Big Batch SGD: Automated Inference using Adaptive Batch Sizes (2016) <https://arxiv.org/abs/1610.05792>`_
 
 --------------------------
 Curriculum learning
@@ -67,14 +67,14 @@ The gradient grows exponentially as we move backward through the layers.
 
 Gradient clipping can be an effective antidote.
 
-On the difficulty of training recurrent neural networks, Pascanu et al. (2013)
+`On the difficulty of training recurrent neural networks, Pascanu et al. (2012) <https://arxiv.org/pdf/1211.5063.pdf>`_
 
 ----------------------------
 Gradient clipping
 ----------------------------
 Used to avoid exploding gradients in very deep networks by normalizing the gradients of the parameter vector when the L2 norm exceeds a certain threshold.
 
-On the difficulty of training recurrent neural networks, Pascanu et al. (2013)
+`On the difficulty of training recurrent neural networks, Pascanu et al. (2012) <https://arxiv.org/pdf/1211.5063.pdf>`_
 
 ----------------------------
 Learning rate
@@ -187,5 +187,5 @@ Saddle points
 
 Gradients around saddle points are close to zero which makes learning slow. The problem can be partially solved by using a noisy estimate of the gradient, which SGD does implicitly.
 
-Identifying and attacking the saddle point problem in high-dimensional non-convex optimization, Dauphin et al. (2014)
+`Identifying and attacking the saddle point problem in high-dimensional non-convex optimization, Dauphin et al. (2014) <https://arxiv.org/abs/1406.2572>`_
 

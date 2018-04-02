@@ -1,6 +1,7 @@
 ===============
 Loss functions
 ===============
+For classification problems, :math:`y` is equal to 1 if the example is a positive and 0 if it is a negative.
 
 """"""""""""""""
 Contrastive loss
@@ -29,6 +30,9 @@ Hinge loss
 """"""""""""""""
 Loss function for classification.
 
+.. math::
+
+  L(y,\hat{y}) = \sum_i \max\{0, (y_i - \hat{y}_i)^2\}
 
 """"""""""""""""
 Huber loss

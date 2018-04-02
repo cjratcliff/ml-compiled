@@ -70,6 +70,8 @@ A matrix :math:`A \in \mathbb{R}^{n \times n}` is positive definite if:
 
 Positive semi-definite matrices are defined analogously, except with :math:`z^TAz \geq 0`
 
+Negative (semi-)definite matrices are the same but with the inequality round the other way.
+
 Rank
 =======
 

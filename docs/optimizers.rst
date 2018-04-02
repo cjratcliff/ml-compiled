@@ -20,6 +20,11 @@ Instead, the sum over paths is calculated by merging paths back together at the 
 
 http://colah.github.io/posts/2015-08-Backprop/
 
+Backpropagation through time (BPTT)
+Used to train RNNs. The RNN is unfolded through time.
+
+When dealing with long sequences (hundreds of inputs), a truncated version of BPTT is often used to reduce the computational cost. This stops backpropagating the errors after a fixed number of steps, limiting the length of the dependencies that can be learned.
+
 -------------
 Batch size
 -------------

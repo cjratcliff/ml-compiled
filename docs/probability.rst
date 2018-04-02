@@ -123,8 +123,14 @@ Maximum likelihood estimation (MLE)
 -------------------------------------
 Finds the set of parameters that are most likely, given the data. Since priors over parameters are not taken into account unless MAP estimation is taking place, this is equivalent to finding the parameters that maximize the probability of the data given the parameters.
 
+.. math::
+
+    \hat{\theta}_{MLE}(O) = \arg \max_\theta p(O|\theta)
+
 Prior
 ------
+A probability distribution before any evidence is taken into account. For example the probability that it will rain where there are no observations such as cloud cover.
 
 Posterior
 ----------
+A conditional probability distribution that takes evidence into account. For example, the probability that it will rain, given that it is cloudy.

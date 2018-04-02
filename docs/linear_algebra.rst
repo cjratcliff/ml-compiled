@@ -119,6 +119,10 @@ Trace
 =======
 The sum of the elements along the main diagonal of a square matrix.
 
+.. math::
+
+  \sum_{i=1}^n A_{ii}
+
 Transpose
 ==============
 

@@ -34,6 +34,10 @@ Policy
 ----------
 A function, :math:`\pi` that maps states to actions.
 
+Regret
+-------
+The difference in the cumulative reward between performing optimally and executing the given policy.
+
 Reward function
 ------------------
 Maps state-action pairs to rewards.

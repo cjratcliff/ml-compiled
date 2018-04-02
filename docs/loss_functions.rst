@@ -1,7 +1,7 @@
 ===============
 Loss functions
 ===============
-For classification problems, :math:`y` is equal to 1 if the example is a positive and 0 if it is a negative.
+For classification problems, :math:`y` is equal to 1 if the example is a positive and 0 if it is a negative. :math:`\hat{y}` can take on any value (although predicting outside of the (0,1) interval is unlikely to be useful).
 
 """"""""""""""""
 Contrastive loss

@@ -1,6 +1,26 @@
 Statistics
 """""""""""""
 
+Bernoulli distribution
+------------------------
+Distribution for a random variable which is 1 with probability :math:`p` and zero with probability :math:`1-p`.
+
+Special case of the Binomial distribution, which generalizes the Bernoulli to multiple trials.
+
+.. math::
+  f(x) = 
+  \begin{cases}
+    1, & p\\
+    0, & 1-p
+  \end{cases}
+
+Binomial distribution
+-----------------------
+
+Categorical distribution
+--------------------------
+Distribution for a random variable which takes on the value 
+
 Covariance matrix
 ----------------------
 There are three types of covariance matrix:

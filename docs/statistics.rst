@@ -8,7 +8,7 @@ Distribution for a random variable which is 1 with probability :math:`p` and zer
 Special case of the Binomial distribution, which generalizes the Bernoulli to multiple trials.
 
 .. math::
-  f(x) = 
+  f(x;p) = 
   \begin{cases}
     1, & p\\
     0, & 1-p

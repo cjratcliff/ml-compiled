@@ -1,3 +1,18 @@
+''''''''''''
+Embeddings
+''''''''''''
+
+""""""""""""""""""""""""""""""""""""
+Distributed representation
+""""""""""""""""""""""""""""""""""""
+A representation in which each number in a vector is used to store information about some attribute of an object. For example, brightness or size.
+
+Contrast this with one-hot representations. A one-hot vector of length n can store n states, whereas a distributed representation of the same length can store an exponential number of states.
+
+""""""""""""""""""""""""
+One-hot representation
+""""""""""""""""""""""""
+
 """""""""""""
 Word vectors
 """""""""""""

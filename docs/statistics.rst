@@ -11,8 +11,8 @@ Special case of the Binomial distribution, which generalizes the Bernoulli to mu
 
   P(x = k;p) = 
   \begin{cases}
-    p, & \text{if} k = 1\\
-    1-p, & \text{if} k = 0
+    p, & \text{if } k = 1\\
+    1-p, & \text{if } k = 0
   \end{cases}
 
 Binomial distribution

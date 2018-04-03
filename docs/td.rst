@@ -104,6 +104,7 @@ This means the target depends on the network weights, unlike in supervised learn
 A replay memory and periodically freezing the target Q network prevents oscillations or divergence in the learning process. The use of a replay memory means it is necessary to learn off-policy, hence the choice of Q-learning. Clipping is used to ensure the gradients are well-conditioned.
 
 `Playing Atari with Deep Reinforcement Learning, Mnih et al. (2013) <https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf>`_
+
 `Human-level control through deep reinforcement learning, Mnih et al. (2015) <https://www.nature.com/articles/nature14236>`_
 
 

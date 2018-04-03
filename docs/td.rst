@@ -43,7 +43,7 @@ Where
 
 .. math::
 
-    R_t=\sum{k=0}^{\inf}\gamma^k r_{t+k}
+    R_t=\sum_{k=0}^{\inf}\gamma^k r_{t+k}
 
 :math:`R_t-V(st;v)` is the temporal difference term. 
 

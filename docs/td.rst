@@ -51,7 +51,7 @@ It’s multiplied by the probability assigned by the policy for the action at ti
 
 It is optimized by RMSProp with the moving average of gradients shared between threads.
 
-Asynchronous Methods for Deep Reinforcement Learning, Mnih et al. (2016)
+`Asynchronous Methods for Deep Reinforcement Learning, Mnih et al. (2016) <https://arxiv.org/abs/1602.01783>`_
 
 Q-learning
 ----------------
@@ -103,7 +103,7 @@ This means the target depends on the network weights, unlike in supervised learn
 
 A replay memory and periodically freezing the target Q network prevents oscillations or divergence in the learning process. The use of a replay memory means it is necessary to learn off-policy, hence the choice of Q-learning. Clipping is used to ensure the gradients are well-conditioned.
 
-Playing Atari with Deep Reinforcement Learning, Mnih et al. (2013)
-Human-level control through deep reinforcement learning, Mnih et al. (2015)
+`Playing Atari with Deep Reinforcement Learning, Mnih et al. (2013) <https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf>`_
+`Human-level control through deep reinforcement learning, Mnih et al. (2015) <https://www.nature.com/articles/nature14236>`_
 
 

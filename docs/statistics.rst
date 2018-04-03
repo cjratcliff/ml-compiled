@@ -8,18 +8,28 @@ Distribution for a random variable which is 1 with probability :math:`p` and zer
 Special case of the Binomial distribution, which generalizes the Bernoulli to multiple trials.
 
 .. math::
-  f(x;p) = 
+
+  P(x = k;p) = 
   \begin{cases}
-    1, & p\\
-    0, & 1-p
+    p, & \text{if} k = 1\\
+    1-p, & \text{if} k = 0
   \end{cases}
 
 Binomial distribution
 -----------------------
+Distribution for the number of successes in n trials, each with probability p of success and 1-p of failure.
+
+.. math::
+  
+  P(x = k;n,p) = {n\choose k} p^k (1-p)^{n-k}
 
 Categorical distribution
 --------------------------
-Distribution for a random variable which takes on the value 
+Generalizes the Bernoulli distribution to more than two categories.
+
+.. math::
+
+  P(x = k;p) = p_k
 
 Covariance matrix
 ----------------------

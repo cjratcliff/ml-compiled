@@ -4,7 +4,7 @@ Layers
 
 Affine layer
 --------------
-A fully-connected layer.
+Synomym for fully-connected layer.
 
 Attention
 ------------
@@ -73,6 +73,20 @@ A filter or kernel is separable if it (a matrix) can be expressed as the product
 .. math::
 
   K = xx^T, x \in \mathbb{R}^{n \times 1}
+
+Dense layer
+--------------
+Synomym for fully-connected layer.
+
+Fully-connected layer
+-----------------------
+Applies the following function:
+
+.. math::
+
+  h' = f(hW + b)
+  
+:math:`f` is the activation function. :math:`h` is the output of the previous hidden layer. :math:`W` is the weight matrix and :math:`b` is known as the bias vector.
 
 Inception layer
 --------------------

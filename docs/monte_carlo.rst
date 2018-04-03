@@ -5,15 +5,15 @@ Monte Carlo methods
 Gibbs sampling
 --------------------
 
-A simple MCMC algorithm. Useful when the joint distribution cannot be calculated directly but the conditional can be.
+A simple MCMC algorithm, used for sampling from the joint distribution when it cannot be calculated directly but the conditional can be.
 
 An example use case is in generative image models. The joint distribution over all the pixels is intractable but the conditional distribution for one pixel given the rest is not.
 
-.. code-block:: 
+.. code-block:: none
 
-      Randomly initialise $x_0 \in \mathbb{R}^d$
+      Randomly initialise x.
       For  i = 1,...,d
-        Sample the ith dimension given the values in all the other dimensions.
+        Sample the ith dimension of x given the values in all the other dimensions.
 
 Importance sampling
 ------------------------

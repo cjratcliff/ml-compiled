@@ -40,7 +40,6 @@ Feedforward
 Ladder Network
 Siamese network
 Sparsity
-Triplet network
 Unsupervised pretraining
 Visual question answering
 

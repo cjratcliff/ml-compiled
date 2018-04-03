@@ -13,6 +13,15 @@ Contrast this with one-hot representations. A one-hot vector of length n can sto
 One-hot representation
 """"""""""""""""""""""""
 
+""""""""""""""""""""""""
+Triplet network
+""""""""""""""""""""""""
+Architecture for learning embeddings for calculating similarities. Useful for tasks like face verification.
+
+During each batch in training, an 'anchor' example is supplied along with a positive that is similar to it and a negative that is not.
+
+Uses the `triplet loss <http://ml-compiled.readthedocs.io/en/latest/loss_functions.html#triplet-loss>`_.
+
 """""""""""""
 Word vectors
 """""""""""""

@@ -1,7 +1,6 @@
 Matrix differentiation
 
 Beta distribution
-Chi-squared distribution
 Dirichlet distribution
 Mean field approach
 Partition function 
@@ -17,7 +16,6 @@ Bagging
 Boosting
 Class imbalance problem
 Discriminative model
-Distributed representation
 Ensemble methods
 Energy-based model
 Expectation-maximisation (EM)

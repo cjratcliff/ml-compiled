@@ -3,15 +3,15 @@ Notation
 
 Functions
 ----------
-=================  =============================
-  Symbol             Meaning   
-=================  =============================
-:math:`\Sigma`       Sum
-:math:`\Pi`          Product
-:math:`\sigma`       Sigmoid function
-:math:`E`            Expectation
-:math:`|x|`          Absolute value of x
-=================  =============================
+===================  =============================
+  Symbol               Meaning   
+===================  =============================
+:math:`\Sigma`         Sum
+:math:`\Pi`            Product
+:math:`\sigma`         Sigmoid function
+:math:`\mathbb{E}`     Expectation
+:math:`|x|`            Absolute value of x
+===================  =============================
 
 Sets
 ------

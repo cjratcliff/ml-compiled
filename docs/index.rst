@@ -39,6 +39,7 @@ Contents
    activations
    convolutional
    datasets
+   embeddings
    generative_models
    initialization
    layers
@@ -48,7 +49,6 @@ Contents
    preprocessing
    recurrent
    regularization
-   word_vectors
    
 .. toctree::
    :caption: Reinforcement learning

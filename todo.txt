@@ -32,8 +32,7 @@ Beam search
 
 Activation
 Adversarial examples
-Bayesian neural network]
-Bias (of a neuron)
+Bayesian neural network
 Catastrophic forgetting
 Deep Belief Network (DBN)
 Depth

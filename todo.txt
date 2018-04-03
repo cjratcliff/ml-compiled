@@ -37,28 +37,27 @@ Adversarial examples
 Bayesian neural network]
 Bias (of a neuron)
 Catastrophic forgetting
-* [Deep Belief Network (DBN)](https://github.com/cjratcliff/notes/wiki/Deep%20Belief%20Network%20(DBN))
-* [Depth](https://github.com/cjratcliff/notes/wiki/Depth)
-* [Feedforward](https://github.com/cjratcliff/notes/wiki/Feedforward)
-* [Ladder Network](https://github.com/cjratcliff/notes/wiki/Ladder%20Network)
-* Siamese network
-* [Sparsity](https://github.com/cjratcliff/notes/wiki/Sparsity)
-* Triplet network
-* [Unsupervised pretraining](https://github.com/cjratcliff/notes/wiki/Unsupervised%20pretraining)
-* [Visual question answering](https://github.com/cjratcliff/notes/wiki/Visual%20question%20answering)
+Deep Belief Network (DBN)
+Depth
+Feedforward
+Ladder Network
+Siamese network
+Sparsity
+Triplet network
+Unsupervised pretraining
+Visual question answering
 
 Deep Boltzmann Machine
 Restricted Boltzmann Machine (RBM)
 
-### Computer vision
-* [Convolutional Neural Network (CNN)](https://github.com/cjratcliff/notes/wiki/Convolutional%20Neural%20Network%20(CNN))
-* [ILSVRC](https://github.com/cjratcliff/notes/wiki/ILSVRC)
-* [Image retrieval](https://github.com/cjratcliff/notes/wiki/Image%20retrieval)
-* [Instance segmentation](https://github.com/cjratcliff/notes/wiki/Instance%20segmentation)
-* [Region of Interest (RoI)](https://github.com/cjratcliff/notes/wiki/Region%20of%20Interest%20(RoI))
-* [Saliency map](https://github.com/cjratcliff/notes/wiki/Saliency%20map)
-* [Semantic segmentation](https://github.com/cjratcliff/notes/wiki/Semantic%20segmentation)
-* [Weakly supervised segmentation](https://github.com/cjratcliff/notes/wiki/Weakly%20supervised%20segmentation)
+Convolutional Neural Network (CNN)
+ILSVRC
+Image retrieval
+Instance segmentation
+Region of Interest (RoI)
+Saliency map
+Semantic segmentation
+Weakly supervised segmentation
 
 ### NLP
 * [Latent Dirichlet Allocation (LDA)](https://github.com/cjratcliff/notes/wiki/Latent%20Dirichlet%20Allocation%20(LDA))
@@ -79,7 +78,6 @@ Natural gradient
 * [Bellman equation](https://github.com/cjratcliff/notes/wiki/Bellman%20equation)
 * [Breadth](https://github.com/cjratcliff/notes/wiki/Breadth)
 * [Counterfactual regret minimization](https://github.com/cjratcliff/notes/wiki/Counterfactual%20regret%20minimization)
-* [Credit assignment problem](https://github.com/cjratcliff/notes/wiki/Credit%20assignment%20problem)
 * [Direct policy search](https://github.com/cjratcliff/notes/wiki/Direct%20policy%20search)
 * [Experience replay](https://github.com/cjratcliff/notes/wiki/Experience%20replay)
 * [Greedy policy](https://github.com/cjratcliff/notes/wiki/Greedy%20policy)

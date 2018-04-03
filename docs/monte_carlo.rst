@@ -9,6 +9,8 @@ A simple MCMC algorithm, used for sampling from the joint distribution when it c
 
 An example use case is in generative image models. The joint distribution over all the pixels is intractable but the conditional distribution for one pixel given the rest is not.
 
+Pseudocode:
+
 .. code-block:: none
 
       Randomly initialise x.
@@ -37,15 +39,15 @@ Metropolis-Hastings algorithm
 ---------------------------------
 A simple MCMC algorithm.
 
-::
-    \begin{algorithmic}[1]
-    \State Randomly initialise $x_0 \in \mathbb{R}^d$
-    \For {$t = 1,...,T_{max}$}
-        \State Generate a candidate for the next sample $x'_t N(x_{t-1},\sigma^2) $
-        \State Calculate the acceptance ratio, the probability that the new candidate will be retained. This is equal to the density at the current point, divided by the density at the candidate point.
-        \State Either accept or reject the candidate, based on a random sample from the distribution (a,1-a).
-    \EndFor
-    \end{algorithmic}
+Pseudocode:
+
+.. code-block:: none
+
+    Randomly initialise x
+    For t = 1,...,T_max
+        Generate a candidate for the next sample from a normal distribution centered on the current point.
+        Calculate the acceptance ratio, the probability that the new candidate will be retained. This is equal to the density at the current point, divided by the density at the candidate point.
+        Either accept or reject the candidate, based on a random sample from the distribution (a, 1-a).
 
 The proposal distribution is the distribution over the possible points to sample next.
 

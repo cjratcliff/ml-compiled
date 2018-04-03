@@ -26,7 +26,7 @@ Maintains a policy (the actor) and an estimate of the value function (the critic
 
 Both global and local versions of the parameters are maintained for the policy and value nets.
 
-The advantage function for doing action atin state st is the sum of discounted rewards plus the difference in the value functions between the states:
+The advantage function for doing action :math:`a_t` in state :math:`s_t` is the sum of discounted rewards plus the difference in the value functions between the states:
 
 .. math::
 
@@ -47,7 +47,7 @@ Where
 
 :math:`R_t-V(st;v)` is the temporal difference term. 
 
-It’s multiplied by the probability assigned by the policy for the action at time t. This means policies which are more certain will be penalized more heavily for incorrectly estimating the value function. The final term is the entropy of the policy.
+It’s multiplied by the probability assigned by the policy for the action at time :math:`t`. This means policies which are more certain will be penalized more heavily for incorrectly estimating the value function. The final term is the entropy of the policy's distribution over actions.
 
 It is optimized by RMSProp with the moving average of gradients shared between threads.
 

@@ -49,6 +49,7 @@ Contents
    preprocessing
    recurrent
    regularization
+   seq_to_seq
    
 .. toctree::
    :caption: Reinforcement learning

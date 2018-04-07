@@ -5,6 +5,17 @@ Bidirectional RNN
 ---------------------
 Combines the outputs of two RNNs, one processing the input sequence from left to right (forwards in time) and the other from right to left (backwards in time). The two RNNs are stacked on top of each other and their states are typically combined by appending the two vectors. Bidirectional RNNs are often used in Natural Language problems, where we want to take the context from both before and after a word into account before making a prediction.
 
+The basic bidirectional RNN can be defined as follows:
+
+.. math::
+
+  h^f_t = \tanh(W^f_h x_t + U^f_h h^f_{t-1})
+  h^b_t = \tanh(W^b_h x_{T-t} + U^b_h h^b_{t-1})
+  h_t = \text{concat}(h^f_t,h^b_t)
+  o_t = V h_t
+  
+Where :math:`h^f_t` is the hidden state in the forwards direction and :math:`h^b_t` in the backwards direction. :math:`T` is the length of the sequence.
+
 `Bidirectional Recurrent Neural Networks, Schuster and Paliwal (1997) <https://ai.intel.com/wp-content/uploads/sites/53/2017/06/BRNN.pdf>`_
 
 Differentiable Neural Computer (DNC)

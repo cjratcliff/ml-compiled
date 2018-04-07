@@ -37,6 +37,7 @@ Contents
    :maxdepth: 1
    
    activations
+   computer_vision
    convolutional
    datasets
    embeddings
@@ -45,6 +46,7 @@ Contents
    layers
    loss_functions
    metrics
+   natural_language_processing
    optimizers
    preprocessing
    recurrent

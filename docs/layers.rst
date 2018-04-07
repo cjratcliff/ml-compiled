@@ -42,11 +42,15 @@ Batch normalization
 -------------------------
 Normalizes the input vector to a layer to have zero mean and unit variance. Training deep neural networks is complicated by the fact that the distribution of each layer’s inputs changes during training, as the parameters of the previous layers change. This slows down the training by requiring lower learning rates and careful parameter initialization. This phenomenon is referred to as internal covariate shift.
 
+The batch-normalized version of a layer, :math:`x`, is:
+
 .. math::
 
   BN(x) = \gamma \frac{x - \mu_x}{\sqrt{\sigma_x^2 + \epsilon}} + \beta
   
-Where :math:`\gamma` and :math:`\beta` are learned and :math:`\epsilon` is a hyperparameter.
+Where :math:`\gamma` and :math:`\beta` are learned and :math:`\epsilon` is a hyperparameter. 
+
+:math:`\mu_x` and :math:`\sigma_x^2` are moving averages of the mean and variance of :math:`x`. They do not need to be learned.
 
 `Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift (2015) <https://arxiv.org/abs/1502.03167>`_
 

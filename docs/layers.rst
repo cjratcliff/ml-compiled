@@ -14,8 +14,9 @@ In translation, rather than creating a fixed-length vector from the outputs of e
 
 In translation, each output word depends on a weighted combination of all input words. Computing these weights can take time proportional to the product of the length of the input and output sequences. In content-based attention the weights are computed as the dot product between the items in the sequence and the ‘query’ outputted by the attending RNN.
 
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 Usage for decoding in translation
-''''''''''''''''''''''''''''''''''''
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 First the decoder (an RNN) is initialized.
 

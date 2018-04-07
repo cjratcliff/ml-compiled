@@ -8,6 +8,7 @@ Examples include:
 * Translation
 * Text-to-speech
 * Speech-to-text
+* Part of speech tagging (POS tagging)
 
 Beam search
 -------------

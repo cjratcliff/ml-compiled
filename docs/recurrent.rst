@@ -133,6 +133,10 @@ Sharpening combats possible dispersion of weightings over time if the shift weig
 
 RNN (Recurrent Neural Network)
 ----------------------------------
+A type of network which processes a sequence and outputs another of the same length. It maintains a hidden state which is updated as new inputs are read in.
+
+.. image:: ../img/rnn.PNG
+
 The most basic type of RNN has the functional form:
 
 .. math::

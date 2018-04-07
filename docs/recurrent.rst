@@ -62,7 +62,7 @@ Where * represents element-wise multiplication. Biases have been omitted for sim
 """""""
 Papers
 """""""
-`Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation, Cho et al. (2014)<https://www.aclweb.org/anthology/D14-1179>`_
+`Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation, Cho et al. (2014) <https://www.aclweb.org/anthology/D14-1179>`_
 
 `Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling, Chung et al. (2014) <https://arxiv.org/abs/1412.3555>`_
 

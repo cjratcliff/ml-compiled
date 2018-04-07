@@ -31,21 +31,7 @@ Sparsity
 Unsupervised pretraining
 Visual question answering
 
-Convolutional Neural Network (CNN)
 ILSVRC
-Image retrieval
-Instance segmentation
-Region of Interest (RoI)
-Saliency map
-Semantic segmentation
-Weakly supervised segmentation
-
-### NLP
-* [Latent Dirichlet Allocation (LDA)](https://github.com/cjratcliff/notes/wiki/Latent%20Dirichlet%20Allocation%20(LDA))
-* [Morpheme](https://github.com/cjratcliff/notes/wiki/Morpheme)
-* [Named Entity Recognition](https://github.com/cjratcliff/notes/wiki/Named%20Entity%20Recognition)
-* [Part of speech tagging (POS tagging)](https://github.com/cjratcliff/notes/wiki/Part%20of%20speech%20tagging%20(POS%20tagging))
-* [Phoneme](https://github.com/cjratcliff/notes/wiki/Phoneme)
 
 Full gradient descent
 Mini-batch gradient descent
@@ -97,8 +83,3 @@ VC dimension
 Deep Boltzmann Machine
 Restricted Boltzmann Machine (RBM)
 Deep Belief Network (DBN)
-
-Probability of improvement
-Expected improvement
-
-Beam search

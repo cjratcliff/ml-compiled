@@ -89,15 +89,17 @@ Natural gradient
 
 -----------------------
 Matrix differentiation
-
 Beta distribution
 Dirichlet distribution
 Mean field approach
 Partition function 
-
+Gaussian process
 Rademacher complexity
 VC dimension
 
 Deep Boltzmann Machine
 Restricted Boltzmann Machine (RBM)
 Deep Belief Network (DBN)
+
+Probability of improvement
+Expected improvement

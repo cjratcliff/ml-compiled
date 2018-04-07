@@ -150,8 +150,8 @@ RNN (Recurrent Neural Network)
 ----------------------------------
 A type of network which processes a sequence and outputs another of the same length. It maintains a hidden state which is updated as new inputs are read in.
 
-.. image:: ../img/rnn.PNG
-    :align: center
+.. .. image:: ../img/rnn.PNG
+..    :align: center
 
 The most basic type of RNN has the functional form:
 

@@ -27,6 +27,8 @@ Pseudocode:
               
       remove all entries not in the top k from candidates
 
+https://machinelearningmastery.com/beam-search-decoder-natural-language-processing/
+
 RNN Encoder-Decoder
 -------------------------
 Common architecture for translation.

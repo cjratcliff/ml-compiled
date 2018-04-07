@@ -1,16 +1,7 @@
-Matrix differentiation
-
-Beta distribution
-Dirichlet distribution
-Mean field approach
-Partition function 
 Variational Bayes
 Weibull distribution
 
 Parametric and non-parametric models
-
-Rademacher complexity
-VC dimension
 
 Bagging
 Boosting
@@ -34,7 +25,6 @@ Activation
 Adversarial examples
 Bayesian neural network
 Catastrophic forgetting
-Deep Belief Network (DBN)
 Depth
 Feedforward
 Ladder Network
@@ -42,9 +32,6 @@ Siamese network
 Sparsity
 Unsupervised pretraining
 Visual question answering
-
-Deep Boltzmann Machine
-Restricted Boltzmann Machine (RBM)
 
 Convolutional Neural Network (CNN)
 ILSVRC
@@ -99,3 +86,18 @@ Natural gradient
 * [Trust region policy optimization](https://github.com/cjratcliff/notes/wiki/Trust%20region%20policy%20optimization)
 * [Value-based methods](https://github.com/cjratcliff/notes/wiki/Value-based%20methods)
 * [Value iteration](https://github.com/cjratcliff/notes/wiki/Value%20iteration)
+
+-----------------------
+Matrix differentiation
+
+Beta distribution
+Dirichlet distribution
+Mean field approach
+Partition function 
+
+Rademacher complexity
+VC dimension
+
+Deep Boltzmann Machine
+Restricted Boltzmann Machine (RBM)
+Deep Belief Network (DBN)

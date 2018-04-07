@@ -64,7 +64,7 @@ Let :math:`x` be a matrix representing the image and :math:`k` be another repres
 
 .. math::
 
-  c(x,k)_{ij} = \sum_{r=-M}^{M} \sum_{s=-M}^{M} x_{i+r,j+s} k_{rs}
+  c(x,k)_{ij} = \sum_{r=-M}^{M} \sum_{s=-M}^{M} x_{i+r,j+s} k_{r+M,s+M}
   
 Where :math:`M = (N - 1)/2`.
 

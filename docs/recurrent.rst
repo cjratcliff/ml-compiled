@@ -10,8 +10,11 @@ The basic bidirectional RNN can be defined as follows:
 .. math::
 
   h^f_t = \tanh(W^f_h x_t + U^f_h h^f_{t-1})
+  
   h^b_t = \tanh(W^b_h x_{T-t} + U^b_h h^b_{t-1})
+  
   h_t = \text{concat}(h^f_t,h^b_t)
+  
   o_t = V h_t
   
 Where :math:`h^f_t` is the hidden state in the forwards direction and :math:`h^b_t` in the backwards direction. :math:`T` is the length of the sequence.

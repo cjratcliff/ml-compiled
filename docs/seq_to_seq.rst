@@ -12,7 +12,18 @@ Examples include:
 
 Beam search
 -------------
+The beam width, k, is a hyperparameter. The k best solutions so far are kept in memory.
 
+Pseudocode:
+
+.. code-block:: none
+
+  initialise candidates to be an empty dictionary
+  for i = 1,...,seq_length:
+    for each candidate in candidates:
+      for each class in classes:
+        compute the score
+  remove all entries not in the top k from candidates
 
 RNN Encoder-Decoder
 -------------------------

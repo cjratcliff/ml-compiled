@@ -5,7 +5,7 @@ Bidirectional RNN
 ---------------------
 Combines the outputs of two RNNs, one processing the input sequence from left to right (forwards in time) and the other from right to left (backwards in time). The two RNNs are stacked on top of each other and their states are typically combined by appending the two vectors. Bidirectional RNNs are often used in Natural Language problems, where we want to take the context from both before and after a word into account before making a prediction.
 
-Bidirectional Recurrent Neural Networks, Schuster and Paliwal (1997)
+`Bidirectional Recurrent Neural Networks, Schuster and Paliwal (1997) <https://ai.intel.com/wp-content/uploads/sites/53/2017/06/BRNN.pdf>`_
 
 Differentiable Neural Computer (DNC)
 -------------------------------------------

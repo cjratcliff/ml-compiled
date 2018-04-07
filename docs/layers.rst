@@ -60,6 +60,14 @@ Transforms an image according to the convolution operation shown below, where th
 
 TODO
 
+Let :math:`x` be a matrix representing the image and :math:`k` be another representing the kernel, which is of size NxN. :math:`c(x,k)` is the matrix that results from convolving them together. Then, formally, convolution applies the following formula:
+
+.. math::
+
+  c(x,k)_{ij} = \sum_{r=-M}^{M} \sum_{s=-M}^{M} x_{i+r,j+s} k_{rs}
+  
+Where :math:`M = (N - 1)/2`.
+
 Applying the kernel to pixels near or at the edges of the image will result in needing pixel values that do not exist. There are two ways of resolving this:
 
 * Only apply the kernel to pixels where the operation is valid. For a kernel of size k this will reduce the image by (k-1)/2 pixels on each side.

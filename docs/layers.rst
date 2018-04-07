@@ -14,14 +14,24 @@ In translation, rather than creating a fixed-length vector from the outputs of e
 
 In translation, each output word depends on a weighted combination of all input words. Computing these weights can take time proportional to the product of the length of the input and output sequences. In content-based attention the weights are computed as the dot product between the items in the sequence and the ‘query’ outputted by the attending RNN.
 
-Usage for decoding in translation:
+Usage for decoding in translation
+''''''''''''''''''''''''''''''''''''
 
-* The decoder (an RNN) is initialized.
-* The attention given to a particular input word depends on the encoding of that input and the hidden state of the RNN.
-* Attention is calculated over all words at each timestep to form a weighted sum, known as the context vector.
-* The context vector is the input to the decoder RNN at the next time-step.
-* The decoder then takes the context vector and its own previous hidden state to produce a softmax over possible words as the translated text for that timestep.
-* Instead of just predicting the most likely word it is also possible to use the top k predictions and do beam search.
+First the decoder (an RNN) is initialized.
+
+Attention is calculated over all the words in the sequence form a weighted sum, known as the context vector. This is defined as:
+
+.. math::
+
+  c_i = \sum_{j=1}^{T} \alpha_{ij} h_j
+  
+where :math:`\alpha_{ij}` is the jth element of the softmax of :math:`e_i`.
+
+The attention given to a particular input word depends on the encoding of that input and the hidden state of the RNN.
+
+.. math::
+
+  e_{ij} = a(s_{i-1}, h_j) 
 
 Trained using the REINFORCE algorithm when using hard attention, since it is not differentiable. Can be trained with standard back-propagation when using deterministic soft attention.
 

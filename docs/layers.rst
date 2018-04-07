@@ -68,16 +68,20 @@ Let :math:`x` be a matrix representing the image and :math:`k` be another repres
   
 Where :math:`M = (N - 1)/2`.
 
+'''''''''''''''''''''''''''''
+Padding
+'''''''''''''''''''''''''''''
 Applying the kernel to pixels near or at the edges of the image will result in needing pixel values that do not exist. There are two ways of resolving this:
 
 * Only apply the kernel to pixels where the operation is valid. For a kernel of size k this will reduce the image by (k-1)/2 pixels on each side.
 * Pad the image with zeros to allow the operation to be defined.
 
-The same convolution operation is applied to every pixel in the image, resulting in a considerable amount of weight sharing. This means convolutional layers are quite efficient in terms of parameters.
+'''''''''''''''''''''''''''''
+Efficiency
+'''''''''''''''''''''''''''''
+The same convolution operation is applied to every pixel in the image, resulting in a considerable amount of weight sharing. This means convolutional layers are quite efficient in terms of parameters. Additionally, if a fully connected layer was used to represent the functionality of a convolutional layer most of its parameters would be zero since the convolution is a local operation. This further increases efficiency.
 
 The number of parameters can be further reduced by setting a stride so the convolution operation is only applied every m pixels.
-
-Can be represented by a fully-connected layer in theory. Such a layer would be mostly zeros as the effects are local. This is especially true if the layer is replicating multiple filters.
 
 '''''''''''''''''''''''''''''
 1x1 convolutions

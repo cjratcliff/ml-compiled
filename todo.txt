@@ -19,8 +19,6 @@ Random forest
 Self-training
 Zero-shot learning
 
-Beam search
-
 Activation
 Adversarial examples
 Bayesian neural network
@@ -48,7 +46,6 @@ Weakly supervised segmentation
 * [Named Entity Recognition](https://github.com/cjratcliff/notes/wiki/Named%20Entity%20Recognition)
 * [Part of speech tagging (POS tagging)](https://github.com/cjratcliff/notes/wiki/Part%20of%20speech%20tagging%20(POS%20tagging))
 * [Phoneme](https://github.com/cjratcliff/notes/wiki/Phoneme)
-* [RNN Encoder-Decoder](https://github.com/cjratcliff/notes/wiki/RNN%20Encoder-Decoder)
 
 Full gradient descent
 Mini-batch gradient descent
@@ -103,3 +100,5 @@ Deep Belief Network (DBN)
 
 Probability of improvement
 Expected improvement
+
+Beam search

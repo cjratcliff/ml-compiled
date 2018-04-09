@@ -45,7 +45,6 @@ Natural gradient
 * [Counterfactual regret minimization](https://github.com/cjratcliff/notes/wiki/Counterfactual%20regret%20minimization)
 * [Direct policy search](https://github.com/cjratcliff/notes/wiki/Direct%20policy%20search)
 * [Experience replay](https://github.com/cjratcliff/notes/wiki/Experience%20replay)
-* [Greedy policy](https://github.com/cjratcliff/notes/wiki/Greedy%20policy)
 * [Information set (imperfect information games)](https://github.com/cjratcliff/notes/wiki/Information%20set%20(imperfect%20information%20games))
 * [Markov decision process (MDP)](https://github.com/cjratcliff/notes/wiki/Markov%20decision%20process%20(MDP))
 * [Model-based reinforcement learning](https://github.com/cjratcliff/notes/wiki/Model-based%20reinforcement%20learning)

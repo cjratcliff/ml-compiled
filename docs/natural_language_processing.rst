@@ -15,9 +15,11 @@ Unlike a simple clustering approach, LDA allows a document to be associated with
 
 Morpheme
 ----------
+A word or a part of a word that conveys meaning on its own. For example, 'ing', 'un', 'dog' or 'cat'.
 
 Named Entity Recognition (NER)
 ---------------------------------
+Labelling words and word sequences with the type of entity they represent, such as person, place or time.
 
 Part of speech tagging (POS tagging)
 ------------------------------------------

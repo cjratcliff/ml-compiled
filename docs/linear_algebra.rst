@@ -123,7 +123,15 @@ The sum of the elements along the main diagonal of a square matrix.
 
 .. math::
 
-  \sum_{i=1}^n A_{ii}
+  \text{tr}(A) = \sum_{i=1}^n A_{ii}
+  
+Satisfies the following properties:
+
+.. math::
+
+  \text{tr}(A) = \text{tr}(A^T)
+  \text{tr}(A + B) = \text{tr}(A) + \text{tr}(B)
+  \text{tr}(cA) = c\text{tr}(A)
 
 Transpose
 ==============

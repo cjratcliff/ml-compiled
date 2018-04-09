@@ -26,6 +26,19 @@ Eigendecomposition
 
 Where the columns of Q are the eigenvectors of A and diagonal entries of :math:`\Lambda` are the eigenvalues of A.
 
+Eigenvalues and eigenvectors
+===============================
+Let :math:`A` be a square matrix. Then the eigenvalues and eigenvectors of the matrix are the vectors :math:`v` and scalars :math:`\lambda` respectively that satisfy the equation:
+
+.. math::
+
+  Av = \lambda v 
+  
+Satisfy the following properties:
+
+* The trace of A is the sum of its eigenvalues.
+* The determinant of A is the product of its eigenvalues.
+
 Gaussian elimination
 =====================
 An algorithm for solving SLEs that iteratively transforms the matrix into an upper triangular one in row echelon form.
@@ -37,6 +50,10 @@ The complex equivalent of a symmetric matrix. :math:`A = A^*`, where * represent
 Hadamard product
 =====================
 Synonymous with elementwise-multiplication.
+
+Invertible
+===========
+A matrix :math:`A` is invertible if and only if there exists a matrix :math:`B` such that :math:`AB = BA = I`.
 
 LU Decomposition
 =====================

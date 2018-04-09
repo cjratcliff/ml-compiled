@@ -6,9 +6,17 @@ Absorbing state
 ----------------
 Terminal state.
 
+Action space
+--------------
+The space of all possible actions. May be discrete as in Chess or continuous as in many robotics tasks.
+
 Behaviour distribution
 -----------------------
 The probability distribution over sequences of states and actions.
+
+Breadth
+---------
+In the context of games with a discrete action space like Chess and Go, breadth is the average number of possible moves.
 
 Control policy
 ---------------

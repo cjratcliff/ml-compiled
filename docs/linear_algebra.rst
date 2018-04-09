@@ -130,7 +130,9 @@ Satisfies the following properties:
 .. math::
 
   \text{tr}(A) = \text{tr}(A^T)
+  
   \text{tr}(A + B) = \text{tr}(A) + \text{tr}(B)
+  
   \text{tr}(cA) = c\text{tr}(A)
 
 Transpose

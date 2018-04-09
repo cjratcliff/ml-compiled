@@ -42,7 +42,6 @@ Natural gradient
 * [AlphaGo](https://github.com/cjratcliff/notes/wiki/AlphaGo)
 * [AlphaGo Zero](https://github.com/cjratcliff/notes/wiki/AlphaGo%20Zero)
 * [Bellman equation](https://github.com/cjratcliff/notes/wiki/Bellman%20equation)
-* [Breadth](https://github.com/cjratcliff/notes/wiki/Breadth)
 * [Counterfactual regret minimization](https://github.com/cjratcliff/notes/wiki/Counterfactual%20regret%20minimization)
 * [Direct policy search](https://github.com/cjratcliff/notes/wiki/Direct%20policy%20search)
 * [Experience replay](https://github.com/cjratcliff/notes/wiki/Experience%20replay)

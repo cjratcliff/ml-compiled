@@ -27,4 +27,4 @@ Labelling words with ADV, ADJ, PREP etc. Correct labelling is dependent on conte
 
 Phoneme
 ---------
-A unit of sound in a language. Not the same as a syllable.
+A unit of sound in a language, shorter than a syllabel. English has 44 phonemes. For example, the long 'a' sound in 'train' and 'sleigh' and the 't' sound in 'bottle' and 'sit'.

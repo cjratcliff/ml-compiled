@@ -97,7 +97,7 @@ Clipping by norm
 
   g_i = g_i*a/||g||_2
 
-Where :math:`g_i` is the gradient of the parameter `\theta_i` and :math:`a` and :math:`b` are hyperparameters.
+Where :math:`g_i` is the gradient of the parameter `\theta_i` and :math:`a` is a hyperparameter.
 
 `On the difficulty of training recurrent neural networks, Pascanu et al. (2012) <https://arxiv.org/pdf/1211.5063.pdf>`_
 

@@ -83,7 +83,7 @@ Was used for the Atari games by DeepMind. A CNN is used to approximate the optim
 
 .. math::
 
-    Q*(s,a) = \max_\pi \mathbb{E}[r_t + \gamma r_{t+1} + \gamma^2 r_{t+2} + ...| s_t = s, a_t = a, \pi]
+    Q^*(s,a) = \max_\pi \mathbb{E}[r_t + \gamma r_{t+1} + \gamma^2 r_{t+2} + ...| s_t = s, a_t = a, \pi]
 
 The CNN takes an image of the game state as input and outputs a Q-value for each action in that state. This is more computationally efficient than having the action as an input to the network. The action with the largest corresponding Q-value is chosen.
 

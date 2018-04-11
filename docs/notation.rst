@@ -100,5 +100,6 @@ Reinforcement learning
 :math:`s_t`        State at time t
 :math:`r_t`        Reward at time t  
 :math:`V(s_t)`     Value function
+:math:`A`          Action set
 :math:`\gamma`     Discount factor
 =================  =========================

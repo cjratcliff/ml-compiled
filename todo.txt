@@ -51,8 +51,6 @@ Natural gradient
 * [Model-free reinforcement learning](https://github.com/cjratcliff/notes/wiki/Model-free%20reinforcement%20learning)
 * [Monte Carlo rollout](https://github.com/cjratcliff/notes/wiki/Monte%20Carlo%20rollout)
 * [Monte Carlo Tree Search (MCTS)](https://github.com/cjratcliff/notes/wiki/Monte%20Carlo%20Tree%20Search%20(MCTS))
-* [Off-policy learning](https://github.com/cjratcliff/notes/wiki/Off-policy%20learning)
-* [On-policy learning](https://github.com/cjratcliff/notes/wiki/On-policy%20learning)
 * [Partially observable markov decision process (POMDP)](https://github.com/cjratcliff/notes/wiki/Partially%20observable%20markov%20decision%20process%20(POMDP))
 * [Policy-based method](https://github.com/cjratcliff/notes/wiki/Policy-based%20method)
 * [Policy gradient method](https://github.com/cjratcliff/notes/wiki/Policy%20gradient%20method)

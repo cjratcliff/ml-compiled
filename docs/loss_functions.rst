@@ -25,6 +25,8 @@ Loss function for classification.
 
 where c are the classes.
 
+Sometimes referred to as the negative log-likelihood loss.
+
 """"""""""""""""
 Hinge loss
 """"""""""""""""

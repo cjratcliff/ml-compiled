@@ -81,3 +81,5 @@ VC dimension
 Deep Boltzmann Machine
 Restricted Boltzmann Machine (RBM)
 Deep Belief Network (DBN)
+
+Learning rate

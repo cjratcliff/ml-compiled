@@ -79,7 +79,7 @@ Gradient clipping can be an effective antidote.
 ----------------------------
 Gradient clipping
 ----------------------------
-Used to avoid exploding gradients in very deep networks by normalizing the gradients of the parameter vector. There are multiple types of gradient clipping.
+Used to avoid exploding gradients in very deep networks by normalizing the gradients of the parameter vector. Clipping can be done either by value or by norm.
 
 """""""""""""""""""""""""""""""""""""
 Clipping by value
@@ -87,6 +87,8 @@ Clipping by value
 .. math::
 
   g_i = \min\{a,\max\{b,g_i\}\}
+  
+Where :math:`g_i` is the gradient of the parameter `\theta_i` and :math:`a` and :math:`b` are hyperparameters.
 
 """""""""""""""""""""""""""""""""""""
 Clipping by norm
@@ -94,19 +96,8 @@ Clipping by norm
 .. math::
 
   g_i = g_i*a/||g||_2
-  
-"""""""""""""""""""""""""""""""""""""
-Clipping by average norm
-"""""""""""""""""""""""""""""""""""""
-.. math::
 
-  
-"""""""""""""""""""""""""""""""""""""
-Clipping by global norm
-"""""""""""""""""""""""""""""""""""""
-.. math::
-
-  
+Where :math:`g_i` is the gradient of the parameter `\theta_i` and :math:`a` and :math:`b` are hyperparameters.
 
 `On the difficulty of training recurrent neural networks, Pascanu et al. (2012) <https://arxiv.org/pdf/1211.5063.pdf>`_
 

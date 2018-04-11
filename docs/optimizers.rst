@@ -88,7 +88,7 @@ Clipping by value
 
   g_i = \min\{a,\max\{b,g_i\}\}
   
-Where :math:`g_i` is the gradient of the parameter `\theta_i` and :math:`a` and :math:`b` are hyperparameters.
+Where :math:`g_i` is the gradient of the parameter :math:`\theta_i` and :math:`a` and :math:`b` are hyperparameters.
 
 """""""""""""""""""""""""""""""""""""
 Clipping by norm

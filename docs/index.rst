@@ -17,8 +17,8 @@ Contents
    :maxdepth: 1
    
    about
-   notation
    contribute
+   notation
 
 .. toctree::
    :caption: Maths
@@ -57,6 +57,7 @@ Contents
    :caption: Reinforcement learning
    :maxdepth: 1
    
+   applications
    basics
    explore_exploit
    td

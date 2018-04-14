@@ -5,7 +5,6 @@ Parametric and non-parametric models
 
 Bagging
 Boosting
-Class imbalance problem
 Discriminative model
 Ensemble methods
 Energy-based model
@@ -13,11 +12,8 @@ Expectation-maximisation (EM)
 Inductive bias
 Lattice model
 Multimodal learning
-One-shot learning
 Overcomplete representation
 Random forest
-Self-training
-Zero-shot learning
 
 Activation
 Adversarial examples
@@ -25,10 +21,8 @@ Bayesian neural network
 Catastrophic forgetting
 Depth
 Feedforward
-Ladder Network
 Siamese network
 Sparsity
-Unsupervised pretraining
 Visual question answering
 
 ILSVRC
@@ -37,31 +31,30 @@ Full gradient descent
 Mini-batch gradient descent
 Natural gradient
 
-### Reinforcement learning
-* [Advantage function](https://github.com/cjratcliff/notes/wiki/Advantage%20function)
-* [Bellman equation](https://github.com/cjratcliff/notes/wiki/Bellman%20equation)
-* [Counterfactual regret minimization](https://github.com/cjratcliff/notes/wiki/Counterfactual%20regret%20minimization)
-* [Direct policy search](https://github.com/cjratcliff/notes/wiki/Direct%20policy%20search)
-* [Experience replay](https://github.com/cjratcliff/notes/wiki/Experience%20replay)
-* [Information set (imperfect information games)](https://github.com/cjratcliff/notes/wiki/Information%20set%20(imperfect%20information%20games))
-* [Markov decision process (MDP)](https://github.com/cjratcliff/notes/wiki/Markov%20decision%20process%20(MDP))
-* [Model-based reinforcement learning](https://github.com/cjratcliff/notes/wiki/Model-based%20reinforcement%20learning)
-* [Model-free reinforcement learning](https://github.com/cjratcliff/notes/wiki/Model-free%20reinforcement%20learning)
-* [Monte Carlo rollout](https://github.com/cjratcliff/notes/wiki/Monte%20Carlo%20rollout)
-* [Monte Carlo Tree Search (MCTS)](https://github.com/cjratcliff/notes/wiki/Monte%20Carlo%20Tree%20Search%20(MCTS))
-* [Partially observable markov decision process (POMDP)](https://github.com/cjratcliff/notes/wiki/Partially%20observable%20markov%20decision%20process%20(POMDP))
-* [Policy-based method](https://github.com/cjratcliff/notes/wiki/Policy-based%20method)
-* [Policy gradient method](https://github.com/cjratcliff/notes/wiki/Policy%20gradient%20method)
-* [Prioritized experience replay](https://github.com/cjratcliff/notes/wiki/Prioritized%20experience%20replay)
-* [REINFORCE](https://github.com/cjratcliff/notes/wiki/REINFORCE)
-* [Regret matching](https://github.com/cjratcliff/notes/wiki/Regret%20matching)
-* [Reward clipping](https://github.com/cjratcliff/notes/wiki/Reward%20clipping)
-* Reward sparsity
-* [Rollout](https://github.com/cjratcliff/notes/wiki/Rollout)
-* [SARSA](https://github.com/cjratcliff/notes/wiki/SARSA)
-* [Trust region policy optimization](https://github.com/cjratcliff/notes/wiki/Trust%20region%20policy%20optimization)
-* [Value-based methods](https://github.com/cjratcliff/notes/wiki/Value-based%20methods)
-* [Value iteration](https://github.com/cjratcliff/notes/wiki/Value%20iteration)
+Advantage function
+Bellman equation
+Counterfactual regret minimization
+Direct policy search
+Experience replay
+Information set
+Markov decision process (MDP)
+Model-based reinforcement learning
+Model-free reinforcement learning
+Monte Carlo rollout
+Monte Carlo Tree Search (MCTS)
+Partially observable markov decision process (POMDP)
+Policy-based method
+Policy gradient method
+Prioritized experience replay
+REINFORCE
+Regret matching
+Reward clipping
+Reward sparsity
+Rollout
+SARSA
+Trust region policy optimization
+Value-based methods
+Value iteration
 
 -----------------------
 Matrix differentiation

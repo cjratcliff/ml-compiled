@@ -10,7 +10,7 @@ One-shot learning
 ------------------
 Classification where only one member of that class has been seen before. Matching Networks achieve 93.2% top-5 accuracy on ImageNet compared to 96.5% for Inception v3.
 
-Matching Networks for One Shot Learning, Vinyals et al. (2016)
+`Matching Networks for One Shot Learning, Vinyals et al. (2016) <https://arxiv.org/abs/1606.04080>`_
 
 Semi-supervised learning
 ---------------------------
@@ -32,7 +32,7 @@ The hyperparameters are the weight for the denoising cost of each layer as well 
 
 Achieved state of the art performance for semi-supervised MNIST and CIFAR-10 and permutation invariant MNIST.
 
-Semi-Supervised Learning with Ladder Networks, Rasmus et al. (2015)
+`Semi-Supervised Learning with Ladder Networks, Rasmus et al. (2015) <https://arxiv.org/abs/1507.02672>`_
 
 Self-training
 _______________

@@ -1,0 +1,63 @@
+"""""""""""""""
+Applications
+"""""""""""""""
+
+Atari
+------
+
+Go
+----
+
+AlphaGo
+'''''''''
+Go-playing algorithm by Google DeepMind.
+
+First learns a supervised policy network that predicts moves by expert human players.
+A reinforcement learning policy network is initialized to this network and then improved by policy gradient learning against previous versions of the policy network.
+
+Finally, a supervised value-network is trained to predict the outcome (which player wins) from positions in the self-play dataset.
+
+The value and policy networks are combined in an MCTS algorithm that selects actions by lookahead search.
+Both the value and policy networks are composed of many convolutional layers.
+
+AlphaGo Zero
+'''''''''''''''
+An advanced version of AlphaGo that beat its predecessor 100-0 without having been trained on any data from human games.
+
+Note: AlphaGo Zero is not Alpha Zero applied to Go. They are different algorithms. AlphaGo Zero has some features specific to Go that Alpha Zero does not.
+
+Training
+__________
+AlphaGo Zero is trained entirely from self-play. The key idea is to learn a policy which can no longer be improved by MCTS. The algorithm maintains a 'best network' which is updated when a new network beats it in at least 55% of games.
+
+During training moves are picked stochastically, with the amount of noise being decreased over time. This aids exploration.
+
+Architecture and loss functions
+____________________________________
+The core network is a 20-layer ResNet with batch norm and ReLUs. It has two outputs:
+
+The first predicts the value of the current game position. This is trained with a mean-squared error from the actual outcomes of played games. 1 if the player won and -1 if they lost.
+The second predicts the policy, given the current game position. This is trained with a cross-entropy loss and the policy resulting form MCTS.
+
+Paper
+________
+Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm, Silver et al. (2017)
+
+Blog posts
+_________________
+http://www.inference.vc/alphago-zero-policy-improvement-and-vector-fields
+
+Poker
+--------
+
+Starcraft
+-----------
+Compared to games like Go, Starcraft is hard for the following reasons:
+
+1. Continuous action space. Means the conventional tree-search method cannot be applied. Even if it could be, the number of states to search through would be far too large.
+2. Imperfect information. Not all of the environment is visible at once. This means the agent must not only seek to improve its position but also explore the environment.
+3. More complex rules. There are multiple types of units, all of which have different available actions and interact in different ways.
+4. Requires learning both low-level tasks (like positioning troops) and high-level strategy.
+5. May require feints and bluffs.
+
+2 and 5 may have been solved by the DeepStack poker playing system.

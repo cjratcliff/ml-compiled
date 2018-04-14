@@ -50,6 +50,9 @@ http://www.inference.vc/alphago-zero-policy-improvement-and-vector-fields
 Poker
 --------
 
+DeepStack
+'''''''''''''
+
 Starcraft
 -----------
 Compared to games like Go, Starcraft is hard for the following reasons:

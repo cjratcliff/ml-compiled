@@ -52,6 +52,7 @@ Contents
    recurrent
    regularization
    seq_to_seq
+   training_with_limited_data
    
 .. toctree::
    :caption: Reinforcement learning

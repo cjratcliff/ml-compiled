@@ -41,7 +41,7 @@ The second predicts the policy, given the current game position. This is trained
 
 Paper
 ________
-Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm, Silver et al. (2017)
+`Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm, Silver et al. (2017) <https://arxiv.org/abs/1712.01815>`_
 
 Blog posts
 _________________

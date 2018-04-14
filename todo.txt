@@ -39,8 +39,6 @@ Natural gradient
 
 ### Reinforcement learning
 * [Advantage function](https://github.com/cjratcliff/notes/wiki/Advantage%20function)
-* [AlphaGo](https://github.com/cjratcliff/notes/wiki/AlphaGo)
-* [AlphaGo Zero](https://github.com/cjratcliff/notes/wiki/AlphaGo%20Zero)
 * [Bellman equation](https://github.com/cjratcliff/notes/wiki/Bellman%20equation)
 * [Counterfactual regret minimization](https://github.com/cjratcliff/notes/wiki/Counterfactual%20regret%20minimization)
 * [Direct policy search](https://github.com/cjratcliff/notes/wiki/Direct%20policy%20search)
@@ -61,7 +59,6 @@ Natural gradient
 * Reward sparsity
 * [Rollout](https://github.com/cjratcliff/notes/wiki/Rollout)
 * [SARSA](https://github.com/cjratcliff/notes/wiki/SARSA)
-* [Starcraft](https://github.com/cjratcliff/notes/wiki/Starcraft)
 * [Trust region policy optimization](https://github.com/cjratcliff/notes/wiki/Trust%20region%20policy%20optimization)
 * [Value-based methods](https://github.com/cjratcliff/notes/wiki/Value-based%20methods)
 * [Value iteration](https://github.com/cjratcliff/notes/wiki/Value%20iteration)

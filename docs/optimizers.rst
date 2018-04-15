@@ -182,7 +182,7 @@ An iterative method for finding the roots of an equation.
 
 In the context of gradient descent, Newton’s method is applied to the derivative of the function to find the points where the derivative is equal to zero (the local optima). Therefore in this context it is a second order method.
 
-:math:`x_t=H_{t-1}g_t` where :math:`H_{t-1}` is the inverse of the Hessian matrix at iteration t.
+:math:`x_t=H_{t-1}g_t` where :math:`H_{t-1}` is the inverse of the Hessian matrix at iteration :math:`t-1`.
 
 Picks the optimal step size for quadratic problems but is also prohibitively expensive to compute for large models due to the size of the Hessian matrix, which is quadratic in the number of parameters.
 

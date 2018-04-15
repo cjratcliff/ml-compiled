@@ -38,6 +38,10 @@ Self-training
 _______________
 Method for semi-supervised learning. A model is trained on the labelled data and then used to classify the unlabelled data, creating more labelled examples. This process then continues iteratively. Usually only the most confident predictions are used at each stage.
 
+Transfer learning
+-------------------
+The process of taking results (eg weights) that have been obtained on one dataset and applying them to another to improve accuracy on that one.
+
 Unsupervised pre-training
 ____________________________
 Layers are first trained using an auto-encoder and then fine tuned over labelled data. Improves the initialization of the weights, making optimization faster and reducing overfitting. Most useful in semi-supervised learning.

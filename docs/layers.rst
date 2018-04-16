@@ -36,6 +36,14 @@ The attention given to a particular input word depends on the encoding of that i
 
 Trained using the REINFORCE algorithm when using hard attention, since it is not differentiable. Can be trained with standard back-propagation when using deterministic soft attention.
 
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+Computational complexity
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+When using two RNNs (an encoder and a decoder) to translate a sequence of length :math:`n` the time complexity is :math:`O(n)`.
+
+However, a soft attention mechanism must look over every item in the input sequence for every item in the output sequence, resulting in a quadratic complexity:  :math:`O(n^2)`.
+
 `Neural Machine Translation by Jointly Learning to Align and Translate, Bahdanau et al. (2015) <https://arxiv.org/abs/1409.0473>`_
 
 Batch normalization

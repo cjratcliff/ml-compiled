@@ -15,8 +15,9 @@ In translation, rather than creating a fixed-length vector from the outputs of e
 In translation, each output word depends on a weighted combination of all input words. Computing these weights can take time proportional to the product of the length of the input and output sequences. In content-based attention the weights are computed as the dot product between the items in the sequence and the ‘query’ outputted by the attending RNN.
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-Usage for decoding in translation
+Soft attention
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+The standard form of attention, as proposed in Bahdanau et al. (2015).
 
 First the decoder (an RNN) is initialized.
 
@@ -34,12 +35,16 @@ The attention given to a particular input word depends on the encoding of that i
 
   e_{ij} = a(s_{i-1}, h_j) 
 
-Trained using the REINFORCE algorithm when using hard attention, since it is not differentiable. Can be trained with standard back-propagation when using deterministic soft attention.
+Soft attention is differentiable and can therefore be trained with standard back-propagation.
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+Hard attention
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+Trained using the REINFORCE algorithm, since it is not differentiable.
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 Computational complexity
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-
 When using two RNNs (an encoder and a decoder) to translate a sequence of length :math:`n` the time complexity is :math:`O(n)`.
 
 However, a soft attention mechanism must look over every item in the input sequence for every item in the output sequence, resulting in a quadratic complexity:  :math:`O(n^2)`.

@@ -61,6 +61,7 @@ Contents
    applications
    basics
    explore_exploit
+   search
    td
 
 

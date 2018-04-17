@@ -12,6 +12,7 @@ Contrast this with one-hot representations. A one-hot vector of length n can sto
 """"""""""""""""""""""""
 One-hot representation
 """"""""""""""""""""""""
+A vector which has zeros everywhere except for in the indices representing the class or classes which are present.
 
 """"""""""""""""""""""""
 Triplet network

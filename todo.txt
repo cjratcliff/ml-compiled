@@ -32,7 +32,6 @@ Mini-batch gradient descent
 Natural gradient
 
 Advantage function
-Alpha-beta pruning
 Bellman equation
 Counterfactual regret minimization
 Direct policy search
@@ -41,8 +40,6 @@ Information set
 Markov decision process (MDP)
 Model-based reinforcement learning
 Model-free reinforcement learning
-Monte Carlo rollout
-Monte Carlo Tree Search (MCTS)
 Partially observable markov decision process (POMDP)
 Policy-based method
 Policy gradient method
@@ -51,7 +48,6 @@ REINFORCE
 Regret matching
 Reward clipping
 Reward sparsity
-Rollout
 SARSA
 Trust region policy optimization
 Value-based methods

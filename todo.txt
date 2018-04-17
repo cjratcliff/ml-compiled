@@ -32,6 +32,7 @@ Mini-batch gradient descent
 Natural gradient
 
 Advantage function
+Alpha-beta pruning
 Bellman equation
 Counterfactual regret minimization
 Direct policy search

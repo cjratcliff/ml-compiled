@@ -1,4 +1,4 @@
-`ML Compiled <http://ml-compiled.readthedocs.io>`_
+`ML Compiled <https://ml-compiled.readthedocs.io>`_
 ========
 
 Quick definitions and intuitive explanations around machine learning.

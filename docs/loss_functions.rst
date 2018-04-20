@@ -56,7 +56,9 @@ Noise Contrastive Estimation
 """"""""""""""""""""""""""""""""
 Loss functions for efficient learning when the number of output classes is large. Useful for language modelling.
 
-A binary classification task is created to disambiguate pairs that are expected to be close to each other from ‘noisy’ examples put together at random. In essence, rather than estimating :math:`P(y|x)`, NCE estimates :math:`P(C=1|x,y)` where :math:`C = 1` if :math:`y` has been sampled from the real distribution and :math:`C = 0` if y has been sampled from the noise distribution.
+A binary classification task is created to disambiguate pairs that are expected to be close to each other from ‘noisy’ examples put together at random. 
+
+In essence, rather than estimating :math:`P(y|x)`, NCE estimates :math:`P(C=1|x,y)` where :math:`C = 1` if :math:`y` has been sampled from the real distribution and :math:`C = 0` if :math:`y` has been sampled from the noise distribution.
 
 NCE makes training time at the output layer independent of the number of classes. It remains linear in time at evaluation, however.
 

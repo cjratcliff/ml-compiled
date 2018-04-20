@@ -72,8 +72,11 @@ This means maximising the probability that actual samples are in the dataset and
 
 Classification
 ----------------
+When learning for multi-class classification rather than only embeddings the formula is more complex. It is:
 
-  TODO  
+.. math::
+
+  L(x,y) = -\sum_i \log(P(y_i=1|x_i)) k\log(1 - P(y_i=1|x_i))
       
 k is a hyperparameter, denoting the number of noise samples for each real sample.
 

@@ -67,3 +67,14 @@ Root Mean Squared Error.
 .. math::
 
   \text{RMSE} = \sqrt{\frac{1}{n} \sum_{i=1}^n (y_i - \hat{y}_i)^2}
+  
+ROC curve
+-------------
+Plots the true positive rate against the false positive rate for different values of the threshold in a binary classifier.
+
+ROC stands for Receiver Operating Characteristic.
+
+AUC (Area Under the Curve)
+____________________________
+Summarises the ROC curve with one number, equal to the integral of the curve.
+

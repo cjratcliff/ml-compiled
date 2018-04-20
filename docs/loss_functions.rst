@@ -64,9 +64,9 @@ When only learning embeddings a simpler formula can be used. It is:
 
 .. math::
 
-  L(a,b,y) = \sum_i y_i\log \sigma(a_i \cdot b_i) + (1-y_i)\log(1-\sigma(a_i \cdot b_i))
+  L(x_0,x_1,y) = y\log \sigma(f(x_0) \cdot f(x_1)) + (1-y_i)\log(1-\sigma(f(x_0) \cdot f(x_1)))
 
-where :math:`a` and :math:`b` are embeddings and :math:`y = 1` if the pair :math:`(a,b)` are expected to be similar and :math:`y = 0` if not (because they have been sampled from the noise distribution). The dot product measures the distance between the two embeddings and the sigmoid function transforms it into a probability.
+where :math:`x_0` and :math:`x_1` are two examples, :math:`f` is the learned embedding function and :math:`y = 1` if the pair :math:`(x_0,x_1)` are expected to be similar and :math:`y = 0` if not (because they have been sampled from the noise distribution). The dot product measures the distance between the two embeddings and the sigmoid function transforms it into a probability.
 
 This means maximising the probability that actual samples are in the dataset and that noise samples aren’t in the dataset. Parameter update complexity is linear in the size of the vocabulary. The model is improved by having more noise than training samples, with around 15 times more being optimal.
 

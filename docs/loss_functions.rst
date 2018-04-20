@@ -74,13 +74,13 @@ This means maximising the probability that actual samples are in the dataset and
 
 Classification
 ----------------
-When learning for multi-class classification rather than only embeddings the formula is more complex. It is:
+When learning for multi-class classification rather than only embeddings the formula is:
 
 .. math::
 
-  L(x,y) = -\sum_i \log(P(y_i=1|x_i)) k\log(1 - P(y_i=1|x_i))
+  L(x,y) = -\sum_i \log(P(C_i=1|x_i,y_i)) + \sum_{j = 1}^k \log(1 - P(C_i=1|x_i,y^n_j))
       
-k is a hyperparameter, denoting the number of noise samples for each real sample.
+:math:`k` is a hyperparameter, denoting the number of noise samples for each real sample. :math:`y_i` is a label sampled from the data distribution and :math:`y^n_j` is one sampled from the noise distribution. :math:`C_i = 1` if the pair :math:`(x,y)` was drawn from the data distribution and 0 otherwise.
 
 `Noise Contrastive Estimation: A New Estimation Principle for Unnormalized Statistical Models, Gutmann and Hyvarinen (2010) <http://proceedings.mlr.press/v9/gutmann10a/gutmann10a.pdf>`_
 

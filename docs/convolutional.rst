@@ -18,6 +18,9 @@ CNN that won the ILSVRC 2014 challenge. Composed of 9 inception layers.
 
 LeNet5
 --------
+A basic convolutional network, historically used for the MNIST dataset.
+
+`Gradient-based learning applied to document recognition, LeCun et al. (1998) <http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf>`_
 
 Residual network
 -------------------

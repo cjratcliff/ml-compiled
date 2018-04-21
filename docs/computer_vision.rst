@@ -4,7 +4,7 @@ Computer vision
 
 Face recognition
 --------------------
-The name of the general topic. Includes face verification and identification.
+The name of the general topic. Includes face identification and verification.
 
 Face identification
 ______________________

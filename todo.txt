@@ -2,9 +2,6 @@ Variational Bayes
 Weibull distribution
 
 Parametric and non-parametric models
-
-Bagging
-Boosting
 Discriminative model
 Ensemble methods
 Energy-based model
@@ -13,7 +10,6 @@ Inductive bias
 Lattice model
 Multimodal learning
 Overcomplete representation
-Random forest
 Calibration
 
 Activation

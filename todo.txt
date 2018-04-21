@@ -3,7 +3,6 @@ Weibull distribution
 
 Parametric and non-parametric models
 Discriminative model
-Ensemble methods
 Energy-based model
 Expectation-maximisation (EM)
 Inductive bias

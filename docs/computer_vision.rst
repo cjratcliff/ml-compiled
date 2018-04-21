@@ -2,6 +2,18 @@
 Computer vision
 """""""""""""""""""
 
+Face recognition
+--------------------
+The name of the general topic. Includes face verification and identification.
+
+Face identification
+______________________
+Multiclass classification problem. Given an image of a face, determine the identity of the person.
+
+Face verification
+___________________
+Binary classification problem. Given two images of faces, assess whether they are from the same person or not.
+
 Instance segmentation
 ------------------------
 Unlike semantic segmentation, different instances of the same object type have to be labelled as separate objects (eg person 1, person 2). Harder than semantic segmentation.

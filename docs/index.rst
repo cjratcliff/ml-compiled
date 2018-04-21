@@ -41,6 +41,7 @@ Contents
    convolutional
    datasets
    embeddings
+   ensemble_models
    generative_models
    initialization
    layers

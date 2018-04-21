@@ -29,7 +29,6 @@ Mini-batch gradient descent
 Natural gradient
 
 Advantage function
-Bellman equation
 Counterfactual regret minimization
 Direct policy search
 Experience replay

@@ -14,6 +14,7 @@ Lattice model
 Multimodal learning
 Overcomplete representation
 Random forest
+Calibration
 
 Activation
 Adversarial examples

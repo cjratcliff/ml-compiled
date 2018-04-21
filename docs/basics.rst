@@ -14,6 +14,14 @@ Behaviour distribution
 -----------------------
 The probability distribution over sequences of states and actions.
 
+Bellman equation
+------------------
+Computes the value of a state given a policy. Represents the intuition that if the value at the next timestep is known for all possible actions, the optimal strategy is to select the action that maximizes that value plus the immediate reward.
+
+.. math::
+
+    Q^*(s,a) = \mathbb{E}_{s'}[r + \gamma \max_{a'} Q^*(s',a')|s,a]
+
 Breadth
 ---------
 In the context of games with a discrete action space like Chess and Go, breadth is the average number of possible moves.

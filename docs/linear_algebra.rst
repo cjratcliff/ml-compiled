@@ -134,6 +134,15 @@ Spectrum
 ==============
 The set of eigenvalues of a matrix.
 
+System of Linear Equations (SLE)
+======================================
+
+.. math::
+ 
+  Ax = b
+  
+Can be solved by Gaussian elimination. 
+
 Trace
 =======
 The sum of the elements along the main diagonal of a square matrix.

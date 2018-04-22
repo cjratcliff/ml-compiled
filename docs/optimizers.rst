@@ -118,6 +118,15 @@ Where :math:`g_i` is the gradient of the parameter :math:`\theta_i` and :math:`a
 ----------------------------
 Learning rate
 ----------------------------
+Pros of large batch sizes:
+
+* Training is faster if the large learning rate does not cause problems.
+* Lowers the risk of overfitting.
+
+Cons of large batch sizes:
+
+* Increases the risk of oscillations during training, especially when not using an optimizer with a momentum term.
+* Can make it harder to train deeper networks.
 
 -------------
 Optimizers
@@ -170,6 +179,10 @@ Krylov subspace descent
 Second-order optimization method. Inferior to SGD.
 
 `Krylov Subspace Descent for Deep Learning, Vinyals and Povey (2011) <https://arxiv.org/abs/1111.4259>`_
+
+"""""""""""""""""
+Learning rate
+"""""""""""""""""
 
 """"""""
 Momentum

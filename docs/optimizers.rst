@@ -61,6 +61,7 @@ Potential solutions include:
 
 * Using a smaller learning rate
 * Skip connections
+* `Batch normalization <http://ml-compiled.readthedocs.io/en/latest/layers.html#batch-normalization>`_
 * Memory cells. Used in the Neural Turing Machine for learning long dependencies.
 * Auxiliary loss functions (eg `Szegedy et al. (2016) <https://arxiv.org/pdf/1409.4842.pdf>`_)
 * `Orthogonal initialization <https://ml-compiled.readthedocs.io/en/latest/initialization.html#orthogonal-initialization>`_

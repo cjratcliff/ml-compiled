@@ -82,7 +82,7 @@ The surface obtained by plotting the weights of the network against the loss. Fo
 ----------------------------
 Exploding gradient problem
 ----------------------------
-The gradient grows exponentially as we move backward through the layers.
+When the gradient grows exponentially as we move backward through the layers.
 
 Gradient clipping can be an effective antidote.
 

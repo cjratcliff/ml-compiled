@@ -19,6 +19,7 @@ Feedforward
 Siamese network
 Sparsity
 Visual question answering
+Vanishing gradient problem
 
 ILSVRC
 

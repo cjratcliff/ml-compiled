@@ -118,12 +118,12 @@ Where :math:`g_i` is the gradient of the parameter :math:`\theta_i` and :math:`a
 ----------------------------
 Learning rate
 ----------------------------
-Pros of large batch sizes:
+Pros of large learning rates:
 
 * Training is faster if the large learning rate does not cause problems.
 * Lowers the risk of overfitting.
 
-Cons of large batch sizes:
+Cons of large learning rates:
 
 * Increases the risk of oscillations during training, especially when not using an optimizer with a momentum term.
 * Can make it harder to train deeper networks.

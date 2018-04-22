@@ -62,7 +62,7 @@ Potential solutions include:
 * Using a smaller learning rate
 * Skip connections
 * Auxiliary loss functions (eg `Szegedy et al. (2016) <https://arxiv.org/pdf/1409.4842.pdf>`_)
-* Orthogonal initialization
+* `Orthogonal initialization <https://ml-compiled.readthedocs.io/en/latest/initialization.html#orthogonal-initialization>`_
 
 -------------
 End-to-end

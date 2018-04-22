@@ -55,12 +55,13 @@ Training the classifier with easy examples initially and gradually transitioning
 ---------
 Depth
 ---------
-Depth increases the representational power of a network exponentially, for a given number of parameters. However, deeper networks can also be considerably harder to train, due to vanishing and exploding gradients or dying ReLUs.
+Depth increases the representational power of a network exponentially, for a given number of parameters. However, deeper networks can also be considerably harder to train, due to vanishing and exploding gradients or dying ReLUs. Problems stemming from depth are seen both in deep feedforward networks and in recurrent networks, where the depth comes from being unfolded over a large number of timesteps.
 
 Potential solutions include:
 
 * Using a smaller learning rate
 * Skip connections
+* Memory cells. Used in the Neural Turing Machine for learning long dependencies.
 * Auxiliary loss functions (eg `Szegedy et al. (2016) <https://arxiv.org/pdf/1409.4842.pdf>`_)
 * `Orthogonal initialization <https://ml-compiled.readthedocs.io/en/latest/initialization.html#orthogonal-initialization>`_
 

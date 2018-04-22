@@ -52,6 +52,18 @@ Curriculum learning
 --------------------------
 Training the classifier with easy examples initially and gradually transitioning to the harder ones. Useful for architectures which are very hard to train.
 
+---------
+Depth
+---------
+Depth increases the representational power of a network exponentially, for a given number of parameters. However, deeper networks can also be considerably harder to train, due to vanishing and exploding gradients or dying ReLUs.
+
+Potential solutions include:
+
+* Using a smaller learning rate
+* Skip connections
+* Auxiliary loss functions (eg `Szegedy et al. (2016) <https://arxiv.org/pdf/1409.4842.pdf>`_)
+* Orthogonal initialization
+
 -------------
 End-to-end
 -------------

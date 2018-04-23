@@ -3,7 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
    
-.. title:: Welcome to ML Compiled!
+.. title::
+   Welcome to ML Compiled!
 
 Welcome to ML Compiled!
 ==================================================

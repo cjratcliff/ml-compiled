@@ -260,3 +260,6 @@ texinfo_documents = [
 # -- Custom -------------------------------------------
 #site base url
 site_url = 'https://my-site.com/docs/'
+
+def setup(app):
+    app.add_javascript("js/cookies.js")

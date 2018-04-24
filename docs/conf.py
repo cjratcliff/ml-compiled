@@ -262,5 +262,6 @@ texinfo_documents = [
 site_url = 'https://my-site.com/docs/'
 
 def setup(app):
+    app.add_stylesheet('css/cookieconsent.min.css')
     app.add_javascript("js/cookieconsent.min.js")
     app.add_javascript("js/cookies.js")

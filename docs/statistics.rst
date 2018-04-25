@@ -72,7 +72,7 @@ Harmonic mean
     
 Moments
 --------
-* 1st moment - Arithmetic mean
+* 1st moment - `Arithmetic mean <http://ml-compiled.readthedocs.io/en/latest/statistics.html#arithmetic-mean>`_
 * 2nd moment - Variance
 * 3rd moment - Skewness
 * 4th moment - Kurtosis

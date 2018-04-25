@@ -63,6 +63,8 @@ Probability
 ========================================  =================================================================================
 :math:`X`                                      A random variable  
 :math:`P(X)`                                   Probability of a particular value of X. Shorthand for :math:`P(X=x_i)`
+:math:`U(a,b)`                               Uniform distribution
+:math:`N(\mu,\sigma^2)`                      Normal distribution
 ========================================  =================================================================================
 
 Statistics
@@ -70,8 +72,8 @@ Statistics
 ========================================  =================================================================
   Symbol                                     Meaning   
 ========================================  =================================================================
-:math:`U(a,b)`                               Uniform distribution
-:math:`N(\mu,\sigma^2)`                      Normal distribution
+:math:`V(X)`                               Variance of X
+:math:`Cov(X,Y)     `                      Covariance of X and Y
 ========================================  =================================================================
 
 Machine learning

@@ -81,6 +81,10 @@ Point estimate
 ----------------
 An estimate for a parameter.
 
+Skewness
+----------
+Measures the asymmetry of a probability distribution.
+
 Zipf distribution
 ---------------------
 For a population of size n, the frequency of the kth most frequent item is:

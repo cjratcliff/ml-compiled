@@ -7,36 +7,6 @@ Arithmetic mean
 .. math::
 
   A(x_1,x_2,...,x_n) = \frac{1}{n}\sum_{i=1}^n x_i
-
-Bernoulli distribution
-------------------------
-Distribution for a random variable which is 1 with probability :math:`p` and zero with probability :math:`1-p`.
-
-Special case of the Binomial distribution, which generalizes the Bernoulli to multiple trials.
-
-.. math::
-
-  P(x = k;p) = 
-  \begin{cases}
-    p, & \text{if } k = 1\\
-    1-p, & \text{if } k = 0
-  \end{cases}
-
-Binomial distribution
------------------------
-Distribution for the number of successes in n trials, each with probability p of success and 1-p of failure.
-
-.. math::
-  
-  P(x = k;n,p) = {n\choose k} p^k (1-p)^{n-k}
-
-Categorical distribution
---------------------------
-Generalizes the Bernoulli distribution to more than two categories.
-
-.. math::
-
-  P(x = k;p) = p_k
   
 Correlation
 --------------
@@ -64,12 +34,6 @@ Geometric mean
 
 Only applicable to positive numbers.
 
-Gumbel distribution
----------------------
-Used to model the distribution of the maximum (or the minimum) of a number of samples of various distributions.
-
-`Categorical Reparameterization with Gumbel-Softmax, Jang et al. (2016) <https://arxiv.org/abs/1611.01144>`_
-
 Harmonic mean
 ---------------
 
@@ -83,20 +47,6 @@ Moments
 * 2nd moment - Variance
 * 3rd moment - Skewness
 * 4th moment - Kurtosis
-
-Multinomial distribution
---------------------------
-The distribution for n trials, each with k possible outcomes.
-
-When n and k take on specific values or ranges the Multinomial distribution has specific names.
-
-+------------------------+-----------------+------------------+
-|                        | :math:`k = 2`   | :math:`k \geq 2` |
-+========================+=================+==================+
-| :math:`n = 1`          | Bernoulli       | Categorical      |
-+------------------------+-----------------+------------------+
-| :math:`n \geq 1`       | Binomial        | Multinomial      |
-+------------------------+-----------------+------------------+
     
 Point estimate
 ----------------

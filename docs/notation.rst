@@ -73,7 +73,7 @@ Statistics
   Symbol                                     Meaning   
 ========================================  =================================================================
 :math:`V(X)`                               Variance of X
-:math:`Cov(X,Y)     `                      Covariance of X and Y
+:math:`Cov(X,Y)`                           Covariance of X and Y
 ========================================  =================================================================
 
 Machine learning

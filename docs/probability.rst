@@ -60,6 +60,59 @@ A prior for a likelihood function is conjugate if it is from the same family of 
  Poisson                  Gamma
 ====================== ======================
 
+Distributions
+---------------
+
+Bernoulli
+____________
+Distribution for a random variable which is 1 with probability :math:`p` and zero with probability :math:`1-p`.
+
+Special case of the Binomial distribution, which generalizes the Bernoulli to multiple trials.
+
+.. math::
+
+  P(x = k;p) = 
+  \begin{cases}
+    p, & \text{if } k = 1\\
+    1-p, & \text{if } k = 0
+  \end{cases}
+
+Binomial
+___________
+Distribution for the number of successes in n trials, each with probability p of success and 1-p of failure.
+
+.. math::
+  
+  P(x = k;n,p) = {n\choose k} p^k (1-p)^{n-k}
+
+Categorical
+_____________
+Generalizes the Bernoulli distribution to more than two categories.
+
+.. math::
+
+  P(x = k;p) = p_k
+  
+Gumbel
+__________
+Used to model the distribution of the maximum (or the minimum) of a number of samples of various distributions.
+
+`Categorical Reparameterization with Gumbel-Softmax, Jang et al. (2016) <https://arxiv.org/abs/1611.01144>`_
+
+Multinomial
+______________
+The distribution for n trials, each with k possible outcomes.
+
+When n and k take on specific values or ranges the Multinomial distribution has specific names.
+
++------------------------+-----------------+------------------+
+|                        | :math:`k = 2`   | :math:`k \geq 2` |
++========================+=================+==================+
+| :math:`n = 1`          | Bernoulli       | Categorical      |
++------------------------+-----------------+------------------+
+| :math:`n \geq 1`       | Binomial        | Multinomial      |
++------------------------+-----------------+------------------+
+
 Improper prior
 ----------------
 A prior whose probability distribution has infinitesimal density over an infinitely large range. For example, the distribution for picking an integer at random.

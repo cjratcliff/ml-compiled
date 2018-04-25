@@ -22,7 +22,7 @@ A directed acyclic graph where the nodes represent random variables.
 Not to be confused with Bayesian neural networks.
 
 The chain rule for Bayesian networks
-''''''''''''''''''''''''''''''''''''''''''
+______________________________________
 
 The joint distribution for all the variables in a network is equal to the product of the distributions for all the individual variables, conditional on their parents.
 

@@ -89,13 +89,14 @@ Multinomial distribution
 The distribution for n trials, each with k possible outcomes.
 
 When n and k take on specific values or ranges the Multinomial distribution has specific names.
-+------------------+----------------+-------------------+
-|                  | :math:`k = 2`  | :math:`k \geq 2   |
-+==================+================+===================+
-| :math:`n = 1`    | Bernoulli      | Categorical       |
-+------------------+----------------+-------------------+
-|:math:`n \geq 1`  | Binomial       | Multinomial       |
-+------------------+----------------+-------------------+
+
++------------------------+-----------------+------------------+
+|                        | :math:`k = 2`   | :math:`k \geq 2` |
++========================+=================+==================+
+| :math:`n = 1`          | Bernoulli       | Categorical      |
++------------------------+-----------------+------------------+
+| :math:`n \geq 1`       | Binomial        | Multinomial      |
++------------------------+-----------------+------------------+
     
 Point estimate
 ----------------

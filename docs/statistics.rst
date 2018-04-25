@@ -1,6 +1,13 @@
 Statistics
 """""""""""""
 
+Arithmetic mean
+--------------------
+
+.. math::
+
+  A(x_1,x_2,...,x_n) = \frac{1}{n}\sum_{i=1}^n x_i
+
 Bernoulli distribution
 ------------------------
 Distribution for a random variable which is 1 with probability :math:`p` and zero with probability :math:`1-p`.
@@ -65,7 +72,7 @@ Harmonic mean
     
 Moments
 --------
-* 1st moment - Mean
+* 1st moment - Arithmetic mean
 * 2nd moment - Variance
 * 3rd moment - Skewness
 * 4th moment - Kurtosis

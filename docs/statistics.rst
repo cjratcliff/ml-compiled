@@ -37,6 +37,13 @@ Generalizes the Bernoulli distribution to more than two categories.
 .. math::
 
   P(x = k;p) = p_k
+  
+Correlation
+--------------
+
+.. math::
+
+  \text{Corr}(X,Y) = \frac{\text{Cov}(X,Y)}{\sqrt{V(X)V(Y)}}
 
 Covariance matrix
 ----------------------

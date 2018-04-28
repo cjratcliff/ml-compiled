@@ -44,8 +44,8 @@ Harmonic mean
 Moments
 --------
 * 1st moment - `Arithmetic mean <http://ml-compiled.readthedocs.io/en/latest/statistics.html#arithmetic-mean>`_
-* 2nd moment - Variance
-* 3rd moment - Skewness
+* 2nd moment - `Variance <http://ml-compiled.readthedocs.io/en/latest/statistics.html#variance>`_
+* 3rd moment - `Skewness <http://ml-compiled.readthedocs.io/en/latest/statistics.html#skewness>`_
 * 4th moment - Kurtosis
 
 Moving average

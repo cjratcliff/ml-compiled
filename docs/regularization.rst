@@ -45,7 +45,7 @@ Weight decay
 
 L1 weight decay
 ---------------------
-Adds the following term to the cost function:
+Adds the following term to the loss function:
 
 .. math::
 

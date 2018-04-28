@@ -10,8 +10,8 @@ General principles
 
 Methods
 """"""""
-* Dropout
-* Weight decay
+* `Dropout <http://ml-compiled.readthedocs.io/en/latest/regularization.html#dropout>`_
+* `Weight decay <http://ml-compiled.readthedocs.io/en/latest/regularization.html#weight-decay>`_
 * Early stopping
 * Unsupervised pre-training
 * Dataset augmentation

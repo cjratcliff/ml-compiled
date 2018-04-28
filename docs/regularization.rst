@@ -20,7 +20,6 @@ Methods
 * Bagging and ensembling
 * Optimisation algorithms like SGD that prefer wide minima
 
-""""""""
 Dropout
 """"""""
 For each training case, omit each hidden unit with some constant probability. This results in a network for each training case, the outputs of which are combined through averaging. If a unit is not omitted, its value is shared across all the models. Prevents units from co-adapting too much.
@@ -34,9 +33,8 @@ Can be interpreted as injecting noise inside the network.
 
 `Dropout: A Simple Way to Prevent Neural Networks from Overfitting, Srivastava et al. (2014) <http://jmlr.org/papers/volume15/srivastava14a.old/srivastava14a.pdf>`_
 
-""""""""""""""""""""""""""""""
 Variational dropout
-""""""""""""""""""""""""""""""
+-----------------------
 Applied to RNNs. Unlike normal dropout, the same dropout mask is retained over all timesteps, rather than sampling a new one each time the cell is called. Compared to normal dropout, this is less likely to disrupt the RNN’s ability to learn long-term dependencies.
 
 `Variational Dropout and the Local Reparameterization Trick, Kingma et al. (2015) <https://arxiv.org/abs/1506.02557>`_
@@ -44,9 +42,9 @@ Applied to RNNs. Unlike normal dropout, the same dropout mask is retained over a
 Weight decay
 """""""""""""""
 
-"""""""""""""""
+
 L1 weight decay
-"""""""""""""""
+---------------------
 Adds the following term to the cost function:
 
 .. math::
@@ -55,9 +53,8 @@ Adds the following term to the cost function:
 
 :math:`C > 0` is a hyperparameter.
 
-"""""""""""""""
 L2 weight decay
-"""""""""""""""
+-----------------
 Adds the following term to the loss function:
 
 .. math::
@@ -67,6 +64,7 @@ Adds the following term to the loss function:
 :math:`C > 0` is a hyperparameter.
 
 Intuition
+-------------
 Weight decay works by making large parameters costly. Therefore during optimisation the most important parameters will tend to have the largest magnitude. The unimportant ones will be close to zero.
 
 Sometimes referred to as ridge regression or Tikhonov regularisation in statistics.

@@ -84,7 +84,7 @@ A single pass through the training data.
 --------------
 Error surface
 --------------
-The surface obtained by plotting the weights of the network against the loss. For a linear network with a squared error function, the surface is a quadratic bowl.
+The surface obtained by plotting the weights of the network against the loss. For a linear network with a squared loss function, the surface is a quadratic bowl.
 
 ----------------------------
 Exploding gradient problem

@@ -47,6 +47,18 @@ Moments
 * 2nd moment - Variance
 * 3rd moment - Skewness
 * 4th moment - Kurtosis
+
+Moving average
+-----------------
+
+Exponential moving average (EMA)
+___________________________________
+
+.. math::
+
+  m_t = \alpha x_t + (1 - \alpha)m_{t-1}
+  
+:math:`0 \leq alpha \leq 1` is a hyperparameter.
     
 Point estimate
 ----------------

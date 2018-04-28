@@ -59,7 +59,7 @@ Depth increases the representational power of a network exponentially, for a giv
 
 Potential solutions include:
 
-* Using a smaller learning rate
+* Using a smaller `learning rate <http://ml-compiled.readthedocs.io/en/latest/optimizers.html#learning-rate>`_
 * Skip connections
 * `Batch normalization <http://ml-compiled.readthedocs.io/en/latest/layers.html#batch-normalization>`_
 * Memory cells. Used in the Neural Turing Machine for learning long dependencies.

@@ -17,7 +17,7 @@ Methods
 * Dataset augmentation
 * Semi-supervised learning
 * Noise injection
-* Bagging and ensembling
+* `Bagging and ensembling <http://ml-compiled.readthedocs.io/en/latest/ensemble_models.html>`_
 * Optimisation algorithms like SGD that prefer wide minima
 
 Dropout

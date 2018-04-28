@@ -56,6 +56,15 @@ Skewness
 ----------
 Measures the asymmetry of a probability distribution.
 
+Variance
+---------
+
+.. math::
+
+  V(X) = E[X-\mu)^2]
+  
+where :math:`mu` is the mean of X.
+
 Zipf distribution
 ---------------------
 For a population of size n, the frequency of the kth most frequent item is:

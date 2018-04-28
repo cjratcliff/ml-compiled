@@ -66,6 +66,11 @@ Potential solutions include:
 * Auxiliary loss functions (eg `Szegedy et al. (2016) <https://arxiv.org/pdf/1409.4842.pdf>`_)
 * `Orthogonal initialization <https://ml-compiled.readthedocs.io/en/latest/initialization.html#orthogonal-initialization>`_
 
+---------------
+Early stopping
+---------------
+Halting training when the validation loss has stopped decreasing but the training loss is still going down.
+
 -------------
 End-to-end
 -------------

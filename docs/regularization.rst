@@ -12,7 +12,7 @@ Methods
 """"""""
 * `Dropout <http://ml-compiled.readthedocs.io/en/latest/regularization.html#dropout>`_
 * `Weight decay <http://ml-compiled.readthedocs.io/en/latest/regularization.html#weight-decay>`_
-* `Early stopping <http://ml-compiled.readthedocs.io/en/latest/optimization.html#early-stopping>`_
+* `Early stopping <http://ml-compiled.readthedocs.io/en/latest/optimizers.html#early-stopping>`_
 * Unsupervised pre-training
 * Dataset augmentation
 * Semi-supervised learning

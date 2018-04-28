@@ -13,9 +13,9 @@ Methods
 * `Dropout <http://ml-compiled.readthedocs.io/en/latest/regularization.html#dropout>`_
 * `Weight decay <http://ml-compiled.readthedocs.io/en/latest/regularization.html#weight-decay>`_
 * `Early stopping <http://ml-compiled.readthedocs.io/en/latest/optimizers.html#early-stopping>`_
-* Unsupervised pre-training
+* `Unsupervised pre-training <http://ml-compiled.readthedocs.io/en/latest/training_with_limited_data.html#unsupervised-pre-training>`_
 * Dataset augmentation
-* Semi-supervised learning
+* `Semi-supervised learning <http://ml-compiled.readthedocs.io/en/latest/training_with_limited_data.html#semi-supervised-learning>`_
 * Noise injection
 * `Bagging and ensembling <http://ml-compiled.readthedocs.io/en/latest/ensemble_models.html>`_
 * Optimisation algorithms like SGD that prefer wide minima

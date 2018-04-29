@@ -44,7 +44,6 @@ REINFORCE
 Regret matching
 Reward clipping
 Reward sparsity
-SARSA
 Trust region policy optimization
 Value-based methods
 Value iteration

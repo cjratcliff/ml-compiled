@@ -7,7 +7,9 @@ Energy-based model
 Expectation-maximisation (EM)
 Inductive bias
 Lattice model
+Multilayer perceptron (MLP)
 Multimodal learning
+
 Overcomplete representation
 Calibration
 Dataset augmentation
@@ -49,7 +51,6 @@ Trust region policy optimization
 Value-based methods
 Value iteration
 
------------------------
 Matrix differentiation
 Beta distribution
 Dirichlet distribution

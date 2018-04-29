@@ -18,7 +18,9 @@ Matrix of all first-order derivatives of a vector-valued function. Singular valu
 
 Partial derivative
 =====================
-The derivative of a function of many variables with respect to one of those variables. The notation is:
+The derivative of a function of many variables with respect to one of those variables. 
+
+The notation is:
 
 .. math::
 

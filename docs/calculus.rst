@@ -20,11 +20,7 @@ Partial derivative
 =====================
 The derivative of a function of many variables with respect to one of those variables. 
 
-The notation is:
-
-.. math::
-
-  \frac{\partial y}{\partial x}
+The notation for the partial derivative of y with respect to x is :math:`\frac{\partial y}{\partial x}`
 
 Rules of differentiation
 ========================
@@ -66,3 +62,7 @@ In general dy/dx is the inverse of dx/dy. However there are some conditions atta
 Matrix differentiation
 -----------------------
 TODO
+
+Total derivative
+======================
+The derivative of a function of many arguments with respect to one of those arguments, taking into account any indirect effects via the other arguments. The total derivative of y with respect to x is written as :math:`\frac{dy}{dx}`.

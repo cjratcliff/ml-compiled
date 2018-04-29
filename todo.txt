@@ -10,6 +10,7 @@ Lattice model
 Multimodal learning
 Overcomplete representation
 Calibration
+Dataset augmentation
 
 Activation
 Adversarial examples

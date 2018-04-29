@@ -113,10 +113,6 @@ When n and k take on specific values or ranges the Multinomial distribution has 
 | :math:`n \geq 1`       | Binomial        | Multinomial      |
 +------------------------+-----------------+------------------+
 
-Improper prior
-----------------
-A prior whose probability distribution has infinitesimal density over an infinitely large range. For example, the distribution for picking an integer at random.
-
 Inference
 -----------
 Probabilistic inference is the task of determining the probability of a particular outcome.
@@ -167,6 +163,10 @@ Finds the set of parameters that are most likely, given the data. Since priors o
 Prior
 ------
 A probability distribution before any evidence is taken into account. For example the probability that it will rain where there are no observations such as cloud cover.
+
+Improper prior
+_________________
+A prior whose probability distribution has infinitesimal density over an infinitely large range. For example, the distribution for picking an integer at random.
 
 Informative and uninformative priors
 ______________________________________

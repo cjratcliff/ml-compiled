@@ -2,24 +2,28 @@
 Calculus
 """"""""""""
 
-============
 Euler's method
-============
+=================
 An iterative method for solving differential equations (ie integration).
 
-====================
 Hessian matrix
 ====================
 
 Square matrix of second-order partial derivatives of a scalar-valued function. Its size and therefore cost to compute is quadratic in the number of parameters. This makes it infeasible to compute for most problems. If the Hessian at a point on the loss surface has no negative eigenvalues the point is a local minimum.
 
-======================
 Jacobian matrix
 ======================
 
 Matrix of all first-order derivatives of a vector-valued function. Singular values are important.
 
-========================
+Partial derivative
+=====================
+The derivative of a function of many variables with respect to one of those variables. The notation is:
+
+.. math::
+
+  \frac{\partial y}{\partial x}
+
 Rules of differentiation
 ========================
 

@@ -47,7 +47,7 @@ Power rule
 
 Exponentials
 --------------
-.. math:: (a^{bx})' = a^{bx} \cdot \log(a) b
+.. math:: (a^{bx})' = a^{bx} \cdot b\log(a)
 
 Chain rule
 ----------------

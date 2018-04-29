@@ -12,7 +12,9 @@ A network for dimensionality reduction. The target output is the same as the inp
 
 In its simplest form, a layer of hidden units has M neurons where M < N and N is the dimensionality of the data. This ‘bottleneck’ means a compressed representation of the input data is required. The first half of the network is an encoder and the second half is a decoder.
 
+----------------------------------
 Convolutional autoencoders
+----------------------------------
 Composed of standard convolutional layers and upsampling layers.
 
 Denoising Autoencoder (DAE)

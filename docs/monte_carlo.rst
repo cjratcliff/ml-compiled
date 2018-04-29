@@ -13,9 +13,9 @@ Pseudocode:
 
 .. code-block:: none
 
-      Randomly initialise x.
-      For  i = 1,...,d
-        Sample the ith dimension of x given the values in all the other dimensions.
+      1. Randomly initialise x.
+      2. For  i = 1,...,d
+      3.   Sample the ith dimension of x given the values in all the other dimensions.
 
 Importance sampling
 ------------------------
@@ -43,11 +43,12 @@ Pseudocode:
 
 .. code-block:: none
 
-    Randomly initialise x
-    For t = 1,...,T_max
-        Generate a candidate for the next sample from a normal distribution centered on the current point.
-        Calculate the acceptance ratio, the probability that the new candidate will be retained. This is equal to the density at the current point, divided by the density at the candidate point.
-        Either accept or reject the candidate, based on a random sample from the distribution (a, 1-a).
+    1. Randomly initialise x
+    2. For t = 1,...,T_max
+    3.   Generate a candidate for the next sample from a normal distribution centered on the current point.
+    4.   Calculate the acceptance ratio, the probability that the new candidate will be retained. 
+         This is equal to the density at the current point, divided by the density at the candidate point.
+    5.   Either accept or reject the candidate, based on a random sample from the distribution (a, 1-a).
 
 The proposal distribution is the distribution over the possible points to sample next.
 

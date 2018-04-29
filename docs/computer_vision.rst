@@ -23,6 +23,8 @@ Face verification
 ___________________
 Binary classification problem. Given two images of faces, assess whether they are from the same person or not.
 
+Commonly used architectures for solving this problem include Siamese and Triplet networks.
+
 Instance segmentation
 ------------------------
 Unlike semantic segmentation, different instances of the same object type have to be labelled as separate objects (eg person 1, person 2). Harder than semantic segmentation.

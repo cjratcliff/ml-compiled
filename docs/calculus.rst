@@ -65,7 +65,7 @@ Can be done using the chain rule. For example, :math:`\partial x^6/\partial x^2`
 
 Inverse relationship
 ------------------------
-In general dy/dx is the inverse of dx/dy. However there are some conditions attached (unknown at the time of writing).
+In general :math:`dy/dx` is the inverse of :math:`dx/dy`.
 
 Matrix differentiation
 -----------------------
@@ -75,7 +75,7 @@ Total derivative
 ======================
 The derivative of a function of many arguments with respect to one of those arguments, taking into account any indirect effects via the other arguments.
 
-The total derivative of z(x,y) with respect to x is:
+The total derivative of :math:`z(x,y)` with respect to :math:`x` is:
 
 .. math::
 

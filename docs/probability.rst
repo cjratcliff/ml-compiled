@@ -121,22 +121,6 @@ Inference
 -----------
 Probabilistic inference is the task of determining the probability of a particular outcome.
 
-Informative and uninformative priors
----------------------------------------
-Examples:
-
-Informative:
-
-* The temperature is normally distributed with mean 20 and variance 3.
-
-Uninformative:
-
-* The temperature is positive.
-* The temperature is less than 200.
-* All temperatures are equally likely.
-
-'Uninformative' can be a misnomer. 'Not very informative' would be more accurate.
-
 Law of total probability
 --------------------------
 
@@ -183,6 +167,22 @@ Finds the set of parameters that are most likely, given the data. Since priors o
 Prior
 ------
 A probability distribution before any evidence is taken into account. For example the probability that it will rain where there are no observations such as cloud cover.
+
+Informative and uninformative priors
+______________________________________
+Examples:
+
+Informative:
+
+* The temperature is normally distributed with mean 20 and variance 3.
+
+Uninformative:
+
+* The temperature is positive.
+* The temperature is less than 200.
+* All temperatures are equally likely.
+
+'Uninformative' can be a misnomer. 'Not very informative' would be more accurate.
 
 Posterior
 ----------

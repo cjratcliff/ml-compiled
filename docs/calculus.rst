@@ -65,4 +65,10 @@ TODO
 
 Total derivative
 ======================
-The derivative of a function of many arguments with respect to one of those arguments, taking into account any indirect effects via the other arguments. The total derivative of y with respect to x is written as :math:`\frac{dy}{dx}`.
+The derivative of a function of many arguments with respect to one of those arguments, taking into account any indirect effects via the other arguments.
+
+The total derivative of z(x,y) with respect to x is:
+
+.. math::
+
+  \frac{dz}{dx} = \frac{\partial z}{\partial x} + \frac{\partial z}{\partial y} \frac{dy}{dx}

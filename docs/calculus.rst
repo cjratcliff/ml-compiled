@@ -51,7 +51,7 @@ Exponentials
 
 Logarithms
 --------------
-.. math:: (\log_a x)` = 1/(x \ln a)
+.. math:: (\log_a x)' = 1/(x \ln a)
 
 Chain rule
 ----------------

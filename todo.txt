@@ -11,6 +11,7 @@ Multilayer perceptron (MLP)
 Multimodal learning
 Overcomplete representation
 Calibration
+Conditional random field
 
 Activation
 Adversarial examples

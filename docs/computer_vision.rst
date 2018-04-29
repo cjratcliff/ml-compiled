@@ -2,6 +2,15 @@
 Computer vision
 """""""""""""""""""
 
+Data augmentation
+--------------------
+The images in the training set are randomly altered in order to improve the generalization of the network.
+
+Examples:
+
+* Random flipping
+* Random cropping
+
 Face recognition
 --------------------
 The name of the general topic. Includes face identification and verification.

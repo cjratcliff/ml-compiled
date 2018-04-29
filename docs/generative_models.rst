@@ -89,5 +89,3 @@ The assumption of independence in the entries of the hidden vector may also cont
 
 Provides better results when combined with a GAN. https://github.com/skaae/vaeblog
 
-Tutorial on Variational Autoencoders, 2016
-Introduction to Variational Autoencoders

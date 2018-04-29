@@ -49,6 +49,10 @@ Exponentials
 --------------
 .. math:: (a^{bx})' = a^{bx} \cdot b\log(a)
 
+Logarithms
+--------------
+.. math:: (\log_a x)` = 1/(x \ln a)
+
 Chain rule
 ----------------
 .. math:: \frac{dy}{dx} = \frac{dy}{dz} \cdot \frac{dz}{dx}

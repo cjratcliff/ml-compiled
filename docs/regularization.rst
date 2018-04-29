@@ -1,6 +1,7 @@
 ===============
 Regularization
 ===============
+Used to reduce overfitting and improve generalization to unseen data.
 
 General principles
 """"""""""""""""""""

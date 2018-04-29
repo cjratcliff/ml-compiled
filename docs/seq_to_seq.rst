@@ -28,18 +28,18 @@ Pseudocode:
 
 .. code-block:: none
 
-  # frontier maps partial solutions to scores
-  initialise frontier to contain the root node with a score of 0
+  1. # frontier maps partial solutions to scores
+  2. initialise frontier to contain the root node with a score of 0
   
-  while the end of the sequence has not been reached:
-      select the candidate from frontier with the best score
+  3. while the end of the sequence has not been reached:
+  4.    select the candidate from frontier with the best score
       
-      # expand the chosen candidate
-      add all the children of the candidate to frontier
-      compute the scores of all the new nodes in frontier
+  5.    # expand the chosen candidate
+  6.    add all the children of the candidate to frontier
+  7.    compute the scores of all the new nodes in frontier
       
-      # prune candidates        
-      remove all entries not in the top k from frontier
+  8.    # prune candidates        
+  9.    remove all entries not in the top k from frontier
 
 https://machinelearningmastery.com/beam-search-decoder-natural-language-processing/
 

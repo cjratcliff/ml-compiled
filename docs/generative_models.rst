@@ -59,8 +59,7 @@ Family of methods for generative models of images and sound, among others. Examp
 
 Multiscale hierarchical architecture.
 
-Images
-Generates the image pixel by pixel, conditioned on previous predictions.
+The sample is generated piece by piece, conditioned on previous predictions.
 
 -----------------
 Example papers

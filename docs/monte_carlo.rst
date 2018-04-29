@@ -25,7 +25,7 @@ Can be used to deal with the computational problems of very large vocabularies i
 
 `Quick Training of Probabilistic Neural Nets by Importance Sampling, Bengio and Senecal (2003)  <http://www.iro.umontreal.ca/~lisa/publications2/index.php/attachments/single/21>`_
 
-Deep Learning, Section 17.2
+`Deep Learning, Section 17.2 <http://www.deeplearningbook.org/contents/monte_carlo.html>`_
 
 MCMC (Markov Chain Monte Carlo)
 ---------------------------------

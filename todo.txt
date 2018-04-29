@@ -9,7 +9,6 @@ Inductive bias
 Lattice model
 Multilayer perceptron (MLP)
 Multimodal learning
-
 Overcomplete representation
 Calibration
 Dataset augmentation

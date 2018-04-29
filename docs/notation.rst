@@ -10,6 +10,7 @@ Functions
 :math:`\Pi`            Product
 :math:`\sigma`         Sigmoid function
 :math:`\mathbb{E}`     Expectation
+:math:`log(x)`         Natural logarithm of x
 :math:`|x|`            Absolute value of x
 ===================  =============================
 

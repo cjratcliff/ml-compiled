@@ -35,10 +35,10 @@ Problems
 -----------------
 Notable variants
 -----------------
-* DCGAN, 2015 - Has a number of architectural improvements over the original GAN but is not fundamentally different.
-* InfoGAN, 2016 - Is able to disentangle various aspects like pose vs lighting and digit shape vs writing style.
-* Wasserstein GAN (WGAN), 2017 - Replaces the original loss function, improving stability. The WGAN-GP (2017) is a further improved version.
-* Boundary Equilibrium GAN (BEGAN), 2017 - Gets similar quality results as the WGAN-GP.
+* `DCGAN, 2015 <https://arxiv.org/abs/1511.06434>`_ - Has a number of architectural improvements over the original GAN but is not fundamentally different.
+* `InfoGAN, 2016 <https://arxiv.org/abs/1606.03657>`_ - Is able to disentangle various aspects like pose vs lighting and digit shape vs writing style.
+* `Wasserstein GAN (WGAN) <https://arxiv.org/abs/1701.07875>`_, 2017 - Replaces the original loss function, improving stability. The WGAN-GP (2017) is a further improved version.
+* `Boundary Equilibrium GAN (BEGAN) <https://arxiv.org/abs/1703.10717>`_, 2017 - Gets similar quality results as the WGAN-GP.
 
 -----------------
 Further reading

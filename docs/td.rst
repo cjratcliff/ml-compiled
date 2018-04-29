@@ -45,7 +45,7 @@ Where
 
     R_t=\sum_{k=0}^{\inf}\gamma^k r_{t+k}
 
-:math:`R_t-V(st;v)` is the temporal difference term. 
+:math:`R_t-V(s_t;v)` is the temporal difference term. 
 
 It’s multiplied by the probability assigned by the policy for the action at time :math:`t`. This means policies which are more certain will be penalized more heavily for incorrectly estimating the value function. The final term is the entropy of the policy's distribution over actions.
 

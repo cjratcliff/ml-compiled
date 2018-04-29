@@ -43,15 +43,15 @@ Notable variants
 -----------------
 Further reading
 -----------------
-Generative Adversarial Nets, Goodfellow et al. (2014)
+`Generative Adversarial Nets, Goodfellow et al. (2014) <https://arxiv.org/abs/1406.2661>`_
 
-How to Train a GAN? Tips and tricks to make GANs work, Chintala (2016)
+`How to Train a GAN? Tips and tricks to make GANs work, Chintala (2016) <https://github.com/soumith/ganhacks>`_
 
-Fantastic GANs and where to find them part one and two
+`Fantastic GANs and where to find them part one <http://guimperarnau.com/blog/2017/03/Fantastic-GANs-and-where-to-find-them>`_ and `two <http://guimperarnau.com/blog/2017/11/Fantastic-GANs-and-where-to-find-them-II>`_
 
-The GAN Zoo
+`The GAN Zoo <https://github.com/hindupuravinash/the-gan-zoo>`_
 
-Are GANs Created Equal? A Large-Scale Study, Lucic et al. (2017)
+`Are GANs Created Equal? A Large-Scale Study, Lucic et al. (2017) <https://arxiv.org/abs/1711.10337>`_
 
 Generative Autoregressive Networks
 ------------------------------------

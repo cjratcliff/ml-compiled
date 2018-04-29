@@ -45,6 +45,10 @@ Power rule
 ------------
 .. math:: (x^a)' = ax^{a-1}
 
+Exponentials
+--------------
+.. math:: (a^{bx})' = a^{bx} \cdot \log(a) b
+
 Chain rule
 ----------------
 .. math:: \frac{dy}{dx} = \frac{dy}{dz} \cdot \frac{dz}{dx}

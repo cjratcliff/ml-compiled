@@ -8,7 +8,7 @@ The images in the training set are randomly altered in order to improve the gene
 
 Examples:
 
-* Random flipping
+* Random flipping - the image is flipped with probability 0.5 and left as it is otherwise. Normally only horizontal flipping is used but vertical flipping can be used where it makes sense, satellite imagery for example.
 * Random cropping
 
 Face recognition

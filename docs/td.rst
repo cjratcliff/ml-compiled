@@ -55,15 +55,15 @@ It is optimized by RMSProp with the moving average of gradients shared between t
 
 Q-learning
 ----------------
-Model-free iterative algorithm to find the optimal policy and a form of temporal difference learning. Uses the update rule:
+Model-free iterative algorithm to find the optimal policy and a form of temporal difference learning. 
 
-% TODO: Where does s' come from?
+Uses the update rule:
 
 .. math::
 
-    Q_{t+1}(s,a) = (1-\alpha_t)Q_t(s,a) + \alpha_t(r_t + \gamma \max_{a'}Q_t(s',a'))
+    Q(s,a) := Q(s,a) + \alpha(r + \gamma \max_{a'}Q(s',a'))
 
-where :math:`Q_t(a,s)` is the value of performing action a in state s and performing optimally thereafter, as defined by the Q function at iteration t in the training process.
+where :math:`Q(a,s)` is the value of performing action a in state s and performing optimally thereafter. :math:`s'` is the state that results from performing action :math:`a` in state :math:`s`.
 
 The Q-function
 '''''''''''''''''''''

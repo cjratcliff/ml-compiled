@@ -2,6 +2,9 @@
 Preprocessing
 """"""""""""""""""
 
+`Data augmentation <https://ml-compiled.readthedocs.io/en/latest/computer_vision.html#data-augmentation>`_
+----------------------
+
 Principal Component Analysis (PCA)
 ----------------------------------------
 Approximates a dataset with a set of smaller linearly uncorrelated variables. These variables can be found through eigenvalue decomposition.

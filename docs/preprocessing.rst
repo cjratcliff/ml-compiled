@@ -6,7 +6,7 @@ Principal Component Analysis (PCA)
 ----------------------------------------
 Approximates a dataset with a set of smaller linearly uncorrelated variables. These variables can be found through eigenvalue decomposition.
 
-% TODO: Formula
+.. TODO: Formula
 
 Whitening
 ------------

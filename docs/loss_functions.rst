@@ -51,10 +51,24 @@ A loss function used for regression. It is less sensitive to outliers than the s
               \delta(|y_i - \hat{y}_i| - \frac{1}{2}\delta), & \text{otherwise}
           \end{cases}
 
+"""""""""""""""""""""""""""""
+Negative sampling
+"""""""""""""""""""""""""""""
+A technique for efficient learning when the number of output classes is large. Useful for language modelling. The softmax over the vocabulary is removed and the problem is reframed as a binary classification problem.
+
+Embeddings
+------------
+
+.. math::
+
+  L(x_0,x_1,y) = y\log \sigma(f(x_0) \cdot f(x_1)) + (1-y_i)\log(\sigma(-f(x_0) \cdot f(x_1)))
+  
+where :math:`x_0` and :math:`x_1` are two examples, :math:`f` is the learned embedding function and :math:`y = 1` if the pair :math:`(x_0,x_1)` are expected to be similar and :math:`y = 0` otherwise. The dot product measures the distance between the two embeddings.
+
 """"""""""""""""""""""""""""""""
 Noise Contrastive Estimation
 """"""""""""""""""""""""""""""""
-Loss functions for efficient learning when the number of output classes is large. Useful for language modelling.
+Like negative sampling, this is a technique for efficient learning when the number of output classes is large. Useful for language modelling.
 
 A binary classification task is created to disambiguate pairs that are expected to be close to each other from ‘noisy’ examples put together at random. 
 

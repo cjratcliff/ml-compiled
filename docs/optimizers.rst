@@ -133,6 +133,11 @@ Cons of large learning rates:
 * Increases the risk of oscillations during training, especially when not using an optimizer with a momentum term.
 * Can make it harder to train deeper networks.
 
+"""""""""""""""""""""
+Learning rate decay
+"""""""""""""""""""""
+Also known as learning rate annealing. Changing the learning rate throughout the training process according to some schedule.
+
 -------------
 Optimizers
 -------------

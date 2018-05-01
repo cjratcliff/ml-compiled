@@ -44,9 +44,9 @@ Information theory
 
 Linear algebra
 --------------
-=================  =============================
+=================  ====================================
   Symbol             Meaning   
-=================  ============================= 
+=================  ==================================== 
 :math:`x`            A vector
 :math:`X`            A matrix
 :math:`X^T`         Transpose of X
@@ -54,8 +54,9 @@ Linear algebra
 :math:`X^{-1}`         Inverse of X
 :math:`||x||_2`        Euclidean norm of x
 :math:`I`            Identity matrix
-:math:`*`            Element-wise product
-=================  =============================
+:math:`X*Y`         Element-wise product of x and y
+:math:`x \cdot y`   Dot product of x and y
+=================  ====================================
 
 Probability
 ------------

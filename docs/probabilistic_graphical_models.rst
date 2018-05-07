@@ -18,3 +18,9 @@ The joint distribution for all the variables in a network is equal to the produc
     P(X_1,...,X_n) = \prod_i P(X_i|Par(X_i))
 
 where :math:`Par(X_i)` denotes the parents of the node :math:`X_i` in the graph.
+
+Conditional Random Field (CRF)
+---------------------------------
+
+Markov Random Field (MRF)
+---------------------------

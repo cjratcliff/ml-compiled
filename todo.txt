@@ -1,6 +1,16 @@
-Variational Bayes
+Calculus
+============
+Matrix differentiation
+
+Statistics
+============
+Beta distribution
+Dirichlet distribution
 Weibull distribution
 
+Uncategorised
+=================
+Variational Bayes
 Parametric and non-parametric models
 Discriminative model
 Energy-based model
@@ -12,7 +22,6 @@ Multimodal learning
 Overcomplete representation
 Calibration
 Conditional random field
-
 Activation
 Adversarial examples
 Bayesian neural network
@@ -22,13 +31,10 @@ Siamese network
 Sparsity
 Visual question answering
 Vanishing gradient problem
-
 ILSVRC
-
 Full gradient descent
 Mini-batch gradient descent
 Natural gradient
-
 Advantage function
 Counterfactual regret minimization
 Direct policy search
@@ -48,16 +54,11 @@ Reward sparsity
 Trust region policy optimization
 Value-based methods
 Value iteration
-
-Matrix differentiation
-Beta distribution
-Dirichlet distribution
 Mean field approach
 Partition function 
 Gaussian process
 Rademacher complexity
 VC dimension
-
 Deep Boltzmann Machine
 Restricted Boltzmann Machine (RBM)
 Deep Belief Network (DBN)

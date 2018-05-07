@@ -190,10 +190,6 @@ Second-order optimization method. Inferior to SGD.
 
 `Krylov Subspace Descent for Deep Learning, Vinyals and Povey (2011) <https://arxiv.org/abs/1111.4259>`_
 
-"""""""""""""""""
-Learning rate
-"""""""""""""""""
-
 """"""""
 Momentum
 """"""""

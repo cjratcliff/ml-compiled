@@ -14,6 +14,11 @@ AdaBoost
 Cosine learning rate decay
 Vanishing/exploding gradient problem
 
+PGMs
+======
+Conditional random field
+Markov random field
+
 Uncategorised
 =================
 Variational Bayes
@@ -28,7 +33,6 @@ Multilayer perceptron (MLP)
 Multimodal learning
 Overcomplete representation
 Calibration
-Conditional random field
 Activation
 Adversarial examples
 Bayesian neural network

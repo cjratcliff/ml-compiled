@@ -53,6 +53,7 @@ Contents
    natural_language_processing
    optimizers
    preprocessing
+   probabilistic_graphical_models
    recurrent
    regularization
    seq_to_seq

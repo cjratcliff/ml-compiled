@@ -21,6 +21,7 @@ Markov random field
 
 Uncategorised
 =================
+k-fold cross validation
 Variational Bayes
 Parametric and non-parametric models
 Discriminative model

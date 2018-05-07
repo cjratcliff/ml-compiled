@@ -10,6 +10,7 @@ Weibull distribution
 
 Optimization
 ==============
+Cosine learning rate decay
 Natural gradient
 Vanishing/exploding gradient problem
 
@@ -22,6 +23,7 @@ Energy-based model
 Expectation-maximisation (EM)
 Inductive bias
 Lattice model
+Metric learning
 Multilayer perceptron (MLP)
 Multimodal learning
 Overcomplete representation

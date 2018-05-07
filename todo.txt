@@ -8,6 +8,11 @@ Beta distribution
 Dirichlet distribution
 Weibull distribution
 
+Optimization
+==============
+Natural gradient
+Vanishing/exploding gradient problem
+
 Uncategorised
 =================
 Variational Bayes
@@ -30,11 +35,9 @@ Feedforward
 Siamese network
 Sparsity
 Visual question answering
-Vanishing gradient problem
 ILSVRC
 Full gradient descent
 Mini-batch gradient descent
-Natural gradient
 Advantage function
 Counterfactual regret minimization
 Direct policy search

@@ -260,7 +260,7 @@ texinfo_documents = [
 
 # -- Custom -------------------------------------------
 #site base url
-site_url = 'https://ml-compiled.readthedocs.io'
+site_url = 'https://ml-compiled.readthedocs.io/en/latest/'
 
 def setup(app):
     app.add_stylesheet('css/cookieconsent.min.css')

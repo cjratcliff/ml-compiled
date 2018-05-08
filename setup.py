@@ -8,7 +8,7 @@ setup(
    author_email='c.j.ratcliff@gmail.com',
    packages=['ml-compiled'],  #same as name
     install_requires=[
-        'fs (~= 2.0)', 'graphviz (>= 0.8, < 0.9)', 'jinja2 (~= 2.9)', 'mondrian (~= 0.6)', 'packaging (~= 16.0)',
+        'fs (~= 2.0)', 'graphviz (>= 0.8, < 0.9)', 'jinja2 (~= 2.9)', 'mondrian (~= 0.6)', 'packaging (~= 17.1)',
         'psutil (~= 5.4)', 'python-slugify (~= 1.2.0)', 'requests (~= 2.0)', 'stevedore (~= 1.27)', 'whistle (~= 1.0)'
     ],
     extras_require={

@@ -150,7 +150,7 @@ A layer designed to improve efficiency when the number of output classes is larg
 
 A tree is constructed where the leaves are the output classes.
 
-Alternative methods include `Noise Contrastive Estimation <http://ml-compiled.readthedocs.io/en/latest/loss_functions.html#noise-contrastive-estimation>`_ and `Negative Sampling <http://ml-compiled.readthedocs.io/en/latest/loss_functions.html#negative-sampling>`_.
+Alternative methods include `Noise Contrastive Estimation <https://ml-compiled.readthedocs.io/en/latest/loss_functions.html#noise-contrastive-estimation>`_ and `Negative Sampling <https://ml-compiled.readthedocs.io/en/latest/loss_functions.html#negative-sampling>`_.
 
 `Classes for Fast Maximum Entropy Training, Goodman (2001) <https://arxiv.org/abs/cs/0108006>`_
 

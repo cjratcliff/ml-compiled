@@ -164,8 +164,22 @@ Padding can ensure the different convolution sizes still have the same size of o
 
 5x5 convolutions are expensive so the 1x1 convolutions make the architecture computationally viable. The 1x1 convolutions perform dimensionality reduction by reducing the number of filters. This is not a characteristic necessarily found in all 1x1 convolutions. Rather, the authors have specified to have the number of output filters less than the number of input filters. See also convolutional layer > 1x1 convolution.
 
+Pooling layer
+---------------
+
+'''''''''''''''''''''''''''''
+Max pooling
+'''''''''''''''''''''''''''''
+Transforms the input by taking the max along a particular dimension. In sequence processing this is usually the length of the sequence.
+
+'''''''''''''''''''''''''''''
+Mean pooling
+'''''''''''''''''''''''''''''
+Also known as average pooling. Identical to max-pooling except the mean is used instead of the max.
+
+'''''''''''''''''''''''''''''
 RoI pooling
---------------
+'''''''''''''''''''''''''''''
 Used to solve the problem that the regions of interest (RoI) identified by the bounding boxes can be different shapes in object recognition. The CNN requires all inputs to have the same dimensions.
 
 The RoI is divided into a number of rectangles of fixed size (except at the edges). If doing 3x3 RoI pooling there will be 9 rectangles in each RoI. We do max-pooling over each RoI to get 3x3 numbers.

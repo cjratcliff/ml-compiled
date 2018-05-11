@@ -73,7 +73,6 @@ A type of RNN with a memory cell as the hidden state. Uses a gating mechanism to
 Can have multiple layers. The input gate determines when the input is significant enough to remember. The output gate decides when to output the value. The forget gate determines when the value should be forgotten.
 
 The activations of the input, forget and output gates are :math:`f_t` and :math:`o_t` respectively. The state of the memory cell is :math:`C_t`.
-% TODO: C tilde
 
 .. math::
 
@@ -83,7 +82,7 @@ The activations of the input, forget and output gates are :math:`f_t` and :math:
 
     \tilde C_t=\tanh(W_c x_t + U_c h_{t-1})
 
-    C_t=i_t*C_t + f_t*C_{t-1}
+    C_t=i_t*\tilde C_t + f_t*C_{t-1}
 
     o_t=(W_o x_t + U_o h_{t-1} + V_o C_t)
 

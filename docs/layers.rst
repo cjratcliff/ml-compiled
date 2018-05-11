@@ -144,6 +144,16 @@ Applies the following function:
   
 :math:`f` is the activation function. :math:`h` is the output of the previous hidden layer. :math:`W` is the weight matrix and :math:`b` is known as the bias vector.
 
+Hierarchical softmax
+----------------------
+A layer designed to improve efficiency when the number of output classes is large. Its complexity is logarithmic in the number of classes rather than linear, as for a standard softmax layer.
+
+A tree is constructed where the leaves are the output classes.
+
+Alternative methods include `Noise Contrastive Estimation <http://ml-compiled.readthedocs.io/en/latest/loss_functions.html#noise-contrastive-estimation>`_ and `Negative Sampling <http://ml-compiled.readthedocs.io/en/latest/loss_functions.html#negative-sampling>`_.
+
+`Classes for Fast Maximum Entropy Training, Goodman (2001) <https://arxiv.org/abs/cs/0108006>`_
+
 Inception layer
 --------------------
 At each layer of a traditional CNN we can choose it to be either a convolutional or a pooling layer. If it is convolutional we then need to choose the kernel size (1x1, 3x3, 5x5 etc.). The inception module negates this choice by choosing them all and concatenating the results.

@@ -6,6 +6,14 @@ Entity linking
 ----------------
 The task of finding the specific entity which words or phrases refer to. Not to be confused with Named Entity Recognition.
 
+FastText
+----------
+A simple baseline method for text classification.
+
+`Bag of Tricks for Efficient Text Classification <https://arxiv.org/abs/1607.01759>`_
+
+`Enriching Word Vectors with Subword Information <https://arxiv.org/abs/1607.04606>`_
+
 Latent Dirichlet Allocation (LDA)
 -----------------------------------
 Topic modelling algorithm.

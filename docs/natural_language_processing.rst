@@ -10,6 +10,15 @@ FastText
 ----------
 A simple baseline method for text classification.
 
+The architecture is as follows:
+
+* The inputs are n-grams features from the original input sequence. Using n-grams means some of the word-order information is preserved without the large increase in computational complexity characteristic of recurrent networks.
+* An embedding layer.
+* A mean-pooling layer averages the features over the length of the inputs.
+* A softmax layer gives the class probabilities.
+
+The model is trained with the `cross-entropy loss <https://ml-compiled.readthedocs.io/en/latest/loss_functions.html#cross-entropy-loss>`_ as normal.
+
 `Bag of Tricks for Efficient Text Classification <https://arxiv.org/abs/1607.01759>`_
 
 `Enriching Word Vectors with Subword Information <https://arxiv.org/abs/1607.04606>`_

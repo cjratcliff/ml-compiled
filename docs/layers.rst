@@ -162,7 +162,7 @@ Padding can ensure the different convolution sizes still have the same size of o
 
 9 are used in GoogLeNet, a 22-layer deep network and state of the art solution for ILSVRC 2014. The width of the filters increases from 256 to 1024 from the start to the end of GoogLeNet. Due to the removal of final fully connected layers it only has 5 million parameters and takes less than twice as long as AlexNet to train.
 
-5x5 convolutions are expensive so the 1x1 convolutions make the architecture computationally viable. The 1x1 convolutions perform dimensionality reduction by reducing the number of filters. This is not a characteristic necessarily found in all 1x1 convolutions. Rather, the authors have specified to have the number of output filters less than the number of input filters. See also convolutional layer > 1x1 convolution.
+5x5 convolutions are expensive so the `1x1 convolutions <https://ml-compiled.readthedocs.io/en/latest/layers.html#x1-convolutions>`_ make the architecture computationally viable. The 1x1 convolutions perform dimensionality reduction by reducing the number of filters. This is not a characteristic necessarily found in all 1x1 convolutions. Rather, the authors have specified to have the number of output filters less than the number of input filters.
 
 Pooling layer
 ---------------

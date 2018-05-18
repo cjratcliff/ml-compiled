@@ -24,7 +24,7 @@ A basic convolutional network, historically used for the MNIST dataset.
 
 Residual network
 -------------------
-Used for training very deep networks. The original paper achieved 152 layers, 8 times deeper than VGG nets. Used for image recognition, winning first place in the ILSVRC 2015 classification task. Residual connections can also be used to create deeper RNNs such as Google’s 16-layer RNN encoder-decoder (Wu et al., 2016).
+An architecture that uses skip connections to create very deep networks. The original paper achieved 152 layers, 8 times deeper than VGG nets. Used for image recognition, winning first place in the ILSVRC 2015 classification task. Residual connections can also be used to create deeper RNNs such as Google’s 16-layer RNN encoder-decoder (Wu et al., 2016).
 
 Uses shortcut connections performing the identity mapping, which are added to the outputs of the stacked layers. Based on the theory that  is easier to optimise than . Each layer uses the equation 
 

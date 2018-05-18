@@ -49,7 +49,14 @@ http://www.inference.vc/alphago-zero-policy-improvement-and-vector-fields
 
 Poker
 --------
-Unlike games like Chess and Go, Poker is an imperfect information game. This means that strategies like bluffing must be considered.
+Unlike games like Chess and Go, Poker is an imperfect information game. This means that as well as having to maintain a probability distribution over the hidden state of the game, strategies like bluffing must also be considered.
+
+Heads up no limit Texas Hold 'em
+'''''''''''''''''''''''''''''''''''
+* Two players
+* The cards start off dealt face down to each player.
+* Cards in later rounds are dealt face up.
+* The bets can be of any size, subject to an overall limit on the amount wagered in the game.
 
 DeepStack
 '''''''''''''

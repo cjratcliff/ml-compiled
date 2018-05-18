@@ -49,9 +49,15 @@ http://www.inference.vc/alphago-zero-policy-improvement-and-vector-fields
 
 Poker
 --------
+Unlike games like Chess and Go, Poker is an imperfect information game. This means that strategies like bluffing must be considered.
 
 DeepStack
 '''''''''''''
+DeepStack is an AI for playing sequential imperfect-information games, most notably applied to heads up no-limit Texas Hold 'em Poker. It was the first algorithm to beat human professional players with statistical significance.
+
+https://www.deepstack.ai/
+
+`DeepStack: Expert-Level Artificial Intelligence in No-Limit Poker, Moravcik et al. (2017) <https://arxiv.org/abs/1701.01724>`_
 
 Starcraft
 -----------

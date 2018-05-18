@@ -17,7 +17,7 @@ A reinforcement learning policy network is initialized to this network and then 
 
 Finally, a supervised value-network is trained to predict the outcome (which player wins) from positions in the self-play dataset.
 
-The value and policy networks are combined in an MCTS algorithm that selects actions by lookahead search.
+The value and policy networks are combined in an `Monte Carlo Tree Search (MCTS) <https://ml-compiled.readthedocs.io/en/latest/search_algorithms.html#monte-carlo-tree-search>`_ algorithm that selects actions by lookahead search.
 Both the value and policy networks are composed of many convolutional layers.
 
 AlphaGo Zero
@@ -34,10 +34,10 @@ During training moves are picked stochastically, with the amount of noise being 
 
 Architecture and loss functions
 ____________________________________
-The core network is a 20-layer ResNet with batch norm and ReLUs. It has two outputs:
+The core network is a 20-layer `ResNet <https://ml-compiled.readthedocs.io/en/latest/convolutional.html#residual-network>`_ with batch norm and ReLUs. It has two outputs:
 
 The first predicts the value of the current game position. This is trained with a mean-squared error from the actual outcomes of played games. 1 if the player won and -1 if they lost.
-The second predicts the policy, given the current game position. This is trained with a cross-entropy loss and the policy resulting form MCTS.
+The second predicts the policy, given the current game position. This is trained with a cross-entropy loss and the policy resulting from MCTS.
 
 Paper
 ________

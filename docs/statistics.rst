@@ -75,7 +75,7 @@ Variance
 
   V(X) = E[X-\mu)^2]
   
-where :math:`mu` is the mean of X.
+where :math:`\mu` is the mean of X.
 
 Zipf distribution
 ---------------------

@@ -33,9 +33,15 @@ In order to modify the standard autoencoder to allow sampling, the distribution 
 
 There are two vectors outputted by the encoder, one for the mean and one for the variance. The closeness of these vectors to the unit Gaussian is measured by the KL-divergence.
 
-The total loss is the sum of the reconstruction loss (mean squared error) and the KL-divergence. The use of the mean squared error means the network tends to produce blurry images. A GAN does not have this problem.
+The total loss is the sum of the reconstruction loss (mean squared error) and the KL-divergence:
 
-The assumption of independence in the entries of the hidden vector may also contribute to poor results.
+.. math::
+
+  L(y,\hat{y}) = \sum_i (y_i - \hat{y}_i)^2 + D_{KL}(N(\mu,\sigma)||N(0,1))
+  
+where :math:`\mu` and :math:`\sigma` are the mean and standard deviation of the encoding.
+
+The use of the mean squared error means the network tends to produce blurry images. A GAN does not have this problem. The assumption of independence in the entries of the hidden vector may also contribute to poor results.
 
 Provides better results when combined with a GAN. https://github.com/skaae/vaeblog
 

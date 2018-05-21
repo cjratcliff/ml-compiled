@@ -73,7 +73,7 @@ Variance
 
 .. math::
 
-  V(X) = E[X-\mu)^2]
+  V(X) = E[(X-\mu)^2]
   
 where :math:`\mu` is the mean of X.
 

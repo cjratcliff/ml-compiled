@@ -17,6 +17,13 @@ Conjugate transpose
 =====================
 The matrix obtained by taking the transpose followed by the complex conjugate of each entry.
 
+Dot product
+=============
+
+.. math::
+
+  a \cdot b = \sum_{i=1}^n a_i b_i
+
 Eigendecomposition
 =====================
 

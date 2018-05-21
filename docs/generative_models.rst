@@ -27,7 +27,7 @@ Adds noise to prevent the hidden layer(s) from learning the identity, when the w
 
 Variational Autoencoder (VAE)
 ==================================
-Takes noise as input and outputs a sample from the distribution being modelled. 'Variational' refers to the Variational Bayes method which is used to approximate the true objective function with one that is more computable.
+Unlike the standard autoencoder, the VAE can take noise as an input and use it to generate a sample from the distribution being modelled. 'Variational' refers to the Variational Bayes method which is used to approximate the true objective function with one that is more computable.
 
 In order to modify the standard autoencoder to allow sampling, the distribution of the encoded image vectors is constrained to be roughly Normal(0,1). This means sampling can be done by sampling a random vector from N(0,1) and running the decoder on it.
 
@@ -41,9 +41,10 @@ The total loss is the sum of the reconstruction loss (mean squared error) and th
   
 where :math:`\mu` and :math:`\sigma` are the mean and standard deviation of the encoding.
 
-The use of the mean squared error means the network tends to produce blurry images. A GAN does not have this problem. The assumption of independence in the entries of the hidden vector may also contribute to poor results.
-
-Provides better results when combined with a GAN. https://github.com/skaae/vaeblog
+Problems
+'''''''''''
+* The use of the mean squared error means the network tends to produce blurry images. A GAN does not have this problem. 
+* The assumption of independence in the entries of the hidden vector may also contribute to poor results.
 
 Generative Adversarial Network (GAN)
 ------------------------------------------------

@@ -17,6 +17,8 @@ Correlation
 
 Covariance matrix
 ----------------------
+A square matrix :math:`\Sigma` where :math:`\Sigma_{ij} = Cov(X_i,X_j)` and :math:`X_i` and :math:`X_j` are two variables.
+
 There are three types of covariance matrix:
 
 * Full - All entries are specified. Has :math:`O(n^2)` parameters for :math:`n` variables.

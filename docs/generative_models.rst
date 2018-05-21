@@ -12,6 +12,9 @@ A network for dimensionality reduction that can also be used for generative mode
 
 In its simplest form, an autoencoder takes the original input (eg the pixel values of an image) and transforms them into a hidden layer with fewer features than the original. This ‘bottleneck’ means a compressed representation of the input. The part of the network which does this transformation is known as the encoder. The second part of an autoencoder is the decoder which takes the bottleneck layer and uses it to try and reconstruct the original input. This part is known as the decoder.
 
+.. image:: ../img/autoencoder.PNG
+  :align: center
+   
 Autoencoders can be used as generative networks by sampling a new hidden state in the bottleneck layer and running it through the decoder.
 
 Convolutional autoencoders

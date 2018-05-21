@@ -58,7 +58,7 @@ ___________________________________
 
   m_t = \alpha x_t + (1 - \alpha)m_{t-1}
   
-:math:`0 \leq alpha \leq 1` is a hyperparameter.
+:math:`0 \leq \alpha \leq 1` is a hyperparameter.
     
 Point estimate
 ----------------

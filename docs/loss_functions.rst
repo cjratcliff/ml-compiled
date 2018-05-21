@@ -116,7 +116,7 @@ A loss function used for regression.
 """"""""""""""""
 Triplet loss
 """"""""""""""""
-Used for training triplet networks. A triplet is composed of an anchor (:math:`a`), a positive example (:math:`p`) and a negative example (:math:`n`).
+Used for training embeddings with triplet networks. A triplet is composed of an anchor (:math:`a`), a positive example (:math:`p`) and a negative example (:math:`n`). The positive examples are similar to the anchor and the negative examples are dissimilar.
 
 .. math::
 

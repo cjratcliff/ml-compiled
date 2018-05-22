@@ -81,6 +81,8 @@ where :math:`\mu` is the mean of X.
 
 Zipf distribution
 ---------------------
+A distribution that has been observed to be a good model for things like the frequency of words in a language, where there are a few very popular words and a long tail of lesser known ones.
+
 For a population of size n, the frequency of the kth most frequent item is:
 
 .. math::

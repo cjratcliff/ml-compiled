@@ -26,6 +26,10 @@ A subset of a graph where the nodes are fully-connected, ie each node has an edg
 Conditional Random Field (CRF)
 ---------------------------------
 
+Markov property
+--------------------
+A process is said to have the Markov property if the next state depends only on the current state, not any of the previous ones.
+
 Markov Random Field (MRF)
 ---------------------------
 A type of undirected graph which defines the joint probability distribution over a set of variables. Each variable is represented by one node in the graph.

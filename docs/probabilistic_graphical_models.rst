@@ -19,8 +19,13 @@ The joint distribution for all the variables in a network is equal to the produc
 
 where :math:`Par(X_i)` denotes the parents of the node :math:`X_i` in the graph.
 
+Clique
+-------
+A subset of a graph where the nodes are fully-connected, ie each node has an edge with every other node in the set.
+
 Conditional Random Field (CRF)
 ---------------------------------
 
 Markov Random Field (MRF)
 ---------------------------
+A type of undirected graph which defines the joint probability distribution over a set of variables. Each variable is represented by one node in the graph.

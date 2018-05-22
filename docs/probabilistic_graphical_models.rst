@@ -26,6 +26,13 @@ A subset of a graph where the nodes are fully-connected, ie each node has an edg
 Conditional Random Field (CRF)
 ---------------------------------
 
+Hidden Markov Model (HMM)
+---------------------------
+
+Markov chain
+--------------
+A simple state transition model where the next state depends only on the current state.
+
 Markov property
 --------------------
 A process is said to have the Markov property if the next state depends only on the current state, not any of the previous ones.

@@ -28,6 +28,7 @@ Conditional Random Field (CRF)
 
 Hidden Markov Model (HMM)
 ---------------------------
+A simple sequence model in which there is an observable state and a latent state, which must be inferred.
 
 Markov chain
 --------------

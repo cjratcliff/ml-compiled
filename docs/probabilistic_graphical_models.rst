@@ -31,7 +31,12 @@ Hidden Markov Model (HMM)
 
 Markov chain
 --------------
-A simple state transition model where the next state depends only on the current state.
+A simple state transition model where the next state depends only on the current state. At any given time, if the current state is node i, there is a probability :math:`T_{ij}` of transitioning to node j, where :math:`T` is the transition matrix.
+
+.. figure:: ../img/markov_chain.PNG
+  :align: center
+  
+  Source: https://en.wikipedia.org/wiki/Markov_chain#/media/File:Markovkate_01.svg
 
 Markov property
 --------------------

@@ -70,6 +70,9 @@ Skewness
 ----------
 Measures the asymmetry of a probability distribution.
 
+.. math::
+  = E\bigg[\bigg(\frac{X - \mu}{\sigma}\bigg)^3\bigg]
+
 Variance
 ---------
 

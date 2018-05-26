@@ -23,6 +23,7 @@ Uncategorised
 =================
 k-fold cross validation
 Variational Bayes
+Isotonic regression
 Parametric and non-parametric models
 Discriminative model
 Energy-based model

@@ -43,6 +43,10 @@ Harmonic mean
 
     H(x_1,x_2,...,x_n) = n/\sum_{i=1}^n \frac{1}{x_i} 
     
+Heteroscedasticity
+--------------------
+When the error of a model is correlated with one or more of the features.
+    
 Moments
 --------
 * 1st moment - `Arithmetic mean <https://ml-compiled.readthedocs.io/en/latest/statistics.html#arithmetic-mean>`_

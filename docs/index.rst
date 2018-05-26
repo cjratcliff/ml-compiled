@@ -55,6 +55,7 @@ Contents
    preprocessing
    probabilistic_graphical_models
    recurrent
+   regression
    regularization
    seq_to_seq
    training_with_limited_data

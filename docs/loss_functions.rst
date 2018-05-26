@@ -113,6 +113,10 @@ A loss function used for regression.
 
   L(y,\hat{y}) = \sum_i (y_i - \hat{y}_i)^2
   
+Disadvantages
+---------------
+The squaring means this loss function weights large errors more than smaller ones, relative to the magnitude of the error. This can be particularly harmful in the case of outliers.
+  
 """"""""""""""""
 Triplet loss
 """"""""""""""""

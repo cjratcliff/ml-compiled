@@ -30,7 +30,14 @@ Hidden Markov Model (HMM)
 ---------------------------
 A simple sequence model in which there is an observable state and a latent state, which must be inferred. 
 
-At each time step the model is in a latent state :math:`x_t` and outputs an observation :math:`y_t`. The observation is solely a function of the latent state, as is the probability distribution over the next state, :math:`x_{t+1}`. 
+At each time step the model is in a latent state :math:`x_t` and outputs an observation :math:`y_t`. The observation is solely a function of the latent state, as is the probability distribution over the next state, :math:`x_{t+1}`. Hence the model obeys the Markov property.
+
+The model is defined by:
+
+* A matrix :math:`T` of transition probabilities where :math:`T_{ij}` is the probability of going from state i to state j.
+* A matrix :math:`E` of emission probabilities where :math:`E_{ij}` is the probability of emitting observation j in state i.
+
+The parameters can be learnt with the Baum-Welch algorithm.
 
 Markov chain
 --------------

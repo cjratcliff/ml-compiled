@@ -44,6 +44,8 @@ Where
 .. math::
 
     R_t=\sum_{k=0}^{\inf}\gamma^k r_{t+k}
+    
+and :math:`H(\pi(s_t;\theta)` is the entropy of the policy. This term is used to incentivize exploration. :math:`\beta` is a hyperparameter.
 
 :math:`R_t-V(s_t;v)` is the temporal difference term. 
 

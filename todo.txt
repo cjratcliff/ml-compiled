@@ -14,11 +14,6 @@ AdaBoost
 Cosine learning rate decay
 Vanishing/exploding gradient problem
 
-PGMs
-======
-Conditional random field
-Markov random field
-
 Uncategorised
 =================
 k-fold cross validation

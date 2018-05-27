@@ -102,15 +102,3 @@ Variance
   V(X) = E[(X-\mu)^2]
   
 where :math:`\mu` is the mean of X.
-
-Zipf distribution
----------------------
-A distribution that has been observed to be a good model for things like the frequency of words in a language, where there are a few very popular words and a long tail of lesser known ones.
-
-For a population of size n, the frequency of the kth most frequent item is:
-
-.. math::
-
-  \frac{1/{k^s}}{\sum_{i=1}^n 1/i^s}
-  
-where :math:`s \geq 0` is a hyperparameter

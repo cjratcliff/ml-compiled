@@ -76,6 +76,23 @@ Measures the asymmetry of a probability distribution.
 
 .. math::
   = E\bigg[\bigg(\frac{X - \mu}{\sigma}\bigg)^3\bigg]
+  
+Standard deviation
+--------------------
+The square root of the variance.
+
+.. math::
+
+  \sigma = \sqrt{E[(X-\mu)^2]}
+  
+where :math:`\mu` is the mean of X.
+  
+Sample standard deviation
+_____________________________
+
+.. math::
+
+  s = \sqrt{\frac{1}{n-1} \sum_{i=1}^n(X-\mu)^2}
 
 Variance
 ---------

@@ -69,5 +69,6 @@ Contents
    explore_exploit
    search_algorithms
    td
+   rl_types_of_algorithms
 
 

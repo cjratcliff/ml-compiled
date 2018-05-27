@@ -45,18 +45,13 @@ Direct policy search
 Experience replay
 Information set
 Markov decision process (MDP)
-Model-based reinforcement learning
-Model-free reinforcement learning
 Partially observable markov decision process (POMDP)
-Policy-based method
-Policy gradient method
 Prioritized experience replay
 REINFORCE
 Regret matching
 Reward clipping
 Reward sparsity
 Trust region policy optimization
-Value-based methods
 Value iteration
 Mean field approach
 Partition function 

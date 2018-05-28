@@ -5,6 +5,12 @@ Applications
 Atari
 ------
 
+Notable papers
+''''''''''''''''
+* `Deep Reinforcement Learning with Double Q-learning, Hassely et al. (2015) <https://arxiv.org/abs/1509.06461>`_
+* `Dueling Network Architectures for Deep Reinforcement Learning, Wang et al. (2015) <https://arxiv.org/abs/1511.06581>`_
+* `Asynchronous Methods for Deep Reinforcement Learning, Minh et al. (2016) <https://arxiv.org/pdf/1602.01783.pdf>`_
+
 Go
 ----
 

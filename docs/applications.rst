@@ -51,6 +51,8 @@ Poker
 --------
 Unlike games like Chess and Go, Poker is an imperfect information game. This means that as well as having to maintain a probability distribution over the hidden state of the game, strategies like bluffing must also be considered.
 
+Due to the amount of luck involved who is the better of two Poker players can take a very large number of games to evaluate.
+
 Heads up no limit Texas Hold 'em
 '''''''''''''''''''''''''''''''''''
 * Two players

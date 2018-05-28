@@ -30,6 +30,8 @@ Uses shortcut connections performing the identity mapping, which are added to th
 
 Similar but superior to highway networks as they do not introduce any extra parameters.
 
+`Deep Residual Learning for Image Recognition, He et al. (2015) <https://arxiv.org/abs/1512.03385>`_
+
 VGG
 ----
 A CNN that secured the first and second place in the 2014 ImageNet localization and classification tracks, respectively. VGG stands for the team which submitted the model, Oxford’s Visual Geometry Group. The VGG model consists of 16–19 weight layers and uses small convolutional filters of size 3x3 and 1x1.

@@ -115,7 +115,7 @@ A loss function used for regression.
   
 Disadvantages
 ---------------
-The squaring means this loss function weights large errors more than smaller ones, relative to the magnitude of the error. This can be particularly harmful in the case of outliers.
+The squaring means this loss function weights large errors more than smaller ones, relative to the magnitude of the error. This can be particularly harmful in the case of outliers. One solution is to use the `Huber loss <http://ml-compiled.readthedocs.io/en/latest/loss_functions.html#huber-loss>`_.
   
 """"""""""""""""
 Triplet loss

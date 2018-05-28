@@ -120,7 +120,7 @@ The squaring means this loss function weights large errors more than smaller one
 """"""""""""""""
 Triplet loss
 """"""""""""""""
-Used for training embeddings with triplet networks. A triplet is composed of an anchor (:math:`a`), a positive example (:math:`p`) and a negative example (:math:`n`). The positive examples are similar to the anchor and the negative examples are dissimilar.
+Used for training embeddings with `triplet networks <http://ml-compiled.readthedocs.io/en/latest/embeddings.html#triplet-network>`_. A triplet is composed of an anchor (:math:`a`), a positive example (:math:`p`) and a negative example (:math:`n`). The positive examples are similar to the anchor and the negative examples are dissimilar.
 
 .. math::
 

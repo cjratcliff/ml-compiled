@@ -24,6 +24,10 @@ The major differences between the Euclidean and cosine similarity are as follows
 
 Euclidean distance
 -----------------------
+.. math::
+
+  d(x,y) = \sqrt{\sum_i (x_i - y_i)^2}
+
 Can have poor performance under high dimensionality.
 
 For points randomly distributed in space, the distribution of distances between them falls tightly around the mean. This is because the Euclidean distance is the nth root of the sum of distances along each dimension. So this becomes close to the mean, just as for any sufficiently large sample.

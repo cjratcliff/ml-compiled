@@ -5,11 +5,11 @@ In the context of reinforcement learning and most commonly in games, search refe
 
 Alpha-beta pruning
 -------------------
-A technique to reduce the number of nodes that need to be evaluated when doing search.
+A technique to reduce the number of nodes that need to be evaluated when doing search with the Minimax algorithm.
 
 Minimax algorithm
 --------------------
-Recursive algorithm for computing the value of a state in a two-player zero-sum game.
+Recursive search algorithm for computing the value of a state in a two-player zero-sum game.
 
 It models the players in this way:
 

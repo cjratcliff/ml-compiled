@@ -1,11 +1,22 @@
 """""""""""""""
 Search
 """""""""""""""
-In the context of reinforcement learning and most commonly in games, search refers to trying to find the value of an action in a particular state by looking ahead into the future, simulating possible countermoves.
+In the context of reinforcement learning and most commonly in games, search refers to trying to find the value of an action in a particular state by looking ahead into the future, imagining possible moves and countermoves. Search is also sometimes referred to as lookahead search.
 
 Alpha-beta pruning
 -------------------
-TO DO
+A technique to reduce the number of nodes that need to be evaluated when doing search.
+
+Minimax algorithm
+--------------------
+Recursive algorithm for computing the value of a state in a two-player zero-sum game.
+
+It models the players in this way:
+
+1. It (the first player) always picks the move that will lead to the state that maximizes its value function.
+2. Its opponent always picks the move that will lead to the state which minimizes the value function.
+
+It alternately picks and evaluates moves for itself and its opponent up to some maximum depth using depth-first search.
 
 Rollout
 ---------

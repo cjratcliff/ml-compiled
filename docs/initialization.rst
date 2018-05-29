@@ -7,9 +7,15 @@ Orthogonal initialization
 Useful for training very deep networks.
 Can be used to help with vanishing and exploding gradients in RNNs.
 
-`All you need is a good init, Mishkin and Matas (2016) <https://arxiv.org/abs/1511.06422>`_
+`All you need is a good init, Mishkin and Matas (2015) <https://arxiv.org/abs/1511.06422>`_
 
 `Explaining and illustrating orthogonal initialization for recurrent neural networks, Merity (2016) <https://smerity.com/articles/2016/orthogonal_init.html>`_
+
+Orthonormal initialization
+____________________________
+Initialise the matrix by first generating a matrix where every entry is drawn from a normal distribution with mean 0 and variance 1. Then perform a QR decomposition and use Q as the initialization matrix. Alternatively, do `SVD <http://ml-compiled.readthedocs.io/en/latest/linear_algebra.html#singular-value-decomposition-svd>`_ and pick U or V as the initialization matrix.
+
+Described in `Exact solutions to the nonlinear dynamics of learning in deep linear neural networks, Saxe et al. (2013) <https://arxiv.org/abs/1312.6120>`_
 
 Xavier initialization
 -----------------------

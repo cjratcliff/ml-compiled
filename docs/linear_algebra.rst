@@ -96,6 +96,10 @@ Positive semi-definite matrices are defined analogously, except with :math:`z^TA
 
 Negative (semi-)definite matrices are the same but with the inequality round the other way.
 
+QR decomposition
+=====================
+Decomposes a real square matrix :math:`A` such that :math:`A = QR`. :math:`Q` is an `orthogonal matrix <http://ml-compiled.readthedocs.io/en/latest/linear_algebra.html#orthogonal-matrix>`_ and :math:`R` is upper triangular.
+
 Rank
 =======
 

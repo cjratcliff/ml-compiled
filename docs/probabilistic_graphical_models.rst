@@ -25,11 +25,16 @@ A subset of a graph where the nodes are fully-connected, ie each node has an edg
 
 Conditional Random Field (CRF)
 ---------------------------------
-Discriminative model.
+Discriminative model that can be seen as a generalization of logistic regression.
 
 Common applications of CRFs include `image segmentation <http://ml-compiled.readthedocs.io/en/latest/computer_vision.html#semantic-segmentation>`_ and `named entity recognition <http://ml-compiled.readthedocs.io/en/latest/natural_language_processing.html#named-entity-recognition-ner>`_.
 
 `Seed, Expand and Constrain: Three Principles for Weakly-Supervised Image Segmentation, Kolesnikov and Lampert (2016) <https://arxiv.org/abs/1603.06098>`_
+
+Linear Chain CRFs
+___________________
+A simple sequential CRF.
+
 
 Hidden Markov Model (HMM)
 ---------------------------

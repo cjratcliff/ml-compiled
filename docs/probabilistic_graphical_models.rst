@@ -60,3 +60,11 @@ A process is said to have the Markov property if the next state depends only on 
 Markov Random Field (MRF)
 ---------------------------
 A type of undirected graph which defines the joint probability distribution over a set of variables. Each variable is represented by one node in the graph.
+
+Naive Bayes Model
+-------------------
+A simple classifier that models all of the features as independent, given the label.
+
+.. math::
+
+  P(Y|X_1,...,X_n) = P(Y)\prod_{i=1}^n P(Y|X_i)

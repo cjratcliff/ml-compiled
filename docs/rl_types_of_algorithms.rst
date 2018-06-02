@@ -8,7 +8,7 @@ Models the environment in order to predict the distribution over states that wil
 
 Model-free reinforcement learning
 -------------------------------------
-Algorithms that learn the policy without requiring a model of the environment. Q-learning is an example.
+Algorithms that learn the policy without requiring a model of the environment. `Q-learning <https://ml-compiled.readthedocs.io/en/latest/td.html#q-learning>`_ is an example.
 
 Off-policy learning
 ---------------------

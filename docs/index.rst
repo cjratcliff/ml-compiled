@@ -63,9 +63,9 @@ Contents
    :caption: Problems and tasks
    :maxdepth: 1
    
-   computer_vision
-   datasets 
+   computer_vision 
    metrics
+   multimodal
    natural_language_processing   
    training_with_limited_data
    

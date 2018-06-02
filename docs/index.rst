@@ -52,7 +52,6 @@ Contents
    activations
    convolutional
    embeddings
-   ensemble_models
    generative_models
    initialization
    layers
@@ -66,6 +65,7 @@ Contents
    :caption: Other models
    :maxdepth: 1   
    
+   ensemble_models
    probabilistic_graphical_models
    regression
    

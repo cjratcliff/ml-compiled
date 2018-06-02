@@ -12,7 +12,7 @@ Algorithms that learn the policy without requiring a model of the environment. Q
 
 Off-policy learning
 ---------------------
-The behaviour distribution does not follow the policy. Typically a more exploratory behaviour distribution is chosen. An example is Q-learning.
+The behaviour distribution does not follow the policy. Typically a more exploratory behaviour distribution is chosen. An example is `Q-learning <https://ml-compiled.readthedocs.io/en/latest/td.html#q-learning>`_.
 
 On-policy learning
 --------------------

@@ -20,6 +20,7 @@ Gaussian Mixture Model
 k-fold cross validation
 Variational Bayes
 Parametric and non-parametric models
+Density estimation
 Discriminative model
 Energy-based model
 Expectation-maximisation (EM)

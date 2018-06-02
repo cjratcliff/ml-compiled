@@ -31,7 +31,7 @@ Eigendecomposition
 
     A = Q \Lambda Q^*
 
-Where the columns of Q are the eigenvectors of A and diagonal entries of :math:`\Lambda` are the eigenvalues of A.
+Where the columns of Q are the eigenvectors of A. :math:`\Lambda` is a diagonal matrix in which :math:`\Lambda_{ii}` is the i'th eigenvalue of A.
 
 Eigenvalues and eigenvectors
 ===============================

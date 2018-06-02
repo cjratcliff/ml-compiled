@@ -8,7 +8,7 @@ The confidence interval for a point estimate measures is the interval within whi
 
 Confidence intervals can be calculated in this way:
 
-1. Let :math:`\alpha` be the specified confidence level. eg `\alpha = 0.95` for the 95% confidence level.
+1. Let :math:`\alpha` be the specified confidence level. eg :math:`\alpha = 0.95` for the 95% confidence level.
 2. Let :math:`f(x; n-1)` be the pdf for Student's t distribution, parameterised by the number of degrees of freedom which is the sample size (n) minus 1.
 3. Calculate :math:`t = f(1 - \alpha/2; n-1)`
 4. Then the confidence interval for the point estimate is:

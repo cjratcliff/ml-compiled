@@ -22,6 +22,43 @@ Was used to get new state of the art methods on the CIFAR-10, CIFAR-100 and SVHN
 
 `Improved Regularization of Convolutional Neural Networks with Cutout, DeVries and Taylor (2017) <https://arxiv.org/pdf/1708.04552.pdf>`_
 
+Datasets
+---------
+
+CIFAR-10/100
+______________
+60000 32x32 colour images in 10 (100) classes with 6000 (600) images each. 50000 images in the training set and 10000 in the test.
+
+Notable results - CIFAR-10
+
+* 94.2% - All you need is a good init
+* 93.6% - Deep Residual Learning for Image Recognition
+* 93.5% - Fast and Accurate Deep Network Learning by Exponential Linear Units
+
+Notable results - CIFAR-100
+
+* 75.7% - Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs)
+* 72.3% - All you need is a good init
+
+https://keras.io/datasets/#cifar10-small-image-classification
+
+COCO
+_________
+Common objects in context. A dataset for image recognition, segmentation and captioning.
+
+MNIST
+________
+70000 28x28 pixel grayscale images of handwritten digits (10 classes), 60000 in the training set and 10000 in the test set.
+
+https://keras.io/datasets/#mnist-database-of-handwritten-digits
+
+Pascal VOC
+____________
+
+SVHN
+______
+Street View House Numbers.
+
 Face recognition
 --------------------
 The name of the general topic. Includes face identification and verification.

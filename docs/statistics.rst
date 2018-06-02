@@ -59,6 +59,7 @@ Moving average
 
 Exponential moving average (EMA)
 ___________________________________
+A type of moving average in which the influence of past observations on the current average diminishes exponentially with time.
 
 .. math::
 

@@ -6,6 +6,13 @@ Class imbalance problem
 --------------------------
 When one or more classes occur much more frequently in the dataset than others. This can lead to classifiers maximising their objective by predicting the majority class(es) all of the time, ignoring the features.
 
+Datasets
+----------
+
+Omniglot
+__________
+1623 handwritten characters from 50 alphabets. Useful for one-shot learning.
+
 One-shot learning
 ------------------
 Classification where only one member of that class has been seen before. Matching Networks achieve 93.2% top-5 accuracy on ImageNet compared to 96.5% for Inception v3.

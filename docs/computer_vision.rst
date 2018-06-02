@@ -36,9 +36,25 @@ Binary classification problem. Given two images of faces, assess whether they ar
 
 Commonly used architectures for solving this problem include Siamese and Triplet networks.
 
+Image segmentation
+--------------------
+Partitions an object into meaningful parts with associated labels. May also be referred to as per-pixel classification.
+
 Instance segmentation
-------------------------
+_______________________
 Unlike semantic segmentation, different instances of the same object type have to be labelled as separate objects (eg person 1, person 2). Harder than semantic segmentation.
+
+Semantic segmentation
+_______________________
+Unlike instance segmentation, in semantic segmentation it is only necessary to predict what class each pixel belongs to, not separate out different instances of the same class.
+
+Weakly-supervised segmentation
+_________________________________
+Learning to segment from only image-level labels. The labels will describe the classes that exist within the image but not what the class is for every pixel.
+
+The results from weak-supervision are generally poorer than otherwise but datasets tend to be much cheaper to acquire. 
+
+When the dataset is only weakly-supervised it can be very hard to correctly label highly-correlated objects that are usually only seen together, such as a train and rails.
 
 Region of interest
 --------------------
@@ -48,10 +64,3 @@ Saliency map
 ---------------
 A heatmap over an image which shows each pixel's importance for the classification.
 
-Semantic segmentation
-------------------------
-Partitions an object into meaningful parts with associated labels. May also be referred to as per-pixel classification. Contrast with instance segmentation.
-
-Weakly supervised segmentation
---------------------------------
-Segmentation trained only on images with one or more class labels. There are no ground truth segmentations available.

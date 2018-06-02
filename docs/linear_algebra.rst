@@ -96,6 +96,12 @@ Positive semi-definite matrices are defined analogously, except with :math:`z^TA
 
 Negative (semi-)definite matrices are the same but with the inequality round the other way.
 
+Principal Component Analysis (PCA)
+=====================================
+Approximates a dataset with a set of smaller linearly uncorrelated variables. These variables can be found through eigenvalue decomposition.
+
+.. TODO: Formula
+
 QR decomposition
 =====================
 Decomposes a real square matrix :math:`A` such that :math:`A = QR`. :math:`Q` is an `orthogonal matrix <http://ml-compiled.readthedocs.io/en/latest/linear_algebra.html#orthogonal-matrix>`_ and :math:`R` is upper triangular.
@@ -196,4 +202,8 @@ A matrix where its inverse is the same as its complex conjugate. The complex ver
 .. math::
 
   A^*A = AA^* = I
+  
+ZCA
+=====
+Like PCA, ZCA converts the data to have zero mean and an identity covariance matrix. Unlike PCA, it does not reduce the dimensionality of the data and tries to create a whitened version that is minimally different from the original.
   

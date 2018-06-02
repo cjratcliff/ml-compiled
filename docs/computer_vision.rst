@@ -6,10 +6,21 @@ Data augmentation
 --------------------
 The images in the training set are randomly altered in order to improve the generalization of the network.
 
-Examples:
+Random flipping
+___________________
+The image is flipped with probability 0.5 and left as it is otherwise. Normally only horizontal flipping is used but vertical flipping can be used where it makes sense, satellite imagery for example.
 
-* Random flipping - the image is flipped with probability 0.5 and left as it is otherwise. Normally only horizontal flipping is used but vertical flipping can be used where it makes sense, satellite imagery for example.
-* Random cropping
+Random cropping
+______________________
+
+
+Cutout
+________
+Masks a random square region of the image, replacing it with grey.
+
+Was used to get new state of the art methods on the CIFAR-10, CIFAR-100 and SVHN datasets (DeVries and Taylor, 2017).
+
+`Improved Regularization of Convolutional Neural Networks with Cutout, DeVries and Taylor (2017) <https://arxiv.org/pdf/1708.04552.pdf>`_
 
 Face recognition
 --------------------

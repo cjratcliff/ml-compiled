@@ -46,8 +46,6 @@ Counterfactual regret minimization
 Direct policy search
 Experience replay
 Information set
-Markov decision process (MDP)
-Partially observable markov decision process (POMDP)
 Prioritized experience replay
 REINFORCE
 Regret matching

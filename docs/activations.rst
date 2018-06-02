@@ -80,6 +80,8 @@ All entries in the output vector are in the range (0,1) and sum to 1, making the
 .. math:: 
 
     f(z)_j = \frac{e^{z_j}}{\sum_{k=1}^K e^{z_k}}, j \in {1,...,K}
+    
+Unlike most other activation functions, the softmax does not apply the same function to each item in the input independently. The requirement that the output vector sums to 1 means that if one of the inputs is increased the others must decrease in the output.
 
 """"
 Tanh

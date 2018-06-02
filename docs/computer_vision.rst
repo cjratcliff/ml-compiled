@@ -93,6 +93,16 @@ The results from weak-supervision are generally poorer than otherwise but datase
 
 When the dataset is only weakly-supervised it can be very hard to correctly label highly-correlated objects that are usually only seen together, such as a train and rails.
 
+Image-to-image translation
+---------------------------
+Examples:
+
+* Daytime to nighttime
+* Greyscale to colour
+* Streetmap to satellite view
+
+`Image-to-Image Translation with Conditional Adversarial Networks, Isola et al. (2016) <https://arxiv.org/abs/1611.07004>`_
+
 Region of interest
 --------------------
 A region in an image (usually defined by a rectangle) identified as containing an object of interest with high probability, relative to the background.

@@ -46,6 +46,14 @@ Episode
 ------------
 Analogous to a game. Ends when a terminal state is reached or after a predetermined number of steps.
 
+Markov Decision Process (MDP)
+-----------------------------------
+Models the environment using Markov chains, extended with actions and rewards. 
+
+Partially Observable Markov Decision Process (POMDP)
+----------------------------------------------------------
+Generalization of the MDP. The agent cannot directly observe the underlying state.
+
 Policy
 ----------
 A function, :math:`\pi` that maps states to actions.

@@ -2,6 +2,26 @@
 Natural language processing (NLP)
 """"""""""""""""""""""""""""""""""""""""""
 
+Datasets
+-----------
+
+bAbI
+_______
+Dataset for question answering.
+
+IMDB
+______
+Dataset for sentiment classification.
+
+PTB
+______
+Penn Treebank. 
+
+TIMIT
+______
+
+
+
 Entity linking
 ----------------
 The task of finding the specific entity which words or phrases refer to. Not to be confused with Named Entity Recognition.

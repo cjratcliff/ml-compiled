@@ -9,18 +9,19 @@ bAbI
 _______
 Dataset for question answering.
 
+https://research.fb.com/downloads/babi/
+
 IMDB
 ______
-Dataset for sentiment classification.
+Dataset of movie reviews, used for sentiment classification. Each review is labelled as either positive or negative.
 
 PTB
 ______
-Penn Treebank. 
+Stands for 'Penn Treebank'. Dataset used for generative text modelling.
 
 TIMIT
 ______
-
-
+Speech corpus.
 
 Entity linking
 ----------------

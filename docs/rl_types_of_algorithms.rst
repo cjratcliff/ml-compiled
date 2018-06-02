@@ -16,7 +16,7 @@ The behaviour distribution does not follow the policy. Typically a more explorat
 
 On-policy learning
 --------------------
-The policy determines the samples the network is trained on. Can introduce bias to the estimator. An example is SARSA.
+The policy determines the samples the network is trained on. Can introduce bias to the estimator. An example is `SARSA <https://ml-compiled.readthedocs.io/en/latest/td.html#sarsa>`_.
 
 Policy-based method
 ----------------------

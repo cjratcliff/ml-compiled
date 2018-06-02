@@ -28,7 +28,6 @@ Inductive bias
 Lattice model
 Metric learning
 Multilayer perceptron (MLP)
-Multimodal learning
 Overcomplete representation
 Calibration
 Adversarial examples
@@ -37,7 +36,6 @@ Catastrophic forgetting
 Feedforward
 Siamese network
 Sparsity
-Visual question answering
 ILSVRC
 Full gradient descent
 Mini-batch gradient descent

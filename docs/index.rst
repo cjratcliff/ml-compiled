@@ -60,7 +60,7 @@ Contents
    regression
    
 .. toctree::
-   :caption: Problems in machine learning
+   :caption: Problems and tasks
    :maxdepth: 1
    
    computer_vision

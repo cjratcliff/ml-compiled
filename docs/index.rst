@@ -36,16 +36,6 @@ Contents
    statistics
    
 .. toctree::
-   :caption: Problems in machine learning
-   :maxdepth: 1
-   
-   computer_vision
-   datasets 
-   metrics
-   natural_language_processing   
-   training_with_limited_data
-   
-.. toctree::
    :caption: Neural networks
    :maxdepth: 1
    
@@ -68,6 +58,16 @@ Contents
    ensemble_models
    probabilistic_graphical_models
    regression
+   
+.. toctree::
+   :caption: Problems in machine learning
+   :maxdepth: 1
+   
+   computer_vision
+   datasets 
+   metrics
+   natural_language_processing   
+   training_with_limited_data
    
 .. toctree::
    :caption: Reinforcement learning

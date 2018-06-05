@@ -12,7 +12,7 @@ Loss function for learning embeddings.
 
   L(x_1,x_2,y) = (1-y_i)d(x_1,x_2)^2 + y_i \max\{0, m - d(x_1,x_2)\}^2
   
-Where :math:`x_1` and :math:`x_2` are the embeddings for the two examples and :math:`m` is a hyperparameter called the margin. :math:`d(x,y)` is a distance function, usually the `Euclidean distance <http://ml-compiled.readthedocs.io/en/latest/high_dimensionality.html#euclidean-distance>`_ or `cosine similarity <http://ml-compiled.readthedocs.io/en/latest/high_dimensionality.html#cosine-similarity>`_.
+Where :math:`x_1` and :math:`x_2` are the embeddings for the two examples and :math:`m` is a hyperparameter called the margin. :math:`d(x,y)` is a distance function, usually the `Euclidean distance <https://ml-compiled.readthedocs.io/en/latest/high_dimensionality.html#euclidean-distance>`_ or `cosine similarity <https://ml-compiled.readthedocs.io/en/latest/high_dimensionality.html#cosine-similarity>`_.
 
 Example paper
 --------------------
@@ -124,7 +124,7 @@ The squaring means this loss function weights large errors more than smaller one
 """"""""""""""""
 Triplet loss
 """"""""""""""""
-Used for training embeddings with `triplet networks <http://ml-compiled.readthedocs.io/en/latest/embeddings.html#triplet-network>`_. A triplet is composed of an anchor (:math:`a`), a positive example (:math:`p`) and a negative example (:math:`n`). The positive examples are similar to the anchor and the negative examples are dissimilar.
+Used for training embeddings with `triplet networks <https://ml-compiled.readthedocs.io/en/latest/embeddings.html#triplet-network>`_. A triplet is composed of an anchor (:math:`a`), a positive example (:math:`p`) and a negative example (:math:`n`). The positive examples are similar to the anchor and the negative examples are dissimilar.
 
 .. math::
 

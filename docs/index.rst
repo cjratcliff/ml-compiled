@@ -63,7 +63,8 @@ Contents
    :caption: Problems and tasks
    :maxdepth: 1
    
-   computer_vision 
+   computer_vision
+   hyperparameter_optimization
    metrics
    multimodal
    natural_language_processing   

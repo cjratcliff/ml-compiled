@@ -12,7 +12,7 @@ The entropy of a discrete probability distribution :math:`p` is:
 
 
 Joint entropy
------------------
+_______________
 
 .. math::
 
@@ -20,7 +20,7 @@ Joint entropy
 
 
 Conditional entropy
----------------------
+_____________________
 
 .. math::
 

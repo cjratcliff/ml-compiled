@@ -43,3 +43,11 @@ As with grid search, it begins by deciding the hyperparameters to be evaluated. 
     num_layers = [12, 16, 20, 24]
     
 Then random combinations of hyperparameters are chosen. For each one we train a model and calculate the accuracy on the validation set.
+
+`Random Search for Hyper-Parameter Optimization, Bergstra and Bengio (2012) <http://www.jmlr.org/papers/volume13/bergstra12a/bergstra12a.pdf>`_
+
+Reinforcement learning
+-------------------------
+Hyperparameter optimisation can be framed as a problem for reinforcement learning by letting the accuracy on the validation set be the reward and training with a standard algorithm like REINFORCE.
+
+`Neural Architecture Search with Reinforcement Learning, Zoph and Le (2016) <https://arxiv.org/abs/1611.01578>`_

@@ -64,7 +64,9 @@ A process is said to have the Markov property if the next state depends only on 
 
 Markov Random Field (MRF)
 ---------------------------
-A type of undirected graph which defines the joint probability distribution over a set of variables. Each variable is represented by one node in the graph.
+A type of undirected graphical model which defines the joint probability distribution over a set of variables. Each variable is represented by one node in the graph.
+
+One use for an MRF could be to model the distribution over the pixel values for a set of images. In order to keep the model tractable edges are only drawn between neighbouring pixels.
 
 Naive Bayes Model
 -------------------

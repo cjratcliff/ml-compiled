@@ -16,7 +16,7 @@ Where :math:`x_1` and :math:`x_2` are the embeddings for the two examples and :m
 
 Example paper
 --------------------
-* `Deep Learning Face Representation by Joint Identification-Verification, Sun et al. (2014) <https://arxiv.org/pdf/1406.4773.pdf>`_
+`Deep Learning Face Representation by Joint Identification-Verification, Sun et al. (2014) <https://arxiv.org/pdf/1406.4773.pdf>`_
 
 """"""""""""""""""""""""""""""""
 Cross-entropy loss

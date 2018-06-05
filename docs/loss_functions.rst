@@ -14,6 +14,10 @@ Loss function for learning embeddings.
   
 Where :math:`x_1` and :math:`x_2` are the embeddings for the two examples and :math:`m` is a hyperparameter called the margin. :math:`d(x,y)` is a distance function, usually the `Euclidean distance <http://ml-compiled.readthedocs.io/en/latest/high_dimensionality.html#euclidean-distance>`_ or `cosine similarity <http://ml-compiled.readthedocs.io/en/latest/high_dimensionality.html#cosine-similarity>`_.
 
+Example paper
+--------------------
+* `Deep Learning Face Representation by Joint Identification-Verification, Sun et al. (2014) <https://arxiv.org/pdf/1406.4773.pdf>`_
+
 """"""""""""""""""""""""""""""""
 Cross-entropy loss
 """"""""""""""""""""""""""""""""

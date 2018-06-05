@@ -17,7 +17,6 @@ Vanishing/exploding gradient problem
 Uncategorised
 =================
 Gaussian Mixture Model
-k-fold cross validation
 Variational Bayes
 Parametric and non-parametric models
 Density estimation

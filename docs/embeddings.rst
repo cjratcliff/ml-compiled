@@ -17,7 +17,7 @@ A vector which has zeros everywhere except for in the indices representing the c
 """"""""""""""""""""""""
 Triplet network
 """"""""""""""""""""""""
-Architecture for learning embeddings for calculating similarities. Useful for tasks like face verification.
+Architecture for learning embeddings for calculating similarities. Useful for tasks like `face verification <http://ml-compiled.readthedocs.io/en/latest/computer_vision.html#face-verification>`_.
 
 During each batch in training, an 'anchor' example is supplied along with a positive that is similar to it and a negative that is not.
 

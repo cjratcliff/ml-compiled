@@ -10,7 +10,7 @@ Loss function for learning embeddings.
 
 .. math::
 
-  L(x_1,x_2,y) = (1-y_i)d(x_1,x_2) + y_i \max\{0, m - d(x_1,x_2)\}
+  L(x_1,x_2,y) = (1-y_i)d(x_1,x_2)^2 + y_i \max\{0, m - d(x_1,x_2)\}^2
   
 Where :math:`x_1` and :math:`x_2` are the embeddings for the two examples and :math:`m` is a hyperparameter called the margin. :math:`d(x,y)` is a distance function, usually the `Euclidean distance <http://ml-compiled.readthedocs.io/en/latest/high_dimensionality.html#euclidean-distance>`_ or `cosine similarity <http://ml-compiled.readthedocs.io/en/latest/high_dimensionality.html#cosine-similarity>`_.
 

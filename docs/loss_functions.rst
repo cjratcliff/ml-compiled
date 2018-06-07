@@ -140,7 +140,7 @@ Used for training embeddings with `triplet networks <https://ml-compiled.readthe
 
   L(a,p,n) = \sum_i \max\{0, m + d(a_i,p_i) - d(a_i,n_i)\}
   
-Where :math:`m` is a hyperparameter called the margin. :math:`d(x,y)` is a distance function, usually the Euclidean or cosine distance.
+Where :math:`m` is a hyperparameter called the margin. :math:`d(x,y)` is a distance function, usually the the `Euclidean distance <https://ml-compiled.readthedocs.io/en/latest/high_dimensionality.html#euclidean-distance>`_ or `cosine similarity <https://ml-compiled.readthedocs.io/en/latest/high_dimensionality.html#cosine-similarity>`_.
 
 The margin
 -----------

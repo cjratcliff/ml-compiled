@@ -62,6 +62,8 @@ A loss function used for regression. It is less sensitive to outliers than the s
               \frac{1}{2}(y_i - \hat{y}_i)^2, & \ |y_i - \hat{y}_i| \leq \delta \\
               \delta(|y_i - \hat{y}_i| - \frac{1}{2}\delta), & \text{otherwise}
           \end{cases}
+          
+Where :math:`\delta` is a hyperparameter.         
 
 """""""""""""""""""""""""""""
 Negative sampling

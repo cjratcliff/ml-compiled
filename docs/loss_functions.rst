@@ -136,6 +136,10 @@ Used for training embeddings with `triplet networks <https://ml-compiled.readthe
 
 .. math::
 
-  L(a,p,n) = \sum_i \max\{0, m - d(a_i,p_i) + d(a_i,n_i)\}
+  L(a,p,n) = \sum_i \max\{0, m + d(a_i,p_i) - d(a_i,n_i)\}
   
 Where :math:`m` is a hyperparameter called the margin. :math:`d(x,y)` is a distance function, usually the Euclidean or cosine distance.
+
+The margin
+-----------
+We want to minimize :math:`d(a_i,p_i)` and maximize :math:`d(a_i,n_i)`. The former is lower-bounded by 0 but the latter has no upper bound (distances can be arbitrarily large). However, beyond the threshold to classify a pair as a negative, increasing this distance will not help improve the accuracy, a fact which needs to be reflected in the loss function. The margin does this by ensuring that there is no gain from increasing :math:`d(a_i,n_i)` beyond :math:`m + d(a_i,p_i)` since the loss will be set to 0 by the maximum.

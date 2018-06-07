@@ -14,7 +14,7 @@ The inputs are pairs of examples :math:`x_1` and :math:`x_2` where :math:`y = 1`
 
   L(x_1,x_2,y) = y_i d(x_1,x_2)^2 + (1 - y_i) \max\{0, m - d(x_1,x_2)\}^2
   
-Where :math:`x_1` and :math:`x_2` are the embeddings for the two examples and :math:`m` is a hyperparameter called the margin. :math:`d(x,y)` is a distance function, usually the `Euclidean distance <https://ml-compiled.readthedocs.io/en/latest/high_dimensionality.html#euclidean-distance>`_ or `cosine similarity <https://ml-compiled.readthedocs.io/en/latest/high_dimensionality.html#cosine-similarity>`_.
+Where :math:`x_1` and :math:`x_2` are the embeddings for the two examples and :math:`m` is a hyperparameter called the margin. :math:`d(x,y)` is a distance function, usually the `Euclidean distance <https://ml-compiled.readthedocs.io/en/latest/high_dimensionality.html#euclidean-distance>`_.
 
 The margin
 -----------
@@ -140,7 +140,7 @@ Used for training embeddings with `triplet networks <https://ml-compiled.readthe
 
   L(a,p,n) = \sum_i \max\{0, m + d(a_i,p_i) - d(a_i,n_i)\}
   
-Where :math:`m` is a hyperparameter called the margin. :math:`d(x,y)` is a distance function, usually the the `Euclidean distance <https://ml-compiled.readthedocs.io/en/latest/high_dimensionality.html#euclidean-distance>`_ or `cosine similarity <https://ml-compiled.readthedocs.io/en/latest/high_dimensionality.html#cosine-similarity>`_.
+Where :math:`m` is a hyperparameter called the margin. :math:`d(x,y)` is a distance function, usually the the `Euclidean distance <https://ml-compiled.readthedocs.io/en/latest/high_dimensionality.html#euclidean-distance>`_.
 
 The margin
 -----------

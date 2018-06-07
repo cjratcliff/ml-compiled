@@ -6,13 +6,21 @@ For classification problems, :math:`y` is equal to 1 if the example is a positiv
 """"""""""""""""
 Contrastive loss
 """"""""""""""""
-Loss function for learning embeddings.
+Loss function for learning embeddings, often used in face verification. 
+
+The inputs are pairs of examples :math:`x_1` and :math:`x_2` where :math:`y = 1` if the two examples are of the similar and :math:`0` if not.
 
 .. math::
 
-  L(x_1,x_2,y) = (1-y_i)d(x_1,x_2)^2 + y_i \max\{0, m - d(x_1,x_2)\}^2
+  L(x_1,x_2,y) = y_i d(x_1,x_2)^2 + (1 - y_i) \max\{0, m - d(x_1,x_2)\}^2
   
 Where :math:`x_1` and :math:`x_2` are the embeddings for the two examples and :math:`m` is a hyperparameter called the margin. :math:`d(x,y)` is a distance function, usually the `Euclidean distance <https://ml-compiled.readthedocs.io/en/latest/high_dimensionality.html#euclidean-distance>`_ or `cosine similarity <https://ml-compiled.readthedocs.io/en/latest/high_dimensionality.html#cosine-similarity>`_.
+
+The margin
+-----------
+If :math:`y = 0` we want to make :math:`d(x_1,x_2)` as large as possible to minimize the loss. However, beyond the threshold for classifying the example as a negative increasing this distance will not have any effect on the accuracy. The margin ensures this intuition is reflected in the loss function. Using the margin means increasing :math:`d(x_1,x_2)` beyond :math:`m` has no effect.
+
+There is no margin for when :math:`y = 1` since that is naturally bounded by 0. With the Euclidean distance a lower distance is not possible.
 
 Example paper
 --------------------

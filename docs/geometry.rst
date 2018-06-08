@@ -43,7 +43,7 @@ High dimensionality
 
 Euclidean distance
 '''''''''''''''''''''''
-* For points randomly distributed in space, the distribution of distances between them falls tightly around the mean. This is because the Euclidean distance is the nth root of the sum of distances along each dimension. So this becomes close to the mean, just as for any sufficiently large sample.
+* For points randomly distributed in space, the distribution of the distances between them falls tightly around the mean.
 * For this reason the usefulness of the Euclidean distance is limited in high dimensions.
 * This also means the ratio between the distance between the two furthest points and the distance between the two closest approaches 1 for high dimensions.
 

@@ -44,7 +44,7 @@ High dimensionality
 Euclidean distance
 '''''''''''''''''''''''
 * For points randomly distributed in space, the distribution of distances between them falls tightly around the mean. This is because the Euclidean distance is the nth root of the sum of distances along each dimension. So this becomes close to the mean, just as for any sufficiently large sample.
-* For this reason the Euclidean distance is less useful.
+* For this reason the usefulness of the Euclidean distance is limited in high dimensions.
 * This also means the ratio between the distance between the two furthest points and the distance between the two closest approaches 1 for high dimensions.
 
 Gaussian distribution
@@ -63,7 +63,7 @@ Interpolation
 
 Inner product of random samples
 ''''''''''''''''''''''''''''''''''''''''''''''
-* Two random vectors from a high-dimensional space are likely to be close to orthogonal. This is because orthogonality is measured by the inner product, which is the sum of elementwise products. Over a large number of dimensions, this will tend towards the mean of the products which will be zero, so long as the mean of the sampling distribution is also zero.
+* Two random high-dimensional vectors are likely to be close to orthogonal. This is because orthogonality is measured by the inner product, which is the sum of the elementwise products. Over a large number of dimensions, this will tend towards the mean of the products which will be zero, so long as the mean of the sampling distribution is also zero.
 
 https://www.cs.cmu.edu/~venkatg/teaching/CStheory-infoage/chap1-high-dim-space.pdf  
 

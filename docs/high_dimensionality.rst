@@ -11,16 +11,20 @@ Measures the similarity of two vectors by calculating the cosine of the angle be
 
 .. math ::
 
-    c(x,y) = xy/(||x||_2 \cdot ||y||_2)
+    c(x,y) = x \cdot y/(||x||_2 \cdot ||y||_2)
 
+Where :math:`x \cdot y` is the dot product.
 
-This means it is distinct from the Euclidean distance, which takes magnitude into account. The squared euclidean distance of two L2-normalized vectors is closely related but not identical to the cosine similarity of those vectors.
+The cosine similarity is distinct from the Euclidean distance, which takes magnitude into account. The squared euclidean distance of two L2-normalized vectors is closely related but not identical to the cosine similarity of those vectors.
 
-The major differences between the Euclidean and cosine similarity are as follows:
+The major differences between the Euclidean distance and cosine similarity are as follows:
 
 * Unlike the Euclidean distance, the cosine distance does not suffer from the curse of dimensionality, making it useful for comparing high-dimensional feature vectors.
-* The cosine distance ‘wraps around’. This means it does not satisfy the triangle inequality. Requires one extra dimension in the vectors, relative to the Euclidean distance, to store the same amount of information. 
-* The 2D cosine similarity is a circle, which is 1D.
+* The cosine similarity is not a metric in the mathematical sense.
+* The cosine similarity is bounded between -1 and 1, whereas the Euclidean distance must be between 0 and infinity.
+* The Euclidean distance for two identical vectors is zero. The cosine similarity in this case is 1.
+* The cosine similarity does not satisfy the triangle inequality.
+* The cosine similarity is undefined if one of the vectors is all zeros.
 
 Euclidean distance
 -----------------------
@@ -28,11 +32,12 @@ Euclidean distance
 
   d(x,y) = \sqrt{\sum_i (x_i - y_i)^2}
 
-Can have poor performance under high dimensionality.
-
-For points randomly distributed in space, the distribution of distances between them falls tightly around the mean. This is because the Euclidean distance is the nth root of the sum of distances along each dimension. So this becomes close to the mean, just as for any sufficiently large sample.
+Disadvantages
+'''''''''''''''''''''''
+The Euclidean distance can have poor performance under high dimensionality. For points randomly distributed in space, the distribution of distances between random pairs of points falls tightly around the mean. This is because the Euclidean distance is the nth root of the sum of distances along each dimension. So this becomes close to the mean, just as for any sufficiently large sample.
 For this reason the Euclidean distance is less useful.
-This also means the ratio between the distance between the two furthest points and the distance between the two closest approaches 1 for high dimensions.
+
+This also means the ratio between the distance between the two furthest points and the distance between the two closest approaches 1 as the dimensionality increases.
 
 High dimensionality
 --------------------

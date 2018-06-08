@@ -29,7 +29,7 @@ Contents
 
    calculus
    entropy
-   high_dimensionality
+   geometry
    linear_algebra
    monte_carlo
    probability

@@ -30,7 +30,6 @@ Active learning
 Multilayer perceptron (MLP)
 Overcomplete representation
 Calibration
-Adversarial examples
 Bayesian neural network
 Catastrophic forgetting
 Feedforward

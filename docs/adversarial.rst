@@ -27,14 +27,16 @@ Mitigation techniques
 
 [5] showed that adversarial examples are still effective, even when perceived through a cellphone camera.
 
-[1] Breaking Linear Classifiers on ImageNet, Karpathy (2015)
+Papers
+---------
+[1] `Breaking Linear Classifiers on ImageNet, Karpathy (2015) <http://karpathy.github.io/2015/03/30/breaking-convnets/>`_
 
-[2] Explaining and Harnessing Adversarial Examples, Goodfellow et al. (2015)
+[2] `Explaining and Harnessing Adversarial Examples, Goodfellow et al. (2015) <https://arxiv.org/abs/1412.6572>`_
 
-[3] Intriguing Properties of Neural Networks, Szegedy et al. (2014)
+[3] `Intriguing Properties of Neural Networks, Szegedy et al. (2013) <https://arxiv.org/abs/1312.6199>`_
 
-[4] Towards Deep Neural Network Architectures Robust to Adversarial Examples, Gu et al. (2015)
+[4] `Towards Deep Neural Network Architectures Robust to Adversarial Examples, Gu et al. (2014) <https://arxiv.org/abs/1412.5068>`_
 
-[5] Adversarial examples in the physical world, Kurakin et al. (2016)
+[5] `Adversarial examples in the physical world, Kurakin et al. (2016) <https://arxiv.org/abs/1607.02533>`_
 
-[6] Assessing Threat of Adversarial Examples on Deep Neural Networks, Graese (2016)
+[6] `Assessing Threat of Adversarial Examples on Deep Neural Networks, Graese et al. (2016) <https://arxiv.org/abs/1610.04256>`_

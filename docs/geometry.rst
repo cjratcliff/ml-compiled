@@ -36,10 +36,20 @@ Let :math:`x` and :math:`y` be two vectors that have been normalized such that :
 .. math::
 
   ||x - y||_2^2 
+
+.. math::
   = (x-y)^T(x-y)
+  
+.. math::
   = x^Tx -2x^Ty + y^Ty
+  
+.. math::
   = ||x||_2 - 2x^Ty + ||y||_2
+  
+.. math::
   = 2 - 2x^Ty
+  
+.. math::
   = 2 - 2c(x,y)
   
 

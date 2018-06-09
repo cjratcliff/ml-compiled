@@ -63,6 +63,7 @@ Contents
    :caption: Problems and tasks
    :maxdepth: 1
    
+   adversarial
    computer_vision
    hyperparameter_optimization
    metrics

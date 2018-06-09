@@ -15,16 +15,33 @@ Measures the similarity of two vectors by calculating the cosine of the angle be
 
 Where :math:`x \cdot y` is the dot product.
 
-The cosine similarity is distinct from the Euclidean distance, which takes magnitude into account. The squared euclidean distance of two L2-normalized vectors is closely related but not identical to the cosine similarity of those vectors.
-
+Relationship with the Euclidean distance
+'''''''''''''''''''''''''''''''''''''''''''
 The major differences between the Euclidean distance and cosine similarity are as follows:
 
+* The Euclidean distance takes magnitude of the two vectors into account. The cosine similarity ignores it.
 * Unlike the Euclidean distance, the cosine distance does not suffer from the curse of dimensionality, making it useful for comparing high-dimensional feature vectors.
 * The cosine similarity is not a metric in the mathematical sense.
 * The cosine similarity is bounded between -1 and 1, whereas the Euclidean distance must be between 0 and infinity.
 * The Euclidean distance for two identical vectors is zero. The cosine similarity in this case is 1.
 * The cosine similarity does not satisfy the triangle inequality.
 * The cosine similarity is undefined if one of the vectors is all zeros.
+
+There is a linear relationship between the cosine similarity of two vectors and the squared Euclidean distance if the vectors first undergo L2 normalization.
+
+The proof is as follows:
+
+Let :math:`x` and :math:`y` be two vectors that have been normalized such that :math:`||x||_2 = ||y||_2 = 1`. Then the expression for the squared Euclidean distance is:
+
+.. math::
+
+  ||x - y||_2^2 
+  = (x-y)^T(x-y)
+  = x^Tx -2x^Ty + y^Ty
+  = ||x||_2 - 2x^Ty + ||y||_2
+  = 2 - 2x^Ty
+  = 2 - 2c(x,y)
+  
 
 Euclidean distance
 -----------------------

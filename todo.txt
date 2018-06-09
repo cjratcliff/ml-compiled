@@ -10,7 +10,6 @@ Weibull distribution
 
 Optimization
 ==============
-AdaBoost
 Cosine learning rate decay
 Vanishing/exploding gradient problem
 

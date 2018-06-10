@@ -9,10 +9,6 @@ Affine combination
 =====================
 A linear combination of vectors where the weights sum to 1. Unlike a convex combination, the weights can be negative.
 
-Cholesky decomposition
-============================
-:math:`A = LL^*`, where A is Hermitian and positive-definite, L is lower-triangular and :math:`L^*` is its conjugate transpose. Can be used for solving SLEs.
-
 Conjugate transpose
 =====================
 The matrix obtained by taking the transpose followed by the complex conjugate of each entry.
@@ -23,15 +19,6 @@ Dot product
 .. math::
 
   a \cdot b = \sum_{i=1}^n a_i b_i
-
-Eigendecomposition
-=====================
-
-.. math::
-
-    A = Q \Lambda Q^*
-
-Where the columns of Q are the eigenvectors of A. :math:`\Lambda` is a diagonal matrix in which :math:`\Lambda_{ii}` is the i'th eigenvalue of A.
 
 Eigenvalues and eigenvectors
 ===============================
@@ -62,9 +49,41 @@ Invertible
 ===========
 A matrix :math:`A` is invertible if and only if there exists a matrix :math:`B` such that :math:`AB = BA = I`.
 
-LU Decomposition
-=====================
+Matrix decomposition
+======================
+
+Cholesky decomposition
+--------------------------
+:math:`A = LL^*`, where A is Hermitian and positive-definite, L is lower-triangular and :math:`L^*` is its conjugate transpose. Can be used for solving SLEs.
+
+Eigendecomposition
+-------------------
+
+.. math::
+
+    A = Q \Lambda Q^*
+
+Where the columns of Q are the eigenvectors of A. :math:`\Lambda` is a diagonal matrix in which :math:`\Lambda_{ii}` is the i'th eigenvalue of A.
+
+LU decomposition
+--------------------
 A = LU, where L is lower triangular and U is upper triangular. Can be used to solve SLEs.
+
+QR decomposition
+--------------------
+Decomposes a real square matrix :math:`A` such that :math:`A = QR`. :math:`Q` is an `orthogonal matrix <http://ml-compiled.readthedocs.io/en/latest/linear_algebra.html#orthogonal-matrix>`_ and :math:`R` is upper triangular.
+
+Singular value decomposition (SVD)
+-------------------------------------
+Matrix factorization algorithm.
+
+.. math::
+
+    A = U\Sigma V^*
+
+where :math:`U` is a unitary matrix, :math:`\Sigma` is a rectangular diagonal matrix containing the singular values and :math:`V` is a unitary matrix.
+
+Can be used for computing the sum of squares or the pseudoinverse.
 
 Normal matrix
 ==============
@@ -102,10 +121,6 @@ Approximates a dataset with a set of smaller linearly uncorrelated variables. Th
 
 .. TODO: Formula
 
-QR decomposition
-=====================
-Decomposes a real square matrix :math:`A` such that :math:`A = QR`. :math:`Q` is an `orthogonal matrix <http://ml-compiled.readthedocs.io/en/latest/linear_algebra.html#orthogonal-matrix>`_ and :math:`R` is upper triangular.
-
 Rank
 =======
 
@@ -126,18 +141,6 @@ A square matrix which is not invertible. A matrix is singular if and only if the
 
 Singular value
 =====================
-
-Singular value decomposition (SVD)
-===================================
-Matrix factorization algorithm.
-
-.. math::
-
-    A = U\Sigma V^*
-
-where :math:`U` is a unitary matrix, :math:`\Sigma` is a rectangular diagonal matrix containing the singular values and :math:`V` is a unitary matrix.
-
-Can be used for computing the sum of squares or the pseudoinverse.
 
 Span
 =======

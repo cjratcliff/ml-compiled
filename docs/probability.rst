@@ -62,7 +62,7 @@ Special case of the Binomial distribution, which generalizes the Bernoulli to mu
 
 Binomial
 ___________
-Distribution for the number of successes in n trials, each with probability p of success and 1-p of failure.
+Distribution for the number of successes in n trials, each with probability p of success and 1-p of failure. The probability density function is:
 
 .. math::
   

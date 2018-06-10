@@ -51,6 +51,7 @@ A matrix :math:`A` is invertible if and only if there exists a matrix :math:`B` 
 
 Matrix decomposition
 ======================
+Also known as matrix factorization.
 
 Cholesky decomposition
 --------------------------

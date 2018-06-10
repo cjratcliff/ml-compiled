@@ -160,36 +160,37 @@ https://github.com/cjratcliff/notes/wiki/Mini-batch-gradient-descent
 
 https://github.com/cjratcliff/notes/wiki/Separable-convolution-or-filter
 
-https://github.com/cjratcliff/notes/wiki/Denoising-Autoencoder-(DAE)
+https://github.com/cjratcliff/notes/wiki/Denoising-Autoencoder-(DAE)>`_
 
 https://github.com/cjratcliff/notes/wiki/Information-and-complexity-theory
 
 https://github.com/cjratcliff/notes/wiki/CIFAR-10-and-100
 
-https://github.com/cjratcliff/notes/wiki/Intersection-over-Union-(IoU)
+`https://github.com/cjratcliff/notes/wiki/Intersection-over-Union-(IoU) <https://github.com/cjratcliff/notes/wiki/Intersection-over-Union-(IoU)>`_
 
-https://github.com/cjratcliff/notes/wiki/Deep-Belief-Network-(DBN)
+`https://github.com/cjratcliff/notes/wiki/Deep-Belief-Network-(DBN) <https://github.com/cjratcliff/notes/wiki/Deep-Belief-Network-(DBN)>`_
 
-https://github.com/cjratcliff/notes/wiki/Restricted-Boltzmann-Machine-(RBM)
+`https://github.com/cjratcliff/notes/wiki/Restricted-Boltzmann-Machine-(RBM) <https://github.com/cjratcliff/notes/wiki/Restricted-Boltzmann-Machine-(RBM)>`_
 
 https://github.com/cjratcliff/notes/wiki/Visual%20question%20answering
 
-https://github.com/cjratcliff/notes/wiki/RNN-(Recurrent-Neural-Network)
+`https://github.com/cjratcliff/notes/wiki/RNN-(Recurrent-Neural-Network) <https://github.com/cjratcliff/notes/wiki/RNN-(Recurrent-Neural-Network)>`_
 
-https://github.com/cjratcliff/notes/wiki/Latent-Dirichlet-Allocation-(LDA)
+`https://github.com/cjratcliff/notes/wiki/Latent-Dirichlet-Allocation-(LDA) <https://github.com/cjratcliff/notes/wiki/Latent-Dirichlet-Allocation-(LDA)>`_
 
-https://github.com/cjratcliff/notes/wiki/Continuous-bag-of-words-(CBOW)
+`https://github.com/cjratcliff/notes/wiki/Continuous-bag-of-words-(CBOW) <https://github.com/cjratcliff/notes/wiki/Continuous-bag-of-words-(CBOW)>`_
 
-https://github.com/cjratcliff/notes/wiki/MCMC-(Markov-Chain-Monte-Carlo)
+`https://github.com/cjratcliff/notes/wiki/MCMC-(Markov-Chain-Monte-Carlo) <https://github.com/cjratcliff/notes/wiki/MCMC-(Markov-Chain-Monte-Carlo)>`_
 
-https://github.com/cjratcliff/notes/wiki/Temporal-difference-learning-(TD-learning)
+`https://github.com/cjratcliff/notes/wiki/Temporal-difference-learning-(TD-learning) <https://github.com/cjratcliff/notes/wiki/Temporal-difference-learning-(TD-learning)>`_
 
-https://github.com/cjratcliff/notes/wiki/LSTM-(Long-Short-Term-Memory)
+`https://github.com/cjratcliff/notes/wiki/LSTM-(Long-Short-Term-Memory) <https://github.com/cjratcliff/notes/wiki/LSTM-(Long-Short-Term-Memory)>`_
 
-https://github.com/cjratcliff/notes/wiki/Information-set-(imperfect-information-games)
+`https://github.com/cjratcliff/notes/wiki/Information-set-(imperfect-information-games)  <https://github.com/cjratcliff/notes/wiki/Information-set-(imperfect-information-games)>`_
 
 https://github.com/cjratcliff/notes/wiki/Parametric%20and%20non-parametric%20models
 
-https://github.com/cjratcliff/notes/wiki/Information%20set%20(imperfect%20information%20games)
+`https://github.com/cjratcliff/notes/wiki/Information%20set%20(imperfect%20information%20games)
+<https://github.com/cjratcliff/notes/wiki/Information%20set%20(imperfect%20information%20games)>`_
 
 

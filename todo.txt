@@ -15,6 +15,7 @@ Vanishing/exploding gradient problem
 
 Uncategorised
 =================
+Manifold hypothesis
 Gaussian Mixture Model
 Variational Bayes
 Parametric and non-parametric models

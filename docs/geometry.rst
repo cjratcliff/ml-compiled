@@ -55,6 +55,8 @@ Let :math:`x` and :math:`y` be two vectors that have been normalized such that :
 
 Euclidean distance
 -----------------------
+Measures the distance between two vectors.
+
 .. math::
 
   d(x,y) = \sqrt{\sum_i (x_i - y_i)^2}

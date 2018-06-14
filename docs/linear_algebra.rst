@@ -217,6 +217,26 @@ Satisfies the following properties:
 
     (A^T)^{-1} = (A^{-1})^T
 
+Triangular matrix
+===================
+Either a lower triangular or an upper triangular matrix.
+
+Lower triangular matrix
+---------------------------
+A square matrix where only the lower triangle is not composed of zeros. Formally:
+
+.. math::
+
+  A_{ij} = 0, \text{if} i < j
+
+Upper triangular matrix
+---------------------------
+A square matrix where only the upper triangle is not composed of zeros. Formally:
+
+.. math::
+
+  A_{ij} = 0, \text{if} i \geq j
+
 Unitary matrix
 =====================
 A matrix where its inverse is the same as its complex conjugate. The complex version of an orthogonal matrix.

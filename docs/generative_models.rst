@@ -2,7 +2,7 @@
 Generative networks
 """"""""""""""""""""""""""
 
-Models the joint distribution over the features, ignoring any labels, :math:`P(x;\theta)`. 
+Models the joint distribution over the features :math:`P(x;\theta)`, ignoring any labels. 
 
 The model can be estimated by trying to maximise the probability of the observations given the parameters. However, this can be close to intractable for cases like images where the number of possible outcomes is huge.
 
@@ -23,7 +23,7 @@ Composed of standard convolutional layers and upsampling layers.
 
 Denoising Autoencoder (DAE)
 ===============================
-Adds noise to prevent the hidden layer(s) from learning the identity, when the width of the narrowest hidden layer is at least as wide as the input layer.
+Adds noise to prevent the hidden layer(s) from learning the identity function. This is particularly useful when the width of the narrowest hidden layer is at least as wide as the input layer.
 
 Variational Autoencoder (VAE)
 ==================================

@@ -149,11 +149,11 @@ The span of a matrix is the set of all points that can be obtained as a linear c
 
 Spectral radius
 =====================
-The maximum of the magnitudes of the eigenvalues.
+The maximum of the magnitudes of the `eigenvalues <https://ml-compiled.readthedocs.io/en/latest/linear_algebra.html#eigenvalues-and-eigenvectors>`_.
 
 Spectrum
 ==============
-The set of eigenvalues of a matrix.
+The set of `eigenvalues <https://ml-compiled.readthedocs.io/en/latest/linear_algebra.html#eigenvalues-and-eigenvectors>`_ of a matrix.
 
 System of Linear Equations (SLE)
 ======================================

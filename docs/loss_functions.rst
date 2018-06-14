@@ -16,6 +16,10 @@ The inputs are pairs of examples :math:`x_1` and :math:`x_2` where :math:`y = 1`
   
 Where :math:`x_1` and :math:`x_2` are the embeddings for the two examples and :math:`m` is a hyperparameter called the margin. :math:`d(x,y)` is a distance function, usually the `Euclidean distance <https://ml-compiled.readthedocs.io/en/latest/high_dimensionality.html#euclidean-distance>`_.
 
+Intuition
+------------
+If :math:`y_i = 1` the two examples :math:`x_1` and :math:`x_2` are similar and we want to minimize the distance :math:`d(x_1,x_2)`. Otherwise (:math:`y_i = 0`) we wish to maximize it.
+
 The margin
 -----------
 If :math:`y = 0` we want to make :math:`d(x_1,x_2)` as large as possible to minimize the loss. However, beyond the threshold for classifying the example as a negative increasing this distance will not have any effect on the accuracy. The margin ensures this intuition is reflected in the loss function. Using the margin means increasing :math:`d(x_1,x_2)` beyond :math:`m` has no effect.

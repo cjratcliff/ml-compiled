@@ -157,12 +157,30 @@ The set of eigenvalues of a matrix.
 
 System of Linear Equations (SLE)
 ======================================
+A set of :math:`n` linear equations using a common set of :math:`m` variables. For example:
+
+.. math::
+
+  3x_0 + 4x_1 = 5
+  
+.. math::
+  
+  -2x_0 + x_1 = 11
+
+In matrix form an SLE can be written as:
 
 .. math::
  
   Ax = b
   
-Can be solved by Gaussian elimination. 
+Where :math:`x` is the vector of unknowns to be determined, :math:`A` is a matrix of the coefficients from the left-hand side and the vector :math:`b` contains the numbers from the right-hand side of the equations.
+
+Systems of linear equations can be solved in many ways. Gaussian elimination is one.
+
+Underdetermined and overdetermined systems
+--------------------------------------------
+* If the number of variables exceeds the number of equations the system is **underdetermined**.
+* If the number of variables is less than the number of equations the system is **overdetermined**.
 
 Trace
 =======

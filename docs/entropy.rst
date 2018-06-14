@@ -52,7 +52,7 @@ Note that if a point is outside the support of Q (Q(i) = 0), the KL-divergence w
 
 The KL-divergence is not symmetric.
 
-See also: `Wasserstein distance <https://ml-compiled.readthedocs.io/en/latest/high_dimensionality.html#wasserstein-distance>`_
+See also: `Wasserstein distance <https://ml-compiled.readthedocs.io/en/latest/geometry.html#wasserstein-distance>`_
 
 Mutual information
 -----------------------
@@ -66,4 +66,4 @@ Total variation distance
 -----------------------------
 Like the Kullback-Leibler divergence, it is also a way of measuring the difference between two different probability distributions.
 
-See also: `Wasserstein distance <https://ml-compiled.readthedocs.io/en/latest/high_dimensionality.html#wasserstein-distance>`_
+See also: `Wasserstein distance <https://ml-compiled.readthedocs.io/en/latest/geometry.html#wasserstein-distance>`_

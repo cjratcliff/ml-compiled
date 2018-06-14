@@ -37,10 +37,6 @@ Gaussian elimination
 =====================
 An algorithm for solving SLEs that iteratively transforms the matrix into an upper triangular one in row echelon form.
 
-Hermitian matrix
-=====================
-The complex equivalent of a symmetric matrix. :math:`A = A^*`, where * represents the conjugate transpose.
-
 Hadamard product
 =====================
 Synonymous with elementwise-multiplication.
@@ -85,17 +81,6 @@ Matrix factorization algorithm.
 where :math:`U` is a unitary matrix, :math:`\Sigma` is a rectangular diagonal matrix containing the singular values and :math:`V` is a unitary matrix.
 
 Can be used for computing the sum of squares or the pseudoinverse.
-
-Normal matrix
-==============
-:math:`A^*A = AA^*` where :math:`A^*` is the conjugate transpose of :math:`A`.
-
-Orthogonal matrix
-=====================
-
-.. math:: 
-
-    A^TA = AA^T = I
     
 Orthonormal vectors
 ====================
@@ -103,18 +88,6 @@ Two vectors are orthonormal if they are orthogonal and both unit vectors.
 
 Outer product
 ==============
-
-Positive (semi-)definite
-============================
-A matrix :math:`A \in \mathbb{R}^{n \times n}` is positive definite if:
-
-.. math::
-
-    z^TAz > 0, \forall z \in \mathbb{R}^n, z \neq 0 
-
-Positive semi-definite matrices are defined analogously, except with :math:`z^TAz \geq 0`
-
-Negative (semi-)definite matrices are the same but with the inequality round the other way.
 
 Principal Component Analysis (PCA)
 =====================================
@@ -135,10 +108,6 @@ When the term is applied to tensors, the rank refers to the dimensionality:
 * Rank 0 is a scalar
 * Rank 1 is a vector
 * Rank 2 is a matrix etc.
-
-Singular matrix
-=====================
-A square matrix which is not invertible. A matrix is singular if and only if the determinant is zero.
 
 Singular value
 =====================
@@ -217,12 +186,46 @@ Satisfies the following properties:
 
     (A^T)^{-1} = (A^{-1})^T
 
+Types of matrix
+=================
+
+Hermitian matrix
+-------------------
+The complex equivalent of a symmetric matrix. :math:`A = A^*`, where * represents the conjugate transpose.
+
+Normal matrix
+----------------
+:math:`A^*A = AA^*` where :math:`A^*` is the conjugate transpose of :math:`A`.
+
+Orthogonal matrix
+-------------------
+
+.. math:: 
+
+    A^TA = AA^T = I
+
+Positive (semi-)definite
+---------------------------
+A matrix :math:`A \in \mathbb{R}^{n \times n}` is positive definite if:
+
+.. math::
+
+    z^TAz > 0, \forall z \in \mathbb{R}^n, z \neq 0 
+
+Positive semi-definite matrices are defined analogously, except with :math:`z^TAz \geq 0`
+
+Negative (semi-)definite matrices are the same but with the inequality round the other way.
+
+Singular matrix
+-----------------
+A square matrix which is not invertible. A matrix is singular if and only if the determinant is zero.
+
 Triangular matrix
-===================
+---------------------
 Either a lower triangular or an upper triangular matrix.
 
 Lower triangular matrix
----------------------------
+___________________________
 A square matrix where only the lower triangle is not composed of zeros. Formally:
 
 .. math::
@@ -230,7 +233,7 @@ A square matrix where only the lower triangle is not composed of zeros. Formally
   A_{ij} = 0, \text{if} i < j
 
 Upper triangular matrix
----------------------------
+__________________________
 A square matrix where only the upper triangle is not composed of zeros. Formally:
 
 .. math::
@@ -238,7 +241,7 @@ A square matrix where only the upper triangle is not composed of zeros. Formally
   A_{ij} = 0, \text{if} i \geq j
 
 Unitary matrix
-=====================
+-----------------
 A matrix where its inverse is the same as its complex conjugate. The complex version of an orthogonal matrix.
 
 .. math::

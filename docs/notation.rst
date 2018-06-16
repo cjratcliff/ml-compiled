@@ -19,8 +19,8 @@ Sets
 ========================================  =================================================================
   Symbol                                     Meaning   
 ========================================  =================================================================
-:math:`\mathbb{R}`                           The set of real numbers
-:math:`\mathbb{R}^{n}`                        The set of vectors of real numbers of length n
+:math:`\mathbb{R}`                          The set of real numbers
+:math:`\mathbb{R}^{n}`                      The set of vectors of real numbers of length :math:`n`
 :math:`\mathbb{R}^{m \times n}`             The set of matrices of real numbers of size :math:`m \times n`
 ========================================  =================================================================
 

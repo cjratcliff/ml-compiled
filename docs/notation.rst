@@ -26,13 +26,16 @@ Sets
 
 Calculus
 --------
-========================================  =================================================================
+==========================================  =================================================================
   Symbol                                     Meaning   
-========================================  =================================================================
-:math:`f'`                                   Derivative of f, shorthand for :math:`\frac{df(x)}{dx}`   
+==========================================  =================================================================
+:math:`f'`                                   Derivative of f, shorthand for :math:`\frac{df(x)}{dx}`
+:math:`f''`                                  Second derivative of f
 :math:`\frac{dy}{dx}`                        Derivative of y with respect to x
+:math:`\frac{d^2y}{dx^2}`                    Second derivative of y with respect to x
 :math:`\frac{\partial y}{\partial x}`        Partial derivative of y with respect to x
-========================================  =================================================================
+:math:`\frac{\partial^2 y}{\partial x^2}`    Second partial derivative of y with respect to x
+==========================================  =================================================================
 
 Information theory
 --------------

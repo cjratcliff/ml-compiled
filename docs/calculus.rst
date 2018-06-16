@@ -34,7 +34,7 @@ It is common in machine learning to compute the Jacobian of the loss function of
 
 .. math::
 
-  J_i = \frac{L}{\theta_i}
+  J_i = \frac{\partial L}{\partial \theta_i}
 
 Partial derivative
 =====================

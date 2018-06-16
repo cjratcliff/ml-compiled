@@ -12,10 +12,10 @@ Optimization
 ==============
 Cosine learning rate decay
 Vanishing/exploding gradient problem
+Feature scaling
 
 Uncategorised
 =================
-Feature scaling
 Manifold hypothesis
 Gaussian Mixture Model
 Variational Bayes

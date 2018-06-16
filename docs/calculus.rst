@@ -8,13 +8,25 @@ An iterative method for solving differential equations (ie integration).
 
 Hessian matrix
 ====================
+Let :math:`f:\mathbb{R} \rightarrow \mathbb{R}` 
 
 Square matrix of second-order partial derivatives of a scalar-valued function. Its size and therefore cost to compute is quadratic in the number of parameters. This makes it infeasible to compute for most problems. If the Hessian at a point on the loss surface has no negative eigenvalues the point is a local minimum.
 
 Jacobian matrix
 ======================
+Let :math:`f:\mathbb{R^n} \rightarrow \mathbb{R^m}` be a function. Then the Jacobian of :math:`f` can be defined as the following matrix of partial derivatives:
 
-Matrix of all first-order derivatives of a vector-valued function. Singular values are important.
+.. math::
+
+  J_{ij} = \frac{\partial f_i}{\partial x_j}
+
+Applied to neural networks
+---------------------------------
+It is common in machine learning to compute the Jacobian of the loss function of a network with respect to its parameters. Then :math:`m = 1` and the Jacobian is a vector representing the gradients of the network:
+
+.. math::
+
+  J_i = \frac{L}{\theta_i}
 
 Partial derivative
 =====================

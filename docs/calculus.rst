@@ -8,7 +8,7 @@ An iterative method for solving differential equations (ie integration).
 
 Hessian matrix
 ====================
-Let :math:`f:\mathbb{R^n} \rightarrow \mathbb{R}` be a function mapping vectors onto real numbers. Then the Hessian is defined as the matrix of second order partial derivatives:
+Let :math:`f:\mathbb{R}^n \rightarrow \mathbb{R}` be a function mapping vectors onto real numbers. Then the Hessian is defined as the matrix of second order partial derivatives:
 
 .. math::
 
@@ -22,7 +22,7 @@ If the Hessian at a point on the loss surface has no negative eigenvalues the po
 
 Jacobian matrix
 ======================
-Let :math:`f:\mathbb{R^n} \rightarrow \mathbb{R^m}` be a function. Then the Jacobian of :math:`f` can be defined as the matrix of partial derivatives:
+Let :math:`f:\mathbb{R}^n \rightarrow \mathbb{R}^m` be a function. Then the Jacobian of :math:`f` can be defined as the matrix of partial derivatives:
 
 .. math::
 

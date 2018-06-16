@@ -8,13 +8,21 @@ An iterative method for solving differential equations (ie integration).
 
 Hessian matrix
 ====================
-Let :math:`f:\mathbb{R} \rightarrow \mathbb{R}` 
+Let :math:`f:\mathbb{R^n} \rightarrow \mathbb{R}` be a function mapping vectors onto real numbers. Then the Hessian is defined as the matrix of second order partial derivatives:
 
-Square matrix of second-order partial derivatives of a scalar-valued function. Its size and therefore cost to compute is quadratic in the number of parameters. This makes it infeasible to compute for most problems. If the Hessian at a point on the loss surface has no negative eigenvalues the point is a local minimum.
+.. math::
+
+  H_{ij} = \frac{\partial^2 f}{\partial x_i x_j}
+
+Applied to neural networks
+---------------------------------
+The size and therefore cost to compute of the Hessian is quadratic in the number of parameters. This makes it infeasible to compute for most problems. 
+
+If the Hessian at a point on the loss surface has no negative eigenvalues the point is a local minimum.
 
 Jacobian matrix
 ======================
-Let :math:`f:\mathbb{R^n} \rightarrow \mathbb{R^m}` be a function. Then the Jacobian of :math:`f` can be defined as the following matrix of partial derivatives:
+Let :math:`f:\mathbb{R^n} \rightarrow \mathbb{R^m}` be a function. Then the Jacobian of :math:`f` can be defined as the matrix of partial derivatives:
 
 .. math::
 

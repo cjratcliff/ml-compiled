@@ -48,7 +48,7 @@ The loss function is:
 
 .. math::
 
-  L() = \sum_{i=1}^V \sum_{j=1}^V f(X_{ij}) (w_i^T w_j + b_i + b_j - \log(X_{ij}))^2
+  L(X;w,b) = \sum_{i=1}^V \sum_{j=1}^V f(X_{ij}) (w_i^T w_j + b_i + b_j - \log(X_{ij}))^2
   
 where :math:`V` is the size of the vocabulary and :math:`X_{ij}` is the number of times word :math:`j` occurs in the context of word :math:`i`. :math:`w_i^T w_j` measures the similarity of the two word vectors.
 

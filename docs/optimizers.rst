@@ -2,7 +2,6 @@
 Optimization
 ===============
 
---------------------------
 Automatic differentiation
 --------------------------
 Has two distinct modes - forward and reverse.
@@ -11,7 +10,6 @@ Forward mode takes an input to the graph and evaluates the derivative of all sub
 
 Reverse mode takes an output (eg the loss) and differentiates it with respect to all inputs. This is usually more useful in neural networks since it can be used to get the derivatives for all the parameters in one pass.
 
---------------------------
 Backpropagation
 --------------------------
 Naively summing the product of derivatives over all paths to a node is computationally intractable because the number of paths increases exponentially with depth.
@@ -20,14 +18,12 @@ Instead, the sum over paths is calculated by merging paths back together at the 
 
 http://colah.github.io/posts/2015-08-Backprop/
 
-"""""""""""""""""""""""""""""""""""""
 Backpropagation through time (BPTT)
 """""""""""""""""""""""""""""""""""""
 Used to train RNNs. The RNN is unfolded through time.
 
 When dealing with long sequences (hundreds of inputs), a truncated version of BPTT is often used to reduce the computational cost. This stops backpropagating the errors after a fixed number of steps, limiting the length of the dependencies that can be learned.
 
--------------
 Batch size
 -------------
 Pros of large batch sizes:
@@ -47,12 +43,12 @@ Cons of large batch sizes:
 
 `Big Batch SGD: Automated Inference using Adaptive Batch Sizes (2016) <https://arxiv.org/abs/1610.05792>`_
 
---------------------------
+
 Curriculum learning
 --------------------------
 Training the classifier with easy examples initially and gradually transitioning to the harder ones. Useful for architectures which are very hard to train.
 
----------
+
 Depth
 ---------
 Depth increases the representational power of a network exponentially, for a given number of parameters. However, deeper networks can also be considerably harder to train, due to vanishing and exploding gradients or dying ReLUs. Problems stemming from depth are seen both in deep feedforward networks and in recurrent networks, where the depth comes from being unfolded over a large number of timesteps.
@@ -66,27 +62,27 @@ Potential solutions include:
 * Auxiliary loss functions (eg `Szegedy et al. (2016) <https://arxiv.org/pdf/1409.4842.pdf>`_)
 * `Orthogonal initialization <https://ml-compiled.readthedocs.io/en/latest/initialization.html#orthogonal-initialization>`_
 
----------------
+
 Early stopping
 ---------------
 Halting training when the validation loss has stopped decreasing but the training loss is still going down.
 
--------------
+
 End-to-end
 -------------
 The entire model is trained in one process, not as separate modules. For example, a pipeline consisting of object recognition and description algorithms that are trained individually would not be trained end-to-end.
 
--------------
+
 Epoch
 -------------
 A single pass through the training data.
 
---------------
+
 Error surface
 --------------
 The surface obtained by plotting the weights of the network against the loss. For a linear network with a squared loss function, the surface is a quadratic bowl.
 
-----------------------------
+
 Exploding gradient problem
 ----------------------------
 When the gradient grows exponentially as we move backward through the layers.
@@ -95,12 +91,12 @@ Gradient clipping can be an effective antidote.
 
 `On the difficulty of training recurrent neural networks, Pascanu et al. (2012) <https://arxiv.org/pdf/1211.5063.pdf>`_
 
-----------------------------
+
 Gradient clipping
 ----------------------------
 Used to avoid exploding gradients in very deep networks by normalizing the gradients of the parameter vector. Clipping can be done either by value or by norm.
 
-"""""""""""""""""""""""""""""""""""""
+
 Clipping by value
 """""""""""""""""""""""""""""""""""""
 .. math::
@@ -109,7 +105,7 @@ Clipping by value
   
 Where :math:`g_i` is the gradient of the parameter :math:`\theta_i` and :math:`a` and :math:`b` are hyperparameters.
 
-"""""""""""""""""""""""""""""""""""""
+
 Clipping by norm
 """""""""""""""""""""""""""""""""""""
 .. math::
@@ -120,7 +116,7 @@ Where :math:`g_i` is the gradient of the parameter :math:`\theta_i` and :math:`a
 
 `On the difficulty of training recurrent neural networks, Pascanu et al. (2012) <https://arxiv.org/pdf/1211.5063.pdf>`_
 
-----------------------------
+
 Learning rate
 ----------------------------
 Pros of large learning rates:
@@ -133,28 +129,28 @@ Cons of large learning rates:
 * Increases the risk of oscillations during training, especially when not using an optimizer with a momentum term.
 * Can make it harder to train deeper networks.
 
-"""""""""""""""""""""
+
 Learning rate decay
 """""""""""""""""""""
 Also known as learning rate annealing. Changing the learning rate throughout the training process according to some schedule.
 
--------------
+
 Optimizers
 -------------
 
-""""""""
+
 AdaDelta
 """"""""
 AdaDelta is a gradient descent based learning algorithm that adapts the learning rate per parameter over time. It was proposed as an improvement over AdaGrad, which is more sensitive to hyperparameters and may decrease the learning rate too aggressively.
 
 `AdaDelta: An Adaptive Learning Rate Method, Zeiler (2012) <https://arxiv.org/abs/1212.5701>`_
 
-""""""""
+
 AdaGrad
 """"""""
 `Adaptive Subgradient Methods for Online Learning and Stochastic Optimization, Duchi et al. (2011) <http://www.jmlr.org/papers/volume12/duchi11a/duchi11a.pdf>`_
 
-""""""""
+
 Adam
 """"""""
 Adam is an adaptive learning rate algorithm similar to RMSProp, but updates are directly estimated using EMAs of the first and uncentered second moment of the gradient. Designed to combine the advantages of RMSProp and AdaGrad.
@@ -167,45 +163,45 @@ Does not require a stationary objective and works with sparse gradients. Is inva
 
 `Adam: A Method for Stochastic Optimization, Kingma et al. (2015) <https://arxiv.org/pdf/1412.6980.pdf>`_
 
-""""""""""""""""""""""""
+
 Averaged SGD (ASGD)
 """"""""""""""""""""""""
 Runs like normal SGD but replaces the parameters with their average over time at the end.
 
-""""""""
+
 BFGS
 """"""""
 Iterative method for solving nonlinear optimization problems that approximates Newton’s method.
 BFGS stands for Broyden–Fletcher–Goldfarb–Shanno.
 L-BFGS is a popular memory-limited version of the algorithm.
 
-""""""""""""""""""""""""
+
 Conjugate gradient
 """"""""""""""""""""""""
 Iterative algorithm for solving SLEs where the matrix is symmetric and positive-definite.
 
-""""""""""""""""""""""""""""""""
+
 Krylov subspace descent
 """"""""""""""""""""""""""""""""
 Second-order optimization method. Inferior to SGD.
 
 `Krylov Subspace Descent for Deep Learning, Vinyals and Povey (2011) <https://arxiv.org/abs/1111.4259>`_
 
-""""""""
+
 Momentum
 """"""""
 Adds a fraction of the update from the previous time step to the current time step. 
 
 Deep architectures often have deep ravines in their landscape near local optimas. They can lead to slow convergence with vanilla SGD since the negative gradient will point down one of the steep sides rather than towards the optimum. Momentum pushes optimization to the minimum faster. Commonly set to 0.9.
 
-""""""""""""""""
+
 Natural gradient
 """"""""""""""""
 At each iteration attempts to perform the update which minimizes the loss function subject to the constraint that the KL-divergence between the probability distribution output by the network before and after the update is equal to a constant.
 
 `Revisiting natural gradient for deep networks, Pascanu and Bengio (2014) <https://arxiv.org/abs/1301.3584>`_
 
-""""""""""""""""
+
 Newton’s method
 """"""""""""""""
 An iterative method for finding the roots of an equation.
@@ -220,12 +216,12 @@ In the context of gradient descent, Newton’s method is applied to the derivati
 
 Picks the optimal step size for quadratic problems but is also prohibitively expensive to compute for large models due to the size of the Hessian matrix, which is quadratic in the number of parameters.
 
-""""""""""""""""""""""""
+
 Nesterov’s method
 """"""""""""""""""""""""
 Attempts to solve instabilities that can arise from using momentum by keeping the history of previous update steps and combining this with the next gradient step.
 
-""""""""
+
 RMSProp
 """"""""
 Similar to Adagrad, but introduces an additional decay term to counteract AdaGrad’s rapid decrease in the learning rate. Divides the gradient by a running average of its recent magnitude. 0.001 is a good default value for the learning rate (:math:`\eta`) and 0.9 is a good default value for :math:`\alpha`. The name comes from Root Mean Square Propagation.
@@ -240,7 +236,6 @@ http://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf
 
 http://ruder.io/optimizing-gradient-descent/index.html#rmsprop
 
--------------------
 Saddle points
 -------------------
 A point on a function which is not a local or global optimum but where the derivatives are zero.
@@ -248,4 +243,7 @@ A point on a function which is not a local or global optimum but where the deriv
 Gradients around saddle points are close to zero which makes learning slow. The problem can be partially solved by using a noisy estimate of the gradient, which SGD does implicitly.
 
 `Identifying and attacking the saddle point problem in high-dimensional non-convex optimization, Dauphin et al. (2014) <https://arxiv.org/abs/1406.2572>`_
+
+Vanishing gradient problem
+-----------------------------
 

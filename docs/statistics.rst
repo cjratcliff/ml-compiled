@@ -80,7 +80,7 @@ Measures the asymmetry of a probability distribution.
   
 Standard deviation
 --------------------
-The square root of the variance.
+The square root of the variance. The formula is:
 
 .. math::
 
@@ -93,7 +93,7 @@ _____________________________
 
 .. math::
 
-  s = \sqrt{\frac{1}{n-1} \sum_{i=1}^n(X-\mu)^2}
+  s = \sqrt{\frac{1}{n-1} \sum_{i=1}^n(x_i-\mu)^2}
 
 Variance
 ---------
@@ -114,4 +114,7 @@ The formula can also be written as:
 Sample variance
 __________________
 
+.. math::
+
+  V(X) = \frac{1}{n-1}\sum_{i=1}^n (x_i - \mu)^2
 

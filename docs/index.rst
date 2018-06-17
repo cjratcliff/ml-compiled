@@ -65,6 +65,7 @@ Contents
    
    adversarial
    computer_vision
+   density_estimation
    metrics
    hyperparameter_optimization
    multimodal

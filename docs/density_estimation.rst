@@ -11,10 +11,18 @@ Histogram
 
 Kernel Density Estimation
 ---------------------------
+The predicted density function given an a sample :math:`x` is:
 
 .. math::
 
   \hat{f}(x) = \frac{1}{n}\sum_{i=1}^n K_h(x - x_i)
+  
+Where :math:`K` is the kernel and :math:`h > 0` is a smoothing parameter.
+
+.. math::
+
+  K_h(x) = \frac{1}{h}K(\frac{x}{h})
+
 
 Mixture Model
 ------------------------

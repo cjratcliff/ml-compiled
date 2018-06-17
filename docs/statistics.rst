@@ -113,6 +113,7 @@ The formula can also be written as:
 
 Sample variance
 __________________
+When it is impractical to compute the variance over the entire population, we can take a sample instead and compute the sample variance.
 
 .. math::
 

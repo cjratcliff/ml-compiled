@@ -9,6 +9,9 @@ Empirical distribution function
 Histogram
 -----------
 
+Kernel Density Estimation
+---------------------------
+
 
 Mixture Model
 ------------------------

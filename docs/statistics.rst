@@ -106,6 +106,7 @@ The variance of :math:`X=\{x_1, ..., x_n\}` is:
 where :math:`\mu` is the mean of X.
   
 The formula can also be written as:
+
 .. math::
 
   V(X) = \frac{1}{n}\sum_{i=1}^n (x_i - \mu)^2

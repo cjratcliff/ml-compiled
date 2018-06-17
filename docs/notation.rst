@@ -59,6 +59,8 @@ Linear algebra
 :math:`I`            Identity matrix
 :math:`X*Y`         Element-wise product of x and y
 :math:`x \cdot y`   Dot product of x and y
+:math:`tr(X)`       Trace of X
+:math:`det(X)`      Determinant of X
 =================  ====================================
 
 Probability

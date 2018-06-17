@@ -2,6 +2,10 @@
 Training with limited data
 """""""""""""""""""""""""""
 
+Active learning
+----------------
+The learning algorithm requests examples to be labelled as part of the training process. Useful when there is a small set of labelled examples and a larger set of unlabelled examples and labelling is expensive.
+
 Class imbalance problem
 --------------------------
 When one or more classes occur much more frequently in the dataset than others. This can lead to classifiers maximising their objective by predicting the majority class(es) all of the time, ignoring the features.

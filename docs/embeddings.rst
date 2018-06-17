@@ -42,6 +42,26 @@ GloVe
 ------
 Method for learning word vectors. GloVe is short for 'Global Vectors'.
 
+The loss function is:
+
+.. math::
+
+  L() = \sum_{i=1}^V \sum_{j=1}^V f(X_{ij}) (w_i^T w_j + b_i + b_j - log(X_{ij})^2
+  
+where :math:`V` is the size of the vocabulary and :math:`X_{ij}` is the number of times word j occurs in the context of word i. 
+
+:math:`f(X_{ij}` is a frequency weighting function that ensures frequently occuring word pairs are given more weight than rarely occuring ones. It is defined as:
+
+.. math::
+
+  f(x) = 
+        \begin{cases}
+            (x/x_\text{max})^\alpha, & x < x_\text{max} \\
+            1, & \text{otherwise}
+        \end{cases}
+        
+:math:`\alpha` and :math:`x_\text{max}` are hyperparameters, set to 0.75 and 100 respectively.
+
 https://nlp.stanford.edu/projects/glove/
 
 `GloVe: Global Vectors for Word Representation, Pennington et al. (2014) <https://www.aclweb.org/anthology/D14-1162>`_

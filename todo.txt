@@ -16,6 +16,8 @@ Feature scaling
 
 Uncategorised
 =================
+Question answering
+Translation
 Manifold hypothesis
 Gaussian Mixture Model
 Variational Bayes

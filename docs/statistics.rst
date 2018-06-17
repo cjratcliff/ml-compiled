@@ -97,9 +97,20 @@ _____________________________
 
 Variance
 ---------
+The variance of :math:`X=\{x_1, ..., x_n\}` is:
 
 .. math::
 
   V(X) = E[(X-\mu)^2]
   
 where :math:`\mu` is the mean of X.
+  
+The formula can also be written as:
+.. math::
+
+  V(X) = \frac{1}{n}\sum_{i=1}^n (x_i - \mu)^2
+
+Sample variance
+__________________
+
+

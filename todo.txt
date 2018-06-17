@@ -19,10 +19,8 @@ Uncategorised
 Question answering
 Translation
 Manifold hypothesis
-Gaussian Mixture Model
 Variational Bayes
 Parametric and non-parametric models
-Density estimation
 Discriminative model
 Energy-based model
 Expectation-maximisation (EM)

@@ -65,8 +65,8 @@ Contents
    
    adversarial
    computer_vision
-   hyperparameter_optimization
    metrics
+   hyperparameter_optimization
    multimodal
    natural_language_processing   
    training_with_limited_data

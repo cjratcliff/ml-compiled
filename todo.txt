@@ -30,7 +30,6 @@ Inductive bias
 Lattice model
 Metric learning
 Imitation learning
-Active learning
 Multilayer perceptron (MLP)
 Overcomplete representation
 Calibration

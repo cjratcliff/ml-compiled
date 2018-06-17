@@ -42,15 +42,17 @@ GloVe
 ------
 Method for learning word vectors. GloVe is short for 'Global Vectors'.
 
+Unlike the CBOW and skip-gram methods which try to learn word vectors through a classification task (eg predict the word given its context), GloVe uses a regression task. The task is to predict the log frequency of word pairs given the similarity of their word vectors.
+
 The loss function is:
 
 .. math::
 
   L() = \sum_{i=1}^V \sum_{j=1}^V f(X_{ij}) (w_i^T w_j + b_i + b_j - log(X_{ij})^2
   
-where :math:`V` is the size of the vocabulary and :math:`X_{ij}` is the number of times word j occurs in the context of word i. 
+where :math:`V` is the size of the vocabulary and :math:`X_{ij}` is the number of times word :math:`j` occurs in the context of word :math:`i`. :math:`w_i^T w_j` measures the similarity of the two word vectors.
 
-:math:`f(X_{ij}` is a frequency weighting function that ensures frequently occuring word pairs are given more weight than rarely occuring ones. It is defined as:
+:math:`f(X_{ij})` is a frequency weighting function that ensures frequently occuring word pairs are given more weight than rarely occuring ones. It is defined as:
 
 .. math::
 

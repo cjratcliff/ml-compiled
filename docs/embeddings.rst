@@ -15,13 +15,20 @@ One-hot representation
 A vector which has zeros everywhere except for in the indices representing the class or classes which are present.
 
 """"""""""""""""""""""""
+Siamese network
+""""""""""""""""""""""""
+An architecture that is often used for calculating similarities, as in `face verification <https://ml-compiled.readthedocs.io/en/latest/computer_vision.html#face-verification>`_ for example.
+
+Often used with the `contrastive loss <https://ml-compiled.readthedocs.io/en/latest/loss_functions.html#contrastive-loss>`_.
+
+""""""""""""""""""""""""
 Triplet network
 """"""""""""""""""""""""
-Architecture for learning embeddings for calculating similarities. Useful for tasks like `face verification <http://ml-compiled.readthedocs.io/en/latest/computer_vision.html#face-verification>`_.
+Architecture for learning embeddings for calculating similarities. Useful for tasks like `face verification <https://ml-compiled.readthedocs.io/en/latest/computer_vision.html#face-verification>`_.
 
-During each batch in training, an 'anchor' example is supplied along with a positive that is similar to it and a negative that is not.
+During each iteration in training, an 'anchor' example is supplied along with a positive that is similar to it and a negative that is not. Each of the three inputs (the anchor, the positive and the negative) are processed separately to produce an embedding for each. 
 
-Uses the `triplet loss <http://ml-compiled.readthedocs.io/en/latest/loss_functions.html#triplet-loss>`_.
+Uses the `triplet loss <https://ml-compiled.readthedocs.io/en/latest/loss_functions.html#triplet-loss>`_.
 
 """""""""""""
 Word vectors

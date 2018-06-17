@@ -243,6 +243,8 @@ http://ruder.io/optimizing-gradient-descent/index.html#rmsprop
 -------------------
 Saddle points
 -------------------
+A point on a function which is not a local or global optimum but where the derivatives are zero.
+
 Gradients around saddle points are close to zero which makes learning slow. The problem can be partially solved by using a noisy estimate of the gradient, which SGD does implicitly.
 
 `Identifying and attacking the saddle point problem in high-dimensional non-convex optimization, Dauphin et al. (2014) <https://arxiv.org/abs/1406.2572>`_

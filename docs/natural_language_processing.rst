@@ -2,27 +2,6 @@
 Natural language processing (NLP)
 """"""""""""""""""""""""""""""""""""""""""
 
-Datasets
------------
-
-bAbI
-_______
-Dataset for question answering.
-
-https://research.fb.com/downloads/babi/
-
-IMDB
-______
-Dataset of movie reviews, used for sentiment classification. Each review is labelled as either positive or negative.
-
-PTB
-______
-Stands for 'Penn Treebank'. Dataset used for generative text modelling.
-
-TIMIT
-______
-Speech corpus.
-
 Entity linking
 ----------------
 The task of finding the specific entity which words or phrases refer to. Not to be confused with Named Entity Recognition.
@@ -43,6 +22,23 @@ The model is trained with the `cross-entropy loss <https://ml-compiled.readthedo
 `Bag of Tricks for Efficient Text Classification <https://arxiv.org/abs/1607.01759>`_
 
 `Enriching Word Vectors with Subword Information <https://arxiv.org/abs/1607.04606>`_
+
+Labelled datasets
+---------------------
+
+bAbI
+_______
+Dataset for question answering.
+
+https://research.fb.com/downloads/babi/
+
+IMDB
+______
+Dataset of movie reviews, used for sentiment classification. Each review is labelled as either positive or negative.
+
+TIMIT
+______
+Speech corpus.
 
 Latent Dirichlet Allocation (LDA)
 -----------------------------------
@@ -76,3 +72,15 @@ A unit of sound in a language, shorter than a syllabel. English has 44 phonemes.
 Stemming
 ----------
 Reducing a word to its basic form. This often involves removing suffixes like 'ed', 'ing' or 's'.
+
+Unlabelled datasets
+----------------------
+This is a list of some of the most frequently used unlabelled datasets and text corpora, suitable for tasks like generative text modelling and learning word embeddings.
+
+* `1 Billion Word Language Model Benchmark <http://www.statmt.org/lm-benchmark/>`_
+* `Common Crawl <http://commoncrawl.org/the-data/>`_
+* `Gigaword 5 <https://catalog.ldc.upenn.edu/LDC2011T07>`_
+* PTB - Stands for 'Penn Treebank'
+* `Project Gutenberg <http://www.gutenberg.org/>`_
+* `Shakespeare <https://ocw.mit.edu/ans7870/6/6.006/s08/lecturenotes/files/t8.shakespeare.txt>`_
+

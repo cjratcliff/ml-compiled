@@ -28,12 +28,11 @@ Word vectors
 """""""""""""
 The meaning of a word is represented by a vector of fixed size.
 
-Shortcomings
 Polysemous words (words with multiple meanings) cannot be modeled effectively by a single point.
 
 CBOW (Continuous Bag of Words)
 -----------------------------------
-Used to create word embeddings. Predicts a word given its context. The context is the surrounding n words, as in the skip-gram model. Referred to as a bag of words model as the order of words within the window does not affect the embedding. Mikolov et al. use a window size of 4 on either side.
+Used to create word embeddings. Predicts a word given its context. The context is the surrounding n words, as in the skip-gram model. Referred to as a bag of words model as the order of words within the window does not affect the embedding. Mikolov et al. (2013) use a window size of 4 on either side.
 
 Several times faster to train than the skip-gram model and has slightly better accuracy for words which occur frequently.
 
@@ -63,6 +62,7 @@ With some minor changes, skip-grams can also be used to calculate embeddings for
 
 Word2vec
 ---------
+The name of the implementation of the CBOW and skip-gram architectures in Mikolov et al. (2013)
 
 `Efficient Estimation of Word Representations in Vector Space, Mikolov et al. (2013) <https://arxiv.org/abs/1301.3781>`_
 

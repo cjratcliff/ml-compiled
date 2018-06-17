@@ -52,7 +52,7 @@ The loss function is:
   
 where :math:`V` is the size of the vocabulary and :math:`X_{ij}` is the number of times word :math:`j` occurs in the context of word :math:`i`. :math:`w_i^T w_j` measures the similarity of the two word vectors.
 
-:math:`f(X_{ij})` is a frequency weighting function that ensures frequently occuring word pairs are given more weight than rarely occuring ones. It is defined as:
+:math:`f(X_{ij})` is a frequency weighting function. Below the threshold of :math:`x_\text{max}` it gives more weight to frequently occuring pairs than rarer ones but beyond this all pairs are weighted equally. The function is defined as:
 
 .. math::
 

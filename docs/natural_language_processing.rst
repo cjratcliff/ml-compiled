@@ -51,7 +51,7 @@ Named Entity Recognition (NER)
 ---------------------------------
 Labelling words and word sequences with the type of entity they represent, such as person, place or time. 
 
-Not to be confused with entity linking which finds the specific entity (eg the city of London) rather than only the type (place).
+Not to be confused with `entity linking <https://ml-compiled.readthedocs.io/en/latest/natural_language_processing.html#entity-linking>`_ which finds the specific entity (eg the city of London) rather than only the type (place).
 
 Part of speech tagging (POS tagging)
 ------------------------------------------

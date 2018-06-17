@@ -28,10 +28,19 @@ Let :math:`A` be a square matrix. Then the eigenvalues and eigenvectors of the m
 
   Av = \lambda v 
   
-Satisfy the following properties:
+Properties
+------------
+The trace of A is the sum of its eigenvalues:
 
-* The trace of A is the sum of its eigenvalues.
-* The determinant of A is the product of its eigenvalues.
+.. math::
+
+  tr(A) = \sum_i \lambda_i
+
+The determinant of A is the product of its eigenvalues.
+
+.. math::
+
+  det(A) = \prod_i \lambda_i
 
 Gaussian elimination
 =====================

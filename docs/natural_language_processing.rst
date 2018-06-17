@@ -30,6 +30,7 @@ Labelled datasets
 * IMDB - Dataset of movie reviews, used for sentiment classification. Each review is labelled as either positive or negative.
 * TIMIT - Speech corpus.
 * `SQuAD <https://rajpurkar.github.io/SQuAD-explorer/>`_ - Stanford Question Answering Dataset
+* WMT - https://nlp.stanford.edu/projects/nmt/
 
 Latent Dirichlet Allocation (LDA)
 -----------------------------------

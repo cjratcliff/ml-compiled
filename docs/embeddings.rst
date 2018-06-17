@@ -64,6 +64,8 @@ Word2vec
 ---------
 The name of the implementation of the CBOW and skip-gram architectures in Mikolov et al. (2013)
 
+https://code.google.com/archive/p/word2vec/
+
 `Efficient Estimation of Word Representations in Vector Space, Mikolov et al. (2013) <https://arxiv.org/abs/1301.3781>`_
 
 

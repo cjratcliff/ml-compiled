@@ -5,7 +5,7 @@ The problem of estimating the probability density function for a given set of ob
 
 Gaussian Mixture Model
 ------------------------
-Estimates the density as a weighted sum of Gaussians.
+Estimates the density as a weighted sum of Gaussian distributions.
 
 .. math::
   = \sum_{i=1}^k w_i N(\mu_i,\Sigma_i)

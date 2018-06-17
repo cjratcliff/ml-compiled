@@ -26,19 +26,10 @@ The model is trained with the `cross-entropy loss <https://ml-compiled.readthedo
 Labelled datasets
 ---------------------
 
-bAbI
-_______
-Dataset for question answering.
-
-https://research.fb.com/downloads/babi/
-
-IMDB
-______
-Dataset of movie reviews, used for sentiment classification. Each review is labelled as either positive or negative.
-
-TIMIT
-______
-Speech corpus.
+* `bAbI <https://research.fb.com/downloads/babi/>`_ - Dataset for question answering
+* IMDB - Dataset of movie reviews, used for sentiment classification. Each review is labelled as either positive or negative.
+* TIMIT - Speech corpus.
+* `SQuAD <https://rajpurkar.github.io/SQuAD-explorer/>`_ - Stanford Question Answering Dataset
 
 Latent Dirichlet Allocation (LDA)
 -----------------------------------

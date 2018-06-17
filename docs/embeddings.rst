@@ -40,7 +40,7 @@ Several times faster to train than the skip-gram model and has slightly better a
 
 GloVe
 ------
-Method for learning word vectors.
+Method for learning word vectors. GloVe is short for 'Global Vectors'.
 
 https://nlp.stanford.edu/projects/glove/
 

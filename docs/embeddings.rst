@@ -42,6 +42,8 @@ GloVe
 ------
 Method for learning word vectors.
 
+https://nlp.stanford.edu/projects/glove/
+
 `GloVe: Global Vectors for Word Representation, Pennington et al. (2014) <https://www.aclweb.org/anthology/D14-1162>`_
 
 Skip-gram

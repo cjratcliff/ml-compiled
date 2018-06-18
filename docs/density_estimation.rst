@@ -28,6 +28,10 @@ A variety of kernels can be used. A common one is the Gaussian, defined as:
 .. math::
 
   K(x) = \frac{1}{\sqrt{2*\pi}} e^{-\frac{1}{2} x^2}
+  
+Disadvantages
+_______________
+The complexity at inference time is linear in the size of the sample.
 
 Mixture Model
 ------------------------

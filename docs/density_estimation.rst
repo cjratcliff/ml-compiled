@@ -22,13 +22,13 @@ Where :math:`K` is the kernel and :math:`h > 0` is a smoothing parameter.
 
 .. math::
 
-  K_h(x) = \frac{1}{h}K(\frac{x}{h})
+  K_h(x) = \frac{1}{h}K\big(\frac{x}{h}\big)
 
 A variety of kernels can be used. A common one is the Gaussian, defined as:
 
 .. math::
 
-  K(x) = \frac{1}{\sqrt{2*\pi}} e^{-\frac{1}{2} x^2}
+  K(x) = \frac{1}{\sqrt{2\pi}} e^{-\frac{1}{2} x^2}
   
 Disadvantages
 _______________

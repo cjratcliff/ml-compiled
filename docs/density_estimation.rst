@@ -8,6 +8,7 @@ Empirical distribution function
 
 Histogram
 -----------
+Take the range of the sample and split it up into n bins, where n is a hyperparameter. Then assign a probability to each bin according to the proportion of the sample that fell within its bounds.
 
 Kernel Density Estimation
 ---------------------------

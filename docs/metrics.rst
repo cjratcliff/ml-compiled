@@ -81,7 +81,7 @@ Summarises the ROC curve with one number, equal to the integral of the curve.
 
 R-squared
 ----------
-A common metric for evaluating regression algorithms. Intuitively, it is the proportion of the variance in the y variable that has been explained by the model.
+A common metric for evaluating regression algorithms. Intuitively, it is the proportion of the variance in the y variable that has been explained by the model. As long as the model contains an intercept term the R-squared should be between 0 and 1.
 
 .. math::
 

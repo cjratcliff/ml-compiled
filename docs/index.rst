@@ -64,6 +64,7 @@ Contents
    :maxdepth: 1
    
    adversarial
+   calibration
    computer_vision
    density_estimation
    metrics

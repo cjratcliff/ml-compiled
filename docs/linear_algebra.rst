@@ -198,6 +198,27 @@ Satisfies the following properties:
 Types of matrix
 =================
 
+Diagonal matrix
+------------------
+A matrix where :math:`A_{ij} = 0` if :math:`i \neq j`.
+
+Can be written as :math:`\text{diag}(a)` where :math:`a` is a vector of values specifying the diagonal entries.
+
+Diagonal matrices have the following properties:
+
+.. math::
+
+  \text{diag}(a) + \text{diag}(b) = \text{diag}(a + b)
+  
+  \text{diag}(a) \cdot \text{diag}(b) = \text{diag}(a * b)
+  
+  \text{diag}(a)^{-1} = \text{diag}(a_1^{-1},...,a_n^{-1})
+  
+  \text{det}(\text{diag}(a)) = \prod_i{a_i}
+  
+The eigenvalues of a diagonal matrix are the set of its values on the diagonal.
+
+
 Hermitian matrix
 -------------------
 The complex equivalent of a symmetric matrix. :math:`A = A^*`, where * represents the conjugate transpose.

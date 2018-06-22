@@ -89,5 +89,3 @@ A common metric for evaluating regression algorithms. Intuitively, it is the pro
   
 where :math:`\bar{y} = \sum_{i=1}^n y_i`, the mean of y.
 
-  R^2 = 
-

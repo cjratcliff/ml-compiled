@@ -30,7 +30,6 @@ Metric learning
 Imitation learning
 Multilayer perceptron (MLP)
 Overcomplete representation
-Calibration
 Bayesian neural network
 Catastrophic forgetting
 Feedforward

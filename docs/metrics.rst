@@ -79,3 +79,15 @@ AUC (Area Under the Curve)
 ____________________________
 Summarises the ROC curve with one number, equal to the integral of the curve.
 
+R-squared
+----------
+A common metric for evaluating regression algorithms. Intuitively, it is the proportion of the variance in the y variable that has been explained by the model.
+
+.. math::
+
+  R^2 = 1 - \frac{\sum_i (y_i - \hat{y}_i)^2}{\sum_i (y_i - \bar{y})^2}
+  
+where :math:`\bar{y} = \sum_{i=1}^n y_i`, the mean of y.
+
+  R^2 = 
+

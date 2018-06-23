@@ -49,7 +49,7 @@ Hinge loss
 
 .. math::
 
-  L(y,\hat{y}) = \max\{0, m - (y - \hat{y})}
+  L(y,\hat{y}) = \max\{0, m - (y - \hat{y})\}
 
 """"""""""""""""
 Huber loss

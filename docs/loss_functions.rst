@@ -12,13 +12,13 @@ The inputs are pairs of examples :math:`x_1` and :math:`x_2` where :math:`y = 1`
 
 .. math::
 
-  L(x_1,x_2,y) = y_i d(x_1,x_2)^2 + (1 - y_i) \max\{0, m - d(x_1,x_2)\}^2
+  L(x_1,x_2,y) = y d(x_1,x_2)^2 + (1 - y) \max\{0, m - d(x_1,x_2)\}^2
   
 Where :math:`x_1` and :math:`x_2` are the embeddings for the two examples and :math:`m` is a hyperparameter called the margin. :math:`d(x,y)` is a distance function, usually the `Euclidean distance <https://ml-compiled.readthedocs.io/en/latest/high_dimensionality.html#euclidean-distance>`_.
 
 Intuition
 ------------
-If :math:`y_i = 1` the two examples :math:`x_1` and :math:`x_2` are similar and we want to minimize the distance :math:`d(x_1,x_2)`. Otherwise (:math:`y_i = 0`) we wish to maximize it.
+If :math:`y = 1` the two examples :math:`x_1` and :math:`x_2` are similar and we want to minimize the distance :math:`d(x_1,x_2)`. Otherwise (:math:`y = 0`) we wish to maximize it.
 
 The margin
 -----------
@@ -46,13 +46,10 @@ Sometimes referred to as the negative log-likelihood loss.
 """"""""""""""""
 Hinge loss
 """"""""""""""""
-Loss function for classification.
 
 .. math::
 
-  L(y,\hat{y}) = \sum_i \max\{0, m - f(y_i)\hat{y}_i\}
-  
-Where :math:`f(y)` remaps y so that negatives are labelled as :math:`-1` rather than :math:`0`.
+  L(y,\hat{y}) = \max\{0, m - (y - \hat{y})}
 
 """"""""""""""""
 Huber loss
@@ -63,8 +60,8 @@ A loss function used for regression. It is less sensitive to outliers than the s
 
   L(y,\hat{y};\delta) = 
           \begin{cases}
-              \frac{1}{2}(y_i - \hat{y}_i)^2, & \ |y_i - \hat{y}_i| \leq \delta \\
-              \delta(|y_i - \hat{y}_i| - \frac{1}{2}\delta), & \text{otherwise}
+              \frac{1}{2}(y - \hat{y})^2, & \ |y - \hat{y}| \leq \delta \\
+              \delta(|y - \hat{y}| - \frac{1}{2}\delta), & \text{otherwise}
           \end{cases}
           
 Where :math:`\delta` is a hyperparameter.         

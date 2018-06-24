@@ -64,11 +64,11 @@ Contents
    :maxdepth: 1
    
    adversarial
-   calibration
    computer_vision
    density_estimation
    metrics
    hyperparameter_optimization
+   modelling_uncertainty
    multimodal
    natural_language_processing   
    training_with_limited_data

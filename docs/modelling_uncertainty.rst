@@ -15,3 +15,8 @@ The uncertainty for a predicted probability distribution over a set of classes c
 
 Regression
 ______________
+Unlike in classification we do not normally output a probability distribution when making predictions for a regression problem. Therefore modifications must be made.
+
+Example paper
+________________
+`Asynchronous Methods for Deep Reinforcement Learning, Mnih et al. (2016) <https://arxiv.org/abs/1602.01783>`_ - Section 9

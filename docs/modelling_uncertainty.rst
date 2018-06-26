@@ -15,7 +15,16 @@ The uncertainty for a predicted probability distribution over a set of classes c
 
 Regression
 ______________
-Unlike in classification we do not normally output a probability distribution when making predictions for a regression problem. Therefore modifications must be made.
+Unlike in classification we do not normally output a probability distribution when making predictions for a regression problem. Therefore modifications must be made:
+
+The network outputs two numbers: 
+
+* The mean :math:`\mu`, outputted by a fully-connected layer with a linear activation.
+* The variance :math:`\sigma^2`, outputted by a fully-connected layer with a softplus activation.
+
+The loss function is:
+
+TODO
 
 Example paper
 ________________

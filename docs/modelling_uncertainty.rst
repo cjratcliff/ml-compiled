@@ -20,7 +20,7 @@ Unlike in classification we do not normally output a probability distribution wh
 The network outputs two numbers: 
 
 * The mean :math:`\mu`, outputted by a fully-connected layer with a linear activation.
-* The variance :math:`\sigma^2`, outputted by a fully-connected layer with a softplus activation.
+* The variance :math:`\sigma^2`, outputted by a fully-connected layer with a `softplus activation <https://ml-compiled.readthedocs.io/en/latest/activations.html#softplus>`_. Using the softplus ensures the variance is always positive.
 
 The loss function is:
 

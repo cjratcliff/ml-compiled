@@ -1,10 +1,9 @@
-=====================
+""""""""""""""""""""""""
 Activation functions
-=====================
+""""""""""""""""""""""""
 
-"""
 ELU
-"""
+----
 An activation function with the form:
 
 .. math:: 
@@ -33,9 +32,8 @@ The more gradual decrease of the gradient should also make them less susceptible
 
 `Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs), Clevert et al. (2015) <https://arxiv.org/abs/1511.07289>`_
 
-""""""
 Maxout
-""""""
+--------
 An activation function used with dropout. Can be a piecewise linear approximation for arbitrary convex activation functions. This means it can approximate ReLU, LReLU, ELU and linear activations but not tanh or sigmoid.
 
 .. math::
@@ -46,24 +44,22 @@ Was used to get state of the art performance on MNIST, SVHN, CIFAR-10 and CIFAR-
 
 `Maxout Networks, Goodfellow et al. (2013) <https://arxiv.org/pdf/1302.4389.pdf>`_
 
-""""
 ReLU
-""""
+-----
 Rectified Linear Unit. The non-saturating activation function :math:`f(x)=\max\{0,x\}` where x is the input to the neuron.
 
 The fact that the gradient is 1 when the input is positive means it does not suffer from vanishing and exploding gradients. However, it suffers from its own 'dying ReLU problem' instead.
 
 The Dying ReLU Problem
--------------------------
+__________________________
 When the input to a neuron is negative, the gradient will be zero. This means that gradient descent will not update the weights so long as the input remains negative.
 A smaller learning rate helps solve this problem.
 The Leaky ReLU and the Parametric ReLU (PReLU) attempt to solve this problem by using :math:`f(x)=max\{ax,x\}` where a is a small constant like 0.1. However, this small gradient when the input in negative means vanishing gradients are once again a problem.
 
 `Rectified Linear Units Improve Restricted Boltzmann Machines, Nair and Hinton (2010) <http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.165.6419&rep=rep1&type=pdf>`_
 
-"""""""
 Sigmoid
-"""""""
+---------
 Activation function that maps outputs to be between 0 and 1.
 
 .. math::
@@ -72,9 +68,8 @@ Activation function that maps outputs to be between 0 and 1.
 
 Has problems with saturation. This makes vanishing and exploding gradients a problem and initialization extremely important.
 
-"""""""
 Softmax
-"""""""
+---------
 All entries in the output vector are in the range (0,1) and sum to 1, making the result a valid probability distribution.
 
 .. math:: 
@@ -85,9 +80,16 @@ Where :math:`z` is a vector of length :math:`K`.
     
 Unlike most other activation functions, the softmax does not apply the same function to each item in the input independently. The requirement that the output vector sums to 1 means that if one of the inputs is increased the others must decrease in the output.
 
-""""
+Softplus
+----------
+Bounded between 0 and infinity.
+
+.. math::
+
+  f(x) = \log(1 + e^x)
+
 Tanh
-""""
+--------
 Activation function that is used in the GRU and LSTM.
 Has problems with saturation like the sigmoid. This makes vanishing and exploding gradients a problem and initialization extremely important.
 tanh(x) is between -1 and 1.

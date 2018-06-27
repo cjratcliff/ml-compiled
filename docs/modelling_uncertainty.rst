@@ -26,7 +26,7 @@ The loss function is the negative log likelihood of the observation under the pr
 
 .. math::
 
-  L(y,\mu,\sigma) = - \log(\sigma^2) - \frac{1}{2n \sigma^2}\sum_{i=1}^n (y - \mu)^2
+  L(y,\mu,\sigma) = - \frac{1}{2}\log(\sigma^2) - \frac{1}{2n \sigma^2}\sum_{i=1}^n (y - \mu)^2
 
 Example paper
 ________________

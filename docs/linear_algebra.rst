@@ -10,6 +10,16 @@ Affine combination
 --------------------
 A linear combination of vectors where the weights sum to 1. Unlike a convex combination, the weights can be negative.
 
+Condition number
+------------------
+The condition number of a matrix :math:`A` is defined as:
+
+.. math::
+
+\kappa(A) = \frac{\sigma_{\max}(A)}{\sigma_{\min}(A)}
+
+where :math:`\sigma_{\max}(A)` and `\sigma_{\min}(A)` are the largest and smallest singular values of A respectively.
+
 Conjugate transpose
 --------------------
 The matrix obtained by taking the transpose followed by the complex conjugate of each entry.

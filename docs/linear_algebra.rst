@@ -254,9 +254,8 @@ Symmetric matrix
 -----------------
 A square matrix :math:`A` where :math:`A = A^T`.
 
-Properties
-____________
-All the eigenvalues of the matrix are real.
+Some properties of symmetric matrices are:
+* All the eigenvalues of the matrix are real.
 
 Triangular matrix
 ---------------------

@@ -277,6 +277,7 @@ ____________________
 A square matrix :math:`A` where :math:`A = A^T`.
 
 Some properties of symmetric matrices are:
+
 * All the eigenvalues of the matrix are real.
 
 Triangular matrix

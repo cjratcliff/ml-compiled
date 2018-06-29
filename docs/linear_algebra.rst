@@ -18,7 +18,7 @@ The condition number of a matrix :math:`A` is defined as:
 
   \kappa(A) = \frac{\sigma_{\max}(A)}{\sigma_{\min}(A)}
 
-where :math:`\sigma_{\max}(A)` and `\sigma_{\min}(A)` are the largest and smallest singular values of A respectively.
+where :math:`\sigma_{\max}(A)` and :math:`\sigma_{\min}(A)` are the largest and smallest singular values of A respectively.
 
 Conjugate transpose
 --------------------

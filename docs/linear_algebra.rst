@@ -233,6 +233,8 @@ Hermitian matrix
 __________________
 The complex equivalent of a symmetric matrix. :math:`A = A^*`, where * represents the conjugate transpose.
 
+Also known as a self-adjoint matrix.
+
 Normal matrix
 ________________
 :math:`A^*A = AA^*` where :math:`A^*` is the conjugate transpose of :math:`A`.

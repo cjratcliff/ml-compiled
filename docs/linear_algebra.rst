@@ -34,13 +34,13 @@ The trace of A is the sum of its eigenvalues:
 
 .. math::
 
-  tr(A) = \sum_i \lambda_i
+  \text{tr}(A) = \sum_i \lambda_i
 
 The determinant of A is the product of its eigenvalues.
 
 .. math::
 
-  det(A) = \prod_i \lambda_i
+  \text{det}(A) = \prod_i \lambda_i
 
 Gaussian elimination
 =====================

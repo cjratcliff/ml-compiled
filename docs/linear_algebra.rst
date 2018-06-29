@@ -250,6 +250,14 @@ Singular matrix
 -----------------
 A square matrix which is not invertible. A matrix is singular if and only if the determinant is zero.
 
+Symmetric matrix
+-----------------
+A square matrix :math:`A` where :math:`A = A^T`.
+
+Properties
+____________
+All the eigenvalues of the matrix are real.
+
 Triangular matrix
 ---------------------
 Either a lower triangular or an upper triangular matrix.

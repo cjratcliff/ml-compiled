@@ -76,6 +76,15 @@ LU decomposition
 ___________________
 A = LU, where L is lower triangular and U is upper triangular. Can be used to solve SLEs.
 
+Polar decomposition
+_____________________
+
+.. math::
+
+  A = UP
+  
+where :math:`U` is unitary and :math:`P` is positive semi-definite and Hermitian.
+
 QR decomposition
 ___________________
 Decomposes a real square matrix :math:`A` such that :math:`A = QR`. :math:`Q` is an `orthogonal matrix <http://ml-compiled.readthedocs.io/en/latest/linear_algebra.html#orthogonal-matrix>`_ and :math:`R` is upper triangular.

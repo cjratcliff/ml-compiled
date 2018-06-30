@@ -32,6 +32,10 @@ The more gradual decrease of the gradient should also make them less susceptible
 
 `Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs), Clevert et al. (2015) <https://arxiv.org/abs/1511.07289>`_
 
+LReLU
+--------
+Leaky ReLU.
+
 Maxout
 --------
 An activation function used with dropout. Can be a piecewise linear approximation for arbitrary convex activation functions. This means it can approximate ReLU, LReLU, ELU and linear activations but not tanh or sigmoid.
@@ -43,6 +47,10 @@ An activation function used with dropout. Can be a piecewise linear approximatio
 Was used to get state of the art performance on MNIST, SVHN, CIFAR-10 and CIFAR-100.
 
 `Maxout Networks, Goodfellow et al. (2013) <https://arxiv.org/pdf/1302.4389.pdf>`_
+
+PReLU
+------
+Parametric ReLU.
 
 ReLU
 -----

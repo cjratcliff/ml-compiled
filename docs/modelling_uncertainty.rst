@@ -8,6 +8,7 @@ The problem of getting accurate estimates of the uncertainty of the prediction(s
 
 Measuring uncertainty
 ----------------------
+This section describes methods for estimating the uncertainty of a classifier. Note that additional methods may be necessary to ensure that this estimate is well-calibrated.
 
 Classification
 ________________

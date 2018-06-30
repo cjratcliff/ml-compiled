@@ -56,6 +56,7 @@ Moments
 
 Moving average
 -----------------
+A moving average smooths a sequence of observations.
 
 Exponential moving average (EMA)
 ___________________________________

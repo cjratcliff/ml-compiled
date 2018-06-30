@@ -45,7 +45,6 @@ Catastrophic forgetting
 Feedforward
 Siamese network
 Sparsity
-ILSVRC
 Full gradient descent
 Mini-batch gradient descent
 Advantage function

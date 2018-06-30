@@ -63,9 +63,19 @@ A type of moving average in which the influence of past observations on the curr
 
 .. math::
 
-  m_t = \alpha x_t + (1 - \alpha)m_{t-1}
+  m_t = \alpha m_{t-1} + (1 - \alpha) x_t
   
-:math:`m_t` is the moving average at time :math:`t`, :math:`x_t` is the input at time :math:`t` and :math:`0 < \alpha < 1` is a hyperparameter. As :math:`\alpha` increases, the moving average weights recent observations more strongly.
+:math:`m_t` is the moving average at time :math:`t`, :math:`x_t` is the input at time :math:`t` and :math:`0 < \alpha < 1` is a hyperparameter. As :math:`\alpha` decreases, the moving average weights recent observations more strongly.
+
+Bias correction
+==================
+If we initialise the EMA to equal zero (:math:`m_0 = 0`) it will be very biased towards zero around the start. To correct this we can start with :math:`\alpha` being close to 0 and gradually increase it. This effect can be achieved by rewriting the formula as:
+
+.. math::
+
+  m_t = \frac{1}{1 - \alpha^t}(\alpha m_{t-1} + (1 - \alpha) x_t)
+
+See `Adam: A Method for Stochastic Optimization, Kingma et al. (2015) <https://arxiv.org/pdf/1412.6980.pdf>`_ for an example of this bias correction being used in practice.
     
 Point estimate
 ----------------

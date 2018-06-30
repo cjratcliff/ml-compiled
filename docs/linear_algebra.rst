@@ -20,6 +20,10 @@ The condition number of a matrix :math:`A` is defined as:
 
 where :math:`\sigma_{\max}(A)` and :math:`\sigma_{\min}(A)` are the largest and smallest singular values of :math:`A` respectively.
 
+If :math:`\kappa(A)` is high, the matrix :math:`A` is said to be **ill-conditioned**. Conversely, if the condition number is very low (ie close to 0) we say :math:`A` is **well-conditioned**.
+
+Since singular values are always non-negative, condition numbers are also always non-negative.
+
 Conjugate transpose
 --------------------
 The matrix obtained by taking the transpose followed by the complex conjugate of each entry.
@@ -140,6 +144,7 @@ When the term is applied to tensors, the rank refers to the dimensionality:
 
 Singular value
 -----------------
+TODO
 
 Span
 -------

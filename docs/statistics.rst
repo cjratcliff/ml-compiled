@@ -65,7 +65,7 @@ A type of moving average in which the influence of past observations on the curr
 
   m_t = \alpha x_t + (1 - \alpha)m_{t-1}
   
-:math:`0 \leq \alpha \leq 1` is a hyperparameter.
+:math:`m_t` is the moving average at time :math:`t`, :math:`x_t` is the input at time :math:`t` and :math:`0 < \alpha < 1` is a hyperparameter. As :math:`\alpha` increases, the moving average weights recent observations more strongly.
     
 Point estimate
 ----------------

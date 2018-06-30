@@ -1,6 +1,6 @@
-===============
+"""""""""""""
 Optimization
-===============
+"""""""""""""
 
 Automatic differentiation
 --------------------------
@@ -19,7 +19,7 @@ Instead, the sum over paths is calculated by merging paths back together at the 
 http://colah.github.io/posts/2015-08-Backprop/
 
 Backpropagation through time (BPTT)
-"""""""""""""""""""""""""""""""""""""
+________________________________________
 Used to train RNNs. The RNN is unfolded through time.
 
 When dealing with long sequences (hundreds of inputs), a truncated version of BPTT is often used to reduce the computational cost. This stops backpropagating the errors after a fixed number of steps, limiting the length of the dependencies that can be learned.
@@ -98,7 +98,7 @@ Used to avoid exploding gradients in very deep networks by normalizing the gradi
 
 
 Clipping by value
-"""""""""""""""""""""""""""""""""""""
+___________________
 .. math::
 
   g_i = \min\{a,\max\{b,g_i\}\}
@@ -107,7 +107,7 @@ Where :math:`g_i` is the gradient of the parameter :math:`\theta_i` and :math:`a
 
 
 Clipping by norm
-"""""""""""""""""""""""""""""""""""""
+__________________
 .. math::
 
   g_i = g_i*a/||g||_2
@@ -131,28 +131,27 @@ Cons of large learning rates:
 
 
 Learning rate decay
-"""""""""""""""""""""
+______________________
 Also known as learning rate annealing. Changing the learning rate throughout the training process according to some schedule.
 
 
 Optimizers
 -------------
 
-
 AdaDelta
-""""""""
+__________
 AdaDelta is a gradient descent based learning algorithm that adapts the learning rate per parameter over time. It was proposed as an improvement over AdaGrad, which is more sensitive to hyperparameters and may decrease the learning rate too aggressively.
 
 `AdaDelta: An Adaptive Learning Rate Method, Zeiler (2012) <https://arxiv.org/abs/1212.5701>`_
 
 
 AdaGrad
-""""""""
+____________
 `Adaptive Subgradient Methods for Online Learning and Stochastic Optimization, Duchi et al. (2011) <http://www.jmlr.org/papers/volume12/duchi11a/duchi11a.pdf>`_
 
 
 Adam
-""""""""
+_________
 Adam is an adaptive learning rate algorithm similar to RMSProp, but updates are directly estimated using EMAs of the first and uncentered second moment of the gradient. Designed to combine the advantages of RMSProp and AdaGrad.
 
 First moment - mean. Second moment - variance. This means the entire expression can be interpreted as a signal-to-noise ratio, with the step-size increasing when the signal is higher, relative to the noise. This leads to the step-size naturally becoming smaller over time. Using the square root for the variance term means it can be seen as computing the EMA of :math:`g/|g|`. This reduces the learning rate when the gradient is a mixture of positive and negative values as they cancel out in the EMA to produce a number closer to 0.
@@ -165,65 +164,67 @@ Does not require a stationary objective and works with sparse gradients. Is inva
 
 
 Averaged SGD (ASGD)
-""""""""""""""""""""""""
+_____________________
 Runs like normal SGD but replaces the parameters with their average over time at the end.
 
 
 BFGS
-""""""""
+_________
 Iterative method for solving nonlinear optimization problems that approximates Newton’s method.
 BFGS stands for Broyden–Fletcher–Goldfarb–Shanno.
 L-BFGS is a popular memory-limited version of the algorithm.
 
 
 Conjugate gradient
-""""""""""""""""""""""""
+_________________________
 Iterative algorithm for solving SLEs where the matrix is symmetric and positive-definite.
 
 
 Krylov subspace descent
-""""""""""""""""""""""""""""""""
+__________________________________________________
 Second-order optimization method. Inferior to SGD.
 
 `Krylov Subspace Descent for Deep Learning, Vinyals and Povey (2011) <https://arxiv.org/abs/1111.4259>`_
 
 
 Momentum
-""""""""
+_________________________
 Adds a fraction of the update from the previous time step to the current time step. 
 
 Deep architectures often have deep ravines in their landscape near local optimas. They can lead to slow convergence with vanilla SGD since the negative gradient will point down one of the steep sides rather than towards the optimum. Momentum pushes optimization to the minimum faster. Commonly set to 0.9.
 
 
 Natural gradient
-""""""""""""""""
+_________________________
 At each iteration attempts to perform the update which minimizes the loss function subject to the constraint that the KL-divergence between the probability distribution output by the network before and after the update is equal to a constant.
 
 `Revisiting natural gradient for deep networks, Pascanu and Bengio (2014) <https://arxiv.org/abs/1301.3584>`_
 
 
 Newton’s method
-""""""""""""""""
+_________________________
 An iterative method for finding the roots of an equation.
 
 .. math::
 
     x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}
 
+Applied to gradient descent
+"""""""""""""""""""""""""""""
 In the context of gradient descent, Newton’s method is applied to the derivative of the function to find the points where the derivative is equal to zero (the local optima). Therefore in this context it is a second order method.
 
-:math:`x_t=H_{t-1}g_t` where :math:`H_{t-1}` is the inverse of the Hessian matrix at iteration :math:`t-1`.
+:math:`x_t=H_{t-1}g_t` where :math:`H_{t-1}` is the inverse of the `Hessian matrix <https://ml-compiled.readthedocs.io/en/latest/calculus.html#hessian-matrix>`_ at iteration :math:`t-1`.
 
-Picks the optimal step size for quadratic problems but is also prohibitively expensive to compute for large models due to the size of the Hessian matrix, which is quadratic in the number of parameters.
+Picks the optimal step size for quadratic problems but is also prohibitively expensive to compute for large models due to the size of the Hessian matrix, which is quadratic in the number of parameters of the network.
 
 
 Nesterov’s method
-""""""""""""""""""""""""
+_________________________
 Attempts to solve instabilities that can arise from using momentum by keeping the history of previous update steps and combining this with the next gradient step.
 
 
 RMSProp
-""""""""
+_________________________
 Similar to Adagrad, but introduces an additional decay term to counteract AdaGrad’s rapid decrease in the learning rate. Divides the gradient by a running average of its recent magnitude. 0.001 is a good default value for the learning rate (:math:`\eta`) and 0.9 is a good default value for :math:`\alpha`. The name comes from Root Mean Square Propagation.
 
 .. math::

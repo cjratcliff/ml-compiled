@@ -24,7 +24,10 @@ In the context of neural networks, :math:`f` is usually the loss function and :m
 
 The size and therefore cost to compute of the Hessian is quadratic in the number of parameters. This makes it infeasible to compute for most problems. 
 
-If the Hessian at a point on the loss surface has no negative eigenvalues the point is a local minimum.
+However, it is of theoretical interest as its properties can tell us a lot about the nature of the loss function we are trying to optimize:
+
+* If the Hessian at a point on the loss surface has no negative eigenvalues the point is a local minimum.
+* If the Hessian is `ill-conditioned <https://ml-compiled.readthedocs.io/en/latest/linear_algebra.html#condition-number>`_, the loss function may be hard to optimize with gradient descent. 
 
 Jacobian matrix
 ======================

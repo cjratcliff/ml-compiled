@@ -14,6 +14,11 @@ Cosine learning rate decay
 Vanishing/exploding gradient problem
 Feature scaling
 
+Computer vision
+================
+Tracking
+Object detection
+
 Uncategorised
 =================
 Logit

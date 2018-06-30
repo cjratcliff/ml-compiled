@@ -36,6 +36,10 @@ LReLU
 --------
 Leaky ReLU.
 
+.. math::
+
+  f(x) = max\{0.01x,x\}
+
 Maxout
 --------
 An activation function used with dropout. Can be a piecewise linear approximation for arbitrary convex activation functions. This means it can approximate ReLU, LReLU, ELU and linear activations but not tanh or sigmoid.
@@ -51,6 +55,10 @@ Was used to get state of the art performance on MNIST, SVHN, CIFAR-10 and CIFAR-
 PReLU
 ------
 Parametric ReLU.
+
+.. math::
+
+  f(x)=max\{ax,x\}
 
 ReLU
 -----

@@ -16,6 +16,7 @@ Feature scaling
 
 Uncategorised
 =================
+Logit
 Question answering
 Translation
 Manifold hypothesis

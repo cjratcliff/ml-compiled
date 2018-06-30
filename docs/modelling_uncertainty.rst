@@ -6,6 +6,12 @@ Calibration
 ---------------
 The problem of getting accurate estimates of the uncertainty of the prediction(s) of a classifier or regressor.
 
+For example, if a binary classifier gives scores of 0.9 and 0.1 for classes A and B that does not necessarily mean it has a 90% chance of being correct. If the actual probability of being correct (class A) is far from 90% we say that the classifier is **poorly calibrated**. On the other hand, if the model if it really does have a close to 90% chance of being correct we can say the classifier is **well calibrated**.
+
+Classification
+_________________
+
+
 Measuring uncertainty
 ----------------------
 This section describes methods for estimating the uncertainty of a classifier. Note that additional methods may be necessary to ensure that this estimate is well-calibrated.

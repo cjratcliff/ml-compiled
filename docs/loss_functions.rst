@@ -41,7 +41,7 @@ Loss function for classification.
 
 where c are the classes. :math:`y_{i,c}` equals 1 if example :math:`i` is in class :math:`c` and 0 otherwise. :math:`\hat{y}_{i,c}` is the predicted probability that example :math:`i` is in class :math:`c`.
 
-Sometimes referred to as the negative log-likelihood loss.
+For discrete distributions (ie classification problems rather than regression) this is the same as the negative log-likelihood loss.
 
 """"""""""""""""
 Hinge loss

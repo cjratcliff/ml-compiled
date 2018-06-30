@@ -10,7 +10,11 @@ For example, if a binary classifier gives scores of 0.9 and 0.1 for classes A an
 
 Classification
 _________________
+The method below describes how a binary classifier can be calibrated but it can easily be extended to the multiclass case by repeating the process after step 1 for each class.
 
+1. Train the classifier :math:`\hat{y} = f(x)` in the normal way
+2. Construct a dataset with, for each row in the original dataset, the predicted score and the actual label.
+3. Fit an `isotonic regression <https://ml-compiled.readthedocs.io/en/latest/regression.html#isotonic-regression>`_ :math:`\bar{y} = g(\hat{y})` to this data, trying to predict the label given the score. :math:`\bar{y}` can be used as a well-calibrated estimate of the true probability.
 
 Measuring uncertainty
 ----------------------

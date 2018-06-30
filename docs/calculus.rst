@@ -16,6 +16,12 @@ Let :math:`f:\mathbb{R}^n \rightarrow \mathbb{R}` be a function mapping vectors 
 
 Applied to neural networks
 ---------------------------------
+In the context of neural networks, :math:`f` is usually the loss function and :math:`x` is the parameter vector so we have:
+
+.. math::
+
+  H_{ij} = \frac{\partial^2 L}{\partial \theta_i \theta_j}
+
 The size and therefore cost to compute of the Hessian is quadratic in the number of parameters. This makes it infeasible to compute for most problems. 
 
 If the Hessian at a point on the loss surface has no negative eigenvalues the point is a local minimum.

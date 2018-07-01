@@ -19,10 +19,6 @@ Computer vision
 Tracking
 Object detection
 
-Regularization
-===============
-L2 weight decay - equivalent to a gaussian prior?
-
 Uncategorised
 =================
 Logit

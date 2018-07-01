@@ -189,7 +189,15 @@ Second-order optimization method. Inferior to SGD.
 
 Momentum
 _________________________
-Adds a fraction of the update from the previous time step to the current time step. 
+Adds a fraction of the update from the previous time step to the current time step. The parameter update at time t is given by:
+
+.. math::
+
+  u_t = -\alpha v_t
+  
+.. math::
+
+  v_t = \rho v_{t-1} + g_t
 
 Deep architectures often have deep ravines in their landscape near local optimas. They can lead to slow convergence with vanilla SGD since the negative gradient will point down one of the steep sides rather than towards the optimum. Momentum pushes optimization to the minimum faster. Commonly set to 0.9.
 

@@ -54,6 +54,8 @@ Adds the following term to the loss function:
 
 :math:`C > 0` is a hyperparameter.
 
+L1 weight decay is mathematically equivalent to `MAP estimation <https://ml-compiled.readthedocs.io/en/latest/probability.html#map-estimation>`_ with a Laplacian prior on the parameters.
+
 L2 weight decay
 -----------------
 Adds the following term to the loss function:
@@ -63,6 +65,12 @@ Adds the following term to the loss function:
     C \sum_{i=1}^k {\theta_i}^2
 
 :math:`C > 0` is a hyperparameter.
+
+L2 weight decay is mathematically equivalent to doing `MAP estimation <https://ml-compiled.readthedocs.io/en/latest/probability.html#map-estimation>`_ where the prior on the parameters is Gaussian:
+
+.. math::
+
+  q(\theta) = N(0,C^{-1})
 
 Intuition
 -------------

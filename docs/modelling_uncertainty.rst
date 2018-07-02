@@ -8,9 +8,8 @@ The problem of getting accurate estimates of the uncertainty of the prediction(s
 
 For example, if a binary classifier gives scores of 0.9 and 0.1 for classes A and B that does not necessarily mean it has a 90% chance of being correct. If the actual probability of being correct (class A) is far from 90% we say that the classifier is **poorly calibrated**. On the other hand, if the model if it really does have a close to 90% chance of being correct we can say the classifier is **well calibrated**.
 
-Classification
-_________________
-The method below describes how a binary classifier can be calibrated but it can easily be extended to the multiclass case by repeating the process after step 1 for each class.
+Binary classification
+_________________________
 
 1. Train the classifier :math:`\hat{y} = f(x)` in the normal way
 2. Construct a dataset with, for each row in the original dataset, the predicted score and the actual label.

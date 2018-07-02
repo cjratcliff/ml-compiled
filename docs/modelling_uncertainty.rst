@@ -26,7 +26,15 @@ The uncertainty for a predicted probability distribution over a set of classes c
 
 Regression
 ______________
-Unlike in classification we do not normally output a probability distribution when making predictions for a regression problem. Therefore modifications must be made.
+Unlike in classification we do not normally output a probability distribution when making predictions for a regression problem. The solution is to make the model output additional scalars, describing a probability distribution.
+
+This could be:
+
+* The Gaussian distribution. This only requires two parameters but may be over-simplifying if there aren't strong theoretical reasons to believe the distribution ought to be Gaussian or at least unimodal.
+* A `categorical distribution <https://ml-compiled.readthedocs.io/en/latest/probability.html#categorical>`_. This option allows a great degree of flexibility but requires a relatively large number of parameters. It also makes learning harder since the model has to learn for itself that the 14th category is numerically close to the 13th and 15th, for example (`Salimans et al. (2017) <https://arxiv.org/pdf/1701.05517.pdf>`_).
+* A `mixture model <https://ml-compiled.readthedocs.io/en/latest/density_estimation.html#mixture-model>`_. If the number of mixtures is chosen well this can represent a good middle ground between descriptiveness and efficiency.
+
+Here is an example in full, using the normal distribution:
 
 The network outputs two numbers describing the Normal distribution :math:`N(\mu,\sigma^2)`. :math:`\mu` is the predicted value and :math:`\sigma^2` describes the level of uncertainty.
 

@@ -85,8 +85,11 @@ PixelRNN
 
 PixelCNN
 ===========
+Proposed in `van den Oord et al. (2016a) <https://arxiv.org/abs/1601.06759>`_.
 
-`Conditional Image Generation with PixelCNN Decoders, van den Oord et al. (2016) <https://arxiv.org/abs/1606.05328>`_
+`Pixel Recurrent Neural Networks, van den Oord et al. (2016a) <https://arxiv.org/abs/1601.06759>`_
+
+`Conditional Image Generation with PixelCNN Decoders, van den Oord et al. (2016b) <https://arxiv.org/abs/1606.05328>`_
 
 `PixelCNN++: Improving the PixelCNN with Discretized Logistic Mixture Likelihood and Other Modifications, Salimans et al. (2016) <https://arxiv.org/abs/1701.05517>`_
 

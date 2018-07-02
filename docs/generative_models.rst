@@ -77,21 +77,24 @@ Further reading
 
 Generative Autoregressive Networks
 ------------------------------------
-Family of methods for generative models of images and sound, among others. Examples include PixelCNN, PixelRNN and WaveNet.
+Family of generative models. Unlike other generative models such as GANs or VAEs, these models generate their results sequentially. At each timestep they compute :math:`x_i = \arg\max P(x|x_{i-1},...,x_1)`. The process is broadly the same as generating a sample of text using an RNN but can be used to generate images.
 
-Multiscale hierarchical architecture.
-
-The sample is generated piece by piece, conditioned on previous predictions.
-
-Example papers
-=================
+PixelRNN
+==========
 `Pixel Recurrent Neural Networks, van den Oord et al. (2016) <https://arxiv.org/abs/1601.06759>`_
+
+PixelCNN
+===========
 
 `Conditional Image Generation with PixelCNN Decoders, van den Oord et al. (2016) <https://arxiv.org/abs/1606.05328>`_
 
 `PixelCNN++: Improving the PixelCNN with Discretized Logistic Mixture Likelihood and Other Modifications, Salimans et al. (2016) <https://arxiv.org/abs/1701.05517>`_
 
+WaveNet
+=========
 `WaveNet: A Generative Model for Raw Audio, van den Oord et al. (2016) <https://arxiv.org/abs/1609.03499>`_
 
+Other papers
+=================
 `Neural Machine Translation in Linear Time, Kalchbrenner et al. (2017) <https://arxiv.org/abs/1610.10099>`_
 

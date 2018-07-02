@@ -15,6 +15,10 @@ _________________________
 2. Construct a dataset with, for each row in the original dataset, the predicted score and the actual label.
 3. Fit an `isotonic regression <https://ml-compiled.readthedocs.io/en/latest/regression.html#isotonic-regression>`_ :math:`\bar{y} = g(\hat{y})` to this data, trying to predict the label given the score. :math:`\bar{y}` can be used as a well-calibrated estimate of the true probability.
 
+Multi-class classification
+____________________________
+Reduce the problem to n one-vs-all binary classification tasks and use the method in the preceding section for each of them. Normalise the resulting distribution to ensure it sums to 1.
+
 Measuring uncertainty
 ----------------------
 This section describes methods for estimating the uncertainty of a classifier. Note that additional methods may be necessary to ensure that this estimate is well-calibrated.

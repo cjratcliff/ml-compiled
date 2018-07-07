@@ -16,7 +16,13 @@ Another term for the Q-function.
 
 Actor-critic method
 ----------------------
-Type of on-policy temporal-difference method. Also a policy-gradient algorithm. The policy is the actor and the value function is the critic, with the criticism being TD error. If the error is positive, it suggests the chosen action should be taken more often and vice versa if the error is negative. Unlike pure policy or value based methods, actor-critic learns both a policy and a value function. Apart from being off-policy, Q-learning is different as it estimates the value as a function of the state and the action, not just the state.
+A type of on-policy temporal-difference method, as well as a policy-gradient algorithm. 
+
+The policy is the actor and the value function is the critic, with the 'criticism' being the TD error. If the TD error is positive the value of the action was greater than expected, suggesting the chosen action should be taken more often. If the TD error was negative the action had a lower value than expected, and so will be done less often in future states which are similar.
+
+Unlike pure policy or value based methods, actor-critic learns both a policy and a value function. 
+
+Apart from being off-policy, Q-learning is different as it estimates the value as a function of the state and the action, not just the state.
 
 Asynchronous Advantage Actor-Critic (A3C)
 ----------------------------------------------

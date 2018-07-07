@@ -111,7 +111,7 @@ A replay memory and periodically freezing the target Q network prevents oscillat
 
 `Human-level control through deep reinforcement learning, Mnih et al. (2015) <https://www.nature.com/articles/nature14236>`_
 
-`Rainbow: Combining Improvements in Deep Reinforcement Learning, Hessel et al. (2017) https://arxiv.org/pdf/1710.02298.pdf>`_
+`Rainbow: Combining Improvements in Deep Reinforcement Learning, Hessel et al. (2017) <https://arxiv.org/pdf/1710.02298.pdf>`_
 
 SARSA
 -------

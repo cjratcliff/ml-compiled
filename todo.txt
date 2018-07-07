@@ -46,9 +46,7 @@ Mini-batch gradient descent
 Advantage function
 Counterfactual regret minimization
 Direct policy search
-Experience replay
 Information set
-Prioritized experience replay
 REINFORCE
 Regret matching
 Reward clipping

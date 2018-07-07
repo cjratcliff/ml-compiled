@@ -28,4 +28,4 @@ Policy learning algorithm. Iteratively alternates between improving the policy g
 
 Value-based methods
 -------------------------
-Have an implicit policy based on choosing the action which maximises the value function. May use an epsilon-greedy policy, for example. Can’t learn stochastic policies.
+Have an implicit policy based on choosing the action which maximises the value function.

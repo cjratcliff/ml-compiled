@@ -113,7 +113,7 @@ This means the target depends on the network weights, unlike in supervised learn
 
 Prioritized Experience Replay
 ''''''''''''''''''''''''''''''''
-A replay memory and periodically freezing the target Q network prevents oscillations or divergence in the learning process. The use of a replay memory means it is necessary to learn off-policy, hence the choice of Q-learning. Clipping is used to ensure the gradients are well-conditioned.
+A replay memory and periodically freezing the target Q network prevents oscillations or divergence in the learning process. The use of a replay memory means it is necessary to learn off-policy, hence the choice of Q-learning.
 
 `Prioritized Experience Replay, Schaul et al. (2015) <https://arxiv.org/abs/1511.05952>`_
 

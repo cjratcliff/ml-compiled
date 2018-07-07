@@ -115,7 +115,16 @@ Periodically freezing the target Q network helps prevent oscillations or diverge
 
 Experience Replay
 '''''''''''''''''''
-The use of a replay memory means it is necessary to learn off-policy, hence the choice of Q-learning.
+Sample events to update the Q-function from a 'replay memory'.
+
+`On-policy learning algorithms <https://ml-compiled.readthedocs.io/en/latest/rl_types_of_algorithms.html#on-policy-learning>`_ learn from events as they experience them. This can cause two problems:
+
+1. Most gradient descent algorithms rely on the assumption that updates are identically and independently distributed. Learning on-policy can break that assumption since the update at time t influences the state at the next timestep.
+2. Events are forgotten quickly. This can be particularly harmful in the case of rare but important events.
+
+Both of these problems are solved by using experience replay.
+
+The use of a replay memory means it is necessary to learn off-policy.
 
 `Self-Improving Reactive Agents Based on Reinforcement Learning, Planning and Teaching, Lin (1992) <http://www.incompleteideas.net/lin-92.pdf>`_
 

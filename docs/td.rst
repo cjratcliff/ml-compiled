@@ -115,7 +115,7 @@ Periodically freezing the target Q network helps prevent oscillations or diverge
 
 Experience Replay
 '''''''''''''''''''
-Sample experiences :math:`(s_t, a_t, r_t, s_{t+1})` to update the Q-function from a 'replay memory' which retains the last N experiences. `Mnih et al. (2013) <https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf>`_ set N to 1 million when training over a total of 10 million frames.
+Sample experiences :math:`(s_t, a_t, r_t, s_{t+1})` to update the Q-function from a **replay memory** which retains the last N experiences. `Mnih et al. (2013) <https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf>`_ set N to 1 million when training over a total of 10 million frames.
 
 Contrast this with `on-policy learning algorithms <https://ml-compiled.readthedocs.io/en/latest/rl_types_of_algorithms.html#on-policy-learning>`_ learn from events as they experience them. This can cause two problems:
 
@@ -132,7 +132,9 @@ The use of a replay memory means it is necessary to learn off-policy.
 
 Prioritized Experience Replay
 ''''''''''''''''''''''''''''''''
-In the standard approach, (eg `Mnih et al. (2013) <https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf>`_) samples are selected uniformly at random from the replay memory. Prioritized Experience Replay samples 
+Samples from the `replay memory <https://ml-compiled.readthedocs.io/en/latest/td.html#experience-replay>`_ according to a function of the loss. In contrast, in the standard approach (eg `Mnih et al. (2013) <https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf>`_) past experiences are selected uniformly at random from the replay memory.
+
+TODO
 
 `Prioritized Experience Replay, Schaul et al. (2015) <https://arxiv.org/abs/1511.05952>`_
 

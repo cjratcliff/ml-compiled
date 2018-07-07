@@ -152,9 +152,15 @@ Multi-step bootstrap targets
 
 `Learning to Predict by the Methods of Temporal Differences, Sutton (1988) <https://pdfs.semanticscholar.org/9c06/865e912788a6a51470724e087853d7269195.pdf>`_
 
-Noisy DQN
-'''''''''''
-A method for helping exploration when training.
+Noisy parameters
+'''''''''''''''''''
+A method for helping exploration when training that can be more effective than traditional `epsilon-greedy <https://ml-compiled.readthedocs.io/en/latest/explore_exploit.html#epsilon-greedy-policy>`_ appraoch. The linear component :math:`y = wx + b` of the layers in the network are replaced with:
+
+.. math::
+
+  y = (\mu_w + \sigma_w * \epsilon_w)x + (\mu_b + \sigma_b * \epsilon_b)
+  
+where :math:`\mu_w` and :math:`\sigma_w` are learned parameter matrices of the same shape as :math:`w` in the original equation. Similarly, :math:`\mu_b` and :math:`\sigma_b` are learned parameter vectors and have the same shape as :math:`b`. :math:`\epsilon_w` and :math:`\epsilon_b` also have the same shape as :math:`w` and :math:`b` respectively, but are not learnt - they are random variables.
 
 `Noisy Networks for Exploration, Fortunato et al. (2017) <https://arxiv.org/abs/1706.10295>`_
 

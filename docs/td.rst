@@ -12,7 +12,7 @@ The TD error is defined as:
     
 Action-value function
 -----------------------
-Another term for the Q-function.
+Another term for the `Q-function <https://ml-compiled.readthedocs.io/en/latest/td.html#the-q-function>`_.
 
 Actor-critic method
 ----------------------
@@ -25,7 +25,7 @@ Unlike pure policy or value-based methods, actor-critic learns both a policy and
 Apart from being off-policy, Q-learning is different as it estimates the value as a function of the state and the action, not just the state.
 
 Asynchronous Advantage Actor-Critic (A3C)
-----------------------------------------------
+_____________________________________________
 An on-policy asynchronous RL algorithm. Can train both feedforward and recurrent agents. Recurrent agents do not require pooling as they act in the generative fashion.
 
 Maintains a policy (the actor) and an estimate of the value function (the critic) :math:`V(s_t;\theta_v)` The policy and value functions are updated after :math:`t_{max}` steps or when a terminal state is reached. The two functions share all parameters apart from those in the final output layers. The policy network has a softmax over all actions (in the discrete case) and the value network has a single linear output.
@@ -74,7 +74,7 @@ Uses the update rule:
 where :math:`Q(a,s)` is the value of performing action a in state s and performing optimally thereafter. :math:`s'` is the state that results from performing action :math:`a` in state :math:`s`.
 
 The Q-function
-'''''''''''''''''''''
+_________________
 Also known as the action-value function. Eventually converges to the optimal policy in any finite MDP. In its simplest form it uses tables to store values for the Q function, although this only works for very small state and action spaces. An off-policy learner.
 
 The expected total reward from taking the action in the state and following the policy thereafter.
@@ -84,7 +84,7 @@ The expected total reward from taking the action in the state and following the 
     Q^\pi(s,a) = E[R|s,a,\pi]
     
 Deep Q-learning
-''''''''''''''''''''
+____________________
 Was used for the Atari games by DeepMind. A CNN is used to approximate the optimal action-value function, :math:`Q(s,a)`, and the actions which maximise Q are chosen.
 
 The action-value function is defined using the `Bellman equation <https://ml-compiled.readthedocs.io/en/latest/basics.html#bellman-equation>`_.

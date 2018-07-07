@@ -120,7 +120,9 @@ The update rule for learning the Q-function is:
 .. math::
 
     Q(s_t,a_t) := Q(s_t,a_t) + \alpha (r_{t+1} + \gamma Q(s_{t+1},a_{t+1}) - Q(s_t,a_t)) 
-    
+
+Where :math:`0 < \alpha < 1` is the learning rate.
+
 Pseudocode:
 
 .. code-block:: none

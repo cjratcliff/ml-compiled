@@ -105,8 +105,6 @@ where the target, :math:`y` is defined as:
 
 This means the target depends on the network weights, unlike in supervised learning. The loss function tries to change the parameters such that the estimate and the true Q-values are as close as possible, making forecasts of action-values more accurate.
 
-A replay memory and periodically freezing the target Q network prevents oscillations or divergence in the learning process. The use of a replay memory means it is necessary to learn off-policy, hence the choice of Q-learning. Clipping is used to ensure the gradients are well-conditioned.
-
 `Playing Atari with Deep Reinforcement Learning, Mnih et al. (2013) <https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf>`_
 
 `Human-level control through deep reinforcement learning, Mnih et al. (2015) <https://www.nature.com/articles/nature14236>`_
@@ -115,15 +113,24 @@ A replay memory and periodically freezing the target Q network prevents oscillat
 
 Prioritized Experience Replay
 ''''''''''''''''''''''''''''''''
+A replay memory and periodically freezing the target Q network prevents oscillations or divergence in the learning process. The use of a replay memory means it is necessary to learn off-policy, hence the choice of Q-learning. Clipping is used to ensure the gradients are well-conditioned.
+
+`Prioritized Experience Replay, Schaul et al. (2015) <https://arxiv.org/abs/1511.05952>`_
 
 Distributional Q-learning
 ''''''''''''''''''''''''''''''
 
+`A Distributional Perspective on Reinforcement Learning <https://arxiv.org/abs/1707.06887>`_
+
 Multi-step bootstrap targets
 ''''''''''''''''''''''''''''''
 
+`Asynchronous Methods for Deep Reinforcement Learning, Mnih et al. (2016) <https://arxiv.org/abs/1602.01783>`_
+
 Noisy DQN
 '''''''''''
+
+`Noisy Networks for Exploration, Fortunato et al. (2017) <https://arxiv.org/abs/1706.10295>`_
 
 SARSA
 -------

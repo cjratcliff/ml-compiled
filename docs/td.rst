@@ -113,11 +113,13 @@ A replay memory and periodically freezing the target Q network prevents oscillat
 
 SARSA
 -------
-An algorithm for learning a policy. Stands for state-action-reward-state-action. On-policy. Unlike Q-learning, SARSA is an on-policy algorithm and thus learns the Q-values associated with the policy it follows itself. Q-learning on the other hand is an off-policy algorithm and therefore learns the value function while following an exploitation/exploration policy. 
+An algorithm for learning a policy. Stands for state-action-reward-state-action.
 
-The update rule is:
+The update rule for learning the Q-function is:
 
 .. math::
 
     Q(s_t,a_t) := Q(s_t,a_t) + \alpha (r_{t+1} + \gamma Q(s_{t+1},a_{t+1}) - Q(s_t,a_t)) 
+    
+Unlike Q-learning, SARSA is an on-policy algorithm and thus learns the Q-values associated with the policy it follows itself. Q-learning on the other hand is an off-policy algorithm and learns the value function while following an exploitation/exploration policy. 
 

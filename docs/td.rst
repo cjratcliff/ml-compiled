@@ -113,6 +113,18 @@ A replay memory and periodically freezing the target Q network prevents oscillat
 
 `Rainbow: Combining Improvements in Deep Reinforcement Learning, Hessel et al. (2017) <https://arxiv.org/pdf/1710.02298.pdf>`_
 
+Prioritized Experience Replay
+''''''''''''''''''''''''''''''''
+
+Distributional Q-learning
+''''''''''''''''''''''''''''''
+
+Multi-step bootstrap targets
+''''''''''''''''''''''''''''''
+
+Noisy DQN
+'''''''''''
+
 SARSA
 -------
 An algorithm for learning a policy. Stands for state-action-reward-state-action.

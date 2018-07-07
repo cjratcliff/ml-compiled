@@ -1,13 +1,15 @@
 """"""""""""""""""""""""""""""""""
 Temporal-difference learning
 """"""""""""""""""""""""""""""""""
-Temporal-difference learning optimizes the model to make predictions of the total return more similar to other, more accurate, predictions. These latter predictions are more accurate because they were made at a later point in time, closer to the end. Q-learning is an example of TD learning. 
+Temporal-difference learning optimizes the model to make predictions of the total return more similar to other, more accurate, predictions. These latter predictions are more accurate because they were made at a later point in time, closer to the end.
 
 The TD error is defined as:
 
 .. math::
 
     r_t+V(s_{t+1})-V(s_t)
+    
+Q-learning is an example of TD learning. 
     
 Action-value function
 -----------------------

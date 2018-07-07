@@ -121,5 +121,15 @@ The update rule for learning the Q-function is:
 
     Q(s_t,a_t) := Q(s_t,a_t) + \alpha (r_{t+1} + \gamma Q(s_{t+1},a_{t+1}) - Q(s_t,a_t)) 
     
+Pseudocode:
+
+.. code-block:: none
+
+      1. Randomly initialize Q(s,a)
+      2. While not converged:
+      3.   Choose the action that maximizes Q(s,a)
+      4.   Compute the next state, given s and a.
+      5.   Apply the update rule for the Q-function.
+    
 Unlike Q-learning, SARSA is an on-policy algorithm and thus learns the Q-values associated with the policy it follows itself. Q-learning on the other hand is an off-policy algorithm and learns the value function while following an exploitation/exploration policy. 
 

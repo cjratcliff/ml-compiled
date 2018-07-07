@@ -86,7 +86,7 @@ Eventually converges to the optimal policy in any finite MDP. In its simplest fo
     
 Deep Q-learning
 ____________________
-Was used for the Atari games by DeepMind. A CNN is used to approximate the optimal action-value function, :math:`Q(s,a)`, and the actions which maximise Q are chosen.
+A neural network is used to approximate the optimal action-value function, :math:`Q(s,a)` and the actions which maximise Q are chosen. 
 
 The action-value function is defined using the `Bellman equation <https://ml-compiled.readthedocs.io/en/latest/basics.html#bellman-equation>`_.
 

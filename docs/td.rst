@@ -140,9 +140,9 @@ TODO
 
 Distributional Q-learning
 ''''''''''''''''''''''''''''''
+Models the distribution of the value function, rather than simply its expectation.
 
-
-`A Distributional Perspective on Reinforcement Learning <https://arxiv.org/abs/1707.06887>`_
+`A Distributional Perspective on Reinforcement Learning, Bellemare et al. (2017) <https://arxiv.org/abs/1707.06887>`_
 
 Multi-step bootstrap targets
 ''''''''''''''''''''''''''''''
@@ -153,6 +153,7 @@ Multi-step bootstrap targets
 
 Noisy DQN
 '''''''''''
+A method for helping exploration when training.
 
 `Noisy Networks for Exploration, Fortunato et al. (2017) <https://arxiv.org/abs/1706.10295>`_
 

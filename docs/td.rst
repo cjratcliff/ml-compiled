@@ -120,12 +120,15 @@ A replay memory and periodically freezing the target Q network prevents oscillat
 Distributional Q-learning
 ''''''''''''''''''''''''''''''
 
+
 `A Distributional Perspective on Reinforcement Learning <https://arxiv.org/abs/1707.06887>`_
 
 Multi-step bootstrap targets
 ''''''''''''''''''''''''''''''
 
 `Asynchronous Methods for Deep Reinforcement Learning, Mnih et al. (2016) <https://arxiv.org/abs/1602.01783>`_
+
+`Learning to Predict by the Methods of Temporal Differences, Sutton (1988) <https://pdfs.semanticscholar.org/9c06/865e912788a6a51470724e087853d7269195.pdf>`_
 
 Noisy DQN
 '''''''''''

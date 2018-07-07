@@ -162,6 +162,8 @@ A method for helping exploration when training that can be more effective than t
   
 where :math:`\mu_w` and :math:`\sigma_w` are learned parameter matrices of the same shape as :math:`w` in the original equation. Similarly, :math:`\mu_b` and :math:`\sigma_b` are learned parameter vectors and have the same shape as :math:`b`. :math:`\epsilon_w` and :math:`\epsilon_b` also have the same shape as :math:`w` and :math:`b` respectively, but are not learnt - they are random variables.
 
+Since the amount of noise is learnt no hyperparameter-tuning is required, unlike epsilon-greedy, for example.
+
 `Noisy Networks for Exploration, Fortunato et al. (2017) <https://arxiv.org/abs/1706.10295>`_
 
 SARSA

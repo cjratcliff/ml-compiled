@@ -75,13 +75,13 @@ where :math:`Q(a,s)` is the value of performing action a in state s and performi
 
 The Q-function
 _________________
-Also known as the action-value function. Eventually converges to the optimal policy in any finite MDP. In its simplest form it uses tables to store values for the Q function, although this only works for very small state and action spaces. An off-policy learner.
-
-The expected total reward from taking the action in the state and following the policy thereafter.
+Expresses the expected total reward from taking the action in the given state and following the policy thereafter. Also known as the action-value function.
 
 .. math::
 
     Q^\pi(s,a) = E[R|s,a,\pi]
+    
+Eventually converges to the optimal policy in any finite MDP. In its simplest form it uses tables to store values for the Q function, although this only works for very small state and action spaces.
     
 Deep Q-learning
 ____________________

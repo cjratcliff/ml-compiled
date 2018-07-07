@@ -115,7 +115,7 @@ Periodically freezing the target Q network helps prevent oscillations or diverge
 
 Experience Replay
 '''''''''''''''''''
-Sample experiences :math:`(s_t, a_t, r_t, s_{t+1})` to update the Q-function from a 'replay memory' which retains the last N experiences. `Mnih et al. (2013) <https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf>`_) set N to 1 million when training over a total of 10 million frames.
+Sample experiences :math:`(s_t, a_t, r_t, s_{t+1})` to update the Q-function from a 'replay memory' which retains the last N experiences. `Mnih et al. (2013) <https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf>`_ set N to 1 million when training over a total of 10 million frames.
 
 Contrast this with `on-policy learning algorithms <https://ml-compiled.readthedocs.io/en/latest/rl_types_of_algorithms.html#on-policy-learning>`_ learn from events as they experience them. This can cause two problems:
 

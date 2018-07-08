@@ -48,11 +48,9 @@ For discrete distributions it is given as:
 
     D_{KL}(P||Q) = -\sum_i P_i \log \frac{Q_i}{P_i}
 
-Note that if a point is outside the support of Q (Q(i) = 0), the KL-divergence will explode. This can be dealt with by adding some random noise to Q. However, this introduces a degree of error and a lot of noise is often needed for convergence when using the KL-divergence for MLE.
+Note that if a point is outside the support of Q (:math:`Q_i = 0`), the KL-divergence will explode. This can be dealt with by adding some random noise to Q. However, this introduces a degree of error and a lot of noise is often needed for convergence when using the KL-divergence for MLE. The `Wasserstein distance <https://ml-compiled.readthedocs.io/en/latest/high_dimensionality.html#wasserstein-distance>`_, which also measures the distance between two distributions, does not have this problem.
 
 The KL-divergence is not symmetric.
-
-See also: `Wasserstein distance <https://ml-compiled.readthedocs.io/en/latest/geometry.html#wasserstein-distance>`_
 
 Mutual information
 -----------------------

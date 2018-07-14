@@ -131,6 +131,7 @@ Examples:
 
 R-CNN
 ------
+Type of network for object detection. Stands for Region-based CNN. 
 
 `Fast R-CNN, Girshick et al. (2015) <https://arxiv.org/abs/1504.08083>`_
 

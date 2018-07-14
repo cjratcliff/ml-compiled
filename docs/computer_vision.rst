@@ -129,6 +129,15 @@ Examples:
 
 `Image-to-Image Translation with Conditional Adversarial Networks, Isola et al. (2016) <https://arxiv.org/abs/1611.07004>`_
 
+R-CNN
+------
+
+`Fast R-CNN, Girshick et al. (2015) <https://arxiv.org/abs/1504.08083>`_
+
+`Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks, Ren et al. (2015) <https://arxiv.org/abs/1506.01497>`_
+
+`Mask R-CNN, He et al. (2017) <https://arxiv.org/abs/1703.06870>`_
+
 Region of interest
 --------------------
 A region in an image (usually defined by a rectangle) identified as containing an object of interest with high probability, relative to the background.

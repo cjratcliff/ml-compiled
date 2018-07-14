@@ -63,6 +63,22 @@ Face recognition
 --------------------
 The name of the general topic. Includes face identification and verification.
 
+Challenges include:
+
+* Photos being taken at different angles.
+* Different lighting conditions.
+* Changes in facial hair.
+* Glasses.
+* People aging over time.
+
+Datasets
+_________
+
+* LFW
+* YouTube-Faces
+* CASIA-Webface
+* CelebA
+
 Face identification
 ______________________
 Multiclass classification problem. Given an image of a face, determine the identity of the person.

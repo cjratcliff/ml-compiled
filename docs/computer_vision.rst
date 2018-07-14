@@ -63,8 +63,14 @@ Face recognition
 --------------------
 The name of the general topic. Includes face identification and verification.
 
-Challenges include:
+The normal face recognition pipeline is:
 
+* Face detection - Identifying the area of the photo that corresponds to the face.
+* Face alignment - Often done by detecting facial landmarks like the nose, eyes and mouth.
+* Feature extraction and similarity calculation
+
+Challenges
+______________
 * Photos being taken at different angles.
 * Different lighting conditions.
 * Changes in facial hair.

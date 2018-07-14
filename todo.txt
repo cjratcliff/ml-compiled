@@ -21,7 +21,7 @@ Object detection
 
 Training with limited data
 ============================
-Positve-unlabelled learning
+Positve-unlabeled learning
 
 Uncategorised
 =================

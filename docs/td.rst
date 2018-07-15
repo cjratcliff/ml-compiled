@@ -178,7 +178,7 @@ Since the amount of noise is learnt no hyperparameter-tuning is required, unlike
 The noise parameters can be specified in two ways:
 
 * Independent Gaussian noise - Learn one noise parameter for each parameter in the main network.
-* Factorised Gaussian noise - The matrix of noise parameters is factorized into two vectors. This means the number of noise parameters needed for each layer is linear in its size rather than quadratic, as with independent Gaussian noise.
+* Factorised Gaussian noise - The matrix of noise parameters is factorized into two vectors. This means the number of noise parameters needed for each layer is linear in its size rather than quadratic, as it is with independent Gaussian noise.
 
 `Noisy Networks for Exploration, Fortunato et al. (2017) <https://arxiv.org/abs/1706.10295>`_
 

@@ -38,7 +38,7 @@ The advantage function for doing action :math:`a_t` in state :math:`s_t` is the 
     A(s_t,a_t;\theta,\theta_v) = \sum_{i=0}^{k-1}\gamma^i r_{t+i} + \gamma^k V(s_{t+k};\theta_v)-V(s_t;\theta_v), k \leq t_{max}
 
 
-The loss function for the policy network is:
+The loss function is:
 
 .. math::
 

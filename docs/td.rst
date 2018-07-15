@@ -88,7 +88,7 @@ Deep Q-learning
 ____________________
 A neural network is used to approximate the optimal action-value function, :math:`Q(s,a)` and the actions which maximise Q are chosen. 
 
-The action-value function is defined using the `Bellman equation <https://ml-compiled.readthedocs.io/en/latest/basics.html#bellman-equation>`_.
+The action-value function is defined according to the `Bellman equation <https://ml-compiled.readthedocs.io/en/latest/basics.html#bellman-equation>`_.
 
 The CNN takes an image of the game state as input and outputs a Q-value for each action in that state. This is more computationally efficient than having the action as an input to the network. The action with the largest corresponding Q-value is chosen.
 

@@ -24,11 +24,35 @@ and :math:`k(x,x')` is the kernel function:
   
 The kernel function
 ----------------------
-One example of a kernel function is the squared exponential:
+The kernel represents the covariance function for the Gaussian process.
+
+Linear kernel
+_______________
+
+.. math::
+
+  k(x,x') = x \cdot x'
+  
+Polynomial kernel
+___________________
+
+.. math::
+
+  k(x,x') = (x \cdot x' + a)^b
+  
+Gaussian kernel
+________________
 
 .. math::
 
   k(x,x') = \exp{{-||x - x'||}_2^2}
+  
+Laplacian kernel
+_________________
+
+.. math::
+
+  k(x,x') = \exp{{-||x - x'||}_2}
   
 Gaussian process regression
 ------------------------------

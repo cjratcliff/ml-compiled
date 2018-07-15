@@ -23,7 +23,7 @@ Mitigation techniques
 * Blurring - Somewhat effective but hurts accuracy, `Gu et al. (2014) <https://arxiv.org/abs/1412.5068>`_
 * Binarization - Highly effective where it is applicable without hurting accuracy, such as reading text, `Graese et al. (2016) <https://arxiv.org/abs/1610.04256>`_
 * Averaging over multiple crops - Can be sufficient to correctly classify the majority of adversarial examples.
-* RBF networks (`Goodfellow et al. (2015) <https://arxiv.org/abs/1412.6572>`_) are resistant to adversarial examples due to their non-linearity. In general using more non-linear models (trained with a better optimization algorithm to make them feasible) may be the best approach.
+* RBF networks `(Goodfellow et al. (2015)) <https://arxiv.org/abs/1412.6572>`_ are resistant to adversarial examples due to their non-linearity. In general using more non-linear models (trained with a better optimization algorithm to make them feasible) may be the best approach.
 
 [5] showed that adversarial examples are still effective, even when perceived through a cellphone camera.
 

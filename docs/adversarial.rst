@@ -17,6 +17,8 @@ Note that this is almost the same technique as was used by Google for understand
 
 Explanations
 ---------------
+Adversarial examples are made possible when the input has a large number of dimensions. This means many individually small effects can have a very large effect on the overall prediction.
+
 `Goodfellow et al. (2015) <https://arxiv.org/abs/1412.6572>`_ suggest that the effectiveness of adversarial examples is down to the linearity of neural networks. While the function created by the network is indeed nonlinear, it is not as nonlinear as often thought. Goodfellow says “...neural nets are piecewise linear, and the linear pieces with non-negligible slope are much bigger than we expected.”
 
 Mitigation techniques

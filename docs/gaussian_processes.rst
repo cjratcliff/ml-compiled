@@ -24,7 +24,7 @@ and :math:`k(x,x')` is the kernel function:
   
 The kernel function
 ----------------------
-The kernel represents the covariance function for the Gaussian process.
+The kernel represents the covariance function for the Gaussian process and can be thought of as a prior for the shape of the function.
 
 Linear kernel
 _______________

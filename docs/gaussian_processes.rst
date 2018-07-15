@@ -30,7 +30,7 @@ The kernel represents the `covariance <http://ml-compiled.readthedocs.io/en/late
 
   k(x,x') = \mathbb{E}[(f(x) - m(x))(f(x') - m(x'))^T]
   
-The kernel can be thought of as a prior for the shape of the function.
+The kernel can be thought of as a prior for the shape of the function, encoding our expectations for the amount of smoothness or non-linearity.
 
 Linear kernel
 _______________

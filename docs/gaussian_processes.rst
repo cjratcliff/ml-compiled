@@ -19,3 +19,9 @@ where:
 .. math::
 
   k(x,x') = \mathbb{E}[(f(x) - m(x))(f(x') - m(x'))^T]
+  
+One example of a kernel function is the squared exponential:
+
+.. math::
+
+  k(x,x') = \exp{{-||x - x'||}_2^2}

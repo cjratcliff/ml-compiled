@@ -32,6 +32,8 @@ The kernel represents the `covariance <http://ml-compiled.readthedocs.io/en/late
   
 The kernel can be thought of as a prior for the shape of the function, encoding our expectations for the amount of smoothness or non-linearity.
 
+Not all conceivable kernels are valid. The kernel must produce covariance matrices that are positive-definite.
+
 Linear kernel
 _______________
 
@@ -89,3 +91,4 @@ Regression
 
 Sampling
 ---------
+Given 

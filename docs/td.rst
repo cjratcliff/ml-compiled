@@ -157,6 +157,8 @@ where
 
   R^{(n)}_t = \sum_{k=0}^{n-1} \gamma^k r_{t+k+1}
 
+The motivation for multi-step bootstrap targets is to speed up learning.
+
 `Asynchronous Methods for Deep Reinforcement Learning, Mnih et al. (2016) <https://arxiv.org/abs/1602.01783>`_
 
 `Learning to Predict by the Methods of Temporal Differences, Sutton (1988) <https://pdfs.semanticscholar.org/9c06/865e912788a6a51470724e087853d7269195.pdf>`_

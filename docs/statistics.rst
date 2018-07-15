@@ -8,13 +8,6 @@ Arithmetic mean
 
   A(x_1,x_2,...,x_n) = \frac{1}{n}\sum_{i=1}^n x_i
   
-Covariance
--------------
-
-.. math::
-
-  \text{Cov}(X,Y) = \frac{1}{n}\sum_{i=1}^n (x_i - \mu_x)(y_i - \mu_y)
-  
 Correlation
 --------------
 
@@ -22,8 +15,15 @@ Correlation
 
   \text{Corr}(X,Y) = \frac{\text{Cov}(X,Y)}{\sqrt{V(X)V(Y)}}
 
+Covariance
+-------------
+
+.. math::
+
+  \text{Cov}(X,Y) = \frac{1}{n}\sum_{i=1}^n (x_i - \mu_x)(y_i - \mu_y)
+
 Covariance matrix
-----------------------
+________________________
 A square matrix :math:`\Sigma` where :math:`\Sigma_{ij} = Cov(X_i,X_j)` and :math:`X_i` and :math:`X_j` are two variables.
 
 There are three types of covariance matrix:

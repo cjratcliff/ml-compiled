@@ -145,7 +145,7 @@ Models the distribution of the value function, rather than simply its expectatio
 
 Multi-step bootstrap targets
 ''''''''''''''''''''''''''''''
-Replace the expression for the target :math:`y` in the original deep Q-learning loss function with:
+Replace the expression for the target :math:`y` in the original deep Q-learning loss function with a sum of discounted rewards and action-values:
 
 .. math::
 

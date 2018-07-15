@@ -29,9 +29,7 @@ Asynchronous Advantage Actor-Critic (A3C)
 _____________________________________________
 An on-policy asynchronous RL algorithm. Can train both feedforward and recurrent agents. Recurrent agents do not require pooling as they act in the generative fashion.
 
-Maintains a policy (the actor) and an estimate of the value function (the critic) :math:`V(s_t;\theta_v)` The policy and value functions are updated after :math:`t_{max}` steps or when a terminal state is reached. The two functions share all parameters apart from those in the final output layers. The policy network has a softmax over all actions (in the discrete case) and the value network has a single linear output.
-
-Both global and local versions of the parameters are maintained for the policy and value nets.
+Maintains a policy (the actor) :math:`\pi(a_t|s_t;\theta)` and a the value function (the critic) :math:`V(s_t;\theta_v)` The policy and value functions are updated after :math:`t_{max}` steps or when a terminal state is reached. The policy and value functions share all parameters apart from those in the final output layers. The policy network has a softmax over all actions (in the discrete case) and the value network has a single linear output.
 
 The advantage function for doing action :math:`a_t` in state :math:`s_t` is the sum of discounted rewards plus the difference in the value functions between the states:
 
@@ -44,7 +42,7 @@ The loss function for the policy network is:
 
 .. math::
 
-    L =(a_t|s_t;\theta')(R_t-V(s_t;\theta_v)) + \beta H(\pi(s_t;\theta)) 
+    L =(a_t|s_t;\theta)(R_t-V(s_t;\theta_v)) + \beta H(\pi(s_t;\theta)) 
 
 Where
 
@@ -54,7 +52,7 @@ Where
     
 and :math:`H(\pi(s_t;\theta)` is the entropy of the policy. This term is used to incentivize exploration. :math:`\beta` is a hyperparameter.
 
-:math:`R_t-V(s_t;v)` is the temporal difference term. 
+:math:`R_t-V(s_t;\theta_v)` is the temporal difference term. 
 
 It’s multiplied by the probability assigned by the policy for the action at time :math:`t`. This means policies which are more certain will be penalized more heavily for incorrectly estimating the value function. The final term is the entropy of the policy's distribution over actions.
 

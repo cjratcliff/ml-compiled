@@ -16,15 +16,21 @@ where :math:`m(x)` represents the mean vector:
 
   m(x) = \mathbb{E}[f(x)]
   
-and :math:`k(x,x')` is the kernel function:
+and :math:`k(x,x')` is the kernel function.
   
+Kernel function
+----------------------
+The kernel represents the `covariance <http://ml-compiled.readthedocs.io/en/latest/statistics.html#covariance>`_ function for the Gaussian process.
+
+.. math::
+
+  k(x,x') = \text{Cov}(f(x),f(x'))
+
 .. math::
 
   k(x,x') = \mathbb{E}[(f(x) - m(x))(f(x') - m(x'))^T]
   
-Kernel function
-----------------------
-The kernel represents the covariance function for the Gaussian process and can be thought of as a prior for the shape of the function.
+The kernel can be thought of as a prior for the shape of the function.
 
 Linear kernel
 _______________

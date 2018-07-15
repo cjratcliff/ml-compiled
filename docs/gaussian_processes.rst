@@ -37,6 +37,7 @@ Some functions sampled from a Gaussian process with a linear kernel:
 
 .. image:: ../img/linear.png
   :align: center
+  :scale: 50 %
   
 Polynomial kernel
 ___________________
@@ -49,6 +50,7 @@ Functions sampled from a Gaussian process with a polynomial kernel where :math:`
 
 .. image:: ../img/polynomial_2.png
   :align: center
+  :scale: 50 %
   
 Gaussian kernel
 ________________
@@ -61,6 +63,7 @@ Some functions sampled from a GP with a Gaussian kernel:
 
 .. image:: ../img/gaussian.png
   :align: center
+  :scale: 50 %
   
 Laplacian kernel
 _________________
@@ -73,6 +76,7 @@ Functions sampled from a GP with a Laplacian kernel:
 
 .. image:: ../img/laplace.png
   :align: center
+  :scale: 50 %
   
 Gaussian process regression
 ------------------------------

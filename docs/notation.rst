@@ -106,7 +106,7 @@ Reinforcement learning
 =================  =========================
   Symbol             Meaning   
 =================  =========================
-:math:`\pi`         Policy  
+:math:`\pi(s_t)`   Policy  
 :math:`a_t`        Action at time t
 :math:`s_t`        State at time t
 :math:`r_t`        Reward at time t  

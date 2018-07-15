@@ -145,6 +145,17 @@ Models the distribution of the value function, rather than simply its expectatio
 
 Multi-step bootstrap targets
 ''''''''''''''''''''''''''''''
+Replace the expression for the target :math:`y` in the original deep Q-learning loss function with:
+
+.. math::
+
+  y = R^{(n)}_t + \gamma_t^(n) \max_{a'} Q(s_{t+n},a')
+
+where
+
+.. math::
+
+  R^{(n)}_t = \sum_{k=0}^{n-1} \gamma_t^(k) r_{t+k+1}
 
 `Asynchronous Methods for Deep Reinforcement Learning, Mnih et al. (2016) <https://arxiv.org/abs/1602.01783>`_
 

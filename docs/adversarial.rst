@@ -1,7 +1,9 @@
 """""""""""""""""""""""""
 Adversarial examples
 """""""""""""""""""""""""
-Inputs formed by applying small perturbations to examples from the dataset, such that the perturbed input results in wrong classifications with high confidence. They can be created without knowledge of the weights of the classifier. The same adversarial example can be misclassified by many classifiers, trained on different subsets of the dataset and with different architectures.
+Examples that are specially created so that image classification algorithms predict the wrong class with high confidence even though the image remains easy for humans to classify correctly. Only small perturbations in the pixel-values are necessary to create adversarial examples.
+
+They can be created without knowledge of the weights of the classifier. The same adversarial example can be misclassified by many classifiers, trained on different subsets of the dataset and with different architectures.
 
 The direction of perturbation, not the point itself matters most when generating adversarial examples. Adversarial perturbations generalize across different clean examples.
 

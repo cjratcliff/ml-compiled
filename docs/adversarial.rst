@@ -13,30 +13,30 @@ Note that this is almost the same technique as was used by Google for understand
 
 Explanations
 ---------------
-Goodfellow et al. (2015) claim that the effectiveness of adversarial examples is down to the linearity of neural networks. While the function created by the network is indeed nonlinear, it is not as nonlinear as often thought. Goodfellow says “...neural nets are piecewise linear, and the linear pieces with non-negligible slope are much bigger than we expected.”
+`Goodfellow et al. (2015) <https://arxiv.org/abs/1412.6572>`_ claim that the effectiveness of adversarial examples is down to the linearity of neural networks. While the function created by the network is indeed nonlinear, it is not as nonlinear as often thought. Goodfellow says “...neural nets are piecewise linear, and the linear pieces with non-negligible slope are much bigger than we expected.”
 
 Mitigation techniques
 -------------------------
 
-* Regularization - [1] showed that regularization is effective for linear classifiers. It reduces the size of the weights so the image has to be changed more drastically in order to get the same misclassification. However, this comes at a cost in accuracy.
-* Adding noise - Somewhat effective but hurts accuracy. [4]
-* Blurring - Somewhat effective but hurts accuracy. [4]
-* Binarization - Highly effective where it is applicable without hurting accuracy, such as reading text. [6]
-* Averaging over multiple crops - 5 can be sufficient to correctly classify the majority of adversarial examples.
-* RBF networks (Goodfellow et al., 2015) are resistant to adversarial examples due to their non-linearity. In general using more non-linear models (trained with a better optimization algorithm to make them feasible) may be the best approach.
+* Regularization - `Karpathy (2015) <http://karpathy.github.io/2015/03/30/breaking-convnets/>`_ showed that regularization is effective for linear classifiers. It reduces the size of the weights so the image has to be changed more drastically in order to get the same misclassification. However, this comes at a cost in accuracy.
+* Adding noise - Somewhat effective but hurts accuracy, `Gu et al. (2014) <https://arxiv.org/abs/1412.5068>`_
+* Blurring - Somewhat effective but hurts accuracy, `Gu et al. (2014) <https://arxiv.org/abs/1412.5068>`_
+* Binarization - Highly effective where it is applicable without hurting accuracy, such as reading text, `Graese et al. (2016) <https://arxiv.org/abs/1610.04256>`_
+* Averaging over multiple crops - Can be sufficient to correctly classify the majority of adversarial examples.
+* RBF networks (`Goodfellow et al. (2015) <https://arxiv.org/abs/1412.6572>`_) are resistant to adversarial examples due to their non-linearity. In general using more non-linear models (trained with a better optimization algorithm to make them feasible) may be the best approach.
 
 [5] showed that adversarial examples are still effective, even when perceived through a cellphone camera.
 
 Papers
 ---------
-[1] `Breaking Linear Classifiers on ImageNet, Karpathy (2015) <http://karpathy.github.io/2015/03/30/breaking-convnets/>`_
+`Breaking Linear Classifiers on ImageNet, Karpathy (2015) <http://karpathy.github.io/2015/03/30/breaking-convnets/>`_
 
-[2] `Explaining and Harnessing Adversarial Examples, Goodfellow et al. (2015) <https://arxiv.org/abs/1412.6572>`_
+`Explaining and Harnessing Adversarial Examples, Goodfellow et al. (2015) <https://arxiv.org/abs/1412.6572>`_
 
-[3] `Intriguing Properties of Neural Networks, Szegedy et al. (2013) <https://arxiv.org/abs/1312.6199>`_
+`Intriguing Properties of Neural Networks, Szegedy et al. (2013) <https://arxiv.org/abs/1312.6199>`_
 
-[4] `Towards Deep Neural Network Architectures Robust to Adversarial Examples, Gu et al. (2014) <https://arxiv.org/abs/1412.5068>`_
+`Towards Deep Neural Network Architectures Robust to Adversarial Examples, Gu et al. (2014) <https://arxiv.org/abs/1412.5068>`_
 
-[5] `Adversarial examples in the physical world, Kurakin et al. (2016) <https://arxiv.org/abs/1607.02533>`_
+`Adversarial examples in the physical world, Kurakin et al. (2016) <https://arxiv.org/abs/1607.02533>`_
 
-[6] `Assessing Threat of Adversarial Examples on Deep Neural Networks, Graese et al. (2016) <https://arxiv.org/abs/1610.04256>`_
+`Assessing Threat of Adversarial Examples on Deep Neural Networks, Graese et al. (2016) <https://arxiv.org/abs/1610.04256>`_

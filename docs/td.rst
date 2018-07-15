@@ -42,7 +42,7 @@ The loss function for the policy network is:
 
 .. math::
 
-    L =(a_t|s_t;\theta)(R_t-V(s_t;\theta_v)) + \beta H(\pi(s_t;\theta)) 
+    L = \log \pi(a_t|s_t;\theta)(R_t-V(s_t;\theta_v)) + \beta H(\pi(s_t;\theta)) 
 
 Where
 

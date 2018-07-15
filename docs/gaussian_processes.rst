@@ -33,12 +33,22 @@ _______________
 
   k(x,x') = x \cdot x'
   
+Some functions sampled from a Gaussian process with a linear kernel:
+
+.. image:: ../img/linear.png
+  :align: center
+  
 Polynomial kernel
 ___________________
 
 .. math::
 
   k(x,x') = (x \cdot x' + a)^b
+  
+Functions sampled from a Gaussian process with a polynomial kernel where :math:`a=1` and :math:`b=2`:
+
+.. image:: ../img/polynomial_2.png
+  :align: center
   
 Gaussian kernel
 ________________
@@ -47,12 +57,22 @@ ________________
 
   k(x,x') = \exp{{-||x - x'||}_2^2}
   
+Some functions sampled from a GP with a Gaussian kernel:
+
+.. image:: ../img/gaussian.png
+  :align: center
+  
 Laplacian kernel
 _________________
 
 .. math::
 
   k(x,x') = \exp{{-||x - x'||}_2}
+  
+Functions sampled from a GP with a Laplacian kernel:
+
+.. image:: ../img/laplace.png
+  :align: center
   
 Gaussian process regression
 ------------------------------

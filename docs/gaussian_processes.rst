@@ -25,3 +25,6 @@ One example of a kernel function is the squared exponential:
 .. math::
 
   k(x,x') = \exp{{-||x - x'||}_2^2}
+  
+Gaussian process regression
+------------------------------

@@ -22,7 +22,7 @@ and :math:`k(x,x')` is the kernel function:
 
   k(x,x') = \mathbb{E}[(f(x) - m(x))(f(x') - m(x'))^T]
   
-The kernel function
+Kernel function
 ----------------------
 The kernel represents the covariance function for the Gaussian process and can be thought of as a prior for the shape of the function.
 
@@ -78,5 +78,8 @@ Functions sampled from a GP with a Laplacian kernel:
   :align: center
   :scale: 50 %
   
-Gaussian process regression
+Regression
 ------------------------------
+
+Sampling
+---------

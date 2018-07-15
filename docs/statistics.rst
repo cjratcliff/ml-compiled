@@ -8,6 +8,13 @@ Arithmetic mean
 
   A(x_1,x_2,...,x_n) = \frac{1}{n}\sum_{i=1}^n x_i
   
+Covariance
+-------------
+
+.. math::
+
+  \text{Cov}(X,Y) = \frac{1}{n}\sum_{i=1}^n (x_i - \mu_x)(y_i - \mu_y)
+  
 Correlation
 --------------
 

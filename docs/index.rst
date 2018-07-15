@@ -56,6 +56,7 @@ Contents
    :maxdepth: 1   
    
    ensemble_models
+   gaussian_processes
    probabilistic_graphical_models
    regression
    

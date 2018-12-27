@@ -86,6 +86,11 @@ Used to model the distribution of the maximum (or the minimum) of a number of sa
 
 `Categorical Reparameterization with Gumbel-Softmax, Jang et al. (2016) <https://arxiv.org/abs/1611.01144>`_
 
+
+Hypergeometric
+_______________
+Models the probability of k successes in n draws without replacement from a population of size N, where K of the objects in the population have the desired characteristic. Similar to the Binomial, except that the draws are made without replacement which means they are no longer independent.
+
 Multinomial
 ______________
 The distribution for n trials, each with k possible outcomes.

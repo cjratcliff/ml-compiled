@@ -67,6 +67,8 @@ Distribution for the number of successes in n trials, each with probability p of
 .. math::
   
   P(x = k;n,p) = {n\choose k} p^k (1-p)^{n-k}
+  
+Is closely approximated by the Poisson distribution when n is large and p is small.
 
 Categorical
 _____________

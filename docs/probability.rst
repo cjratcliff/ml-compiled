@@ -105,6 +105,10 @@ When n and k take on specific values or ranges the Multinomial distribution has 
 | :math:`n \geq 1`       | Binomial        | Multinomial      |
 +------------------------+-----------------+------------------+
 
+Negative Binomial
+__________________
+Distribution of the number of successes before a given number of failures occur.
+
 Zipf
 _______
 A distribution that has been observed to be a good model for things like the frequency of words in a language, where there are a few very popular words and a long tail of lesser known ones.

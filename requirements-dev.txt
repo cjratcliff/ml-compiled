@@ -29,7 +29,7 @@ pytest-timeout==1.2.1
 pytest==3.5.0
 python-dateutil==2.7.2
 pytz==2018.3
-requests==2.18.4
+requests==2.20.0
 six==1.11.0
 snowballstemmer==1.2.1
 sphinx-sitemap==0.2

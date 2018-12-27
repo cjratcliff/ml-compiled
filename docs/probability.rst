@@ -116,7 +116,7 @@ Poisson
 _________
 The number of events which occur within a particular period, area or volume.
 
-To be distributed witat the events occur:
+
 
 
 Zipf 

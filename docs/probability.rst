@@ -76,6 +76,10 @@ Generalizes the Bernoulli distribution to more than two categories.
 
   P(x = k;p) = p_k
   
+Geometric
+___________
+Special case of the Negative Binomial distribution.
+  
 Gumbel
 __________
 Used to model the distribution of the maximum (or the minimum) of a number of samples of various distributions.

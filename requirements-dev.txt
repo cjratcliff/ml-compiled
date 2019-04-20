@@ -15,7 +15,7 @@ future==0.16.0
 idna==2.6
 imagesize==1.0.0
 jinja2-time==0.2.0
-jinja2==2.10
+jinja2==2.10.1
 markupsafe==1.0
 more-itertools==4.1.0
 packaging==17.1
@@ -35,6 +35,6 @@ snowballstemmer==1.2.1
 sphinx-sitemap==0.2
 sphinx==1.7.2
 sphinxcontrib-websupport==1.0.1
-urllib3==1.23
+urllib3==1.24.2
 whichcraft==0.4.1
 yapf==0.21.0

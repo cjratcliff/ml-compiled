@@ -180,6 +180,11 @@ _________________________
 Iterative algorithm for solving SLEs where the matrix is symmetric and positive-definite.
 
 
+Coordinate descent
+_______________________
+Minimizes a function by adjusting the input along only one dimension at a time.
+
+
 Krylov subspace descent
 __________________________________________________
 Second-order optimization method. Inferior to SGD.
@@ -244,6 +249,12 @@ Similar to Adagrad, but introduces an additional decay term to counteract AdaGra
 http://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf
 
 http://ruder.io/optimizing-gradient-descent/index.html#rmsprop
+
+
+Subgradient method
+___________________
+A class of iterative methods for solving convex optimization problems. Very similar to gradient descent except the subgradient is used instead of the gradient. The subgradient can be taken even at non-differentiable kinks in a function, enabling convergence on these functions.
+
 
 Saddle points
 -------------------

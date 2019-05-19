@@ -12,4 +12,4 @@ Build models sequentially, each one trying to reduce the bias of the combined es
 
 Random forest
 ---------------
-Each tree is built from a sample drawn with replacement. Randomises how splits in the tree are chosen (rather than simply choosing the best), increasing variance at the expense of bias, but with a positive overall effect on accuracy.
+Each tree is built from a sample drawn with replacement. Randomises how splits in the tree are chosen (rather than simply choosing the best), decreasing variance at the expense of bias, but with a positive overall effect on accuracy.

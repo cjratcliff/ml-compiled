@@ -59,6 +59,10 @@ Special case of the Binomial distribution, which generalizes the Bernoulli to mu
     p, & \text{if } k = 1\\
     1-p, & \text{if } k = 0
   \end{cases}
+  
+Beta
+_______
+Family of distributions defined over :math:`[0,1]`.
 
 Binomial
 ___________
@@ -77,6 +81,11 @@ Generalizes the Bernoulli distribution to more than two categories.
 .. math::
 
   P(x = k;p) = p_k
+  
+Gamma
+______
+Can be used to model the amount of something a particular period, area or volume. For example, the amount of rainfall in an area in a month. This is as opposed to the Poisson which models the distribution for the number of discrete events.
+
   
 Geometric
 ___________
@@ -114,9 +123,7 @@ Distribution of the number of successes before a given number of failures occur.
 
 Poisson
 _________
-The number of events which occur within a particular period, area or volume.
-
-
+Used to model the number of events which occur within a particular period, area or volume.
 
 
 Zipf 

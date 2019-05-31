@@ -1,7 +1,7 @@
 """"""""""""""""""""
 Density estimation
 """"""""""""""""""""
-The problem of estimating the probability density function for a given set of observations. Once this is known it can be used to generate new samples from the distribution.
+The problem of estimating the probability density function for a given set of observations.
 
 Empirical distribution function
 ---------------------------------

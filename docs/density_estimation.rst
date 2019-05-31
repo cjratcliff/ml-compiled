@@ -10,6 +10,9 @@ Histogram
 -----------
 Take the range of the sample and split it up into n bins, where n is a hyperparameter. Then assign a probability to each bin according to the proportion of the sample that fell within its bounds.
 
+Isolation Forest
+-------------------
+
 Kernel Density Estimation
 ---------------------------
 The predicted density function given an a sample :math:`x` is:
@@ -34,6 +37,9 @@ Disadvantages
 _______________
 The complexity at inference time is linear in the size of the sample.
 
+Local Outlier Factor
+------------------------
+
 Mixture Model
 ------------------------
 Estimates the density as a weighted sum of parametric distributions. The predicted density function for a sample :math:`x` is:
@@ -48,4 +54,6 @@ The Gaussian is a common choice for the distribution. In this case the estimator
 
 All of the parameters can be learnt using Expectation-Maximization, except for :math:`k` which is a hyperparameter.
 
+One-Class SVM
+----------------
 

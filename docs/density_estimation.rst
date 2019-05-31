@@ -5,6 +5,7 @@ The problem of estimating the probability density function for a given set of ob
 
 Empirical distribution function
 ---------------------------------
+Compute the empirical CDF and numerically differentiate it.
 
 Histogram
 -----------

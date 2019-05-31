@@ -12,6 +12,7 @@ Take the range of the sample and split it up into n bins, where n is a hyperpara
 
 Isolation Forest
 -------------------
+An ensemble of decision trees.
 
 Kernel Density Estimation
 ---------------------------
@@ -38,7 +39,8 @@ _______________
 The complexity at inference time is linear in the size of the sample.
 
 Local Outlier Factor
-------------------------
+-----------------------
+A nearest-neighbour model.
 
 Mixture Model
 ------------------------

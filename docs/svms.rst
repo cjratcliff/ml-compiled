@@ -2,7 +2,7 @@
 SVMs
 """""""""""""""""""""""""
 
-Support Vector Machines.
+Support Vector Machines. 
 
 Kernels
 ----------
@@ -13,6 +13,7 @@ Kernels
 
 Advantages
 -------------
+* The optimisation problem is convex so local optima are not a problem.
 
 Disadvantages
 ----------------

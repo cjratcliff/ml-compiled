@@ -59,6 +59,8 @@ Contents
    gaussian_processes
    probabilistic_graphical_models
    regression
+   svms
+   trees
    
 .. toctree::
    :caption: Problems and tasks

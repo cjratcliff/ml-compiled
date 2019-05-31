@@ -12,7 +12,9 @@ Take the range of the sample and split it up into n bins, where n is a hyperpara
 
 Isolation Forest
 -------------------
-An ensemble of decision trees.
+An ensemble of decision trees. The key idea is that points in less dense areas will require fewer splits to be uniquely identified since they are surrounded by fewer points.
+
+Features and split values are randomly chosen, with the split value being somewhere between the min and the max observed values of the feature.
 
 Kernel Density Estimation
 ---------------------------

@@ -11,7 +11,7 @@ Advantages
 Disadvantages
 --------------
 * Can easily overfit.
-* Requires a quantity of data that is exponential in the depth of the tree.
+* Requires a quantity of data that is exponential in the depth of the tree. This means learning a complex function can require a prohibitive amount of data.
 
 Training
 ---------------

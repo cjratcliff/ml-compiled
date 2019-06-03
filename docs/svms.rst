@@ -8,6 +8,7 @@ Binary classifier. Their objective is to find a hyperplane that optimally separa
 
 Kernels
 ----------
+The kernel is used to map the data into a high-dimensional space in which it is easier to separate it linearly. This is known as the 'kernel trick'.
 
 Linear
 _______

@@ -61,4 +61,4 @@ All of the parameters can be learnt using Expectation-Maximization, except for :
 
 One-Class SVM
 ----------------
-
+Learns the equation for the smallest possible hypersphere that totally encapsulates the data points.

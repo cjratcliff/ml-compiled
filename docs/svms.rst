@@ -6,10 +6,37 @@ Support Vector Machines.
 
 Kernels
 ----------
-* Linear
-* Polynomial
-* Sigmoid
-* RBF
+
+Linear
+_______
+
+.. math::
+
+  k(x,y) = x \cdot y
+
+Polynomial
+_____________
+
+.. math::
+
+  k(x,y) = (a x \cdot y + b)^d
+
+Sigmoid
+________
+
+.. math::
+
+  k(x,y) = \tanh(a x \cdot y + b)
+
+
+RBF
+______
+
+.. math::
+
+  k(x,y) = \exp (-||x-y||^2/2 \sigma^2)
+
+
 
 Advantages
 -------------

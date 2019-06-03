@@ -4,6 +4,8 @@ SVMs
 
 Support Vector Machines. 
 
+Binary classifier. Their objective is to find a hyperplane that optimally separates the two classes (maximises the margin).
+
 Kernels
 ----------
 

@@ -142,13 +142,23 @@ When the term is applied to tensors, the rank refers to the dimensionality:
 * Rank 1 is a vector
 * Rank 2 is a matrix etc.
 
-Singular value
+Singular values
 -----------------
-TODO
+For a matrix A the singular values are the set of numbers:
+
+.. math::
+
+  \sigma_1 \geq \sigma_2 \geq ... \geq \sigma_n \geq 0
+  
+where :math:`\sigma_i = \sqrt{\lambda_i}` and :math:`\lambda_i` is an eigenvalue of the matrix :math:`A^{T}A`.
 
 Span
 -------
 The span of a matrix is the set of all points that can be obtained as a linear combination of the vectors in the matrix.
+
+Spectral norm
+-----------------
+The maximum <https://ml-compiled.readthedocs.io/en/latest/linear_algebra.html#singular_values>`_ of a matrix.
 
 Spectral radius
 ----------------

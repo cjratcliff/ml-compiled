@@ -158,7 +158,7 @@ The span of a matrix is the set of all points that can be obtained as a linear c
 
 Spectral norm
 -----------------
-The maximum <https://ml-compiled.readthedocs.io/en/latest/linear_algebra.html#singular_values>`_ of a matrix.
+The maximum `singular value <https://ml-compiled.readthedocs.io/en/latest/linear_algebra.html#singular_values>`_ of a matrix.
 
 Spectral radius
 ----------------

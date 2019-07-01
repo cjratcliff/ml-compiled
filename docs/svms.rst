@@ -52,4 +52,4 @@ Disadvantages
 
 One-Class SVMs
 ---------------------------------------------------------------------------------------------------------
-See `here<https://ml-compiled.readthedocs.io/en/latest/anomaly_detection.html#one-class-svm>`_
+See `here <https://ml-compiled.readthedocs.io/en/latest/anomaly_detection.html#one-class-svm>`_

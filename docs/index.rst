@@ -67,6 +67,7 @@ Contents
    :maxdepth: 1
    
    adversarial
+   anomaly_detection
    computer_vision
    density_estimation
    metrics

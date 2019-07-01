@@ -41,6 +41,10 @@ The total loss is the sum of the reconstruction loss (mean squared error) and th
   
 where :math:`\mu` and :math:`\sigma` are the mean and standard deviation of the encoding.
 
+Evidence-lower bound (ELBO)
+'''''''''''''''''''''''''''''
+A lower bound on the log probability of the data given the parameters. In a VAE this function is maximised instead of the true likelihood.
+
 Problems
 '''''''''''
 * The use of the mean squared error means the network tends to produce blurry images. A GAN does not have this problem. 

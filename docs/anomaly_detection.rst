@@ -17,3 +17,4 @@ One-Class SVM
 ----------------
 Learns the equation for the smallest possible hypersphere that totally encapsulates the data points.
 
+Proposed by `Estimating the Support of a High-Dimensional Distribution, Schölkopf et al. (2001) <https://dl.acm.org/citation.cfm?id=1119749>`_

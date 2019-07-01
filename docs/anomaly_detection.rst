@@ -1,7 +1,7 @@
 """"""""""""""""""""
 Anomaly detection
 """"""""""""""""""""
-This problem can be solved well through methods for density estimation. In addition, the following methods also exist:
+This problem can be solved well through methods for density estimation. If the density predicted for an example falls below a threshold it can be declared an anomaly. In addition, the following methods also exist:
 
 Isolation Forest
 -------------------

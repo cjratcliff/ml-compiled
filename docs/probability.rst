@@ -34,7 +34,7 @@ In the context of probability densities the change of variables formula describe
 
 .. math::
 
-  p(y) = |\frac{\partial f(x)}{\partial x}| p(x)
+  p(y) = {|\frac{\partial f(x)}{\partial x}|}^{-1} p(x)
 
 Conjugate prior
 ----------------

@@ -98,11 +98,13 @@ Unlike most other activation functions, the softmax does not apply the same func
 
 Softplus
 ----------
-Bounded between 0 and infinity.
+Output is bounded between 0 and infinity. 
 
 .. math::
 
   f(x) = \log(1 + e^x)
+  
+Useful for modeling quantities that should never be negative such as the variance of a distribution. Unlike the ReLU, gradients can pass through the softmax when :math:`x < 0`.
 
 Tanh
 --------

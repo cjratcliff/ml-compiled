@@ -28,6 +28,14 @@ Chain rule of probability
 .. math::
   P(A_3,A_2,A_1) = P(A_3|A_2,A_1) \cdot P(A_2|A_1) \cdot P(A_1)
 
+Change of variables
+----------------------
+In the context of probability densities the change of variables formula describes how one distribution can be given in terms of another:
+
+.. math::
+
+  p(y) = |\frac{\partial f(x)}{\partial x}| p(x)
+
 Conjugate prior
 ----------------
 A prior for a likelihood function is conjugate if it is from the same family of distributions (eg Gaussian) as the posterior.

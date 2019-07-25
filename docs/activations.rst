@@ -110,5 +110,4 @@ Tanh
 --------
 Activation function that is used in the GRU and LSTM.
 Has problems with saturation like the sigmoid. This makes vanishing and exploding gradients a problem and initialization extremely important.
-tanh(x) is between -1 and 1.
-Centered around 0, unlike the sigmoid.
+It is between -1 and 1 and centered around 0, unlike the sigmoid.

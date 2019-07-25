@@ -30,11 +30,13 @@ Chain rule of probability
 
 Change of variables
 ----------------------
-In the context of probability densities the change of variables formula describes how one distribution can be given in terms of another:
+In the context of probability densities the change of variables formula describes how one distribution :math:`p(y)` can be given in terms of another, :math:`p(x)`:
 
 .. math::
 
   p(y) = {|\frac{\partial f(x)}{\partial x}|}^{-1} p(x)
+  
+Where :math:`f` is an invertible function.
 
 Conjugate prior
 ----------------

@@ -49,7 +49,7 @@ Reparameterization trick
 ''''''''''''''''''''''''''
 A method for backpropagating through nodes in the graph that have random sampling. Suppose the first half of a network outputs :math:`\mu` and :math:`\sigma`. We want to sample from the distribution they define and then compute the loss function on that sample.
 
-We can rewrite :math:`x ~ N(\mu,\sigma^2)` as :math:`x = \mu + \sigma \cdot \epsilon` where :math:`\epsilon ~ N(0, 1)`. This means the gradients no longer have to go through stochastic nodes in the graph.
+We can rewrite :math:`x \sim N(\mu,\sigma^2)` as :math:`x = \mu + \sigma \cdot \epsilon` where :math:`\epsilon \sim N(0, 1)`. This means the gradients no longer have to go through stochastic nodes in the graph.
 
 Problems
 '''''''''''

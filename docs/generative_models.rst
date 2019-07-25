@@ -45,10 +45,18 @@ Evidence-lower bound (ELBO)
 '''''''''''''''''''''''''''''
 A lower bound on the log probability of the data given the parameters. In a VAE this function is maximised instead of the true likelihood.
 
+Reparameterization trick
+''''''''''''''''''''''''''
+A method for backpropagating through nodes in the graph that have random sampling. Suppose the first half of a network outputs :math:`\mu` and :math:`\sigma`. We want to sample from the distribution they define and then compute the loss function on that sample.
+
+We can rewrite :math:`x ~ N(\mu,\sigma^2)` as :math:`x = \mu + \sigma \cdot \epsilon` where :math:`\epsilon ~ N(0, 1)`. This means the gradients no longer have to go through stochastic nodes in the graph.
+
 Problems
 '''''''''''
 * The use of the mean squared error means the network tends to produce blurry images. A GAN does not have this problem. 
 * The assumption of independence in the entries of the hidden vector may also contribute to poor results.
+
+`Auto-Encoding Variational Bayes (2014) <https://arxiv.org/abs/1312.6114>`_
 
 Generative Adversarial Network (GAN)
 ------------------------------------------------

@@ -58,6 +58,12 @@ Problems
 
 `Auto-Encoding Variational Bayes (2014) <https://arxiv.org/abs/1312.6114>`_
 
+Energy-based Models
+----------------------
+Also known as Undirected Graphical Models.
+
+`A Tutorial on Energy-based Learning, LeCun (2006) <http://yann.lecun.com/exdb/publis/pdf/lecun-06.pdf>`_
+
 Generative Adversarial Network (GAN)
 ------------------------------------------------
 Unsupervised, generative image model. A GAN consists of two components; a generator, G which converts random noise into images and a discriminator, D which tries to distinguish between generated and real images. Here, 'real' means that the image came from the training set of images in contrast to the generated fakes.

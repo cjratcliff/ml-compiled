@@ -1,5 +1,5 @@
 """""""""""""""""""""""""""""""""""
-Probabilistic graphical models
+Graphical models
 """""""""""""""""""""""""""""""""""
 
 Bayesian network
@@ -18,6 +18,21 @@ The joint distribution for all the variables in a network is equal to the produc
     P(X_1,...,X_n) = \prod_i P(X_i|Par(X_i))
 
 where :math:`Par(X_i)` denotes the parents of the node :math:`X_i` in the graph.
+
+Boltzmann Machines
+----------------------
+
+Restricted Boltzmann Machines (RBMs)
+______________________________________
+
+
+Deep Belief Networks (DBNs)
+______________________________
+
+
+Deep Belief Machines (DBMs)
+______________________________
+
 
 Clique
 -------

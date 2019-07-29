@@ -62,6 +62,10 @@ Energy-based Models
 ----------------------
 Also known as Undirected Graphical Models.
 
+An energy function models the probability density. A model is learnt that minimises the energy for correct combinations of the variables and maximises it for incorrect ones. This function is minimised during inference.
+
+The loss function is minimised during training. The energy function is a component of it.
+
 `A Tutorial on Energy-based Learning, LeCun (2006) <http://yann.lecun.com/exdb/publis/pdf/lecun-06.pdf>`_
 
 Generative Adversarial Network (GAN)

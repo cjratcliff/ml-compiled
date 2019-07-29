@@ -24,6 +24,7 @@ Boltzmann Machines
 
 Restricted Boltzmann Machines (RBMs)
 ______________________________________
+Trained with contrastive divergence. 
 
 
 Deep Belief Networks (DBNs)

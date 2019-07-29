@@ -98,6 +98,10 @@ https://www.cs.cmu.edu/~venkatg/teaching/CStheory-infoage/chap1-high-dim-space.p
 
 http://www.inference.vc/high-dimensional-gaussian-distributions-are-soap-bubble
 
+Lebesgue measure
+-------------------
+The concept of volume, generalised to an arbitrary number of dimensions. In one dimension it is the same as length and in two it is the same as area.
+
 Manifold
 -----------
 Type of topological space. Includes lines, circles, planes, spheres and tori.

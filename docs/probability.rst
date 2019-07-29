@@ -28,6 +28,7 @@ Chain rule of probability
   P(A_n, ..., A_1) = \prod_{i=1}{n}P(A_i|A_1,...,A_{i-1})
 
 For three variables this looks like:
+
 .. math::
   P(A_3,A_2,A_1) = P(A_3|A_2,A_1) \cdot P(A_2|A_1) \cdot P(A_1)
 

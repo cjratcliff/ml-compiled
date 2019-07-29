@@ -107,9 +107,7 @@ PixelRNN
 
 PixelCNN
 ===========
-Proposed in `van den Oord et al. (2016a) <https://arxiv.org/abs/1601.06759>`_.
-
-`Pixel Recurrent Neural Networks, van den Oord et al. (2016a) <https://arxiv.org/abs/1601.06759>`_
+Also proposed in `van den Oord et al. (2016) <https://arxiv.org/abs/1601.06759>`_.
 
 `Conditional Image Generation with PixelCNN Decoders, van den Oord et al. (2016b) <https://arxiv.org/abs/1606.05328>`_
 

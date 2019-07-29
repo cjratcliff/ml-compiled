@@ -88,6 +88,14 @@ Distribution for the number of successes in n trials, each with probability p of
   
 Is closely approximated by the Poisson distribution when n is large and p is small.
 
+Boltzmann
+____________
+.. math::
+
+  P(x_i;T,\epsilon) = \frac{1}{Q} e^{-\epsilon_i / T}
+  
+where :math:`\epsilon_i` is the energy of :math:`x_i`, :math:`T` is the temperature of the system and :math:`Q` is a normalising constant.
+
 Categorical
 _____________
 Generalizes the Bernoulli distribution to more than two categories.
@@ -104,6 +112,10 @@ Can be used to model the amount of something a particular period, area or volume
 Geometric
 ___________
 Special case of the Negative Binomial distribution.
+
+Gibbs
+________
+See `Boltzmann Distribution <https://ml-compiled.readthedocs.io/en/latest/probability.html#boltzmann>`_.
   
 Gumbel
 __________

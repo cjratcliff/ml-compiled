@@ -21,6 +21,10 @@ Bayes' rule
 .. math::
 
   P(A|B) = \frac{P(B|A)P(A)}{P(B)}
+  
+Bayesian inference
+--------------------
+The use of Bayes' rule to update a probability distribution as the amount of evidence changes.
 
 Chain rule of probability
 --------------------------

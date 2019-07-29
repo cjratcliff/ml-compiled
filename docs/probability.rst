@@ -25,7 +25,7 @@ Bayes' rule
 Chain rule of probability
 --------------------------
 .. math::
-  P(A_n, ..., A_1) = \prod_{i=1}{n}P(A_i|A_1,...,A_{i-1})
+  P(A_n, ..., A_1) = \prod_{i=1}^{n}P(A_i|A_1,...,A_{i-1})
 
 For three variables this looks like:
 

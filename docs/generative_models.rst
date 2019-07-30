@@ -127,7 +127,7 @@ PixelCNN++ improves upon PixelCNN with a number of modifications, improving upon
 * "Conditioning on whole pixels"
 * Convolutions with a stride of 2 are used to downsample the image and effective increase the size of the convolutions' receptive fields.
 * Residual connections are added between the convolutional layers. These help to prevent information being lost through the downsampling.
-* Dropout is added on the model's residual connection.
+* Dropout is added on the model's residual connection to improve generalization.
 
 `PixelCNN++: Improving the PixelCNN with Discretized Logistic Mixture Likelihood and Other Modifications, Salimans et al. (2016) <https://arxiv.org/abs/1701.05517>`_
 

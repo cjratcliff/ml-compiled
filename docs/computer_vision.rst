@@ -44,7 +44,7 @@ https://keras.io/datasets/#cifar10-small-image-classification
 
 COCO
 _________
-Common objects in context. A dataset for image recognition, segmentation and captioning.
+Common Objects in COntext. A dataset for image recognition, segmentation and captioning.
 
 MNIST
 ________

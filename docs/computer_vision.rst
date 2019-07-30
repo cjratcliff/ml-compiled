@@ -16,7 +16,7 @@ ______________________
 
 Cutout
 ________
-Masks a random square region of the image, replacing it with grey.
+Regularization method that masks a random square region of the image, replacing it with grey.
 
 Was used to get new state of the art methods on the CIFAR-10, CIFAR-100 and SVHN datasets (DeVries and Taylor, 2017).
 

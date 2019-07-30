@@ -101,8 +101,16 @@ Generative Autoregressive Networks
 ------------------------------------
 Family of generative models. Unlike other generative models such as GANs or VAEs, these models generate their results sequentially. At each timestep they compute :math:`x_i = \arg\max P(x|x_{i-1},...,x_1)`. The process is broadly the same as generating a sample of text using an RNN but can be used to generate images.
 
+Autoregressive networks exploit the chain rule to express the joint probability as the product of conditional probabilities:
+
+.. math::
+
+  p(x) = \prod_{i=1}^n p(x_i|x_1, ..., x_{i-1})
+
 PixelRNN
 ==========
+
+
 `Pixel Recurrent Neural Networks, van den Oord et al. (2016) <https://arxiv.org/abs/1601.06759>`_
 
 PixelCNN

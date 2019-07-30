@@ -122,6 +122,7 @@ Also proposed in `van den Oord et al. (2016) <https://arxiv.org/abs/1601.06759>`
 `Conditional Image Generation with PixelCNN Decoders, van den Oord et al. (2016b) <https://arxiv.org/abs/1606.05328>`_
 
 PixelCNN++ improves upon PixelCNN with a number of modifications, improving upon both it and PixelRNN. The modifications are:
+
 * The 256-way softmax for each colour channel is replaced by a mixture of logistic distributions. This requires two parameters and one weight for each distribution, making it much more efficient given that only around 5 distributions are needed. The edge cases of 0 and 255 are handled specially.
 * "Conditioning on whole pixels"
 * Convolutions with a stride of 2 are used to downsample the image and effective increase the size of the convolutions' receptive fields.

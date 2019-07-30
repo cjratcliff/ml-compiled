@@ -100,6 +100,13 @@ ILSVRC
 -------
 Imagenet Large Scale Recognition Challenge. Popular image classification task in which the algorithm must use a dataset of ~1.4m images to classify 1000 classes.
 
+Notable results
+_________________
+* AlexNet
+* GoogLeNet
+* ResNet 
+* NASNet
+
 Image segmentation
 --------------------
 Partitions an object into meaningful parts with associated labels. May also be referred to as per-pixel classification.

@@ -109,7 +109,9 @@ Autoregressive networks exploit the chain rule to express the joint probability 
 
 PixelRNN
 ==========
+Pixels are modelled as being drawn from a discrete distribution with 256 values. The model has one 256-way output layer for each colour channel. When reading in the pixels, colour channels are handled sequentially so that the red channel is conditioned only on the previous pixels, the blue channel can use the red as well as the previous pixels and the green can use both the blue and red.
 
+Their best model used a 7 layer "Diagonal BiLSTM" with residual connections between the layers to ease training.
 
 `Pixel Recurrent Neural Networks, van den Oord et al. (2016) <https://arxiv.org/abs/1601.06759>`_
 

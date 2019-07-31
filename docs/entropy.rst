@@ -29,7 +29,11 @@ _____________________
 .. math::
 
     H(X|Y) = -\sum_{x \in X} \sum_{y \in Y} p(x,y) \log p(y|x)
-    
+
+Finite-sample expressivity
+----------------------------
+The ability of a model to memorize the training set.
+
 Jensen-Shannon divergence
 ---------------------------
 Symettric version of the KL-divergence.

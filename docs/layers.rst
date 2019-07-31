@@ -107,7 +107,7 @@ Padding
 '''''''''''''''''''''''''''''
 Applying the kernel to pixels near or at the edges of the image will result in needing pixel values that do not exist. There are two ways of resolving this:
 
-* Only apply the kernel to pixels where the operation is valid. For a kernel of size k this will reduce the image by (k-1)/2 pixels on each side.
+* Only apply the kernel to pixels where the operation is valid. For a kernel of size k this will reduce the image by :math:`(k-1)/2` pixels on each side.
 * Pad the image with zeros to allow the operation to be defined.
 
 '''''''''''''''''''''''''''''

@@ -129,7 +129,7 @@ http://iamaaditya.github.io/2016/03/one-by-one-convolution/
 '''''''''''''''''''''''''''''
 Dilated convolution
 '''''''''''''''''''''''''''''
-Used in `WaveNet: A Generative Model for Raw Audio, van den Oord et al. (2016) https://arxiv.org/abs/1609.03499`_.
+Used in `WaveNet: A Generative Model for Raw Audio, van den Oord et al. (2016) <https://arxiv.org/abs/1609.03499>`_.
 
 '''''''''''''''''''''''''''''
 Separable convolution/filter

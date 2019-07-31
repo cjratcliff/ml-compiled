@@ -80,4 +80,4 @@ See also: `Wasserstein distance <https://ml-compiled.readthedocs.io/en/latest/ge
 
 VC dimension
 --------------
-Vapnik–Chervonenkis dimension is a measure of capacity.
+Vapnik–Chervonenkis dimension is a measure of `capacity <https://ml-compiled.readthedocs.io/en/latest/entropy.html#capacity>`_.

@@ -19,7 +19,9 @@ Methods
 * `Semi-supervised learning <https://ml-compiled.readthedocs.io/en/latest/training_with_limited_data.html#semi-supervised-learning>`_
 * Noise injection
 * `Bagging and ensembling <https://ml-compiled.readthedocs.io/en/latest/ensemble_models.html>`_
-* Optimisation algorithms like SGD that prefer wide minima
+* Optimisation algorithms like SGD that prefer wide minima 
+
+`Understanding Deep Learning Requires Rethinking Generalization (2016) <https://arxiv.org/pdf/1611.03530.pdf>`_
 
 Dropout
 """"""""

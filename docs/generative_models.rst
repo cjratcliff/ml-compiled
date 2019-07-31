@@ -117,9 +117,7 @@ Pixels are modelled as being drawn from a discrete distribution with 256 values.
 
 PixelCNN
 ===========
-Also proposed in `van den Oord et al. (2016) <https://arxiv.org/abs/1601.06759>`_.
-
-`Conditional Image Generation with PixelCNN Decoders, van den Oord et al. (2016b) <https://arxiv.org/abs/1606.05328>`_
+PixelCNN was also proposed in `van den Oord et al. (2016) <https://arxiv.org/abs/1601.06759>`_ but the results were not as good as PixelRNN.
 
 PixelCNN++ improves upon PixelCNN with a number of modifications, improving upon both it and PixelRNN. The modifications are:
 
@@ -130,6 +128,8 @@ PixelCNN++ improves upon PixelCNN with a number of modifications, improving upon
 * Dropout is added on the model's residual connection to improve generalization.
 
 `PixelCNN++: Improving the PixelCNN with Discretized Logistic Mixture Likelihood and Other Modifications, Salimans et al. (2016) <https://arxiv.org/abs/1701.05517>`_
+
+`Conditional Image Generation with PixelCNN Decoders, van den Oord et al. (2016b) <https://arxiv.org/abs/1606.05328>`_
 
 WaveNet
 =========

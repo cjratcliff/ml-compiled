@@ -36,7 +36,7 @@ The ability of a model to memorize the training set.
 
 Jensen-Shannon divergence
 ---------------------------
-Symettric version of the KL-divergence.
+Symmetric version of the KL-divergence.
 
 .. math::
 

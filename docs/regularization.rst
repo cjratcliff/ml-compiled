@@ -24,6 +24,7 @@ Methods
 * Noise injection
 * `Bagging and ensembling <https://ml-compiled.readthedocs.io/en/latest/ensemble_models.html>`_
 * Optimisation algorithms like SGD that prefer wide minima 
+* `Batch normalization <https://ml-compiled.readthedocs.io/en/latest/layers.html?highlight=batch%20normalization#batch-normalization>`_
 
 Dropout
 """"""""

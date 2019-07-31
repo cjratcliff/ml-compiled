@@ -12,7 +12,7 @@ The image is flipped with probability 0.5 and left as it is otherwise. Normally 
 
 Random cropping
 ______________________
-
+The image is cropped and the result is fed into the network instead. 
 
 Cutout
 ________

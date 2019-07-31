@@ -118,7 +118,7 @@ The same convolution operation is applied to every pixel in the image, resulting
 The number of parameters can be further reduced by setting a stride so the convolution operation is only applied every m pixels.
 
 '''''''''''''''''''''''''''''
-1x1 convolutions
+1x1 convolution
 '''''''''''''''''''''''''''''
 These are actually matrix multiplications, not convolutions. They are a useful way of increasing the depth of the neural network since they are equivalent to :math:`f(hW)`, where :math:`f` is the activation function.
 

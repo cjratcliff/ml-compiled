@@ -51,3 +51,7 @@ Consists of two RNNs. One encodes the input sequence into a fixed-length vector 
 Can be augmented with sampled softmax, bucketing and padding.
 
 `Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation, Cho et al. (2014) <https://arxiv.org/pdf/1406.1078.pdf>`_
+
+Transformer
+---------------
+Introduced in `Attention is All You Need, Vaswani et al. (2017) <https://arxiv.org/abs/1706.03762>`_.

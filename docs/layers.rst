@@ -127,6 +127,11 @@ If the number of channels decreases from one layer to the next they can be also 
 http://iamaaditya.github.io/2016/03/one-by-one-convolution/
 
 '''''''''''''''''''''''''''''
+Dilated convolution
+'''''''''''''''''''''''''''''
+Used in `WaveNet: A Generative Model for Raw Audio, van den Oord et al. (2016) https://arxiv.org/abs/1609.03499`_.
+
+'''''''''''''''''''''''''''''
 Separable convolution/filter
 '''''''''''''''''''''''''''''
 A filter or kernel is separable if it (a matrix) can be expressed as the product of a row vector and a column vector. This decomposition can reduce the computational cost of the convolution. Examples include the Sobel edge detection and Gaussian blur filters.

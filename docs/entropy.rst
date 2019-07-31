@@ -1,6 +1,10 @@
 """"""""""""""""""""""""""""
-Information theory
+Information theory and complexity
 """"""""""""""""""""""""""""
+
+Capacity
+----------
+The capacity of a machine learning model describes the complexity of the functions it can learn.
 
 Entropy
 -------------
@@ -59,9 +63,17 @@ Measures the dependence of two random variables.
 .. math::
 
    I(X,Y) = -\sum_{x \in X} \sum_{y \in Y} p(x,y) \log \frac{p(x,y)}{p(x)p(y)}
+   
+Rademacher complexity
+-------------------------
+TODO
 
 Total variation distance
 -----------------------------
 Like the Kullback-Leibler divergence, it is also a way of measuring the difference between two different probability distributions.
 
 See also: `Wasserstein distance <https://ml-compiled.readthedocs.io/en/latest/geometry.html#wasserstein-distance>`_
+
+VC dimension
+--------------
+Vapnik–Chervonenkis dimension is a measure of capacity.

@@ -86,6 +86,8 @@ Where :math:`\gamma` and :math:`\beta` are learned and :math:`\epsilon` is a hyp
 
 :math:`\mu_x` and :math:`\sigma_x^2` are moving averages of the mean and variance of :math:`x`. They do not need to be learned.
 
+Batch Normalization is often found to improve generalization performance (`Zhang et al. (2016) <https://arxiv.org/pdf/1611.03530.pdf>`_).
+
 `Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift (2015) <https://arxiv.org/abs/1502.03167>`_
 
 Convolutional layer

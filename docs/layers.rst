@@ -146,6 +146,8 @@ http://iamaaditya.github.io/2016/03/one-by-one-convolution/
 
 Dilated convolution
 '''''''''''''''''''''''''''''
+Increases the size of the receptive field of the convolution layer.
+
 Used in `WaveNet: A Generative Model for Raw Audio, van den Oord et al. (2016) <https://arxiv.org/abs/1609.03499>`_.
 
 Separable convolution/filter

@@ -78,7 +78,7 @@ The batch-normalized version of a layer, :math:`x`, is:
 
   BN(x) = \gamma \frac{x - \mu_x}{\sqrt{\sigma_x^2 + \epsilon}} + \beta
   
-Where :math:`\gamma` and :math:`\beta` are learned and :math:`\epsilon` is a hyperparameter. 
+Where :math:`\gamma` and :math:`\beta` are learned and :math:`\epsilon` is a hyperparameter. If there are multiple batch normalization layers a separate :math:`\gamma` and :math:`\beta` will be learned for each of them.
 
 :math:`\mu_x` and :math:`\sigma_x^2` are moving averages of the mean and variance of :math:`x`. They do not need to be learned.
 
@@ -86,8 +86,9 @@ Batch Normalization is often found to improve generalization performance (`Zhang
 
 `Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift (2015) <https://arxiv.org/abs/1502.03167>`_
 
-Conditional batch normalisation
+Conditional batch normalization
 '''''''''''''''''''''''''''''''''''
+The formula is exactly the same as normal batch normalization except :math:`\gamma` and :math:`\beta` are not learned parameters, but rather the outputs of functions.
 
 Was used to achieve `state of the art results <https://arxiv.org/pdf/1707.03017.pdf>`_ on the CLEVR visual reasoning benchmark.
 

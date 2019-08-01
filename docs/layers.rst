@@ -15,12 +15,12 @@ In translation, rather than creating a fixed-length vector from the outputs of e
 In translation, each output word depends on a weighted combination of all input words. Computing these weights can take time proportional to the product of the length of the input and output sequences. In content-based attention the weights are computed as the dot product between the items in the sequence and the ‘query’ outputted by the attending RNN.
 
 Self-attention
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+''''''''''''''''''
 `Attention is All You Need (2017) <https://arxiv.org/pdf/1706.03762.pdf>`_
 
-Soft attention
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-The standard form of attention, as proposed in `Neural Machine Translation by Jointly Learning to Align and Translate, Bahdanau et al. (2015) <https://arxiv.org/abs/1409.0473>`_.
+Additive attention
+'''''''''''''''''''''
+Proposed in `Neural Machine Translation by Jointly Learning to Align and Translate, Bahdanau et al. (2015) <https://arxiv.org/abs/1409.0473>`_.
 
 Let :math:`x = \{x_1,...,x_T\}` be the input sequence and :math:`y = \{y_1,...,y_U\}` be the output sequence.
 
@@ -51,10 +51,15 @@ To predict the output sequence we take the decoder hidden state and the context 
 .. math::
 
   y_i = g(s_i,c_i)
+  
+Dot-product attention
+'''''''''''''''''''''''
 
-Training
-__________
-Soft attention is differentiable and can therefore be trained with standard back-propagation.
+.. math::
+
+  \text{Attention}(Q,K,V) = \text{softmax}(QK^T)V)
+  
+Where :math:`Q` is the query matrix, :math:`K` is the matrix of keys and :math:`V` is the matrix of values.
 
 Computational complexity
 _______________________________
@@ -63,8 +68,12 @@ When using two RNNs (an encoder and a decoder) to translate a sequence of length
 However, a soft attention mechanism must look over every item in the input sequence for every item in the output sequence, resulting in a quadratic complexity:  :math:`O(n^2)`.
 
 Hard attention
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-Trained using the REINFORCE algorithm, since it is not differentiable.
+''''''''''''''''''''
+Trained using the REINFORCE algorithm since, unlike other forms of attention, it is not differentiable.
+
+Soft attention
+''''''''''''''''''
+Forms of attention that can be trained through backpropagation, unlike hard attention.
 
 Batch normalization
 -------------------------

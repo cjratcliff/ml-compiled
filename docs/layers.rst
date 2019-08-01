@@ -75,7 +75,7 @@ Proposed in `Attention is All You Need (2017) <https://arxiv.org/pdf/1706.03762.
 
 Hard attention
 ''''''''''''''''''''
-Trained using the REINFORCE algorithm since, unlike other forms of attention, it is not differentiable.
+Form of attention that attends only to one input, unlike soft attention. Trained using the REINFORCE algorithm since, unlike other forms of attention, it is not differentiable.
 
 Self-attention
 ''''''''''''''''''

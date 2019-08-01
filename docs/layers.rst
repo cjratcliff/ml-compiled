@@ -194,6 +194,8 @@ Padding can ensure the different convolution sizes still have the same size of o
 
 Layer normalization
 ----------------------
+Can be easily applied to RNNs, unlike batch normalization.
+
 Proposed in `Layer Normalization, Ba et al. (2016) <https://arxiv.org/abs/1607.06450>`_. 
 
 Pooling layer

@@ -14,12 +14,10 @@ In translation, rather than creating a fixed-length vector from the outputs of e
 
 In translation, each output word depends on a weighted combination of all input words. Computing these weights can take time proportional to the product of the length of the input and output sequences. In content-based attention the weights are computed as the dot product between the items in the sequence and the ‘query’ outputted by the attending RNN.
 
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 Self-attention
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 `Attention is All You Need (2017) <https://arxiv.org/pdf/1706.03762.pdf>`_
 
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 Soft attention
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 The standard form of attention, as proposed in Bahdanau et al. (2015).
@@ -64,8 +62,6 @@ When using two RNNs (an encoder and a decoder) to translate a sequence of length
 
 However, a soft attention mechanism must look over every item in the input sequence for every item in the output sequence, resulting in a quadratic complexity:  :math:`O(n^2)`.
 
-
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 Hard attention
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 Trained using the REINFORCE algorithm, since it is not differentiable.
@@ -90,6 +86,10 @@ Batch Normalization is often found to improve generalization performance (`Zhang
 
 `Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift (2015) <https://arxiv.org/abs/1502.03167>`_
 
+Conditional batch normalisation
+'''''''''''''''''''''''''''''''''''
+`Learning Visual Reasoning Without Strong Priors, Perez et al. (2017) <https://arxiv.org/pdf/1707.03017.pdf>`_
+
 Convolutional layer
 -----------------------
 Transforms an image according to the convolution operation shown below, where the image on the left is the input and the image being created on the right is the output:
@@ -104,7 +104,6 @@ Let :math:`x` be a matrix representing the image and :math:`k` be another repres
   
 Where :math:`M = (N - 1)/2`.
 
-'''''''''''''''''''''''''''''
 Padding
 '''''''''''''''''''''''''''''
 Applying the kernel to pixels near or at the edges of the image will result in needing pixel values that do not exist. There are two ways of resolving this:
@@ -112,14 +111,12 @@ Applying the kernel to pixels near or at the edges of the image will result in n
 * Only apply the kernel to pixels where the operation is valid. For a kernel of size k this will reduce the image by :math:`(k-1)/2` pixels on each side.
 * Pad the image with zeros to allow the operation to be defined.
 
-'''''''''''''''''''''''''''''
 Efficiency
 '''''''''''''''''''''''''''''
 The same convolution operation is applied to every pixel in the image, resulting in a considerable amount of weight sharing. This means convolutional layers are quite efficient in terms of parameters. Additionally, if a fully connected layer was used to represent the functionality of a convolutional layer most of its parameters would be zero since the convolution is a local operation. This further increases efficiency.
 
 The number of parameters can be further reduced by setting a stride so the convolution operation is only applied every m pixels.
 
-'''''''''''''''''''''''''''''
 1x1 convolution
 '''''''''''''''''''''''''''''
 These are actually matrix multiplications, not convolutions. They are a useful way of increasing the depth of the neural network since they are equivalent to :math:`f(hW)`, where :math:`f` is the activation function.
@@ -128,12 +125,10 @@ If the number of channels decreases from one layer to the next they can be also 
 
 http://iamaaditya.github.io/2016/03/one-by-one-convolution/
 
-'''''''''''''''''''''''''''''
 Dilated convolution
 '''''''''''''''''''''''''''''
 Used in `WaveNet: A Generative Model for Raw Audio, van den Oord et al. (2016) <https://arxiv.org/abs/1609.03499>`_.
 
-'''''''''''''''''''''''''''''
 Separable convolution/filter
 '''''''''''''''''''''''''''''
 A filter or kernel is separable if it (a matrix) can be expressed as the product of a row vector and a column vector. This decomposition can reduce the computational cost of the convolution. Examples include the Sobel edge detection and Gaussian blur filters.
@@ -179,17 +174,14 @@ Padding can ensure the different convolution sizes still have the same size of o
 Pooling layer
 ---------------
 
-'''''''''''''''''''''''''''''
 Max pooling
 '''''''''''''''''''''''''''''
 Transforms the input by taking the max along a particular dimension. In sequence processing this is usually the length of the sequence.
 
-'''''''''''''''''''''''''''''
 Mean pooling
 '''''''''''''''''''''''''''''
 Also known as average pooling. Identical to max-pooling except the mean is used instead of the max.
 
-'''''''''''''''''''''''''''''
 RoI pooling
 '''''''''''''''''''''''''''''
 Used to solve the problem that the regions of interest (RoI) identified by the bounding boxes can be different shapes in object recognition. The CNN requires all inputs to have the same dimensions.

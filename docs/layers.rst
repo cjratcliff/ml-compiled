@@ -20,7 +20,7 @@ Self-attention
 
 Soft attention
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-The standard form of attention, as proposed in Bahdanau et al. (2015).
+The standard form of attention, as proposed in `Bahdanau et al. (2015) <https://arxiv.org/abs/1409.0473>`_.
 
 Let :math:`x = \{x_1,...,x_T\}` be the input sequence and :math:`y = \{y_1,...,y_U\}` be the output sequence.
 
@@ -65,8 +65,6 @@ However, a soft attention mechanism must look over every item in the input seque
 Hard attention
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 Trained using the REINFORCE algorithm, since it is not differentiable.
-
-`Neural Machine Translation by Jointly Learning to Align and Translate, Bahdanau et al. (2015) <https://arxiv.org/abs/1409.0473>`_
 
 Batch normalization
 -------------------------

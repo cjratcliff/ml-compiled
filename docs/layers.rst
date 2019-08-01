@@ -83,7 +83,7 @@ Self-attention
 
 Soft attention
 ''''''''''''''''''
-Forms of attention that can be trained through backpropagation, unlike hard attention.
+Forms of attention that attend to every input to some extent, meaning they can be trained through backpropagation. Contrast with hard attention, which attends exclusively to one input.
 
 Batch normalization
 -------------------------

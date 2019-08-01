@@ -72,7 +72,7 @@ A type of RNN with a memory cell as the hidden state. Uses a gating mechanism to
 
 Can have multiple layers. The input gate determines when the input is significant enough to remember. The output gate decides when to output the value. The forget gate determines when the value should be forgotten.
 
-The activations of the input, forget and output gates are :math:`f_t` and :math:`o_t` respectively. The state of the memory cell is :math:`C_t`.
+The activations of the input, forget and output gates are :math:`i_t`, :math:`f_t` and :math:`o_t` respectively. The state of the memory cell is :math:`C_t`.
 
 .. math::
 
@@ -89,7 +89,7 @@ The activations of the input, forget and output gates are :math:`f_t` and :math:
     h_t=o_t*\tanh(C_t)
 
 
-Where represents element-wise multiplication. Biases have been omitted for simplicity.
+Where :math:`*` represents element-wise multiplication. Biases have been omitted for simplicity.
 
 Each of the input, output and forget gates is surrounded by a sigmoid nonlinearity. This squashes the input so it is between 0 (let nothing through the gate) and 1 (let everything through).
 

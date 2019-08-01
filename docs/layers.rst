@@ -63,7 +63,7 @@ Where :math:`Q` is the query matrix, :math:`K` is the matrix of keys and :math:`
 
 Scaled dot-product attention
 ________________________________
-Adds a scaling factor :math:`\sqrt{d_k}`, equal to the dimension of :math:`K` to the formula:
+Adds a scaling factor :math:`\sqrt{d_k}`, equal to the dimension of :math:`K`:
 
 .. math::
 

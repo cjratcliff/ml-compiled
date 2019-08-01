@@ -61,6 +61,18 @@ Dot-product attention
 
 Where :math:`Q` is the query matrix, :math:`K` is the matrix of keys and :math:`V` is the matrix of values.
 
+Scaled dot-product attention
+________________________________
+Adds a scaling factor :math:`\sqrt{d_k}`, equal to the dimension of :math:`K` to the formula:
+
+.. math::
+
+  \text{Attention}(Q,K,V) = \text{softmax}(\frac{QK^T}{\sqrt{d_k}})V
+
+This addition to the formula is intended to ensure the gradients do not become small when :math:`d_k` grows large.
+
+Proposed in `Attention is All You Need (2017) <https://arxiv.org/pdf/1706.03762.pdf>`_
+
 Hard attention
 ''''''''''''''''''''
 Trained using the REINFORCE algorithm since, unlike other forms of attention, it is not differentiable.

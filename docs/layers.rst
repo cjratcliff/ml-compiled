@@ -88,7 +88,8 @@ Batch Normalization is often found to improve generalization performance (`Zhang
 
 Conditional batch normalisation
 '''''''''''''''''''''''''''''''''''
-`Learning Visual Reasoning Without Strong Priors, Perez et al. (2017) <https://arxiv.org/pdf/1707.03017.pdf>`_
+
+Was used to achieve `state of the art results <https://arxiv.org/pdf/1707.03017.pdf>`_ on the CLEVR visual reasoning benchmark.
 
 Convolutional layer
 -----------------------

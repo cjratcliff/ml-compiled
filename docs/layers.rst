@@ -8,11 +8,9 @@ Synomym for fully-connected layer.
 
 Attention
 ------------
-Has been used to improve image classification, image captioning, speech recognition, generative models and learning algorithmic tasks, but it has probably had the largest impact on neural machine translation.
+An attention layer takes a query vector and uses it, combined with key vectors, to compute a weighted sum of value vectors. If a key is determined to be highly compatible with the query the weight for the associated value will be high.
 
-In translation, rather than creating a fixed-length vector from the outputs of encoder, it retains them all and concatenates them into a ‘memory tensor’. At each step of the decoder, a weighted average over the memory tensor is computed, allowing the decoder to ‘focus’ on different parts of the input. A similar logic applies in the image captioning task, focusing on areas of the image instead.
-
-In translation, each output word depends on a weighted combination of all input words. Computing these weights can take time proportional to the product of the length of the input and output sequences. In content-based attention the weights are computed as the dot product between the items in the sequence and the ‘query’ outputted by the attending RNN.
+Attention has been used to improve image classification, image captioning, speech recognition, generative models and learning algorithmic tasks, but has probably had the largest impact on neural machine translation.
 
 Computational complexity
 ''''''''''''''''''''''''''''''
@@ -60,7 +58,7 @@ Dot-product attention
 .. math::
 
   \text{Attention}(Q,K,V) = \text{softmax}(QK^T)V)
-  
+
 Where :math:`Q` is the query matrix, :math:`K` is the matrix of keys and :math:`V` is the matrix of values.
 
 Hard attention

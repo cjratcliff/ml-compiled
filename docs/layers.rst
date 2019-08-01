@@ -192,6 +192,10 @@ Padding can ensure the different convolution sizes still have the same size of o
 
 5x5 convolutions are expensive so the `1x1 convolutions <https://ml-compiled.readthedocs.io/en/latest/layers.html#x1-convolutions>`_ make the architecture computationally viable. The 1x1 convolutions perform dimensionality reduction by reducing the number of filters. This is not a characteristic necessarily found in all 1x1 convolutions. Rather, the authors have specified to have the number of output filters less than the number of input filters.
 
+Layer normalization
+----------------------
+Proposed in `Layer Normalization, Ba et al. (2016) <https://arxiv.org/abs/1607.06450>`_. 
+
 Pooling layer
 ---------------
 

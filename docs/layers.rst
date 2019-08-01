@@ -57,7 +57,7 @@ Dot-product attention
 
 .. math::
 
-  \text{Attention}(Q,K,V) = \text{softmax}(QK^T)V)
+  \text{Attention}(Q,K,V) = \text{softmax}(QK^T)V
 
 Where :math:`Q` is the query matrix, :math:`K` is the matrix of keys and :math:`V` is the matrix of values.
 

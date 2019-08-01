@@ -95,7 +95,7 @@ Each of the input, output and forget gates is surrounded by a sigmoid nonlineari
 
 The new cell state is the candidate cell state scaled by the input gate activation, representing how much we want to remember each value and added to the old cell state, scaled by the forget gate activation, how much we want to forget each of those values.
 
-The tanh functions don’t seem to have any particular function except to add nonlinearities.
+The :math:`\tanh` functions serve to add nonlinearities.
 
 Using an LSTM does not protect from exploding gradients. 
 

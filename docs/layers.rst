@@ -24,33 +24,33 @@ Proposed in `Neural Machine Translation by Jointly Learning to Align and Transla
 
 Let :math:`x = \{x_1,...,x_T\}` be the input sequence and :math:`y = \{y_1,...,y_U\}` be the output sequence.
 
-There is an encoder RNN whose hidden state at index i we refer to as :math:`h_i`. The decoder RNN's state at index i is :math:`s_i`.
+There is an encoder RNN whose hidden state at index :math:`t` we refer to as :math:`h_t`. The decoder RNN's state at time :math:`t` is :math:`s_t`.
 
 Attention is calculated over all the words in the sequence form a weighted sum, known as the context vector. This is defined as:
 
 .. math::
 
-  c_i = \sum_{j=1}^{T} \alpha_{ij} h_j
+  c_t = \sum_{j=1}^{T} \alpha_{tj} h_j
   
-where :math:`\alpha_{ij}` is the jth element of the softmax of :math:`e_i`.
+where :math:`\alpha_{tj}` is the jth element of the softmax of :math:`e_t`.
 
 The attention given to a particular input word depends on the hidden states of the encoder and decoder RNNs.
 
 .. math::
 
-  e_{ij} = a(s_{i-1}, h_j) 
+  e_{tj} = a(s_{t-1}, h_j) 
   
 The decoder's hidden state is computed according to the following expression, where :math:`f` represents the decoder.
 
 .. math::
 
-  s_i = f(s_{i-1},y_{i-1},c_i)
+  s_i = f(s_{t-1},y_{t-1},c_t)
 
 To predict the output sequence we take the decoder hidden state and the context vector and feed them into a fully connected softmax layer :math:`g` which gives a distribution over the output vocabulary.
 
 .. math::
 
-  y_i = g(s_i,c_i)
+  y_t = g(s_t,c_t)
   
 Dot-product attention
 '''''''''''''''''''''''

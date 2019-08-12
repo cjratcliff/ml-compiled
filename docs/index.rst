@@ -29,6 +29,7 @@ Contents
 
    calculus
    entropy
+   functions
    geometry
    linear_algebra
    monte_carlo

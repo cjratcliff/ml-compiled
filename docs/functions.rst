@@ -4,6 +4,8 @@ Functions
 Bijective
 -----------
 
+Codomain
+-----------
 
 Concave
 ----------
@@ -30,6 +32,14 @@ A function is convex if:
 :math:`x^2` is an example of a convex function.
 
 See also: concave
+
+Domain
+--------
+The set of points the function is defined for.
+
+Image
+-------
+
 
 Injective
 -----------

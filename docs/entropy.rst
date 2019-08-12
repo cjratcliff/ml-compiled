@@ -9,6 +9,8 @@ A measure of the quality of a model that combines accuracy with the number of pa
 .. math::
 
   \text{AIC}(x,\theta) = 2|\theta| - 2 \ln L(\theta,x)
+  
+Where :math:`x` is the data and :math:`L` is the likelihood function.
 
 Capacity
 ----------

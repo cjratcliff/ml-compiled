@@ -121,6 +121,11 @@ Two vectors are orthonormal if they are orthogonal and both unit vectors.
 
 Outer product
 -----------------
+The outer product of two column vectors :math:`x` and :math:`y` is:
+
+.. math::
+
+  A = xy^T
 
 Principal Component Analysis (PCA)
 ---------------------------------------

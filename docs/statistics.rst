@@ -112,6 +112,8 @@ _____________________________
 .. math::
 
   s = \sqrt{\frac{1}{n-1} \sum_{i=1}^n(x_i-\mu)^2}
+  
+Note that the above is the biased estimator for the sample standard deviation. Estimators which are unbiased exist but they each only apply to some population distributions.
 
 Variance
 ---------
@@ -131,7 +133,7 @@ The formula can also be written as:
 
 Sample variance
 __________________
-When it is impractical to compute the variance over the entire population, we can take a sample instead and compute the sample variance.
+When it is impractical to compute the variance over the entire population, we can take a sample instead and compute the sample variance. The formula for the unbiased sample variance is:
 
 .. math::
 

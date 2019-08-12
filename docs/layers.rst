@@ -211,7 +211,7 @@ Also known as average pooling. Identical to max-pooling except the mean is used 
 
 RoI pooling
 '''''''''''''''''''''''''''''
-Used to solve the problem that the regions of interest (RoI) identified by the bounding boxes can be different shapes in object recognition. The CNN requires all inputs to have the same dimensions.
+Used to solve the problem that the `regions of interest (RoI) <https://ml-compiled.readthedocs.io/en/latest/computer_vision.html#region-of-interest>`_ identified by the bounding boxes can be different shapes in object recognition. The CNN requires all inputs to have the same dimensions.
 
 The RoI is divided into a number of rectangles of fixed size (except at the edges). If doing 3x3 RoI pooling there will be 9 rectangles in each RoI. We do max-pooling over each RoI to get 3x3 numbers.
 

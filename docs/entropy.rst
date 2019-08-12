@@ -2,6 +2,14 @@
 Information theory and complexity
 """"""""""""""""""""""""""""
 
+Akaike Information Criterion (AIC)
+------------------------------------
+A measure of the quality of a model that combines accuracy with the number of parameters. Smaller AIC values mean the model is better. The formula is:
+
+.. math::
+
+  \text{AIC}(x,\theta) = 2|\theta| - 2 \ln L(\theta,x)
+
 Capacity
 ----------
 The capacity of a machine learning model describes the complexity of the functions it can learn.

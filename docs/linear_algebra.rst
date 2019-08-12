@@ -65,9 +65,16 @@ Hadamard product
 ------------------
 Synonymous with elementwise-multiplication.
 
-Invertible
+Inverse
 ------------
+The inverse of a matrix :math:`A` is written as :math:`A^{-1}`.
+
 A matrix :math:`A` is invertible if and only if there exists a matrix :math:`B` such that :math:`AB = BA = I`.
+
+The inverse can be found using:
+* Gaussian elimination
+* LU decomposition
+* Gauss-Jordan elimination
 
 Matrix decomposition
 -----------------------

@@ -81,6 +81,7 @@ Exponentials
 Logarithms
 --------------
 .. math:: (\log_a x)' = 1/(x \ln a)
+.. math:: (\ln(x))' = 1/x
 
 Chain rule
 ----------------

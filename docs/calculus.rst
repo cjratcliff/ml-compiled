@@ -103,7 +103,10 @@ In general :math:`dy/dx` is the inverse of :math:`dx/dy`.
 
 Matrix differentiation
 -----------------------
-TODO
+
+.. math:: \frac{dx}{dx} = I
+
+.. math:: \frac{d x^T y}{dx} = y
 
 Total derivative
 ======================

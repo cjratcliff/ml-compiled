@@ -54,6 +54,8 @@ Information bottleneck
   
 Where :math:`I(X,T)` and :math:`I(T,Y)` represent the `mutual information <https://ml-compiled.readthedocs.io/en/latest/entropy.html#mutual-information>`_ between their respective arguments. :math:`X` is the input features, :math:`Y` is the labels and :math:`T` is a representation of the input such as the activations of a hidden layer in a neural network.
 
+When the expression is minimised there is very little mutual information between the compressed representation and the input. There is a lot of mutual information between the representation and the output, meaning it is useful for prediction.
+
 Jensen-Shannon divergence
 ---------------------------
 Symmetric version of the KL-divergence.

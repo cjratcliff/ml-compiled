@@ -52,7 +52,7 @@ Information bottleneck
 
   \min I(X,T) - \beta I(T,Y)
   
-Where :math:`I(X,T)` and :math:`I(T,Y)` represent the `mutual information <https://ml-compiled.readthedocs.io/en/latest/entropy.html#mutual-information>`_ between their respective arguments.
+Where :math:`I(X,T)` and :math:`I(T,Y)` represent the `mutual information <https://ml-compiled.readthedocs.io/en/latest/entropy.html#mutual-information>`_ between their respective arguments. :math:`X` is the input features, :math:`Y` is the labels and :math:`T` is a representation of the input such as the activations of a hidden layer in a neural network.
 
 Jensen-Shannon divergence
 ---------------------------

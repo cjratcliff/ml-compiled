@@ -82,11 +82,13 @@ The KL-divergence is not symmetric.
 
 Mutual information
 -----------------------
-Measures the dependence of two random variables.
+Measures the dependence between two random variables.
 
 .. math::
 
-   I(X,Y) = -\sum_{x \in X} \sum_{y \in Y} p(x,y) \log \frac{p(x,y)}{p(x)p(y)}
+    I(X,Y) = -\sum_{x \in X} \sum_{y \in Y} p(x,y) \log \frac{p(x,y)}{p(x)p(y)}
+   
+If the variables are independent :math:`I(X,Y) = 0`. If they are completely dependent :math:`I(X,Y) = H(X) = H(Y).`
    
 Rademacher complexity
 -------------------------

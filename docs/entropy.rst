@@ -40,9 +40,19 @@ _____________________
 
     H(X|Y) = -\sum_{x \in X} \sum_{y \in Y} p(x,y) \log p(y|x)
 
+
 Finite-sample expressivity
 ----------------------------
 The ability of a model to memorize the training set.
+
+
+Information bottleneck
+-------------------------
+.. math::
+
+  \min I(X,T) - \beta I(T,Y)
+  
+Where :math:`I(X,T)` and :math:`I(T,Y)` represent the `mutual information <https://ml-compiled.readthedocs.io/en/latest/entropy.html#mutual-information>`_ between their respective arguments.
 
 Jensen-Shannon divergence
 ---------------------------

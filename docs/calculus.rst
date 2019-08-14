@@ -95,7 +95,15 @@ Used to calculate total derivatives.
 
 The derivative of a function wrt a function
 -----------------------------------------------
-Can be done using the chain rule. For example, :math:`\partial x^6/\partial x^2` can be found by setting :math:`y=x^6` and :math:`z=x^2`. Then do :math:`\partial y/\partial z = \partial y/\partial x \cdot \partial x/\partial z = 6x^5 \cdot 1/{2x} = 3x^4`.
+Can be done using the chain rule. For example, :math:`\partial x^6/\partial x^2` can be found by setting :math:`y=x^6` and :math:`z=x^2`. 
+
+Then do :math:`\partial y/\partial z`
+
+.. math:: = \partial y/\partial x \cdot \partial x/\partial z
+
+.. math:: = 6x^5 \cdot 1/{2x} 
+
+.. math:: = 3x^4
 
 Inverse relationship
 ------------------------

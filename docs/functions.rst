@@ -3,7 +3,7 @@ Functions
 
 Bijective
 -----------
-A function that is both surjective and injective.
+A function that is both `surjective <https://ml-compiled.readthedocs.io/en/latest/functions.html#surjective>`_ and `injective <https://ml-compiled.readthedocs.io/en/latest/functions.html#injective>`_.
 
 Codomain
 -----------

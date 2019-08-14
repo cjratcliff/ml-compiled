@@ -45,6 +45,15 @@ Finite-sample expressivity
 ----------------------------
 The ability of a model to memorize the training set.
 
+Fisher Information Matrix
+---------------------------
+An :math:`N \times N` matrix where :math:`N` is the number of parameters in a model.
+
+The matrix is defined as:
+
+.. math::
+
+  I(\theta)_{ij} = E[\frac{\partial \log f(X;\theta)}{\partial \theta_i} \frac{\partial \log f(X;\theta)}{\partial \theta_j}|\theta]
 
 Information bottleneck
 -------------------------

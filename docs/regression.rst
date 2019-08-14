@@ -39,11 +39,7 @@ Normal equation
 ___________________
 The equation that gives the optimal parameters for a linear regression.
 
-Rewrite the regression equation as:
-
-.. math::
-
-  \hat{y} = X \beta
+Rewrite the regression equation as :math:`\hat{y} = X \beta`.
   
 Then the formula for :math:`\beta` which minimizes the squared error is:
 

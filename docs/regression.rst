@@ -35,6 +35,22 @@ where the :math:`\beta_i` are parameters to be estimated by the model and the :m
 
 The loss function is usually the `squared error <https://ml-compiled.readthedocs.io/en/latest/loss_functions.html#squared-loss>`_.
 
+Normal equation
+___________________
+The equation that gives the optimal parameters for a linear regression.
+
+Rewrite the regression equation as:
+
+.. math::
+
+  \hat{y} = \beta X
+  
+Then the formula for :math:`beta` which minimizes the squared error is:
+
+.. math::
+
+  \beta = (X^T X)^{-1} X^T y
+
 Logistic regression
 ----------------------
 Used for modelling probabilities. It uses the sigmoid function (:math:`\sigma`) to ensure the predicted values are between 0 and 1. Values outside of this range would not make sense when predicting a probability. The functional form is:

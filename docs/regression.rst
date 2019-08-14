@@ -45,7 +45,7 @@ Rewrite the regression equation as:
 
   \hat{y} = X \beta
   
-Then the formula for :math:`beta` which minimizes the squared error is:
+Then the formula for :math:`\beta` which minimizes the squared error is:
 
 .. math::
 

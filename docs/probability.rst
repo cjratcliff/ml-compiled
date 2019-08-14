@@ -199,7 +199,7 @@ A likelihood function in which some variable has been marginalised out (removed 
 
 MAP estimation
 ----------------
-A type of point estimate. Can be seen as a regularization of MLE since it also incorporates a prior distribution. Uses Bayes rule to incorporate a prior over the parameters and find the parameters that are most likely given the data (rather than the other way around). Unlike with MLE (which is a bit of a simplification), the most likely parameters given the data are exactly what we want to find.
+Maximum a posteriori estimation. A type of point estimate. Can be seen as a regularization of MLE since it also incorporates a prior distribution. Uses Bayes rule to incorporate a prior over the parameters and find the parameters that are most likely given the data (rather than the other way around). Unlike with MLE (which is a bit of a simplification), the most likely parameters given the data are exactly what we want to find.
 
 .. math::
 

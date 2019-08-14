@@ -104,9 +104,9 @@ In general :math:`dy/dx` is the inverse of :math:`dx/dy`.
 Matrix differentiation
 -----------------------
 
-.. math:: \frac{dx}{dx} = I
+.. math:: \frac{dX}{dX} = I
 
-.. math:: \frac{d x^T y}{dx} = y
+.. math:: \frac{d X^T Y}{dX} = Y
 
 Total derivative
 ======================

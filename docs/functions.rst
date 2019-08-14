@@ -3,7 +3,7 @@ Functions
 
 Bijective
 -----------
-A function that is both bijective and injective.
+A function that is both surjective and injective.
 
 Codomain
 -----------

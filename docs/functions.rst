@@ -43,6 +43,8 @@ Image
 
 Injective
 -----------
+A function is injective if it never maps two different inputs to the same output.
+
 See also: surjective, bijective
 
 Monotonic
@@ -51,4 +53,6 @@ Monotonic
 
 Surjective
 -------------
+A function is surjective if, for every possible output, there is one input that produces that output.
+
 See also: injective, bijective

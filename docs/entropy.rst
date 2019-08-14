@@ -14,7 +14,7 @@ Where :math:`x` is the data and :math:`L` is the `likelihood function <https://m
 
 Capacity
 ----------
-The capacity of a machine learning model describes the complexity of the functions it can learn.
+The capacity of a machine learning model describes the complexity of the functions it can learn. If the model can learn highly complex functions it is said to have a high capacity. If it can only learn simple functions it has a low capacity.
 
 Entropy
 -------------

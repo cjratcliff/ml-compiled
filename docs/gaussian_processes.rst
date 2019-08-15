@@ -20,7 +20,7 @@ and :math:`k(x,x')` is the kernel function.
   
 Kernel function
 ----------------------
-The kernel represents the `covariance <http://ml-compiled.readthedocs.io/en/latest/statistics.html#covariance>`_ function for the Gaussian process.
+The kernel is a function that represents the `covariance <http://ml-compiled.readthedocs.io/en/latest/statistics.html#covariance>`_ function for the Gaussian process.
 
 .. math::
 

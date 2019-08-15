@@ -83,6 +83,7 @@ Also known as matrix factorization.
 
 Cholesky decomposition
 _________________________
+
 .. math::
 
     A = LL^*

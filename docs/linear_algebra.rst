@@ -83,7 +83,11 @@ Also known as matrix factorization.
 
 Cholesky decomposition
 _________________________
-:math:`A = LL^*`, where A is Hermitian and positive-definite, L is lower-triangular and :math:`L^*` is its conjugate transpose. Can be used for solving SLEs.
+.. math::
+
+    A = LL^*
+
+where A is Hermitian and positive-definite, L is lower-triangular and :math:`L^*` is its conjugate transpose. Can be used for solving SLEs.
 
 Eigendecomposition
 ______________________

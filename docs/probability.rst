@@ -107,7 +107,13 @@ Generalizes the Bernoulli distribution to more than two categories.
 .. math::
 
   P(x = k;p) = p_k
-  
+
+Dirichlet
+___________
+Multivariate version of the Beta distribution.
+
+Conjugate prior of the categorical and multinomial distributions. 
+
 Gamma
 ______
 Can be used to model the amount of something a particular period, area or volume. For example, the amount of rainfall in an area in a month. This is as opposed to the Poisson which models the distribution for the number of discrete events.

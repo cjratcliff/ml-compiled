@@ -85,9 +85,6 @@ Functions sampled from a GP with a Laplacian kernel:
 .. image:: ../img/laplace.png
   :align: center
   :scale: 50 %
-  
-Regression
-------------------------------
 
 Sampling
 ---------

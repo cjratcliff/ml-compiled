@@ -54,6 +54,8 @@ Label smoothing
 """""""""""""""""
 Replaces the labels with a weighted average of the true labels and the uniform distribution.
 
+`When Does Label Smoothing Help?, Müller, R. et al. (2019) <https://arxiv.org/abs/1906.02629>`_
+
 Weight decay
 """""""""""""""
 

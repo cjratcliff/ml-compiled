@@ -47,16 +47,20 @@ The ability of a model to memorize the training set.
 
 Fisher Information Matrix
 ---------------------------
-An :math:`N \times N` matrix where :math:`N` is the number of parameters in a model.
+An :math:`N \times N` matrix of second-order partial derivatives where :math:`N` is the number of parameters in a model.
 
 The matrix is defined as:
 
 .. math::
 
   I(\theta)_{ij} = E[\frac{\partial \log f(X;\theta)}{\partial \theta_i} \frac{\partial \log f(X;\theta)}{\partial \theta_j}|\theta]
+  
+The Fisher Information Matrix is equal to the negative expected `Hessian <https://ml-compiled.readthedocs.io/en/latest/calculus.html#hessian-matrix>`_ of the log likelihood.
+
 
 Information bottleneck
 -------------------------
+
 .. math::
 
   \min I(X,T) - \beta I(T,Y)

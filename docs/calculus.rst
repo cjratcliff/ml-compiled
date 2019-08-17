@@ -24,10 +24,15 @@ In the context of neural networks, :math:`f` is usually the loss function and :m
 
 The size and therefore cost to compute of the Hessian is quadratic in the number of parameters. This makes it infeasible to compute for most problems. 
 
-However, it is of theoretical interest as its properties can tell us a lot about the nature of the loss function we are trying to optimize:
+However, it is of theoretical interest as its properties can tell us a lot about the nature of the loss function we are trying to optimize.
 
-* If the Hessian at a point on the loss surface has no negative eigenvalues the point is a local minimum.
-* If the Hessian is `ill-conditioned <https://ml-compiled.readthedocs.io/en/latest/linear_algebra.html#condition-number>`_, the loss function may be hard to optimize with gradient descent. 
+If the Hessian at a point on the loss surface has no negative eigenvalues the point is a local minimum.
+
+Condition number of the Hessian
+----------------------------------
+If the Hessian is `ill-conditioned <https://ml-compiled.readthedocs.io/en/latest/linear_algebra.html#condition-number>`_, the loss function may be hard to optimize with gradient descent.
+
+Recall that the condition number of a matrix is the ratio of the highest and lowest singular values and that in an ill-conditioned matrix this ratio is high. Large singular values of the Hessian indicate a large change in the gradient in some direction but small ones indicate very little change. Having both of these means the loss function may have 'ravines' which cause many first-order gradient descent methods to zigzag, resulting in slow convergence.
 
 Jacobian matrix
 ======================

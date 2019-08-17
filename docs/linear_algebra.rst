@@ -30,6 +30,7 @@ The matrix obtained by taking the transpose followed by the complex conjugate of
 
 Dot product
 ----------------
+The dot product for two vectors :math:`a` and :math:`b` is:
 
 .. math::
 

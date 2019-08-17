@@ -143,7 +143,7 @@ The outer product of two column vectors :math:`x` and :math:`y` is:
 
 Principal Component Analysis (PCA)
 ---------------------------------------
-Approximates a dataset with a set of smaller linearly uncorrelated variables. These variables can be found through eigenvalue decomposition.
+Approximates a dataset with a smaller set of linearly uncorrelated variables. These variables can be found through eigenvalue decomposition.
 
 .. TODO: Formula
 

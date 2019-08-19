@@ -54,12 +54,18 @@ To predict the output sequence we take the decoder hidden state and the context 
   
 Dot-product attention
 '''''''''''''''''''''''
+Returns a weighted average over the values, :math:`V`.
 
 .. math::
 
   \text{Attention}(Q,K,V) = \text{softmax}(QK^T)V
 
-Where :math:`Q` is the query matrix, :math:`K` is the matrix of keys and :math:`V` is the matrix of values.
+Where :math:`Q` is the query matrix, :math:`K` is the matrix of keys and :math:`V` is the matrix of values. :math:`\text{softmax}(QK^T)` determines the weight of each value in the result, based on the similarity between the query and the value's corresponding key.
+
+The queries and keys have the same dimension.
+
+The query might be the hidden state of the decoder, the key the hidden state of the decoder and the value the word vector at the corresponding position.
+
 
 Scaled dot-product attention
 ________________________________

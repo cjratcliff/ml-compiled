@@ -2,6 +2,18 @@
 Activation functions
 """"""""""""""""""""""""
 
+CReLU
+------
+
+Concatenated ReLU.
+
+.. math::
+
+  f(x) = \text{concat}(\text{ReLU}(x), \text{ReLU}(-x))
+
+Proposed in `Understanding and Improving Convolutional Neural Networks via Concatenated Rectified Linear Units, Shang et al. (2016) <https://arxiv.org/abs/1603.05201>`_
+
+
 ELU
 ----
 An activation function with the form:

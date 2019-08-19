@@ -178,7 +178,7 @@ Bias correction for the first and second moment estimates:
 
   \hat{v}_t \leftarrow v_t/(1 - \beta_2^t)
 
-The bias correction terms counteracts bias caused by initializing the moment estimates with zeros, making them biased towards zero at the start of training. 
+The bias correction terms counteracts bias caused by initializing the moment estimates with zeros which makes them biased towards zero at the start of training. 
   
 Update the parameters of the network:
 

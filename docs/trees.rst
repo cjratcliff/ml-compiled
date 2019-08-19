@@ -15,7 +15,9 @@ Disadvantages
 
 Training
 ---------------
+The simplest approach for training decision trees is:
 
+* At each node find the optimal variable to split on. This is the variable whose split yields the largest information gain (decrease in entropy).
 
 Regularization
 ----------------

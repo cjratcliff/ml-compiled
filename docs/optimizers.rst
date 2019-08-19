@@ -152,13 +152,41 @@ ____________
 
 Adam
 _________
-Adam is an adaptive learning rate algorithm similar to RMSProp, but updates are directly estimated using EMAs of the first and uncentered second moment of the gradient. Designed to combine the advantages of RMSProp and AdaGrad.
+Adam is an adaptive learning rate algorithm similar to RMSProp, but updates are directly estimated using EMAs of the first and uncentered second moment of the gradient. Designed to combine the advantages of RMSProp and AdaGrad. Does not require a stationary objective and works with sparse gradients. Is invariant to the scale of the gradients.
 
-First moment - mean. Second moment - variance. This means the entire expression can be interpreted as a signal-to-noise ratio, with the step-size increasing when the signal is higher, relative to the noise. This leads to the step-size naturally becoming smaller over time. Using the square root for the variance term means it can be seen as computing the EMA of :math:`g/|g|`. This reduces the learning rate when the gradient is a mixture of positive and negative values as they cancel out in the EMA to produce a number closer to 0.
+Has hyperparameters :math:`\alpha`, :math:`\beta_1`, :math:`\beta_2` and :math:`\epsilon`.
 
-The bias correction term counteracts bias caused by initializing the moment estimates with zeros.
+The biased first moment (mean) estimate at iteration :math:`t`:
 
-Does not require a stationary objective and works with sparse gradients. Is invariant to the scale of the gradients.
+.. math::
+
+  m_t \leftarrow \beta_1 m_{t-1} + (1 - \beta_1) g_t
+
+The biased second moment (variance) estimate at iteration :math:`t`:
+
+.. math:: 
+
+  v_t \leftarrow \beta_2 v_{t-1} + (1 - \beta_2) g_t^2
+  
+Bias correction for the first and second moment estimates:
+
+.. math::
+
+  \hat{m}_t \leftarrow m_t/(1 - \beta_1^t)
+
+.. math::
+
+  \hat{v}_t \leftarrow v_t/(1 - \beta_2^t)
+
+The bias correction terms counteracts bias caused by initializing the moment estimates with zeros, making them biased towards zero at the start of training. 
+  
+Update the parameters of the network:
+
+.. math::
+
+  \theta_t \leftarrow \theta_{t-1} - \alpha \hat{m}_t / (\sqrt{\hat{v}_t} + \epsilon))
+
+This can be interpreted as a signal-to-noise ratio, with the step-size increasing when the signal is higher, relative to the noise. This leads to the step-size naturally becoming smaller over time. Using the square root for the variance term means it can be seen as computing the EMA of :math:`g/|g|`. This reduces the learning rate when the gradient is a mixture of positive and negative values as they cancel out in the EMA to produce a number closer to 0.
 
 `Adam: A Method for Stochastic Optimization, Kingma et al. (2015) <https://arxiv.org/pdf/1412.6980.pdf>`_
 

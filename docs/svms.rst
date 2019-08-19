@@ -8,7 +8,15 @@ Binary classifier. Their objective is to find a hyperplane that optimally separa
 
 Hard margin
 ------------
-Can be used when the data is linearly separable.
+Can be used when the data is linearly separable. 
+
+The decision function is:
+
+.. math::
+
+  \hat{y}_i = \text{sgn}(wx_i - b)
+  
+All positive examples should have :math:`wx_i - b \geq 1` and all negative examples should have :math:`wx_i - b \leq -1`.
 
 Soft-margin
 ------------

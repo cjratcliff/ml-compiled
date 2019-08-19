@@ -6,6 +6,17 @@ Support Vector Machines.
 
 Binary classifier. Their objective is to find a hyperplane that optimally separates the two classes (maximises the margin).
 
+Hard margin
+------------
+Can be used when the data is linearly separable.
+
+Soft-margin
+------------
+Necessary when the data is not linearly separable.
+
+Uses the hinge loss.
+
+
 Kernels
 ----------
 The kernel is used to map the data into a high-dimensional space in which it is easier to separate it linearly. This is known as the **kernel trick**.

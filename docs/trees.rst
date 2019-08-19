@@ -15,3 +15,11 @@ Disadvantages
 
 Training
 ---------------
+
+
+Regularization
+----------------
+Some options for avoiding overfitting when using decision trees include:
+
+* Specifying a maximum depth for the tree
+* Setting a minimum number of samples to create a split.

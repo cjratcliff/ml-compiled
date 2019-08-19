@@ -25,3 +25,8 @@ Some options for avoiding overfitting when using decision trees include:
 
 * Specifying a maximum depth for the tree
 * Setting a minimum number of samples to create a split.
+
+Random forest
+---------------
+Each tree is built from a sample of the dataset, drawn with replacement. This randomises how splits in the tree are chosen (rather than simply choosing the best), decreasing variance at the expense of bias, but with a positive overall effect on accuracy.
+

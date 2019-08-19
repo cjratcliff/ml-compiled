@@ -26,7 +26,9 @@ The loss function for a linear soft-margin SVM is:
 
 .. math::
 
-  L(x;w,b) = \max \{0, m - y_i(wx_i - b) \}
+  L(x;w,b) = \sum_i \max \{0, m - y_i(wx_i - b) \} + C||w||^2
+  
+Where :math:`w` and :math:`b` are parameters to be learnt and :math:`C` is a hyperparameter.
 
 
 Kernels

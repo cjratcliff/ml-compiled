@@ -294,4 +294,6 @@ Gradients around saddle points are close to zero which makes learning slow. The 
 
 Vanishing gradient problem
 -----------------------------
+The gradients of activation functions like the sigmoid are all between 0 and 1. 
 
+See also `the dying ReLU problem <https://ml-compiled.readthedocs.io/en/latest/activations.html#the-dying-relu-problem>`_.

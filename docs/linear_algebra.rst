@@ -151,7 +151,7 @@ Method for PCA via eigendecomposition:
 2. Compute the covariance matrix on the centered data :math:`C = (X^TX)/(n-1)`.
 3. Do eigendecomposition of the covariance matrix to get :math:`C = Q \Lambda Q^*`.
 4. Take the k largest eigenvalues and their associated eigenvectors. These eigenvectors are the 'principal components'.
-5. 
+5. Construct the new matrix from the principal components by multiplying the centered :math:`X` by the truncated :math:`Q`.
 
 PCA can also be done via SVD.
 

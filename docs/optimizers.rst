@@ -294,6 +294,8 @@ Gradients around saddle points are close to zero which makes learning slow. The 
 
 Vanishing gradient problem
 -----------------------------
-The gradients of activation functions like the sigmoid are all between 0 and 1. 
+The gradients of activation functions like the sigmoid are all between 0 and 1. When gradients are computed via the chain rule they become smaller, increasingly so towards the beginning of the network. This means the affected layers train slowly.
+
+If the gradients are larger than 1 this can cause the *exploding gradient problem*.
 
 See also `the dying ReLU problem <https://ml-compiled.readthedocs.io/en/latest/activations.html#the-dying-relu-problem>`_.

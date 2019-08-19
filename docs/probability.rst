@@ -211,6 +211,8 @@ Maximum a posteriori estimation. A type of point estimate. Can be seen as a regu
 
     \hat{\theta}_{MAP}(O) = \arg \max_\theta p(\theta|O) = \arg \max_\theta \frac{p(\theta|O)q(\theta)}{\int_{\theta'} p(\theta'|O)q(\theta') d\theta'}=  \arg \max_\theta p(\theta|O)q(\theta)
 
+Where :math:`q(\theta)` is the prior for the parameters.
+
 In the equation above the denominator vanishes since it does not depend on :math:`\theta`.
 
 Maximum likelihood estimation (MLE)

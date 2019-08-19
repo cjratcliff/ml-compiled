@@ -119,13 +119,13 @@ Decomposes a real square matrix :math:`A` such that :math:`A = QR`. :math:`Q` is
 
 Singular value decomposition (SVD)
 _______________________________________
-Matrix factorization algorithm.
+Let :math:`A \in \mathbb{R}^{m \times n}` be the matrix to be decomposed. SVD is:
 
 .. math::
 
     A = U\Sigma V^*
 
-where :math:`U` is a unitary matrix, :math:`\Sigma` is a rectangular diagonal matrix containing the singular values and :math:`V` is a unitary matrix.
+where :math:`U \in \mathbb{R}^{m \times m}` is a unitary matrix, :math:`\Sigma \in \mathbb{R}^{m \times n}` is a rectangular diagonal matrix containing the singular values and :math:`V \in \mathbb{R}^{n \times n}` is a unitary matrix.
 
 Can be used for computing the sum of squares or the pseudoinverse.
     
@@ -143,7 +143,7 @@ The outer product of two column vectors :math:`x` and :math:`y` is:
 
 Principal Component Analysis (PCA)
 ---------------------------------------
-Approximates a dataset with a smaller set of linearly uncorrelated variables. These variables can be found through eigenvalue decomposition.
+Decomposes a matrix :math:`A \in \mathbb{R}^{m \times n}` into a set of :math:`k` orthogonal vectors
 
 .. TODO: Formula
 

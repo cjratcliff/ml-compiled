@@ -10,7 +10,7 @@ Hard margin
 ------------
 Can be used when the data is linearly separable. 
 
-The decision function is:
+The decision function for a linear hard-margin SVM is:
 
 .. math::
 
@@ -22,7 +22,11 @@ Soft-margin
 ------------
 Necessary when the data is not linearly separable.
 
-Uses the hinge loss.
+The loss function for a linear soft-margin SVM is:
+
+.. math::
+
+  L(x;w,b) = 
 
 
 Kernels

@@ -55,6 +55,10 @@ Replaces the labels with a weighted average of the true labels and the uniform d
 
 `When Does Label Smoothing Help?, Müller, R. et al. (2019) <https://arxiv.org/abs/1906.02629>`_
 
+Overfitting
+-------------
+When the network fails to generalize well, leading to worse performance on the test set but better performance on the training set. Caused by the model fitting on noise resulting from the dataset being only a finite representation of the true distribution.
+
 Weight decay
 ----------------
 

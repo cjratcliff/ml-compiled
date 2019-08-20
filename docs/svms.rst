@@ -30,6 +30,13 @@ The loss function for a linear soft-margin SVM is:
   
 Where :math:`w` and :math:`b` are parameters to be learnt and :math:`C` is a hyperparameter.
 
+Dual form
+-----------
+
+
+Primal form
+-------------
+
 
 Kernels
 ----------

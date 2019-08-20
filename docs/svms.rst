@@ -38,6 +38,11 @@ Primal form
 -------------
 
 
+Training
+----------
+Quadratic programming
+
+
 Kernels
 ----------
 The kernel is used to map the data into a high-dimensional space in which it is easier to separate it linearly. This is known as the **kernel trick**.

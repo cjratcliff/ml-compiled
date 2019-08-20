@@ -34,6 +34,11 @@ If the Hessian is `ill-conditioned <https://ml-compiled.readthedocs.io/en/latest
 
 Recall that the condition number of a matrix is the ratio of the highest and lowest singular values and that in an ill-conditioned matrix this ratio is high. Large singular values of the Hessian indicate a large change in the gradient in some direction but small ones indicate very little change. Having both of these means the loss function may have 'ravines' which cause many first-order gradient descent methods to zigzag, resulting in slow convergence.
 
+Relationship to generalization
+---------------------------------
+Large eigenvalues at the solution are related to poor generalization.
+
+
 Jacobian matrix
 ======================
 Let :math:`f:\mathbb{R}^n \rightarrow \mathbb{R}^m` be a function. Then the Jacobian of :math:`f` can be defined as the matrix of partial derivatives:

@@ -244,7 +244,7 @@ At each iteration attempts to perform the update which minimizes the loss functi
 
 Newton’s method
 _________________________
-An iterative method for finding the roots of an equation.
+An iterative method for finding the roots of an equation, :math:`f(x)`. An initial guess (:math:`x_0`) is chosen and iteratively refined by computing :math:`x_{n+1}`.
 
 .. math::
 

@@ -223,6 +223,10 @@ Finds the set of parameters that are most likely, given the data. Since priors o
 
     \hat{\theta}_{MLE}(O) = \arg \max_\theta p(O|\theta)
 
+Normalizing flow
+------------------
+A function that can be used to transform one random variable into another. The function must be invertible.
+
 Prior
 ------
 A probability distribution before any evidence is taken into account. For example the probability that it will rain where there are no observations such as cloud cover.

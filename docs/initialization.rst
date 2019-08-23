@@ -17,7 +17,7 @@ Can be used to help with vanishing and exploding gradients in RNNs.
 
 Orthonormal initialization
 ____________________________
-Initialise the matrix by first generating a matrix where every entry is drawn from a normal distribution with mean 0 and variance 1. Then perform a QR decomposition and use Q as the initialization matrix. Alternatively, do `SVD <https://ml-compiled.readthedocs.io/en/latest/linear_algebra.html#singular-value-decomposition-svd>`_ and pick U or V as the initialization matrix.
+Initialise the matrix by first generating a matrix where every entry is drawn from a normal distribution with mean 0 and variance 1. Then perform a `QR decomposition <https://ml-compiled.readthedocs.io/en/latest/linear_algebra.html#qr-decomposition>`_ and use Q as the initialization matrix. Alternatively, do `SVD <https://ml-compiled.readthedocs.io/en/latest/linear_algebra.html#singular-value-decomposition-svd>`_ and pick U or V as the initialization matrix.
 
 Described in `Exact solutions to the nonlinear dynamics of learning in deep linear neural networks, Saxe et al. (2013) <https://arxiv.org/abs/1312.6120>`_
 

@@ -2,6 +2,10 @@
 Initialization
 """""""""""""""""""
 
+He initialization
+--------------------
+`Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification <https://arxiv.org/abs/1502.01852>`_
+
 Orthogonal initialization
 ----------------------------
 Useful for training very deep networks.

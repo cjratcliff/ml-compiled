@@ -58,48 +58,9 @@ Problems
 
 `Auto-Encoding Variational Bayes (2014) <https://arxiv.org/abs/1312.6114>`_
 
-Energy-based Models
-----------------------
-Also known as Undirected Graphical Models.
-
-An energy function models the probability density. A model is learnt that minimises the energy for correct combinations of the variables and maximises it for incorrect ones. This function is minimised during inference.
-
-The loss function is minimised during training. The energy function is a component of it.
-
-`A Tutorial on Energy-based Learning, LeCun (2006) <http://yann.lecun.com/exdb/publis/pdf/lecun-06.pdf>`_
-
-Generative Adversarial Network (GAN)
-------------------------------------------------
-Unsupervised, generative image model. A GAN consists of two components; a generator, G which converts random noise into images and a discriminator, D which tries to distinguish between generated and real images. Here, 'real' means that the image came from the training set of images in contrast to the generated fakes.
-
-Problems
-================
-* The training process can be unstable when trained solely with the adversarial loss as G can create images to confuse D that are not close to the actual image distribution. D will then learn to discriminate amongst these samples, causing G to create new confusing samples. This problem can be addressed by adding an L2 loss which penalizes a lack of similarity with the input distribution.
-* Mode collapse. This is when the network stops generating certain classes (or more generally, modes). For example, it may only create 6’s on MNIST.
-* There is no way of telling how well it is doing except by manually inspecting the image outputs. This makes comparing different approaches difficult and early stopping impossible.
-
-Notable variants
-===================
-* `DCGAN, 2015 <https://arxiv.org/abs/1511.06434>`_ - Has a number of architectural improvements over the original GAN but is not fundamentally different.
-* `InfoGAN, 2016 <https://arxiv.org/abs/1606.03657>`_ - Is able to disentangle various aspects like pose vs lighting and digit shape vs writing style.
-* `Wasserstein GAN (WGAN), 2017 <https://arxiv.org/abs/1701.07875>`_ - Replaces the original loss function, improving stability. The WGAN-GP (2017) is a further improved version.
-* `Boundary Equilibrium GAN (BEGAN), 2017 <https://arxiv.org/abs/1703.10717>`_ - Gets similar quality results as the WGAN-GP.
-
-Further reading
-===================
-`Generative Adversarial Nets, Goodfellow et al. (2014) <https://arxiv.org/abs/1406.2661>`_
-
-`How to Train a GAN? Tips and tricks to make GANs work, Chintala (2016) <https://github.com/soumith/ganhacks>`_
-
-`Fantastic GANs and where to find them part one <http://guimperarnau.com/blog/2017/03/Fantastic-GANs-and-where-to-find-them>`_ and `two <http://guimperarnau.com/blog/2017/11/Fantastic-GANs-and-where-to-find-them-II>`_
-
-`The GAN Zoo <https://github.com/hindupuravinash/the-gan-zoo>`_
-
-`Are GANs Created Equal? A Large-Scale Study, Lucic et al. (2017) <https://arxiv.org/abs/1711.10337>`_
-
-Generative Autoregressive Networks
+Autoregressive Networks
 ------------------------------------
-Family of generative models. Unlike other generative models such as GANs or VAEs, these models generate their results sequentially. At each timestep they compute :math:`x_i = \arg\max P(x|x_{i-1},...,x_1)`. The process is broadly the same as generating a sample of text using an RNN but can be used to generate images.
+Unlike other generative models such as GANs or VAEs, these models generate their results sequentially. At each timestep they compute :math:`x_i = \arg\max P(x|x_{i-1},...,x_1)`. The process is broadly the same as generating a sample of text using an RNN but can be used to generate images.
 
 Autoregressive networks exploit the chain rule to express the joint probability as the product of conditional probabilities:
 
@@ -138,4 +99,43 @@ WaveNet
 Other papers
 =================
 `Neural Machine Translation in Linear Time, Kalchbrenner et al. (2017) <https://arxiv.org/abs/1610.10099>`_
+
+Energy-based Models
+----------------------
+Also known as Undirected Graphical Models.
+
+An energy function models the probability density. A model is learnt that minimises the energy for correct combinations of the variables and maximises it for incorrect ones. This function is minimised during inference.
+
+The loss function is minimised during training. The energy function is a component of it.
+
+`A Tutorial on Energy-based Learning, LeCun (2006) <http://yann.lecun.com/exdb/publis/pdf/lecun-06.pdf>`_
+
+Generative Adversarial Network (GAN)
+------------------------------------------------
+Unsupervised, generative image model. A GAN consists of two components; a generator, G which converts random noise into images and a discriminator, D which tries to distinguish between generated and real images. Here, 'real' means that the image came from the training set of images in contrast to the generated fakes.
+
+Problems
+================
+* The training process can be unstable when trained solely with the adversarial loss as G can create images to confuse D that are not close to the actual image distribution. D will then learn to discriminate amongst these samples, causing G to create new confusing samples. This problem can be addressed by adding an L2 loss which penalizes a lack of similarity with the input distribution.
+* Mode collapse. This is when the network stops generating certain classes (or more generally, modes). For example, it may only create 6’s on MNIST.
+* There is no way of telling how well it is doing except by manually inspecting the image outputs. This makes comparing different approaches difficult and early stopping impossible.
+
+Notable variants
+===================
+* `DCGAN, 2015 <https://arxiv.org/abs/1511.06434>`_ - Has a number of architectural improvements over the original GAN but is not fundamentally different.
+* `InfoGAN, 2016 <https://arxiv.org/abs/1606.03657>`_ - Is able to disentangle various aspects like pose vs lighting and digit shape vs writing style.
+* `Wasserstein GAN (WGAN), 2017 <https://arxiv.org/abs/1701.07875>`_ - Replaces the original loss function, improving stability. The WGAN-GP (2017) is a further improved version.
+* `Boundary Equilibrium GAN (BEGAN), 2017 <https://arxiv.org/abs/1703.10717>`_ - Gets similar quality results as the WGAN-GP.
+
+Further reading
+===================
+`Generative Adversarial Nets, Goodfellow et al. (2014) <https://arxiv.org/abs/1406.2661>`_
+
+`How to Train a GAN? Tips and tricks to make GANs work, Chintala (2016) <https://github.com/soumith/ganhacks>`_
+
+`Fantastic GANs and where to find them part one <http://guimperarnau.com/blog/2017/03/Fantastic-GANs-and-where-to-find-them>`_ and `two <http://guimperarnau.com/blog/2017/11/Fantastic-GANs-and-where-to-find-them-II>`_
+
+`The GAN Zoo <https://github.com/hindupuravinash/the-gan-zoo>`_
+
+`Are GANs Created Equal? A Large-Scale Study, Lucic et al. (2017) <https://arxiv.org/abs/1711.10337>`_
 

@@ -225,7 +225,7 @@ Finds the set of parameters that are most likely, given the data. Since priors o
 
 Normalizing flow
 ------------------
-A function that can be used to transform one random variable into another. The function must be invertible.
+A function that can be used to transform one random variable into another. The function must be invertible and have a tractable Jacobian.
 
 Extensively used for density estimation.
 

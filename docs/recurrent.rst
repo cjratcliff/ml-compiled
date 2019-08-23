@@ -17,7 +17,7 @@ The basic bidirectional RNN can be defined as follows:
   
   o_t = V h_t
   
-Where :math:`h^f_t` and :math:`h^b_t` are the hidden states in the forwards and backwards directions respectively. :math:`T` is the length of the sequence. Biases have been omitted for simplicity.
+Where :math:`h^f_t` and :math:`h^b_t` are the hidden states in the forwards and backwards directions respectively. :math:`T` is the length of the sequence. Biases have been omitted for simplicity. :math:`x_t` and :math:`o_t` are the input and output states at time t, respectively.
 
 `Bidirectional Recurrent Neural Networks, Schuster and Paliwal (1997) <https://ai.intel.com/wp-content/uploads/sites/53/2017/06/BRNN.pdf>`_
 

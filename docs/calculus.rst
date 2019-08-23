@@ -126,6 +126,8 @@ Matrix differentiation
 
 .. math:: \frac{d X^T Y}{dX} = Y
 
+.. math:: \frac{d YX}{dX} = Y^T
+
 Total derivative
 ======================
 The derivative of a function of many arguments with respect to one of those arguments, taking into account any indirect effects via the other arguments.

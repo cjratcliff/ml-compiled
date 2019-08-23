@@ -71,6 +71,8 @@ Parametric ReLU.
 .. math::
 
   f(x)=max\{ax,x\}
+  
+`Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification , He et al. (2015) <https://arxiv.org/abs/1502.01852>`_
 
 ReLU
 -----

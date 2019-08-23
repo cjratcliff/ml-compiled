@@ -50,7 +50,7 @@ Let positives be encoded as :math:`y = 1` and negatives as :math:`y = -1`. Then 
 
 .. math::
 
-  L(y,\hat{y}) = \max\{0, m - y \hat{y}}
+  L(y,\hat{y}) = \max\{0, m - y \hat{y}\}
 
 The margin :math:`m` is a hyperparameter that is commonly set to 1.
 

@@ -182,3 +182,5 @@ The most basic type of RNN has the functional form:
   h_t = \tanh(W_h x_t + U_h h_{t-1})
   
   o_t = V h_t
+  
+Where :math:`x_t`, :math:`o_t` and :math:`h_t` are the input, output and hidden states at time t, respectively.

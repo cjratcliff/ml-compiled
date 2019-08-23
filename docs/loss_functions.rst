@@ -46,10 +46,13 @@ For discrete distributions (ie classification problems rather than regression) t
 """"""""""""""""
 Hinge loss
 """"""""""""""""
+Let positives be encoded as :math:`y = 1` and negatives as :math:`y = -1`. Then the hinge loss is defined as:
 
 .. math::
 
-  L(y,\hat{y}) = \max\{0, m - (y - \hat{y})\}
+  L(y,\hat{y}) = \max\{0, m - y \hat{y}}
+
+The margin :math:`m` is a hyperparameter that is commonly set to 1.
 
 """"""""""""""""
 Huber loss

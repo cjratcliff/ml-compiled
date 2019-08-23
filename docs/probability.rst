@@ -227,6 +227,8 @@ Normalizing flow
 ------------------
 A function that can be used to transform one random variable into another. The function must be invertible.
 
+Extensively used for density estimation.
+
 Prior
 ------
 A probability distribution before any evidence is taken into account. For example the probability that it will rain where there are no observations such as cloud cover.

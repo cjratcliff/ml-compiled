@@ -22,7 +22,7 @@ Computes the value of a state given a policy. Represents the intuition that if t
 
     Q^*(s,a) = \mathbb{E}_{s'}[r + \gamma \max_{a'} Q^*(s',a')|s,a]
 
-Where :math:`r` is the reward, :math:`\gamma` is the discount rate, :math:`s` and :math:`s'` are states and :math:`a` and :math:`a'` are actions.
+Where :math:`r` is the immediate reward, :math:`\gamma` is the discount rate, :math:`s` and :math:`s'` are states and :math:`a` and :math:`a'` are actions. :math:`Q(s,a)` is the value function for executing action :math:`a` in state :math:`s`.
 
 Breadth
 ---------

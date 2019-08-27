@@ -6,8 +6,8 @@ ML Compiled is an encyclopedia for machine learning and related subjects with an
 
 In addition it offers the reader:
 
-* Links to important papers and useful blog posts for further reading.
 * Consistent notation throughout.
 * Relevance. Only information that is relevant to machine learning is included.
+* Links to important papers and useful blog posts for further reading.
 
 ML Compiled is a work in progress and is being continually updated.

@@ -80,7 +80,11 @@ Where :math:`a` is a learned parameter, unlike in the Leaky ReLU where it is fix
 
 ReLU
 -----
-Rectified Linear Unit. The non-saturating activation function :math:`f(x)=\max\{0,x\}` where x is the input to the neuron.
+Rectified Linear Unit. Unlike the sigmoid or tanh activations the ReLU does not saturate.
+
+.. math::
+
+  f(x)=\max\{0,x\}
 
 The fact that the gradient is 1 when the input is positive means it does not suffer from vanishing and exploding gradients. However, it suffers from its own 'dying ReLU problem' instead.
 

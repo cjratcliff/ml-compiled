@@ -182,6 +182,21 @@ The noise parameters can be specified in two ways:
 
 `Noisy Networks for Exploration, Fortunato et al. (2017) <https://arxiv.org/abs/1706.10295>`_
 
+Rainbow
+'''''''''''
+Approach that combines a number of existing improvemenets on the DQN algorithm to reach state of the art performance on the Atari 2600 benchmark.
+
+It combines:
+
+* Double DQN
+* `Prioritized Experience Replay <https://ml-compiled.readthedocs.io/en/latest/td.html#prioritized-experience-replay>`_
+* Dueling Networks
+* `Multi-step bootstrap targets <https://ml-compiled.readthedocs.io/en/latest/td.html#multi-step-bootstrap-targets>`_
+* `Distributional DQN <https://ml-compiled.readthedocs.io/en/latest/td.html#distributional-q-learning>`_
+* `Noisy DQN <https://ml-compiled.readthedocs.io/en/latest/td.html#noisy-parameters>`_
+
+`Rainbow: Combining Improvements in Deep Reinforcement Learning, Hessel et al. (2017) <https://arxiv.org/abs/1710.02298>`_
+
 SARSA
 -------
 An algorithm for learning a policy. Stands for state-action-reward-state-action.

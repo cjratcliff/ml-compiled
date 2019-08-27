@@ -16,7 +16,7 @@ Proposed in `Understanding and Improving Convolutional Neural Networks via Conca
 
 ELU
 ----
-An activation function with the form:
+Exponential Linear Unit.
 
 .. math:: 
 

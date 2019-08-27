@@ -4,13 +4,15 @@ Initialization
 
 He initialization
 --------------------
-The parameters are drawn from the following normal distribution:
+The weights are drawn from the following normal distribution:
 
 .. math::
 
   \theta^{(i)} \sim N(0, \sqrt{2/n_i})
   
 where :math:`\theta^{(i)}` are the parameters for layer :math:`i` of the network and :math:`n_i` is the size of layer :math:`i` of the network.
+
+Biases are initialized to zero as normal.
 
 `Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification , He et al. (2015) <https://arxiv.org/abs/1502.01852>`_
 

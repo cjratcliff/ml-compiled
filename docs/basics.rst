@@ -20,7 +20,7 @@ Computes the value of a state given a policy. Represents the intuition that if t
 
 .. math::
 
-    V(s,a) = \mathbb{E}_{s'}[r(s,a) + \gamma \max_{a'} V(s',a')|s,a]
+    V(s,a) = \mathbb{E}_{s'}[r(s,a) + \gamma \max_{a'} V(s',a')]
 
 Where :math:`r` is the immediate reward, :math:`\gamma` is the discount rate, :math:`s` and :math:`s'` are states and :math:`a` and :math:`a'` are actions. :math:`V(s,a)` is the value function for executing action :math:`a` in state :math:`s`.
 

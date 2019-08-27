@@ -27,9 +27,9 @@ Apart from being off-policy, Q-learning is different as it estimates the value a
 
 Asynchronous Advantage Actor-Critic (A3C)
 _____________________________________________
-An on-policy asynchronous RL algorithm. Can train both feedforward and recurrent agents. Recurrent agents do not require pooling as they act in the generative fashion.
+An on-policy asynchronous RL algorithm. Can train both feedforward and recurrent agents.
 
-Maintains a policy (the actor) :math:`\pi(a_t|s_t;\theta)` and a the value function (the critic) :math:`V(s_t;\theta_v)` The policy and value functions are updated after :math:`t_{max}` steps or when a terminal state is reached. The policy and value functions share all parameters apart from those in the final output layers. The policy network has a softmax over all actions (in the discrete case) and the value network has a single linear output.
+Maintains a policy (the actor) :math:`\pi(a_t|s_t;\theta)` and a value function (the critic) :math:`V(s_t;\theta_v)` The policy and value functions are updated after :math:`t_{max}` steps or when a terminal state is reached. The policy and value functions share all parameters apart from those in the final output layers. The policy network has a softmax over all actions (in the discrete case) and the value network has a single linear output.
 
 The advantage function for doing action :math:`a_t` in state :math:`s_t` is the sum of discounted rewards plus the difference in the value functions between the states:
 
@@ -55,8 +55,6 @@ and :math:`H(\pi(s_t;\theta)` is the entropy of the policy. This term is used to
 :math:`R_t-V(s_t;\theta_v)` is the temporal difference term. 
 
 It’s multiplied by the probability assigned by the policy for the action at time :math:`t`. This means policies which are more certain will be penalized more heavily for incorrectly estimating the value function. The final term is the entropy of the policy's distribution over actions.
-
-It is optimized by RMSProp with the moving average of gradients shared between threads.
 
 `Asynchronous Methods for Deep Reinforcement Learning, Mnih et al. (2016) <https://arxiv.org/abs/1602.01783>`_
 

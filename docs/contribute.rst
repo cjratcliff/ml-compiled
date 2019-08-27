@@ -11,6 +11,7 @@ List of sections that need expanding in rough priority order (high at the top):
 * REINFORCE algorithm
 * Rademacher complexity
 * VC dimension
+* Evidence lower-bound
 * Normalizing flows
 * Change of variables
 * ZCA

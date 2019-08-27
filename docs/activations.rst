@@ -50,7 +50,9 @@ Leaky ReLU.
 
 .. math::
 
-  f(x) = max\{0.01x,x\}
+  f(x) = \max\{ax,x\}
+
+:math:`a` is a fixed hyperparameter, unlike the PReLU. A common setting is 0.01.
 
 Maxout
 --------
@@ -70,7 +72,9 @@ Parametric ReLU.
 
 .. math::
 
-  f(x)=max\{ax,x\}
+  f(x)=\max\{ax,x\}
+  
+Where :math:`a` is a learned parameter, unlike in the Leaky ReLU where it is fixed.
   
 `Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification , He et al. (2015) <https://arxiv.org/abs/1502.01852>`_
 

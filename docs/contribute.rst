@@ -8,8 +8,11 @@ List of sections that need expanding in rough priority order (high at the top):
 
 * CReLU
 * Upsampling layer
+* REINFORCE algorithm
 * Rademacher complexity
 * VC dimension
+* Normalizing flows
+* Change of variables
 * ZCA
 * Codomain
 * Continuous

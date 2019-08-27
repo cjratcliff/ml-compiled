@@ -21,9 +21,12 @@ List of sections that need expanding in rough priority order (high at the top):
 * Image
 * Monotonic
 * Surjective
+* SVMs - dual form, primal form and training
 
-SVMs
+List of sections to be added:
 
-* Dual form
-* Primal form
-* Training
+* Polyak averaging
+* Self-attention
+* Cosine learning rate decay
+* Lipschitz smoothness
+* Lipschitz constant

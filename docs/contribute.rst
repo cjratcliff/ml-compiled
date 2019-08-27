@@ -8,6 +8,7 @@ List of sections that need expanding in rough priority order (high at the top):
 
 * CReLU
 * Upsampling layer
+* He initialization
 * REINFORCE algorithm
 * Rademacher complexity
 * VC dimension

@@ -85,11 +85,15 @@ Leaky ReLU.
 
 Maxout
 --------
-An activation function used with dropout. Can be a piecewise linear approximation for arbitrary convex activation functions. This means it can approximate ReLU, LReLU, ELU and linear activations but not tanh or sigmoid.
+An activation function designed to be used with dropout.
 
 .. math::
 
   f(x) = \max_{j \in [1,k]} x^T W_j + b_j
+
+where :math:`k` is a hyperparameter.
+
+Maxout can be a piecewise linear approximation for arbitrary convex activation functions. This means it can approximate ReLU, LReLU, ELU and linear activations but not tanh or sigmoid.
 
 Was used to get state of the art performance on MNIST, SVHN, CIFAR-10 and CIFAR-100.
 

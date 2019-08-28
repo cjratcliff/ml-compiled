@@ -10,6 +10,8 @@ Concatenated ReLU.
 .. math::
 
   f(x) = \text{concat}(\text{ReLU}(x), \text{ReLU}(-x))
+  
+Using the CReLU doubles the size of the input to the next layer, increasing the number of parameters.
 
 | **Proposed in**
 | `Understanding and Improving Convolutional Neural Networks via Concatenated Rectified Linear Units, Shang et al. (2016) <https://arxiv.org/abs/1603.05201>`_
@@ -61,6 +63,8 @@ It can be approximated as:
 .. math::
 
   f(x) = x \sigma (1.702 x)
+
+This can be seen as a smoothed version of the ReLU. 
 
 | **Proposed in**
 | `Gaussian Error Linear Units (GELUs), Hendrycks and Gimpel (2016) <https://arxiv.org/pdf/1606.08415.pdf>`_

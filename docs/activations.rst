@@ -131,7 +131,7 @@ Scaled Exponential Linear Unit.
 
 Where :math:`\lambda` and :math:`\alpha` are hyperparameters.
 
-The SELU is designed to be used in networks composed of many fully-connected layers, as opposed to CNNs or RNNs.
+The SELU is designed to be used in networks composed of many fully-connected layers, as opposed to CNNs or RNNs, the principal difference being that CNNs and RNNs stabilize their learning via weight sharing.
 
 | **Proposed in**
 | `Self-Normalizing Neural Networks, Klambauer et al. (2017) <https://arxiv.org/pdf/1706.02515.pdf>`_

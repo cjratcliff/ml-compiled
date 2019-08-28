@@ -39,8 +39,8 @@ Cons of large batch sizes:
 
 | **Further reading** 
 | `On Large-Batch Training for Deep Learning: Generalization Gap and Sharp Minima, Keskar et al. (2016) <https://arxiv.org/abs/1609.04836>`_
-| `Coupling Adaptive Batch Sizes with Learning Rates (2016) <https://arxiv.org/abs/1612.05086>`_
-| `Big Batch SGD: Automated Inference using Adaptive Batch Sizes (2016) <https://arxiv.org/abs/1610.05792>`_
+| `Coupling Adaptive Batch Sizes with Learning Rates, Balles et al. (2016) <https://arxiv.org/abs/1612.05086>`_
+| `Big Batch SGD: Automated Inference using Adaptive Batch Sizes, De et al. (2016) <https://arxiv.org/abs/1610.05792>`_
 
 
 Curriculum learning
@@ -187,7 +187,8 @@ Update the parameters of the network:
 
 This can be interpreted as a signal-to-noise ratio, with the step-size increasing when the signal is higher, relative to the noise. This leads to the step-size naturally becoming smaller over time. Using the square root for the variance term means it can be seen as computing the EMA of :math:`g/|g|`. This reduces the learning rate when the gradient is a mixture of positive and negative values as they cancel out in the EMA to produce a number closer to 0.
 
-`Adam: A Method for Stochastic Optimization, Kingma et al. (2015) <https://arxiv.org/pdf/1412.6980.pdf>`_
+| **Proposed in** 
+| `Adam: A Method for Stochastic Optimization, Kingma et al. (2015) <https://arxiv.org/pdf/1412.6980.pdf>`_
 
 
 Averaged SGD (ASGD)
@@ -216,7 +217,8 @@ Krylov subspace descent
 __________________________________________________
 Second-order optimization method. Inferior to SGD.
 
-`Krylov Subspace Descent for Deep Learning, Vinyals and Povey (2011) <https://arxiv.org/abs/1111.4259>`_
+| **Proposed in** 
+| `Krylov Subspace Descent for Deep Learning, Vinyals and Povey (2011) <https://arxiv.org/abs/1111.4259>`_
 
 
 Momentum
@@ -289,7 +291,8 @@ A point on a function which is not a local or global optimum but where the deriv
 
 Gradients around saddle points are close to zero which makes learning slow. The problem can be partially solved by using a noisy estimate of the gradient, which SGD does implicitly.
 
-`Identifying and attacking the saddle point problem in high-dimensional non-convex optimization, Dauphin et al. (2014) <https://arxiv.org/abs/1406.2572>`_
+| **Further reading** 
+| `Identifying and attacking the saddle point problem in high-dimensional non-convex optimization, Dauphin et al. (2014) <https://arxiv.org/abs/1406.2572>`_
 
 Vanishing gradient problem
 -----------------------------

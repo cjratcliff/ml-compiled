@@ -22,6 +22,7 @@ The model is trained with the `cross-entropy loss <https://ml-compiled.readthedo
 | **Proposed in** 
 | `Bag of Tricks for Efficient Text Classification <https://arxiv.org/abs/1607.01759>`_
 
+
 `Enriching Word Vectors with Subword Information <https://arxiv.org/abs/1607.04606>`_
 
 Labelled datasets

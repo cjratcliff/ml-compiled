@@ -20,7 +20,6 @@ However, a soft attention mechanism must look over every item in the input seque
 
 Additive attention
 '''''''''''''''''''''
-Proposed in `Neural Machine Translation by Jointly Learning to Align and Translate, Bahdanau et al. (2015) <https://arxiv.org/abs/1409.0473>`_.
 
 Let :math:`x = \{x_1,...,x_T\}` be the input sequence and :math:`y = \{y_1,...,y_U\}` be the output sequence.
 
@@ -52,6 +51,9 @@ To predict the output sequence we take the decoder hidden state and the context 
 
   y_t = g(s_t,c_t)
   
+| **Proposed in** 
+| `Neural Machine Translation by Jointly Learning to Align and Translate, Bahdanau et al. (2015) <https://arxiv.org/abs/1409.0473>`_
+  
 Dot-product attention
 '''''''''''''''''''''''
 Returns a weighted average over the values, :math:`V`.
@@ -77,7 +79,8 @@ Adds a scaling factor :math:`\sqrt{d_k}`, equal to the dimension of :math:`K`:
 
 This addition to the formula is intended to ensure the gradients do not become small when :math:`d_k` grows large.
 
-Proposed in `Attention is All You Need (2017) <https://arxiv.org/pdf/1706.03762.pdf>`_
+| **Proposed in** 
+| `Attention is All You Need (2017) <https://arxiv.org/pdf/1706.03762.pdf>`_
 
 Hard attention
 ''''''''''''''''''''
@@ -85,7 +88,9 @@ Form of attention that attends only to one input, unlike soft attention. Trained
 
 Self-attention
 ''''''''''''''''''
-`Attention is All You Need (2017) <https://arxiv.org/pdf/1706.03762.pdf>`_
+
+| **Proposed in** 
+| `Attention is All You Need (2017) <https://arxiv.org/pdf/1706.03762.pdf>`_
 
 Soft attention
 ''''''''''''''''''
@@ -107,7 +112,8 @@ Where :math:`\gamma` and :math:`\beta` are learned and :math:`\epsilon` is a hyp
 
 Batch Normalization is often found to improve generalization performance (`Zhang et al. (2016) <https://arxiv.org/pdf/1611.03530.pdf>`_).
 
-`Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift (2015) <https://arxiv.org/abs/1502.03167>`_
+| **Proposed in** 
+| `Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift (2015) <https://arxiv.org/abs/1502.03167>`_
 
 Conditional batch normalization
 '''''''''''''''''''''''''''''''''''
@@ -202,7 +208,8 @@ Layer normalization
 ----------------------
 Can be easily applied to RNNs, unlike batch normalization.
 
-Proposed in `Layer Normalization, Ba et al. (2016) <https://arxiv.org/abs/1607.06450>`_. 
+| **Proposed in** 
+| `Layer Normalization, Ba et al. (2016) <https://arxiv.org/abs/1607.06450>`_. 
 
 Pooling layer
 ---------------

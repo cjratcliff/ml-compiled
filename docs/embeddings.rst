@@ -73,7 +73,8 @@ where :math:`V` is the size of the vocabulary and :math:`X_{ij}` is the number o
 
 https://nlp.stanford.edu/projects/glove/
 
-`GloVe: Global Vectors for Word Representation, Pennington et al. (2014) <https://www.aclweb.org/anthology/D14-1162>`_
+| **Proposed in**
+| `GloVe: Global Vectors for Word Representation, Pennington et al. (2014) <https://www.aclweb.org/anthology/D14-1162>`_
 
 Skip-gram
 -----------
@@ -89,7 +90,8 @@ The efficiency and quality of the skip-gram model is improved by two additions:
 
 With some minor changes, skip-grams can also be used to calculate embeddings for phrases such as ‘North Sea’. However, this can increase the size of the vocabulary dramatically.
 
-`Efficient Estimation of Word Representations in Vector Space, Mikolov et al. (2013) <https://arxiv.org/abs/1301.3781>`_
+| **Proposed in**
+| `Efficient Estimation of Word Representations in Vector Space, Mikolov et al. (2013) <https://arxiv.org/abs/1301.3781>`_
 
 Word2vec
 ---------
@@ -97,6 +99,7 @@ The name of the implementation of the CBOW and skip-gram architectures in Mikolo
 
 https://code.google.com/archive/p/word2vec/
 
-`Efficient Estimation of Word Representations in Vector Space, Mikolov et al. (2013) <https://arxiv.org/abs/1301.3781>`_
+| **Proposed in**
+| `Efficient Estimation of Word Representations in Vector Space, Mikolov et al. (2013) <https://arxiv.org/abs/1301.3781>`_
 
 

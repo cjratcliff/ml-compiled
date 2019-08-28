@@ -127,6 +127,13 @@ The Leaky ReLU and the Parametric ReLU (PReLU) attempt to solve this problem by 
 | **Proposed in**
 | `Rectified Linear Units Improve Restricted Boltzmann Machines, Nair and Hinton (2010) <http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.165.6419&rep=rep1&type=pdf>`_
 
+SELU
+-------
+Scaled Exponential Linear Unit.
+
+| **Proposed in**
+| Self-Normalizing Neural Networks, Klambauer et al. (2017) <https://arxiv.org/pdf/1706.02515.pdf>`_
+
 Sigmoid
 ---------
 Activation function that maps outputs to be between 0 and 1.

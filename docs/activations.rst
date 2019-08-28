@@ -29,16 +29,6 @@ Exponential Linear Unit.
       \alpha (exp(x) - 1), & x \leq 0
     \end{cases}
 
-The first derivative is:
-
-.. math:: 
-
-    f(x) = 
-    \begin{cases}
-      1, &  x > 0 \\
-      f(x) + \alpha, & x \leq 0
-    \end{cases}
-
 In practice the hyperparameter :math:`\alpha` is always set to 1.
 
 Compared to ReLUs, ELUs have a mean activation closer to zero which is helpful. However, this advantage is probably nullified by batch normalization.
@@ -130,6 +120,18 @@ The Leaky ReLU and the Parametric ReLU (PReLU) attempt to solve this problem by 
 SELU
 -------
 Scaled Exponential Linear Unit.
+
+.. math:: 
+
+    f(x) = \lambda
+    \begin{cases}
+      x, & x > 0 \\
+      \alpha (exp(x) - 1), & x \leq 0
+    \end{cases}
+
+Where :math:`\lambda` and :math:`\alpha` are hyperparameters.
+
+The SELU is designed to be used in networks composed of many fully-connected layers, as opposed to CNNs or RNNs.
 
 | **Proposed in**
 | `Self-Normalizing Neural Networks, Klambauer et al. (2017) <https://arxiv.org/pdf/1706.02515.pdf>`_

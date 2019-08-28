@@ -19,7 +19,8 @@ The basic bidirectional RNN can be defined as follows:
   
 Where :math:`h^f_t` and :math:`h^b_t` are the hidden states in the forwards and backwards directions respectively. :math:`T` is the length of the sequence. Biases have been omitted for simplicity. :math:`x_t` and :math:`o_t` are the input and output states at time t, respectively.
 
-`Bidirectional Recurrent Neural Networks, Schuster and Paliwal (1997) <https://ai.intel.com/wp-content/uploads/sites/53/2017/06/BRNN.pdf>`_
+| **Proposed in**
+| `Bidirectional Recurrent Neural Networks, Schuster and Paliwal (1997) <https://ai.intel.com/wp-content/uploads/sites/53/2017/06/BRNN.pdf>`_
 
 Differentiable Neural Computer (DNC)
 -------------------------------------------
@@ -59,9 +60,8 @@ Where * represents element-wise multiplication. Biases have been omitted for sim
 :math:`z` is used for constructing the new hidden vector and dictates which information is updated from the new output and which is remembered from the old hidden vector.
 :math:`r` is used for constructing the output and decides which parts of the hidden vector will be used and which won’t be. The input for the current time-step is always used.
 
-"""""""
 Papers
-"""""""
+_________
 `Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation, Cho et al. (2014) <https://www.aclweb.org/anthology/D14-1179>`_
 
 `Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling, Chung et al. (2014) <https://arxiv.org/abs/1412.3555>`_
@@ -101,28 +101,25 @@ Using an LSTM does not protect from exploding gradients.
 
 Hochreiter and Schmidhuber (1997)
 
-""""""""""""""""""""""""""""
 Forget bias initialization
-""""""""""""""""""""""""""""
+____________________________________
 Helpful to initialize the bias of the forget gate to 1 in order to reduce the scale of forgetting at the start of training. This is done by default in TensorFlow.
 
-""""""""""""""""""""""""""""
+
 Weight tying
-""""""""""""""""""""""""""""
+_________________
 Tie the input and output embeddings. May only be applicable to generative models. Discriminative ones do not have an output embedding.
 
 `Using the Output Embedding to Improve LMs, Press and Wolf (2016) <https://arxiv.org/abs/1608.05859>`_
 
-""""""""""""""""""""""""""""
 Cell clipping
-""""""""""""""""""""""""""""
+__________________
 Clip the activations of the memory cells to a range such as [-3,3] or [-50,50]. Helps with convergence problems by preventing exploding gradients and saturation in the sigmoid/tanh nonlinearities.
 Deep Recurrent Neural Networks for Acoustic Modelling, Chan and Lane (2015)
 LSTM RNN Architectures for Large Scale Acoustic Modeling, Sak et al. (2014)
 
-""""""""""""""""""""""""""""
 Peep-hole connections
-""""""""""""""""""""""""""""
+___________________________
 Allows precise timing to be learned, such as the frequency of a signal and other periodic patterns.
 Learning Precise Timing with LSTM Recurrent Networks, Ger et al. (2002)
 LSTM RNN Architectures for Large Scale Acoustic Modeling, Sak et al. (2014)
@@ -142,24 +139,20 @@ Similarity between vectors is measured by the cosine similarity.
 
 Location-based addressing is designed for both iteration across locations and random-access jumps.
 
-""""""""""""""""""""""""""""
 Content addressing
-""""""""""""""""""""""""""""
+___________________________
 Compares a key vector to each location in memory, :math:`M_t(i)` to produce a normalised weighting, :math:`w_t^c(i)`. :math:`t>0` is the key strength, used to amplify or attenuate the focus.
 
-""""""""""""""""""""""""""""
 Interpolation
-""""""""""""""""""""""""""""
+__________________
 Blends the weighting produced at the previous time step and the content weighting. An ‘interpolation gate’ is emitted by each head. If :math:`g_t=1` the addressing is entirely content-based. If :math:`g_t=0`, the addressing is entirely location-based.
 
-""""""""""""""""""""""""""""
 Convolutional shift
-""""""""""""""""""""""""""""
+___________________________
 Provides a rotation to the weight vector :math:`w_t^g`. All index arithmetic is computed modulo N. The shift weighting :math:`s_t` is a vector emitted by each head and defines a distribution over the allowed integer shifts.
 
-""""""""""""""""""""""""""""
 Sharpening
-""""""""""""""""""""""""""""
+__________________
 Combats possible dispersion of weightings over time.
 
 .. math::

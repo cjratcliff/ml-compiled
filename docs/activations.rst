@@ -50,6 +50,18 @@ GELU
 ------
 Gaussian Error Linear Unit.
 
+.. math::
+
+  f(x) = x \Phi(x)
+  
+where \Phi(x) is the CDF of the normal distribution.
+
+It can be approximated as:
+
+.. math::
+
+  f(x) = x \sigma (1.702 x)
+
 | **Proposed in**
 | `Gaussian Error Linear Units (GELUs), Hendrycks and Gimpel (2016) <https://arxiv.org/pdf/1606.08415.pdf>`_
 

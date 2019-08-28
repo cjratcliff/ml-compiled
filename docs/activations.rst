@@ -48,7 +48,7 @@ The more gradual decrease of the gradient should also make them less susceptible
 
 GELU
 ------
-Gaussian Error Linear Unit.
+Gaussian Error Linear Unit. The name comes from the use of the Gaussian error function in the definition:
 
 .. math::
 

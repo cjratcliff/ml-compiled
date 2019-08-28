@@ -37,8 +37,9 @@ Dropout’s effectiveness could be due to:
 
 Can be interpreted as injecting noise inside the network.
 
-| **Proposed in**
+| **Proposed in** 
 | `Dropout: A Simple Way to Prevent Neural Networks from Overfitting, Srivastava et al. (2014) <http://jmlr.org/papers/volume15/srivastava14a.old/srivastava14a.pdf>`_
+
 
 Variational dropout
 _____________________

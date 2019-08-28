@@ -37,11 +37,10 @@ Cons of large batch sizes:
 * Smaller number of updates for processing the same amount of data, slowing training.
 * Hypothesized by Keskar et al. (2016) to have worse generalization performance since they result in sharper local minima being reached.
 
-`On Large-Batch Training for Deep Learning: Generalization Gap and Sharp Minima, Keskar et al. (2016) <https://arxiv.org/abs/1609.04836>`_
-
-`Coupling Adaptive Batch Sizes with Learning Rates (2016) <https://arxiv.org/abs/1612.05086>`_
-
-`Big Batch SGD: Automated Inference using Adaptive Batch Sizes (2016) <https://arxiv.org/abs/1610.05792>`_
+| **Further reading** 
+| `On Large-Batch Training for Deep Learning: Generalization Gap and Sharp Minima, Keskar et al. (2016) <https://arxiv.org/abs/1609.04836>`_
+| `Coupling Adaptive Batch Sizes with Learning Rates (2016) <https://arxiv.org/abs/1612.05086>`_
+| `Big Batch SGD: Automated Inference using Adaptive Batch Sizes (2016) <https://arxiv.org/abs/1610.05792>`_
 
 
 Curriculum learning

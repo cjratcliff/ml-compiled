@@ -26,7 +26,7 @@ Exponential Linear Unit.
     f(x) = 
     \begin{cases}
       x, & x > 0 \\
-      \alpha (exp(x) - 1), & x \leq 0
+      \alpha (\exp(x) - 1), & x \leq 0
     \end{cases}
 
 In practice the hyperparameter :math:`\alpha` is always set to 1.
@@ -112,7 +112,7 @@ The Dying ReLU Problem
 __________________________
 When the input to a neuron is negative, the gradient will be zero. This means that gradient descent will not update the weights so long as the input remains negative. A smaller learning rate helps solve this problem.
 
-The Leaky ReLU and the Parametric ReLU (PReLU) attempt to solve this problem by using :math:`f(x)=max\{ax,x\}` where a is a small constant like 0.1. However, this small gradient when the input in negative means vanishing gradients are once again a problem.
+The Leaky ReLU and the Parametric ReLU (PReLU) attempt to solve this problem by using :math:`f(x)=\max\{ax,x\}` where a is a small constant like 0.1. However, this small gradient when the input in negative means vanishing gradients are once again a problem.
 
 | **Proposed in**
 | `Rectified Linear Units Improve Restricted Boltzmann Machines, Nair and Hinton (2010) <http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.165.6419&rep=rep1&type=pdf>`_
@@ -126,7 +126,7 @@ Scaled Exponential Linear Unit.
     f(x) = \lambda
     \begin{cases}
       x, & x > 0 \\
-      \alpha (exp(x) - 1), & x \leq 0
+      \alpha (\exp(x) - 1), & x \leq 0
     \end{cases}
 
 Where :math:`\lambda` and :math:`\alpha` are hyperparameters, set to :math:`\lambda =  1.0507` and :math:`\alpha = 1.6733`.

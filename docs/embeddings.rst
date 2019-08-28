@@ -43,7 +43,8 @@ Used to create word embeddings. Predicts a word given its context. The context i
 
 Several times faster to train than the skip-gram model and has slightly better accuracy for words which occur frequently.
 
-`Efficient Estimation of Word Representations in Vector Space, Mikolov et al. (2013) <https://arxiv.org/abs/1301.3781>`_
+| **Proposed in**
+| `Efficient Estimation of Word Representations in Vector Space, Mikolov et al. (2013) <https://arxiv.org/abs/1301.3781>`_
 
 GloVe
 ------
@@ -99,7 +100,6 @@ The name of the implementation of the CBOW and skip-gram architectures in Mikolo
 
 https://code.google.com/archive/p/word2vec/
 
-| **Proposed in**
-| `Efficient Estimation of Word Representations in Vector Space, Mikolov et al. (2013) <https://arxiv.org/abs/1301.3781>`_
+`Efficient Estimation of Word Representations in Vector Space, Mikolov et al. (2013) <https://arxiv.org/abs/1301.3781>`_
 
 

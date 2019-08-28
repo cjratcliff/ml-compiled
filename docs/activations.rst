@@ -129,7 +129,7 @@ Scaled Exponential Linear Unit.
       \alpha (exp(x) - 1), & x \leq 0
     \end{cases}
 
-Where :math:`\lambda` and :math:`\alpha` are hyperparameters.
+Where :math:`\lambda` and :math:`\alpha` are hyperparameters, set to :math:`\lambda =  1.0507` and :math:`\alpha = 1.6733`.
 
 The SELU is designed to be used in networks composed of many fully-connected layers, as opposed to CNNs or RNNs, the principal difference being that CNNs and RNNs stabilize their learning via weight sharing. As with batch normalization, SELU activations give rise to activations with zero mean and unit variance but without having to explicitly normalize.
 

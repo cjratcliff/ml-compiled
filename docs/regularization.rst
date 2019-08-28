@@ -3,7 +3,6 @@ Regularization
 Used to reduce overfitting and improve generalization to data that was not seen during the training process.
 
 `Identifying Generalization Properties in Neural Networks, Wang et al. (2018) <https://arxiv.org/abs/1809.07402v1>`_
-
 `Understanding Deep Learning Requires Rethinking Generalization, Zhang et al. (2016) <https://arxiv.org/pdf/1611.03530.pdf>`_
 
 General principles

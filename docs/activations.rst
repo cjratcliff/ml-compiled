@@ -11,7 +11,8 @@ Concatenated ReLU.
 
   f(x) = \text{concat}(\text{ReLU}(x), \text{ReLU}(-x))
 
-Proposed in `Understanding and Improving Convolutional Neural Networks via Concatenated Rectified Linear Units, Shang et al. (2016) <https://arxiv.org/abs/1603.05201>`_
+| **Proposed in**
+| `Understanding and Improving Convolutional Neural Networks via Concatenated Rectified Linear Units, Shang et al. (2016) <https://arxiv.org/abs/1603.05201>`_
 
 
 ELU
@@ -42,7 +43,8 @@ Compared to ReLUs, ELUs have a mean activation closer to zero which is helpful. 
 
 The more gradual decrease of the gradient should also make them less susceptible to the dying ReLU problem, although they will suffer from the vanishing gradients problem instead.
 
-`Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs), Clevert et al. (2015) <https://arxiv.org/abs/1511.07289>`_
+| **Proposed in**
+| `Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs), Clevert et al. (2015) <https://arxiv.org/abs/1511.07289>`_
 
 LReLU
 --------
@@ -64,7 +66,8 @@ An activation function used with dropout. Can be a piecewise linear approximatio
 
 Was used to get state of the art performance on MNIST, SVHN, CIFAR-10 and CIFAR-100.
 
-`Maxout Networks, Goodfellow et al. (2013) <https://arxiv.org/pdf/1302.4389.pdf>`_
+| **Proposed in**
+| `Maxout Networks, Goodfellow et al. (2013) <https://arxiv.org/pdf/1302.4389.pdf>`_
 
 PReLU
 ------
@@ -76,7 +79,8 @@ Parametric ReLU.
   
 Where :math:`a` is a learned parameter, unlike in the Leaky ReLU where it is fixed.
   
-`Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification , He et al. (2015) <https://arxiv.org/abs/1502.01852>`_
+| **Proposed in**
+| `Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification , He et al. (2015) <https://arxiv.org/abs/1502.01852>`_
 
 ReLU
 -----
@@ -94,7 +98,8 @@ When the input to a neuron is negative, the gradient will be zero. This means th
 
 The Leaky ReLU and the Parametric ReLU (PReLU) attempt to solve this problem by using :math:`f(x)=max\{ax,x\}` where a is a small constant like 0.1. However, this small gradient when the input in negative means vanishing gradients are once again a problem.
 
-`Rectified Linear Units Improve Restricted Boltzmann Machines, Nair and Hinton (2010) <http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.165.6419&rep=rep1&type=pdf>`_
+| **Proposed in**
+| `Rectified Linear Units Improve Restricted Boltzmann Machines, Nair and Hinton (2010) <http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.165.6419&rep=rep1&type=pdf>`_
 
 Sigmoid
 ---------

@@ -19,7 +19,8 @@ The architecture is as follows:
 
 The model is trained with the `cross-entropy loss <https://ml-compiled.readthedocs.io/en/latest/loss_functions.html#cross-entropy-loss>`_ as normal.
 
-`Bag of Tricks for Efficient Text Classification <https://arxiv.org/abs/1607.01759>`_
+| **Proposed in** 
+| `Bag of Tricks for Efficient Text Classification <https://arxiv.org/abs/1607.01759>`_
 
 `Enriching Word Vectors with Subword Information <https://arxiv.org/abs/1607.04606>`_
 

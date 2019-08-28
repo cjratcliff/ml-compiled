@@ -8,6 +8,7 @@ In addition it offers the reader:
 
 * Consistent notation throughout.
 * Relevance. Only information that is relevant to machine learning is included.
+* Clearly labelled links to the first paper to introduce a technique, where applicable.
 * Links to important papers and useful blog posts for further reading.
 
 ML Compiled is a work in progress and is being continually updated.

@@ -46,6 +46,13 @@ The more gradual decrease of the gradient should also make them less susceptible
 | **Proposed in**
 | `Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs), Clevert et al. (2015) <https://arxiv.org/abs/1511.07289>`_
 
+GELU
+------
+Gaussian Error Linear Unit.
+
+| **Proposed in**
+| `Gaussian Error Linear Units (GELUs), Hendrycks and Gimpel (2016) <https://arxiv.org/pdf/1606.08415.pdf>`_
+
 LReLU
 --------
 Leaky ReLU.

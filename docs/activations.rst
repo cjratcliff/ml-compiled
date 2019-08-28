@@ -132,7 +132,7 @@ SELU
 Scaled Exponential Linear Unit.
 
 | **Proposed in**
-| Self-Normalizing Neural Networks, Klambauer et al. (2017) <https://arxiv.org/pdf/1706.02515.pdf>`_
+| `Self-Normalizing Neural Networks, Klambauer et al. (2017) <https://arxiv.org/pdf/1706.02515.pdf>`_
 
 Sigmoid
 ---------

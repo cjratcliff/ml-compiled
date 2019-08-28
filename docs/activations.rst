@@ -62,6 +62,8 @@ It can be approximated as:
 
 This can be seen as a smoothed version of the ReLU. 
 
+Was found to improve performance on a variety of tasks, compared to ReLU and ELU (`Hendrycks and Gimpel (2016) <https://arxiv.org/pdf/1606.08415.pdf>`_).
+
 | **Proposed in**
 | `Gaussian Error Linear Units (GELUs), Hendrycks and Gimpel (2016) <https://arxiv.org/pdf/1606.08415.pdf>`_
 

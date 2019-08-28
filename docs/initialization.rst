@@ -14,7 +14,8 @@ where :math:`\theta^{(i)}` are the parameters for layer :math:`i` of the network
 
 Biases are initialized to zero as normal.
 
-`Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification , He et al. (2015) <https://arxiv.org/abs/1502.01852>`_
+| **Proposed in** 
+| `Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification , He et al. (2015) <https://arxiv.org/abs/1502.01852>`_
 
 Orthogonal initialization
 ----------------------------
@@ -41,4 +42,5 @@ Sometimes referred to as Glorot initialization.
   
 where :math:`\theta^{(i)}` are the parameters for layer :math:`i` of the network and :math:`n_i` is the size of layer :math:`i` of the network.
 
-`Understanding the difficulty of training deep feedforward neural networks, Glorot and Bengio (2010) <http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf>`_
+| **Proposed in** 
+| `Understanding the difficulty of training deep feedforward neural networks, Glorot and Bengio (2010) <http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf>`_

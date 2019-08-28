@@ -54,7 +54,7 @@ Gaussian Error Linear Unit.
 
   f(x) = x \Phi(x)
   
-where \Phi(x) is the CDF of the normal distribution.
+where :math:`\Phi(x)` is the CDF of the normal distribution.
 
 It can be approximated as:
 

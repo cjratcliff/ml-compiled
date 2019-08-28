@@ -56,6 +56,9 @@ Leaky ReLU.
 
 :math:`a` is a fixed hyperparameter, unlike the PReLU. A common setting is 0.01.
 
+| **Proposed in**
+| `Rectifier Nonlinearities Improve Neural Network Acoustic Models <https://ai.stanford.edu/~amaas/papers/relu_hybrid_icml2013_final.pdf>`_
+
 Maxout
 --------
 An activation function used with dropout. Can be a piecewise linear approximation for arbitrary convex activation functions. This means it can approximate ReLU, LReLU, ELU and linear activations but not tanh or sigmoid.

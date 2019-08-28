@@ -56,7 +56,8 @@ and :math:`H(\pi(s_t;\theta)` is the entropy of the policy. This term is used to
 
 It’s multiplied by the probability assigned by the policy for the action at time :math:`t`. This means policies which are more certain will be penalized more heavily for incorrectly estimating the value function. The final term is the entropy of the policy's distribution over actions.
 
-`Asynchronous Methods for Deep Reinforcement Learning, Mnih et al. (2016) <https://arxiv.org/abs/1602.01783>`_
+| **Proposed in**
+| `Asynchronous Methods for Deep Reinforcement Learning, Mnih et al. (2016) <https://arxiv.org/abs/1602.01783>`_
 
 Q-learning
 ----------------
@@ -104,11 +105,10 @@ This means the target depends on the network weights, unlike in supervised learn
 
 Periodically freezing the target Q network helps prevent oscillations or divergence in the learning process.
 
-`Playing Atari with Deep Reinforcement Learning, Mnih et al. (2013) <https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf>`_
-
-`Human-level control through deep reinforcement learning, Mnih et al. (2015) <https://www.nature.com/articles/nature14236>`_
-
-`Rainbow: Combining Improvements in Deep Reinforcement Learning, Hessel et al. (2017) <https://arxiv.org/pdf/1710.02298.pdf>`_
+| **Further reading**
+| `Playing Atari with Deep Reinforcement Learning, Mnih et al. (2013) <https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf>`_
+| `Human-level control through deep reinforcement learning, Mnih et al. (2015) <https://www.nature.com/articles/nature14236>`_
+| `Rainbow: Combining Improvements in Deep Reinforcement Learning, Hessel et al. (2017) <https://arxiv.org/pdf/1710.02298.pdf>`_
 
 Experience Replay
 '''''''''''''''''''
@@ -133,13 +133,15 @@ Samples from the `replay memory <https://ml-compiled.readthedocs.io/en/latest/td
 
 TODO
 
-`Prioritized Experience Replay, Schaul et al. (2015) <https://arxiv.org/abs/1511.05952>`_
+| **Proposed in**
+| `Prioritized Experience Replay, Schaul et al. (2015) <https://arxiv.org/abs/1511.05952>`_
 
 Distributional Q-learning
 ''''''''''''''''''''''''''''''
 Models the distribution of the value function, rather than simply its expectation.
 
-`A Distributional Perspective on Reinforcement Learning, Bellemare et al. (2017) <https://arxiv.org/abs/1707.06887>`_
+| **Proposed in**
+| `A Distributional Perspective on Reinforcement Learning, Bellemare et al. (2017) <https://arxiv.org/abs/1707.06887>`_
 
 Multi-step bootstrap targets
 ''''''''''''''''''''''''''''''
@@ -180,7 +182,8 @@ The noise parameters can be specified in two ways:
 * Independent Gaussian noise - Learn one noise parameter for each parameter in the main network.
 * Factorised Gaussian noise - The matrix of noise parameters is factorized into two vectors. This means the number of noise parameters needed for each layer is linear in its size rather than quadratic, as it is with independent Gaussian noise.
 
-`Noisy Networks for Exploration, Fortunato et al. (2017) <https://arxiv.org/abs/1706.10295>`_
+| **Proposed in**
+| `Noisy Networks for Exploration, Fortunato et al. (2017) <https://arxiv.org/abs/1706.10295>`_
 
 Rainbow
 '''''''''''

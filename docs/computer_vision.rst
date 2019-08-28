@@ -20,7 +20,8 @@ Regularization method that masks a random square region of the image, replacing 
 
 Was used to get new state of the art methods on the CIFAR-10, CIFAR-100 and SVHN datasets (DeVries and Taylor, 2017).
 
-`Improved Regularization of Convolutional Neural Networks with Cutout, DeVries and Taylor (2017) <https://arxiv.org/pdf/1708.04552.pdf>`_
+| **Proposed in**
+| `Improved Regularization of Convolutional Neural Networks with Cutout, DeVries and Taylor (2017) <https://arxiv.org/pdf/1708.04552.pdf>`_
 
 Datasets
 ---------
@@ -141,11 +142,10 @@ R-CNN
 ------
 Type of network for object detection. Stands for Region-based CNN. 
 
-`Fast R-CNN, Girshick et al. (2015) <https://arxiv.org/abs/1504.08083>`_
-
-`Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks, Ren et al. (2015) <https://arxiv.org/abs/1506.01497>`_
-
-`Mask R-CNN, He et al. (2017) <https://arxiv.org/abs/1703.06870>`_
+| **Further reading**
+| `Fast R-CNN, Girshick et al. (2015) <https://arxiv.org/abs/1504.08083>`_
+| `Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks, Ren et al. (2015) <https://arxiv.org/abs/1506.01497>`_
+| `Mask R-CNN, He et al. (2017) <https://arxiv.org/abs/1703.06870>`_
 
 Region of interest
 --------------------

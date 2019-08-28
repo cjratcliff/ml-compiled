@@ -37,13 +37,15 @@ Dropout’s effectiveness could be due to:
 
 Can be interpreted as injecting noise inside the network.
 
-`Dropout: A Simple Way to Prevent Neural Networks from Overfitting, Srivastava et al. (2014) <http://jmlr.org/papers/volume15/srivastava14a.old/srivastava14a.pdf>`_
+| **Proposed in**
+| `Dropout: A Simple Way to Prevent Neural Networks from Overfitting, Srivastava et al. (2014) <http://jmlr.org/papers/volume15/srivastava14a.old/srivastava14a.pdf>`_
 
 Variational dropout
 _____________________
 Applied to RNNs. Unlike normal dropout, the same dropout mask is retained over all timesteps, rather than sampling a new one each time the cell is called. Compared to normal dropout, this is less likely to disrupt the RNN’s ability to learn long-term dependencies.
 
-`Variational Dropout and the Local Reparameterization Trick, Kingma et al. (2015) <https://arxiv.org/abs/1506.02557>`_
+| **Proposed in**
+| `Variational Dropout and the Local Reparameterization Trick, Kingma et al. (2015) <https://arxiv.org/abs/1506.02557>`_
 
 Generalization error
 ---------------------
@@ -101,4 +103,5 @@ Zoneout
 --------
 Method for regularizing RNNs. A subset of the hidden units are randomly set to their previous value (:math:`h_t = h_{t-1}`).
 
-`Zoneout: Regularizing RNNs by Randomly Preserving Hidden Activations, Kreuger et al. (2016) <https://arxiv.org/abs/1606.01305>`_
+| **Proposed in**
+| `Zoneout: Regularizing RNNs by Randomly Preserving Hidden Activations, Kreuger et al. (2016) <https://arxiv.org/abs/1606.01305>`_

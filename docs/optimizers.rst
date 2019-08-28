@@ -141,12 +141,14 @@ AdaDelta
 __________
 AdaDelta is a gradient descent based learning algorithm that adapts the learning rate per parameter over time. It was proposed as an improvement over AdaGrad, which is more sensitive to hyperparameters and may decrease the learning rate too aggressively.
 
-`AdaDelta: An Adaptive Learning Rate Method, Zeiler (2012) <https://arxiv.org/abs/1212.5701>`_
+| **Proposed in** 
+| `AdaDelta: An Adaptive Learning Rate Method, Zeiler (2012) <https://arxiv.org/abs/1212.5701>`_
 
 
 AdaGrad
 ____________
-`Adaptive Subgradient Methods for Online Learning and Stochastic Optimization, Duchi et al. (2011) <http://www.jmlr.org/papers/volume12/duchi11a/duchi11a.pdf>`_
+| **Proposed in** 
+| `Adaptive Subgradient Methods for Online Learning and Stochastic Optimization, Duchi et al. (2011) <http://www.jmlr.org/papers/volume12/duchi11a/duchi11a.pdf>`_
 
 
 Adam

@@ -64,7 +64,7 @@ Leaky ReLU.
 :math:`a` is a fixed hyperparameter, unlike the PReLU. A common setting is 0.01.
 
 | **Proposed in**
-| `Rectifier Nonlinearities Improve Neural Network Acoustic Models, Maas et al. (2013)<https://ai.stanford.edu/~amaas/papers/relu_hybrid_icml2013_final.pdf>`_
+| `Rectifier Nonlinearities Improve Neural Network Acoustic Models, Maas et al. (2013) <https://ai.stanford.edu/~amaas/papers/relu_hybrid_icml2013_final.pdf>`_
 
 Maxout
 --------

@@ -29,6 +29,9 @@ Exponential Linear Unit.
       \alpha (\exp(x) - 1), & x \leq 0
     \end{cases}
 
+.. image:: ../img/elu.png
+  :align: center
+
 In practice the hyperparameter :math:`\alpha` is always set to 1.
 
 Compared to ReLUs, ELUs have a mean activation closer to zero which is helpful. However, this advantage is probably nullified by batch normalization.
@@ -54,6 +57,9 @@ It can be approximated as:
 
   f(x) = x \sigma (1.702 x)
 
+.. image:: ../img/gelu.png
+  :align: center
+
 This can be seen as a smoothed version of the ReLU. 
 
 | **Proposed in**
@@ -68,6 +74,9 @@ Leaky ReLU.
   f(x) = \max\{ax,x\}
 
 :math:`a` is a fixed hyperparameter, unlike the PReLU. A common setting is 0.01.
+
+.. image:: ../img/lrelu.png
+  :align: center
 
 | **Proposed in**
 | `Rectifier Nonlinearities Improve Neural Network Acoustic Models, Maas et al. (2013) <https://ai.stanford.edu/~amaas/papers/relu_hybrid_icml2013_final.pdf>`_
@@ -106,6 +115,9 @@ Rectified Linear Unit. Unlike the sigmoid or tanh activations the ReLU does not 
 
   f(x)=\max\{0,x\}
 
+.. image:: ../img/relu.png
+  :align: center
+
 The fact that the gradient is 1 when the input is positive means it does not suffer from vanishing and exploding gradients. However, it suffers from its own 'dying ReLU problem' instead.
 
 The Dying ReLU Problem
@@ -131,6 +143,9 @@ Scaled Exponential Linear Unit.
 
 Where :math:`\lambda` and :math:`\alpha` are hyperparameters, set to :math:`\lambda =  1.0507` and :math:`\alpha = 1.6733`. 
 
+.. image:: ../img/selu.png
+  :align: center
+
 The SELU is designed to be used in networks composed of many fully-connected layers, as opposed to CNNs or RNNs, the principal difference being that CNNs and RNNs stabilize their learning via weight sharing. As with batch normalization, SELU activations give rise to activations with zero mean and unit variance but without having to explicitly normalize.
 
 The `ELU <https://ml-compiled.readthedocs.io/en/latest/activations.html#elu>`_ is a very similar activation. The only difference is that it has :math:`\lambda =  1` and :math:`\alpha = 1`. 
@@ -145,6 +160,9 @@ Activation function that maps outputs to be between 0 and 1.
 .. math::
 
   f(x) = \frac{e^x}{e^x + 1}
+
+.. image:: ../img/sigmoid.png
+  :align: center
 
 Has problems with saturation. This makes vanishing and exploding gradients a problem and initialization extremely important.
 
@@ -167,11 +185,21 @@ Output is bounded between 0 and infinity.
 .. math::
 
   f(x) = \log(1 + e^x)
-  
+
+.. image:: ../img/softplus.png
+  :align: center
+
 Useful for modeling quantities that should never be negative such as the variance of a distribution. Unlike the ReLU, gradients can pass through the softmax when :math:`x < 0`.
 
 Tanh
 --------
-Activation function that is used in the GRU and LSTM.
+Activation function that is used in the GRU and LSTM. It is between -1 and 1 and centered around 0, unlike the sigmoid.
+
+.. math::
+
+  f(x) = tanh(x)
+
+.. image:: ../img/tanh.png
+  :align: center
+
 Has problems with saturation like the sigmoid. This makes vanishing and exploding gradients a problem and initialization extremely important.
-It is between -1 and 1 and centered around 0, unlike the sigmoid.

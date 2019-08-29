@@ -115,7 +115,7 @@ Where :math:`a` is a learned parameter, unlike in the Leaky ReLU where it is fix
 
 ReLU
 -----
-Rectified Linear Unit. Unlike the sigmoid or tanh activations the ReLU does not saturate.
+Rectified Linear Unit. Unlike the sigmoid or tanh activations the ReLU does not saturate which has led to it being widely used in deep networks.
 
 .. math::
 

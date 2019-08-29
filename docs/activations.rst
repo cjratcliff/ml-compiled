@@ -186,7 +186,7 @@ Unlike most other activation functions, the softmax does not apply the same func
 
 Softplus
 ----------
-Output is bounded between 0 and infinity. 
+Activation whose output is bounded between 0 and infinity, making it useful for modeling quantities that should never be negative such as the variance of a distribution. 
 
 .. math::
 
@@ -195,7 +195,7 @@ Output is bounded between 0 and infinity.
 .. image:: ../img/softplus.png
   :align: center
 
-Useful for modeling quantities that should never be negative such as the variance of a distribution. Unlike the ReLU, gradients can pass through the softmax when :math:`x < 0`.
+Unlike the ReLU, gradients can pass through the softmax when :math:`x < 0`. 
 
 Tanh
 --------

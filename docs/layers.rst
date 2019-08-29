@@ -13,13 +13,13 @@ An attention layer takes a query vector and uses it, combined with key vectors, 
 Attention has been used to improve image classification, image captioning, speech recognition, generative models and learning algorithmic tasks, but has probably had the largest impact on neural machine translation.
 
 Computational complexity
-''''''''''''''''''''''''''''''
+__________________________
 When using two RNNs (an encoder and a decoder) to translate a sequence of length :math:`n` the time complexity is :math:`O(n)`.
 
 However, a soft attention mechanism must look over every item in the input sequence for every item in the output sequence, resulting in a quadratic complexity:  :math:`O(n^2)`.
 
 Additive attention
-'''''''''''''''''''''
+__________________________
 
 Let :math:`x = \{x_1,...,x_T\}` be the input sequence and :math:`y = \{y_1,...,y_U\}` be the output sequence.
 
@@ -55,7 +55,7 @@ To predict the output sequence we take the decoder hidden state and the context 
 | `Neural Machine Translation by Jointly Learning to Align and Translate, Bahdanau et al. (2015) <https://arxiv.org/abs/1409.0473>`_
   
 Dot-product attention
-'''''''''''''''''''''''
+__________________________
 Returns a weighted average over the values, :math:`V`.
 
 .. math::
@@ -70,7 +70,7 @@ The query might be the hidden state of the decoder, the key the hidden state of 
 
 
 Scaled dot-product attention
-________________________________
+'''''''''''''''''''''''''''''
 Adds a scaling factor :math:`\sqrt{d_k}`, equal to the dimension of :math:`K`:
 
 .. math::
@@ -83,17 +83,17 @@ This addition to the formula is intended to ensure the gradients do not become s
 | `Attention is All You Need (2017) <https://arxiv.org/pdf/1706.03762.pdf>`_
 
 Hard attention
-''''''''''''''''''''
+__________________________
 Form of attention that attends only to one input, unlike soft attention. Trained using the REINFORCE algorithm since, unlike other forms of attention, it is not differentiable.
 
 Self-attention
-''''''''''''''''''
+__________________________
 
 | **Proposed in** 
 | `Attention is All You Need (2017) <https://arxiv.org/pdf/1706.03762.pdf>`_
 
 Soft attention
-''''''''''''''''''
+__________________________
 Forms of attention that attend to every input to some extent, meaning they can be trained through backpropagation. Contrast with hard attention, which attends exclusively to one input.
 
 Batch normalization
@@ -116,7 +116,7 @@ Batch Normalization is often found to improve generalization performance (`Zhang
 | `Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift (2015) <https://arxiv.org/abs/1502.03167>`_
 
 Conditional batch normalization
-'''''''''''''''''''''''''''''''''''
+________________________________
 The formula is exactly the same as normal batch normalization except :math:`\gamma` and :math:`\beta` are not learned parameters, but rather the outputs of functions.
 
 Was used to achieve `state of the art results <https://arxiv.org/pdf/1707.03017.pdf>`_ on the CLEVR visual reasoning benchmark.
@@ -136,20 +136,20 @@ Let :math:`x` be a matrix representing the image and :math:`k` be another repres
 Where :math:`M = (N - 1)/2`.
 
 Padding
-'''''''''''''''''''''''''''''
+__________________________
 Applying the kernel to pixels near or at the edges of the image will result in needing pixel values that do not exist. There are two ways of resolving this:
 
 * Only apply the kernel to pixels where the operation is valid. For a kernel of size k this will reduce the image by :math:`(k-1)/2` pixels on each side.
 * Pad the image with zeros to allow the operation to be defined.
 
 Efficiency
-'''''''''''''''''''''''''''''
+__________________________
 The same convolution operation is applied to every pixel in the image, resulting in a considerable amount of weight sharing. This means convolutional layers are quite efficient in terms of parameters. Additionally, if a fully connected layer was used to represent the functionality of a convolutional layer most of its parameters would be zero since the convolution is a local operation. This further increases efficiency.
 
 The number of parameters can be further reduced by setting a stride so the convolution operation is only applied every m pixels.
 
 1x1 convolution
-'''''''''''''''''''''''''''''
+__________________________
 These are actually matrix multiplications, not convolutions. They are a useful way of increasing the depth of the neural network since they are equivalent to :math:`f(hW)`, where :math:`f` is the activation function.
 
 If the number of channels decreases from one layer to the next they can be also be used for dimensionality reduction.
@@ -157,18 +157,23 @@ If the number of channels decreases from one layer to the next they can be also 
 http://iamaaditya.github.io/2016/03/one-by-one-convolution/
 
 Dilated convolution
-'''''''''''''''''''''''''''''
+__________________________
 Increases the size of the receptive field of the convolution layer.
 
 Used in `WaveNet: A Generative Model for Raw Audio, van den Oord et al. (2016) <https://arxiv.org/abs/1609.03499>`_.
 
 Separable convolution/filter
-'''''''''''''''''''''''''''''
+__________________________
 A filter or kernel is separable if it (a matrix) can be expressed as the product of a row vector and a column vector. This decomposition can reduce the computational cost of the convolution. Examples include the Sobel edge detection and Gaussian blur filters.
 
 .. math::
 
   K = xx^T, x \in \mathbb{R}^{n \times 1}
+
+Transposed convolutional layer
+__________________________________
+Sometimes referred to as a deconvolutional layer. Can be used for upsampling.
+
 
 Dense layer
 --------------
@@ -215,15 +220,15 @@ Pooling layer
 ---------------
 
 Max pooling
-'''''''''''''''''''''''''''''
+__________________________
 Transforms the input by taking the max along a particular dimension. In sequence processing this is usually the length of the sequence.
 
 Mean pooling
-'''''''''''''''''''''''''''''
+__________________________
 Also known as average pooling. Identical to max-pooling except the mean is used instead of the max.
 
 RoI pooling
-'''''''''''''''''''''''''''''
+__________________________
 Used to solve the problem that the `regions of interest (RoI) <https://ml-compiled.readthedocs.io/en/latest/computer_vision.html#region-of-interest>`_ identified by the bounding boxes can be different shapes in object recognition. The CNN requires all inputs to have the same dimensions.
 
 The RoI is divided into a number of rectangles of fixed size (except at the edges). If doing 3x3 RoI pooling there will be 9 rectangles in each RoI. We do max-pooling over each RoI to get 3x3 numbers.

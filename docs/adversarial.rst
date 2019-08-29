@@ -33,14 +33,9 @@ Mitigation techniques
 
 Papers
 ---------
-`Breaking Linear Classifiers on ImageNet, Karpathy (2015) <http://karpathy.github.io/2015/03/30/breaking-convnets/>`_
-
-`Explaining and Harnessing Adversarial Examples, Goodfellow et al. (2015) <https://arxiv.org/abs/1412.6572>`_
-
-`Intriguing Properties of Neural Networks, Szegedy et al. (2013) <https://arxiv.org/abs/1312.6199>`_
-
-`Towards Deep Neural Network Architectures Robust to Adversarial Examples, Gu et al. (2014) <https://arxiv.org/abs/1412.5068>`_
-
-`Adversarial examples in the physical world, Kurakin et al. (2016) <https://arxiv.org/abs/1607.02533>`_
-
-`Assessing Threat of Adversarial Examples on Deep Neural Networks, Graese et al. (2016) <https://arxiv.org/abs/1610.04256>`_
+| `Breaking Linear Classifiers on ImageNet, Karpathy (2015) <http://karpathy.github.io/2015/03/30/breaking-convnets/>`_
+| `Explaining and Harnessing Adversarial Examples, Goodfellow et al. (2015) <https://arxiv.org/abs/1412.6572>`_
+| `Intriguing Properties of Neural Networks, Szegedy et al. (2013) <https://arxiv.org/abs/1312.6199>`_
+| `Towards Deep Neural Network Architectures Robust to Adversarial Examples, Gu et al. (2014) <https://arxiv.org/abs/1412.5068>`_
+| `Adversarial examples in the physical world, Kurakin et al. (2016) <https://arxiv.org/abs/1607.02533>`_
+| `Assessing Threat of Adversarial Examples on Deep Neural Networks, Graese et al. (2016) <https://arxiv.org/abs/1610.04256>`_

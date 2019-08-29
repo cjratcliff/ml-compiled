@@ -172,7 +172,9 @@ A filter or kernel is separable if it (a matrix) can be expressed as the product
 
 Transposed convolutional layer
 __________________________________
-Sometimes referred to as a deconvolutional layer. Can be used for upsampling.
+Sometimes referred to as a deconvolutional layer. Can be used for upsampling. 
+
+Pads the input with zeros and then applies a convolution. Has parameters which must be learned, unlike the upsampling layer.
 
 
 Dense layer

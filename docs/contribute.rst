@@ -6,7 +6,7 @@ Please contribute by opening a pull request at https://github.com/cjratcliff/ml-
 
 List of sections that need expanding in rough priority order (high at the top):
 
-* Upsampling layer
+* Deconvolution layer
 * REINFORCE algorithm
 * Rademacher complexity
 * VC dimension

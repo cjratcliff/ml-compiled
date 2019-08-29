@@ -60,7 +60,7 @@ Used for training SVMs.
 
 Huber loss
 -------------------
-A loss function used for regression. It is less sensitive to outliers than the squared loss.
+A loss function used for regression. It is less sensitive to outliers than the squared loss since there is only a linear relationship between the size of the error and the loss beyond :math:`\delta`.
 
 .. math::
 

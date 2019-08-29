@@ -234,4 +234,10 @@ A fully-connected layer with a `softmax <https://ml-compiled.readthedocs.io/en/l
 
 Upsampling layer
 -----------------
-Used in convolutional autoencoders to go from the the bottleneck layer up to full image.
+Simple layer used to increase the size of its input by repeating its entries. Does not have any parameters. 
+
+Example of a 2D upsampling layer:
+
+.. image:: ../img/upsampling.png
+  :align: center
+

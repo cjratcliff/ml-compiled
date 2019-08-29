@@ -22,7 +22,7 @@ The margin
 _____________
 If :math:`y = 0` we want to make :math:`d(x_1,x_2)` as large as possible to minimize the loss. However, beyond the threshold for classifying the example as a negative increasing this distance will not have any effect on the accuracy. The margin ensures this intuition is reflected in the loss function. Using the margin means increasing :math:`d(x_1,x_2)` beyond :math:`m` has no effect.
 
-There is no margin for when :math:`y = 1` since that is naturally bounded by 0. With the Euclidean distance a lower distance is not possible.
+There is no margin for when :math:`y = 1`. This case is naturally bounded by 0 as the Euclidean distance cannot be negative.
 
 Example paper
 _____________

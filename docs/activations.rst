@@ -109,6 +109,8 @@ Parametric ReLU.
   f(x)=\max\{ax,x\}
   
 Where :math:`a` is a learned parameter, unlike in the Leaky ReLU where it is fixed.
+
+Was used to achieve state of the art performance on ImageNet (`He et al. (2015) <https://arxiv.org/abs/1502.01852>`_).
   
 | **Proposed in**
 | `Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification , He et al. (2015) <https://arxiv.org/abs/1502.01852>`_

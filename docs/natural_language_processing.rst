@@ -9,7 +9,7 @@ Labelled
 ____________
 
 * `bAbI <https://research.fb.com/downloads/babi/>`_ - Dataset for question answering
-* `GLUE <https://gluebenchmark.com/>`_
+* `GLUE <https://gluebenchmark.com/>`_ - Stands for General Language Understanding Evaluation. 
 * IMDB - Dataset of movie reviews, used for sentiment classification. Each review is labelled as either positive or negative.
 * `RACE <https://www.cs.cmu.edu/~glai1/data/race/>`_ - Reading comprehension dataset.
 * `SQuAD <https://rajpurkar.github.io/SQuAD-explorer/>`_ - Stanford Question Answering Dataset

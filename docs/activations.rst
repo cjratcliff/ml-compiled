@@ -11,7 +11,7 @@ Concatenated ReLU.
 
   f(x) = \text{concat}(\text{ReLU}(x), \text{ReLU}(-x))
   
-Using the CReLU doubles the size of the input to the next layer, increasing the number of parameters.
+Using the CReLU doubles the size of the input to the next layer, increasing the number of parameters. However, `Shang et al.  <https://arxiv.org/abs/1603.05201>`_ showed that CReLU can improve accuracy on image recoginition tasks when used for the lower convolutional layers, even when halving the number of filters in those layers at the same time.
 
 | **Proposed in**
 | `Understanding and Improving Convolutional Neural Networks via Concatenated Rectified Linear Units, Shang et al. (2016) <https://arxiv.org/abs/1603.05201>`_

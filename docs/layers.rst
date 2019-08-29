@@ -240,5 +240,5 @@ Example of a 2D upsampling layer:
 
 .. image:: ../img/upsampling.png
   :align: center
-  :scale: 75 %
+  :scale: 50 %
 

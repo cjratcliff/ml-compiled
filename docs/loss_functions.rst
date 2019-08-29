@@ -55,6 +55,8 @@ The margin :math:`m` is a hyperparameter that is commonly set to 1.
 
 .. image:: ../img/hinge.png
   :align: center
+  
+Used for training SVMs.
 
 Huber loss
 -------------------

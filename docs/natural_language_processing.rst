@@ -2,6 +2,33 @@
 Natural language processing (NLP)
 """"""""""""""""""""""""""""""""""""""""""
 
+Datasets
+-----------
+
+Labelled
+____________
+
+* `bAbI <https://research.fb.com/downloads/babi/>`_ - Dataset for question answering
+* `GLUE <https://gluebenchmark.com/>`_
+* IMDB - Dataset of movie reviews, used for sentiment classification. Each review is labelled as either positive or negative.
+* `RACE <https://www.cs.cmu.edu/~glai1/data/race/>`_ - Reading comprehension dataset.
+* `SQuAD <https://rajpurkar.github.io/SQuAD-explorer/>`_ - Stanford Question Answering Dataset
+* `SuperGLUE <https://super.gluebenchmark.com/>`_ - Harder successor to the GLUE dataset.
+* TIMIT - Speech corpus.
+* WMT - https://nlp.stanford.edu/projects/nmt/
+
+Unlabelled
+________________
+A list of some of the most frequently used unlabelled datasets and text corpora, suitable for tasks like generative text modelling and learning word embeddings.
+
+* `1 Billion Word Language Model Benchmark <http://www.statmt.org/lm-benchmark/>`_
+* `Common Crawl <http://commoncrawl.org/the-data/>`_
+* `Gigaword 5 <https://catalog.ldc.upenn.edu/LDC2011T07>`_
+* PTB - Stands for 'Penn Treebank'
+* `Project Gutenberg <http://www.gutenberg.org/>`_
+* `Shakespeare <https://ocw.mit.edu/ans7870/6/6.006/s08/lecturenotes/files/t8.shakespeare.txt>`_
+
+
 Entity linking
 ----------------
 The task of finding the specific entity which words or phrases refer to. Not to be confused with Named Entity Recognition.
@@ -25,17 +52,6 @@ The model is trained with the `cross-entropy loss <https://ml-compiled.readthedo
 
 `Enriching Word Vectors with Subword Information <https://arxiv.org/abs/1607.04606>`_
 
-Labelled datasets
----------------------
-
-* `bAbI <https://research.fb.com/downloads/babi/>`_ - Dataset for question answering
-* `GLUE <https://gluebenchmark.com/>`_
-* IMDB - Dataset of movie reviews, used for sentiment classification. Each review is labelled as either positive or negative.
-* `RACE <https://www.cs.cmu.edu/~glai1/data/race/>`_ - Reading comprehension dataset.
-* `SQuAD <https://rajpurkar.github.io/SQuAD-explorer/>`_ - Stanford Question Answering Dataset
-* `SuperGLUE <https://super.gluebenchmark.com/>`_ - Harder successor to the GLUE dataset.
-* TIMIT - Speech corpus.
-* WMT - https://nlp.stanford.edu/projects/nmt/
 
 Latent Dirichlet Allocation (LDA)
 -----------------------------------
@@ -69,15 +85,4 @@ A unit of sound in a language, shorter than a syllabel. English has 44 phonemes.
 Stemming
 ----------
 Reducing a word to its basic form. This often involves removing suffixes like 'ed', 'ing' or 's'.
-
-Unlabelled datasets
-----------------------
-This is a list of some of the most frequently used unlabelled datasets and text corpora, suitable for tasks like generative text modelling and learning word embeddings.
-
-* `1 Billion Word Language Model Benchmark <http://www.statmt.org/lm-benchmark/>`_
-* `Common Crawl <http://commoncrawl.org/the-data/>`_
-* `Gigaword 5 <https://catalog.ldc.upenn.edu/LDC2011T07>`_
-* PTB - Stands for 'Penn Treebank'
-* `Project Gutenberg <http://www.gutenberg.org/>`_
-* `Shakespeare <https://ocw.mit.edu/ans7870/6/6.006/s08/lecturenotes/files/t8.shakespeare.txt>`_
 

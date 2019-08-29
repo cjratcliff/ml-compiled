@@ -38,6 +38,9 @@ Loss function for classification.
 
 where c are the classes. :math:`y_{i,c}` equals 1 if example :math:`i` is in class :math:`c` and 0 otherwise. :math:`\hat{y}_{i,c}` is the predicted probability that example :math:`i` is in class :math:`c`.
 
+.. image:: ../img/crossentropy.png
+  :align: center
+
 For discrete distributions (ie classification problems rather than regression) this is the same as the negative log-likelihood loss.
 
 Hinge loss
@@ -49,6 +52,9 @@ Let positives be encoded as :math:`y = 1` and negatives as :math:`y = -1`. Then 
   L(y,\hat{y}) = \max\{0, m - y \hat{y}\}
 
 The margin :math:`m` is a hyperparameter that is commonly set to 1.
+
+.. image:: ../img/hinge.png
+  :align: center
 
 Huber loss
 -------------------
@@ -63,6 +69,9 @@ A loss function used for regression. It is less sensitive to outliers than the s
           \end{cases}
           
 Where :math:`\delta` is a hyperparameter.         
+
+.. image:: ../img/huber.png
+  :align: center
 
 Negative sampling
 -------------------
@@ -120,7 +129,10 @@ A loss function used for regression.
 .. math::
 
   L(y,\hat{y}) = \sum_i (y_i - \hat{y}_i)^2
-  
+
+.. image:: ../img/squared.png
+  :align: center
+
 Disadvantages
 _________________
 The squaring means this loss function weights large errors more than smaller ones, relative to the magnitude of the error. This can be particularly harmful in the case of outliers. One solution is to use the `Huber loss <http://ml-compiled.readthedocs.io/en/latest/loss_functions.html#huber-loss>`_.

@@ -69,7 +69,7 @@ Was found to improve performance on a variety of tasks compared to ReLU and ELU 
 
 LReLU
 --------
-Leaky ReLU.
+Leaky ReLU. Motivated by the desire to have gradients where the ReLU would have none but the gradients are very small and therefore vulnerable to the vanishing gradients problem in deep networks. The improvement in accuracy from using LReLU instead of ReLU has been shown to be very small (`Maas et al. (2013) <https://ai.stanford.edu/~amaas/papers/relu_hybrid_icml2013_final.pdf>`_).
 
 .. math::
 

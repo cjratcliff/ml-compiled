@@ -29,9 +29,12 @@ Labelled datasets
 ---------------------
 
 * `bAbI <https://research.fb.com/downloads/babi/>`_ - Dataset for question answering
+* `GLUE <https://gluebenchmark.com/>`_
 * IMDB - Dataset of movie reviews, used for sentiment classification. Each review is labelled as either positive or negative.
-* TIMIT - Speech corpus.
+* `RACE <https://www.cs.cmu.edu/~glai1/data/race/>`_ - Reading comprehension dataset.
 * `SQuAD <https://rajpurkar.github.io/SQuAD-explorer/>`_ - Stanford Question Answering Dataset
+* `SuperGLUE <https://super.gluebenchmark.com/>`_ - Harder successor to the GLUE dataset.
+* TIMIT - Speech corpus.
 * WMT - https://nlp.stanford.edu/projects/nmt/
 
 Latent Dirichlet Allocation (LDA)

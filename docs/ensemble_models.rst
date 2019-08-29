@@ -16,6 +16,10 @@ Boosting
 ----------
 Build models sequentially, each one trying to reduce the bias of the combined estimator. AdaBoost is an example.
 
+Gradient boosting
+___________________
+Can learn with any differentiable loss function.
+
 Weak learner
 --------------
 The individual algorithms that make up the ensemble.

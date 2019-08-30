@@ -133,6 +133,10 @@ Learning rate decay
 ______________________
 Also known as learning rate annealing. Changing the learning rate throughout the training process according to some schedule.
 
+Cosine learning rate decay
+___________________________
+`SGDR: Stochastic Gradient Descent with Warm Restarts, Loschilov and Hutter(2016) <https://arxiv.org/pdf/1608.03983.pdf>`_
+
 
 Optimizers
 -------------

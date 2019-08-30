@@ -50,7 +50,7 @@ See also: surjective, bijective
 
 Monotonic
 -----------
-
+A function is monotonic if it is non-decreasing or non-increasing.
 
 Surjective
 -------------

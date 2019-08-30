@@ -17,7 +17,6 @@ List of sections that need expanding in rough priority order (high at the top):
 * Codomain
 * Continuous
 * Image
-* Monotonic
 * Surjective
 * SVMs - dual form, primal form and training
 

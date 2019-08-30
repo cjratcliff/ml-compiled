@@ -28,3 +28,5 @@ List of sections to be added:
 * Lipschitz smoothness
 * Lipschitz constant
 * Canonical Correlation Analysis (CCA)
+* Compositionality
+* Polysemy

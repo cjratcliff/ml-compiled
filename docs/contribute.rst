@@ -28,3 +28,4 @@ List of sections to be added:
 * Cosine learning rate decay
 * Lipschitz smoothness
 * Lipschitz constant
+* Canonical Correlation Analysis (CCA)

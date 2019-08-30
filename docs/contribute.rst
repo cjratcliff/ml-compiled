@@ -30,3 +30,4 @@ List of sections to be added:
 * Canonical Correlation Analysis (CCA)
 * Compositionality
 * Polysemy
+* Bayesian neural networks

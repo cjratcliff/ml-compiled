@@ -136,6 +136,26 @@ Also known as learning rate annealing. Changing the learning rate throughout the
 Cosine learning rate decay
 ___________________________
 
+Pseudocode:
+
+.. code:: python
+
+  t_i = 10 # number of epochs between warm restarts.
+  t_mult = 2 # double t_i at every restart. set to 1 to ignore.
+  t_cur = 0 # how many epochs have been performed since the last restart.
+
+  min_lr = 0.01
+  max_lr = 0.1
+
+  for epoch in range(num_epochs):
+      # warm restart
+      if epoch > 0 and t_cur == t_i:
+          t_cur = 0
+          t_i *= t_mult
+
+      lr = min_lr + 0.5 * (max_lr - min_lr) * (1 + np.cos(np.pi * t_cur / t_i))
+      t_cur += 1
+
 The graph below shows cosine learning rate decay with :math:`T_i = 10`, :math:`T_\text{mult} = 2`, :math:`\eta_\text{max} = 0.1` and :math:`\eta_\text{min} = 0.01`:
 
 .. image:: ../img/cosine_lr_decay.png

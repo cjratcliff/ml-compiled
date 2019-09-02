@@ -118,13 +118,6 @@ Binary classification problem. Given two images of faces, assess whether they ar
 
 Commonly used architectures for solving this problem include Siamese and Triplet networks.
 
-Notable results
-_________________
-* AlexNet
-* GoogLeNet
-* ResNet 
-* NASNet
-
 Image segmentation
 --------------------
 Partitions an object into meaningful parts with associated labels. May also be referred to as per-pixel classification.

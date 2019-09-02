@@ -54,6 +54,14 @@ COCO
 _________
 Common Objects in COntext. A dataset for image recognition, segmentation and captioning.
 
+ILSVRC
+________
+Imagenet Large Scale Recognition Challenge. Popular image classification task in which the algorithm must use a dataset of ~1.4m images to classify 1000 classes.
+
+Notable results (top-1 accuracy):
+
+* 83.5% - `AutoAugment: Learning Augmentation Strategies from Data, Cubuk et al. (2018) <https://arxiv.org/pdf/1805.09501.pdf>`_
+
 MNIST
 ________
 70000 28x28 pixel grayscale images of handwritten digits (10 classes), 60000 in the training set and 10000 in the test set.
@@ -105,10 +113,6 @@ ___________________
 Binary classification problem. Given two images of faces, assess whether they are from the same person or not.
 
 Commonly used architectures for solving this problem include Siamese and Triplet networks.
-
-ILSVRC
--------
-Imagenet Large Scale Recognition Challenge. Popular image classification task in which the algorithm must use a dataset of ~1.4m images to classify 1000 classes.
 
 Notable results
 _________________

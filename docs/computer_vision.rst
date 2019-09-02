@@ -32,7 +32,7 @@ ______________
 
 Notable results - CIFAR-10
 
-* 98.5% - `AutoAugment: Learning Augmentation Strategies from Data, Cubuk et al. (2019) <https://arxiv.org/pdf/1805.09501.pdf>`_
+* 98.5% - `AutoAugment: Learning Augmentation Strategies from Data, Cubuk et al. (2018) <https://arxiv.org/pdf/1805.09501.pdf>`_
 * 97.6% - `Learning Transferable Architectures for Scalable Image Recognition, Zoph et al. (2017) <https://arxiv.org/pdf/1707.07012.pdf>`_
 * 97.4% - `Improved Regularization of Convolutional Neural Networks with Cutout, de Vries and Taylor (2017) <https://arxiv.org/pdf/1708.04552.pdf>`_
 * 96.1% - `Wide Residual Networks, Zagoruyko and Komodakis (2016) <https://arxiv.org/pdf/1605.07146.pdf>`_
@@ -42,7 +42,7 @@ Notable results - CIFAR-10
 
 Notable results - CIFAR-100
 
-* 89.3% - `AutoAugment: Learning Augmentation Strategies from Data, Cubuk et al. (2019) <https://arxiv.org/pdf/1805.09501.pdf>`_
+* 89.3% - `AutoAugment: Learning Augmentation Strategies from Data, Cubuk et al. (2018) <https://arxiv.org/pdf/1805.09501.pdf>`_
 * 84.8% - `Improved Regularization of Convolutional Neural Networks with Cutout, de Vries and Taylor (2017) <https://arxiv.org/pdf/1708.04552.pdf>`_
 * 81.1% - `Wide Residual Networks, Zagoruyko and Komodakis (2016) <https://arxiv.org/pdf/1605.07146.pdf>`_
 * 75.7% - `Fast and Accurate Deep Network Learning by Exponential Linear Units, Clevert et al. (2015) <https://arxiv.org/abs/1511.07289>`_

@@ -28,6 +28,8 @@ Dataset of movie reviews, used for sentiment classification. Each review is labe
 ''''''''''''''''
 Reading comprehension dataset. Leaderboard `here <http://www.qizhexie.com/data/RACE_leaderboard.html>`_.
 
+`RACE: Large-scale ReAding Comprehension Dataset From Examinations, Lai et al. (2017) <https://arxiv.org/pdf/1704.04683.pdf>`_
+
 `SQuAD <https://rajpurkar.github.io/SQuAD-explorer/>`_
 ''''''''''''''''''''''''
 Stanford Question Answering Dataset

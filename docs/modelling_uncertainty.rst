@@ -38,7 +38,7 @@ Unlike in classification we do not normally output a probability distribution wh
 This could be:
 
 * The Gaussian distribution. This only requires two parameters but may be over-simplifying if there aren't strong theoretical reasons to believe the distribution ought to be Gaussian or at least unimodal.
-* A `categorical distribution <https://ml-compiled.readthedocs.io/en/latest/probability.html#categorical>`_. This option allows a great degree of flexibility but requires a relatively large number of parameters. It also makes learning harder since the model has to learn for itself that the 14th category is numerically close to the 13th and 15th, for example (`Salimans et al., 2017 <https://arxiv.org/pdf/1701.05517.pdf>`_).
+* A `categorical distribution <https://ml-compiled.readthedocs.io/en/latest/probability.html#categorical>`_. This option allows a great degree of flexibility but requires a relatively large number of parameters. It also makes learning harder since the model has to learn for itself that the 14th category is numerically close to the 13th and 15th (`Salimans et al., 2017 <https://arxiv.org/pdf/1701.05517.pdf>`_).
 * A `mixture model <https://ml-compiled.readthedocs.io/en/latest/density_estimation.html#mixture-model>`_. If the number of mixtures is chosen well this can represent a good middle ground between descriptiveness and efficiency.
 
 Here is an example in full, using the normal distribution:

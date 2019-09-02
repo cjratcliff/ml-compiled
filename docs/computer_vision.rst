@@ -61,6 +61,7 @@ Imagenet Large Scale Recognition Challenge. Popular image classification task in
 Notable results (top-1 accuracy):
 
 * 83.5% - `AutoAugment: Learning Augmentation Strategies from Data, Cubuk et al. (2018) <https://arxiv.org/pdf/1805.09501.pdf>`_
+* 62.5% - `ImageNet Classification with Deep Convolutional Neural Networks, Krizhevsky et al. (2012) <https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf>`_
 
 MNIST
 ________

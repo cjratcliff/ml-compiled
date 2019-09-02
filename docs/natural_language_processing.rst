@@ -14,7 +14,9 @@ Dataset for question answering
 
 `GLUE <https://gluebenchmark.com/>`_
 '''''''''''''''''''''''''''''
-Stands for General Language Understanding Evaluation.
+Stands for General Language Understanding Evaluation. 
+
+Assesses performance across 11 different tasks including sentiment analysis, question answering and entailment, more details of which can be found on `their website <https://gluebenchmark.com/tasks>`_. 
 
 Leaderboard `here <https://gluebenchmark.com/leaderboard>`_.
 
@@ -32,7 +34,7 @@ Stanford Question Answering Dataset
 
 `SuperGLUE <https://super.gluebenchmark.com/>`_
 ''''''''''''''''''''''''
-Harder successor to the GLUE dataset.
+Harder successor to the GLUE dataset. Assesses performance across 10 different tasks (more details `here <https://super.gluebenchmark.com/tasks>`_.
 
 Leaderboard `here <https://super.gluebenchmark.com/leaderboard>`_.
 

@@ -22,7 +22,6 @@ List of sections that need expanding in rough priority order (high at the top):
 
 List of sections to be added:
 
-* Polyak averaging
 * Self-attention
 * Lipschitz smoothness
 * Lipschitz constant

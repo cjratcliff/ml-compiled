@@ -12,7 +12,7 @@ The weights are drawn from the following normal distribution:
   
 where :math:`\theta^{(i)}` are the parameters for layer :math:`i` of the network and :math:`n_i` is the size of layer :math:`i` of the network.
 
-Biases are initialized to zero as normal.
+The biases are initialized to zero as usual.
 
 | **Proposed in** 
 | `Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification , He et al. (2015) <https://arxiv.org/abs/1502.01852>`_

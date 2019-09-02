@@ -28,5 +28,4 @@ List of sections to be added:
 * Lipschitz constant
 * Canonical Correlation Analysis (CCA)
 * Compositionality
-* Polysemy
 * Bayesian neural networks

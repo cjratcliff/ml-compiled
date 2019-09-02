@@ -332,6 +332,10 @@ ___________________
 A class of iterative methods for solving convex optimization problems. Very similar to gradient descent except the subgradient is used instead of the gradient. The subgradient can be taken even at non-differentiable kinks in a function, enabling convergence on these functions.
 
 
+Polyak averaging
+------------------
+The final parameters are set to the average of the parameters from the last n iterations.
+
 Saddle points
 -------------------
 A point on a function which is not a local or global optimum but where the derivatives are zero.

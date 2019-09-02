@@ -136,7 +136,13 @@ Also known as learning rate annealing. Changing the learning rate throughout the
 Cosine learning rate decay
 ___________________________
 
-The learning rate decays according to a cosine function but is reset to its maximum value once its minimum is reached.
+The learning rate decays according to a cosine function but is reset to its maximum value once its minimum is reached. The equation for the learning rate at epoch :math:`t` is:
+
+.. math::
+
+  \eta_t = \eta_\text{min} + \frac{1}{2}(\eta_\text{max} - \eta_\text{min})(1 + \cos(\frac{T_\text{cur}}{T_i}\pi))
+
+where :math:`T_i` is the number of epochs between warm restarts and :math:`T_\text{cur}` is the number of epochs that have been performed since the last warm restart. The learning rate fluctuates between :math:`\eta_\text{max}` and :math:`\eta_\text{min}`.
 
 Was shown (`Loschilov and Hutter (2016) <https://arxiv.org/pdf/1608.03983.pdf>`_) to increase accuracy on CIFAR-10 and CIFAR-100 compared to the conventional approach of decaying the learning rate monotonically with a step function.
 

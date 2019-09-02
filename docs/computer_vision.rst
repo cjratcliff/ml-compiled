@@ -32,6 +32,7 @@ ______________
 
 Notable results - CIFAR-10
 
+* 97.6% - `Learning Transferable Architectures for Scalable Image Recognition, Zoph et al. (2017) <https://arxiv.org/pdf/1707.07012.pdf>`_
 * 96.1% - `Wide Residual Networks, Zagoruyko and Komodakis (2016) <https://arxiv.org/pdf/1605.07146.pdf>`_
 * 94.2% - `All you need is a good init, Mishkin and Matas (2015) <https://arxiv.org/abs/1511.06422>`_
 * 93.6% - `Deep Residual Learning for Image Recognition, He et al. (2015) <https://arxiv.org/abs/1512.03385>`_

@@ -57,6 +57,9 @@ A list of some of the most frequently used unlabelled datasets and text corpora,
 * `Project Gutenberg <http://www.gutenberg.org/>`_
 * `Shakespeare <https://ocw.mit.edu/ans7870/6/6.006/s08/lecturenotes/files/t8.shakespeare.txt>`_
 
+Entailment
+------------
+The task of deciding whether one piece of text follows logically from another. 
 
 Entity linking
 ----------------

@@ -33,15 +33,15 @@ ______________
 Notable results - CIFAR-10
 
 * 96.1% - `Wide Residual Networks, Zagoruyko and Komodakis (2016) <https://arxiv.org/pdf/1605.07146.pdf>`_
-* 94.2% - All you need is a good init
-* 93.6% - Deep Residual Learning for Image Recognition
-* 93.5% - Fast and Accurate Deep Network Learning by Exponential Linear Units
+* 94.2% - `All you need is a good init, Mishkin and Matas (2015) <https://arxiv.org/abs/1511.06422>`_
+* 93.6% - `Deep Residual Learning for Image Recognition, He et al. (2015) <https://arxiv.org/abs/1512.03385>`_
+* 93.5% - `Fast and Accurate Deep Network Learning by Exponential Linear Units, Clevert et al. (2015) <https://arxiv.org/abs/1511.07289>`_
 
 Notable results - CIFAR-100
 
 * 81.1% - `Wide Residual Networks, Zagoruyko and Komodakis (2016) <https://arxiv.org/pdf/1605.07146.pdf>`_
-* 75.7% - Fast and Accurate Deep Network Learning by Exponential Linear Units
-* 72.3% - All you need is a good init
+* 75.7% - `Fast and Accurate Deep Network Learning by Exponential Linear Units, Clevert et al. (2015) <https://arxiv.org/abs/1511.07289>`_
+* 72.3% - `All you need is a good init, Mishkin and Matas (2015) <https://arxiv.org/abs/1511.06422>`_
 
 https://keras.io/datasets/#cifar10-small-image-classification
 

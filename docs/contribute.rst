@@ -22,6 +22,7 @@ List of sections that need expanding in rough priority order (high at the top):
 
 List of sections to be added:
 
+* Wide Residual Networks
 * Self-attention
 * Lipschitz smoothness
 * Lipschitz constant

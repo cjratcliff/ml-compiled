@@ -136,7 +136,13 @@ Also known as learning rate annealing. Changing the learning rate throughout the
 Cosine learning rate decay
 ___________________________
 
-Pseudocode:
+The learning rate decays according to a cosine function but is reset to its maximum value once its minimum is reached.
+
+Was shown (`Loschilov and Hutter (2016) <https://arxiv.org/pdf/1608.03983.pdf>`_) to increase accuracy on CIFAR-10 and CIFAR-100 compared to the conventional approach of decaying the learning rate monotonically with a step function.
+
+Note that warm restarts can temporarily make the model's performance worse. The best model can usually be found when the learning rate is at its minimum.
+
+The following Python code shows how to implement cosine learning rate decay:
 
 .. code:: python
 
@@ -161,7 +167,8 @@ The graph below shows cosine learning rate decay with :math:`T_i = 10`, :math:`T
 .. image:: ../img/cosine_lr_decay.png
   :align: center
 
-`SGDR: Stochastic Gradient Descent with Warm Restarts, Loschilov and Hutter(2016) <https://arxiv.org/pdf/1608.03983.pdf>`_
+| **Proposed in** 
+| `SGDR: Stochastic Gradient Descent with Warm Restarts, Loschilov and Hutter (2016) <https://arxiv.org/pdf/1608.03983.pdf>`_
 
 
 Optimizers

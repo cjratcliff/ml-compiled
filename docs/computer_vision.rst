@@ -62,6 +62,7 @@ Notable results (top-1 accuracy):
 
 * 83.5% - `AutoAugment: Learning Augmentation Strategies from Data, Cubuk et al. (2018) <https://arxiv.org/pdf/1805.09501.pdf>`_
 * 78.6% - `Deep Residual Learning for Image Recognition, He et al. (2015) <https://arxiv.org/abs/1512.03385>`_
+* 76.3% - `Very deep convolutional networks for large-scale image recognition, Simonyan and Zisserman (2014) <https://arxiv.org/abs/1409.1556>`_
 * 62.5% - `ImageNet Classification with Deep Convolutional Neural Networks, Krizhevsky et al. (2012) <https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf>`_
 
 MNIST

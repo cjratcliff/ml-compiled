@@ -56,6 +56,8 @@ MNIST
 ________
 70000 28x28 pixel grayscale images of handwritten digits (10 classes), 60000 in the training set and 10000 in the test set.
 
+http://yann.lecun.com/exdb/mnist/
+
 https://keras.io/datasets/#mnist-database-of-handwritten-digits
 
 Pascal VOC

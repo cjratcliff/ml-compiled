@@ -144,6 +144,11 @@ The learning rate decays according to a cosine function but is reset to its maxi
 
 where :math:`T_i` is the number of epochs between warm restarts and :math:`T_\text{cur}` is the number of epochs that have been performed since the last warm restart. The learning rate fluctuates between :math:`\eta_\text{max}` and :math:`\eta_\text{min}`.
 
+The graph below shows cosine learning rate decay with :math:`T_i = 10`, :math:`T_\text{mult} = 2`, :math:`\eta_\text{max} = 0.1` and :math:`\eta_\text{min} = 0.01`:
+
+.. image:: ../img/cosine_lr_decay.png
+  :align: center
+
 Was shown (`Loschilov and Hutter (2016) <https://arxiv.org/pdf/1608.03983.pdf>`_) to increase accuracy on CIFAR-10 and CIFAR-100 compared to the conventional approach of decaying the learning rate monotonically with a step function.
 
 Note that warm restarts can temporarily make the model's performance worse. The best model can usually be found when the learning rate is at its minimum.
@@ -167,11 +172,6 @@ The following Python code shows how to implement cosine learning rate decay:
 
       lr = min_lr + 0.5 * (max_lr - min_lr) * (1 + np.cos(np.pi * t_cur / t_i))
       t_cur += 1
-
-The graph below shows cosine learning rate decay with :math:`T_i = 10`, :math:`T_\text{mult} = 2`, :math:`\eta_\text{max} = 0.1` and :math:`\eta_\text{min} = 0.01`:
-
-.. image:: ../img/cosine_lr_decay.png
-  :align: center
 
 | **Proposed in** 
 | `SGDR: Stochastic Gradient Descent with Warm Restarts, Loschilov and Hutter (2016) <https://arxiv.org/pdf/1608.03983.pdf>`_

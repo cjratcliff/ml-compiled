@@ -18,7 +18,7 @@ Cutout
 ________
 Regularization method that masks a random square region of the image, replacing it with grey.
 
-Was used to get new state of the art methods on the CIFAR-10, CIFAR-100 and SVHN datasets (DeVries and Taylor, 2017).
+Was used to get state of the art results on the CIFAR-10, CIFAR-100 and SVHN datasets.
 
 | **Proposed in**
 | `Improved Regularization of Convolutional Neural Networks with Cutout, DeVries and Taylor (2017) <https://arxiv.org/pdf/1708.04552.pdf>`_
@@ -34,7 +34,7 @@ Notable results - CIFAR-10
 
 * 98.5% - `AutoAugment: Learning Augmentation Strategies from Data, Cubuk et al. (2018) <https://arxiv.org/pdf/1805.09501.pdf>`_
 * 97.6% - `Learning Transferable Architectures for Scalable Image Recognition, Zoph et al. (2017) <https://arxiv.org/pdf/1707.07012.pdf>`_
-* 97.4% - `Improved Regularization of Convolutional Neural Networks with Cutout, de Vries and Taylor (2017) <https://arxiv.org/pdf/1708.04552.pdf>`_
+* 97.4% - `Improved Regularization of Convolutional Neural Networks with Cutout, DeVries and Taylor (2017) <https://arxiv.org/pdf/1708.04552.pdf>`_
 * 96.1% - `Wide Residual Networks, Zagoruyko and Komodakis (2016) <https://arxiv.org/pdf/1605.07146.pdf>`_
 * 94.2% - `All you need is a good init, Mishkin and Matas (2015) <https://arxiv.org/abs/1511.06422>`_
 * 93.6% - `Deep Residual Learning for Image Recognition, He et al. (2015) <https://arxiv.org/abs/1512.03385>`_

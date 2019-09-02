@@ -34,7 +34,7 @@ Stanford Question Answering Dataset
 
 `SuperGLUE <https://super.gluebenchmark.com/>`_
 ''''''''''''''''''''''''
-Harder successor to the GLUE dataset. Assesses performance across 10 different tasks (more details `here <https://super.gluebenchmark.com/tasks>`_.
+Harder successor to the GLUE dataset. Assesses performance across 10 different tasks (more details `here <https://super.gluebenchmark.com/tasks>`_).
 
 Leaderboard `here <https://super.gluebenchmark.com/leaderboard>`_.
 

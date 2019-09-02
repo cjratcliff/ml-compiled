@@ -24,7 +24,6 @@ List of sections to be added:
 
 * Polyak averaging
 * Self-attention
-* Cosine learning rate decay
 * Lipschitz smoothness
 * Lipschitz constant
 * Canonical Correlation Analysis (CCA)

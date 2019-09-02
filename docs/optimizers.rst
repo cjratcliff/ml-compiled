@@ -135,6 +135,12 @@ Also known as learning rate annealing. Changing the learning rate throughout the
 
 Cosine learning rate decay
 ___________________________
+
+The graph below shows cosine learning rate decay with :math:`T_i = 10`, :math:`T_\text{mult} = 2`, :math:`\eta_\text{max} = 0.1` and :math:`\eta_\text{min} = 0.01`:
+
+.. image:: ../img/cosine_lr_decay.png
+  :align: center
+
 `SGDR: Stochastic Gradient Descent with Warm Restarts, Loschilov and Hutter(2016) <https://arxiv.org/pdf/1608.03983.pdf>`_
 
 

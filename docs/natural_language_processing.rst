@@ -26,7 +26,7 @@ Dataset of movie reviews, used for sentiment classification. Each review is labe
 
 `RACE <https://www.cs.cmu.edu/~glai1/data/race/>`_
 ''''''''''''''''
-Reading comprehension dataset. `Leaderboard here <http://www.qizhexie.com/data/RACE_leaderboard.html>`_.
+Reading comprehension dataset. Leaderboard `here <http://www.qizhexie.com/data/RACE_leaderboard.html>`_.
 
 `SQuAD <https://rajpurkar.github.io/SQuAD-explorer/>`_
 ''''''''''''''''''''''''

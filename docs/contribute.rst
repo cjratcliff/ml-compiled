@@ -14,6 +14,7 @@ List of sections that need expanding in rough priority order (high at the top):
 * Normalizing flows
 * Change of variables
 * ZCA
+* Gradient boosting
 * Codomain
 * Continuous
 * Image

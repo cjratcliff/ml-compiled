@@ -47,6 +47,10 @@ Curriculum learning
 --------------------------
 Training the classifier with easy examples initially and gradually transitioning to the harder ones. Useful for architectures which are very hard to train.
 
+Distributed training
+-----------------------
+
+`Massively Parallel Methods for Deep Reinforcement Learning, Nair et al. (2015) <https://arxiv.org/abs/1507.04296>`_
 
 Depth
 ---------

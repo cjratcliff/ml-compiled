@@ -47,6 +47,19 @@ Curriculum learning
 --------------------------
 Training the classifier with easy examples initially and gradually transitioning to the harder ones. Useful for architectures which are very hard to train.
 
+Depth
+---------
+Depth increases the representational power of a network exponentially, for a given number of parameters. However, deeper networks can also be considerably harder to train, due to vanishing and exploding gradients or dying ReLUs. Problems stemming from depth are seen both in deep feedforward networks and in recurrent networks, where the depth comes from being unfolded over a large number of timesteps.
+
+Potential solutions include:
+
+* Using a smaller `learning rate <https://ml-compiled.readthedocs.io/en/latest/optimizers.html#learning-rate>`_
+* Skip connections
+* `Batch normalization <https://ml-compiled.readthedocs.io/en/latest/layers.html#batch-normalization>`_
+* Memory cells. Used in the Neural Turing Machine for learning long dependencies.
+* Auxiliary loss functions (eg `Szegedy et al. (2016) <https://arxiv.org/pdf/1409.4842.pdf>`_)
+* `Orthogonal initialization <https://ml-compiled.readthedocs.io/en/latest/initialization.html#orthogonal-initialization>`_
+
 Distributed training
 -----------------------
 
@@ -63,20 +76,6 @@ Gradients are accumulated from the workers and summed before updating the networ
 `Revisiting Distributed Synchronous SGD, Chen et al. (2016) <https://ai.google/research/pubs/pub45187>`_
 
 `Massively Parallel Methods for Deep Reinforcement Learning, Nair et al. (2015) <https://arxiv.org/abs/1507.04296>`_
-
-Depth
----------
-Depth increases the representational power of a network exponentially, for a given number of parameters. However, deeper networks can also be considerably harder to train, due to vanishing and exploding gradients or dying ReLUs. Problems stemming from depth are seen both in deep feedforward networks and in recurrent networks, where the depth comes from being unfolded over a large number of timesteps.
-
-Potential solutions include:
-
-* Using a smaller `learning rate <https://ml-compiled.readthedocs.io/en/latest/optimizers.html#learning-rate>`_
-* Skip connections
-* `Batch normalization <https://ml-compiled.readthedocs.io/en/latest/layers.html#batch-normalization>`_
-* Memory cells. Used in the Neural Turing Machine for learning long dependencies.
-* Auxiliary loss functions (eg `Szegedy et al. (2016) <https://arxiv.org/pdf/1409.4842.pdf>`_)
-* `Orthogonal initialization <https://ml-compiled.readthedocs.io/en/latest/initialization.html#orthogonal-initialization>`_
-
 
 Early stopping
 ---------------

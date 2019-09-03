@@ -67,6 +67,8 @@ Asynchronous SGD
 ___________________
 Each worker processes a batch of data and computes the gradients. A central server holds the model parameters. The workers fetch the parameters from the parameter server and use them to compute gradients, which are then sent to the parameter server so the weights can be updated.
 
+It is likely that while a worker is computing gradients other worker(s) have already finished their gradients and used them to update the parameters. Therefore the update can be several steps out-of-date when the gradient is finally computed. This problem is more severe the more workers there are.
+
 | `Project Adam: Building an Efficient and Scalable Deep Learning Training System , Chilimbi et al. (2014) <https://pdfs.semanticscholar.org/043a/fbd936c95d0e33c4a391365893bd4102f1a7.pdf>`_
 | `Massively Parallel Methods for Deep Reinforcement Learning, Nair et al. (2015) <https://arxiv.org/abs/1507.04296>`_
 

@@ -28,8 +28,10 @@ LSUV initialization
 ______________________
 Layer-sequential unit-variance initialization. An iterative initialization procedure:
 
-1. Pre-initialize the layers with orthonormal matrices.
+1. Pre-initialize the layers with orthonormal matrices as proposed in.
 2. For each layer:
+3. While :math:`Var() - 1` \geq Tol_{var}` and :math:`T_i < T_\max`:
+4.    :math:`\theta^(i) = \theta^(i) / \sqrt{Var(O^(i))}`
 
 | **Proposed in**
 | `All you need is a good init, Mishkin and Matas (2015) <https://arxiv.org/abs/1511.06422>`_

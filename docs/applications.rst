@@ -5,11 +5,20 @@ Applications
 Atari
 ------
 
-Notable papers
+Notable results
 ''''''''''''''''
-* `Deep Reinforcement Learning with Double Q-learning, Hassely et al. (2015) <https://arxiv.org/abs/1509.06461>`_
-* `Dueling Network Architectures for Deep Reinforcement Learning, Wang et al. (2015) <https://arxiv.org/abs/1511.06581>`_
-* `Asynchronous Methods for Deep Reinforcement Learning, Minh et al. (2016) <https://arxiv.org/pdf/1602.01783.pdf>`_
+Below is the median human-normalized performance on the 57 Atari games dataset with human starts. The numbers are from `Hessel et al. (2017) <https://arxiv.org/pdf/1710.02298.pdf>`_.
+
+* 153% - `Rainbow: Combining Improvements in Deep Reinforcement Learning, Hessel et al. (2017) <https://arxiv.org/pdf/1710.02298.pdf>`_
+* 128% - `Prioritized Experience Replay, Schaul et al. (2015) <https://arxiv.org/abs/1511.05952>`_
+* 125% - `A Distributional Perspective on Reinforcement Learning, Bellemare et al. (2017) <https://arxiv.org/abs/1707.06887>`_
+* 117% - `Dueling Network Architectures for Deep Reinforcement Learning, Wang et al. (2015) <https://arxiv.org/abs/1511.06581>`_
+* 116% - `Asynchronous Methods for Deep Reinforcement Learning, Minh et al. (2016) <https://arxiv.org/pdf/1602.01783.pdf>`_ 
+* 110% - `Deep Reinforcement Learning with Double Q-learning, Hassely et al. (2015) <https://arxiv.org/abs/1509.06461>`_
+* 102% - `Noisy Networks for Exploration, Fortunato et al. (2017) <https://arxiv.org/abs/1706.10295>`_
+* 68% - `Human-level control through deep reinforcement learning, Mnih et al. (2015) <https://www.nature.com/articles/nature14236>`_
+
+Human starts are used in the evaluation to avoid rewarding agents that have overfitted to their own trajectories.
 
 Go
 ----

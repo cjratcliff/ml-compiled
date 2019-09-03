@@ -50,6 +50,7 @@ Training the classifier with easy examples initially and gradually transitioning
 Distributed training
 -----------------------
 
+`Revisiting Distributed Synchronous SGD <https://ai.google/research/pubs/pub45187>`_
 `Massively Parallel Methods for Deep Reinforcement Learning, Nair et al. (2015) <https://arxiv.org/abs/1507.04296>`_
 
 Depth

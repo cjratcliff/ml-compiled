@@ -65,26 +65,22 @@ Distributed training
 
 Asynchronous SGD
 ___________________
-**Description**
+| **Description**
+| Each worker processes a batch of data and computes the gradients. A central server holds the model parameters. The workers fetch the parameters from the parameter server and use them to compute gradients, which are then sent to the parameter server so the weights can be updated.
 
-Each worker processes a batch of data and computes the gradients. A central server holds the model parameters. The workers fetch the parameters from the parameter server and use them to compute gradients, which are then sent to the parameter server so the weights can be updated.
-
-**Pros and cons**
-
-It is likely that while a worker is computing gradients other worker(s) have already finished their gradients and used them to update the parameters. Therefore the update can be several steps out-of-date when the gradient is finally computed. This problem is more severe the more workers there are.
+| **Pros and cons**
+| It is likely that while a worker is computing gradients other worker(s) have already finished their gradients and used them to update the parameters. Therefore the update can be several steps out-of-date when the gradient is finally computed. This problem is more severe the more workers there are.
 
 | `Project Adam: Building an Efficient and Scalable Deep Learning Training System , Chilimbi et al. (2014) <https://pdfs.semanticscholar.org/043a/fbd936c95d0e33c4a391365893bd4102f1a7.pdf>`_
 | `Massively Parallel Methods for Deep Reinforcement Learning, Nair et al. (2015) <https://arxiv.org/abs/1507.04296>`_
 
 Synchronous SGD
 _________________
-**Description**
+| **Description**
+| Gradients are accumulated from the workers and summed before updating the network parameters.
 
-Gradients are accumulated from the workers and summed before updating the network parameters.
-
-**Pros and cons**
-
-Parameter updates can only occur once all the workers have computed their gradients which can slow down learning, unlike in asynchronous SGD. The whole system is limited to the speed of the lowest worker.
+| **Pros and cons**
+| Parameter updates can only occur once all the workers have computed their gradients which can slow down learning, unlike in asynchronous SGD. The whole system is limited to the speed of the lowest worker.
 
 `Revisiting Distributed Synchronous SGD, Chen et al. (2016) <https://ai.google/research/pubs/pub45187>`_
 

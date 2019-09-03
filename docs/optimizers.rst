@@ -50,7 +50,14 @@ Training the classifier with easy examples initially and gradually transitioning
 Distributed training
 -----------------------
 
+Asynchronous SGD
+___________________
+`Project Adam: Building an Efficient and Scalable Deep Learning Training System , Chilimbi et al. (2014) <https://pdfs.semanticscholar.org/043a/fbd936c95d0e33c4a391365893bd4102f1a7.pdf>`_
+
+Synchronous SGD
+_________________
 `Revisiting Distributed Synchronous SGD, Chen et al. (2016) <https://ai.google/research/pubs/pub45187>`_
+
 `Massively Parallel Methods for Deep Reinforcement Learning, Nair et al. (2015) <https://arxiv.org/abs/1507.04296>`_
 
 Depth

@@ -26,16 +26,22 @@ Can be used to help with vanishing and exploding gradients in RNNs.
 
 LSUV initialization
 ______________________
-Layer-sequential unit-variance initialization.
+Layer-sequential unit-variance initialization. An iterative initialization procedure:
+
+1. Pre-initialize the layers with orthonormal matrices.
+2. For each layer:
 
 | **Proposed in**
 | `All you need is a good init, Mishkin and Matas (2015) <https://arxiv.org/abs/1511.06422>`_
 
 Orthonormal initialization
 ____________________________
-Initialise the matrix by first generating a matrix where every entry is drawn from a normal distribution with mean 0 and variance 1. Then perform a `QR decomposition <https://ml-compiled.readthedocs.io/en/latest/linear_algebra.html#qr-decomposition>`_ and use Q as the initialization matrix. Alternatively, do `SVD <https://ml-compiled.readthedocs.io/en/latest/linear_algebra.html#singular-value-decomposition-svd>`_ and pick U or V as the initialization matrix.
 
-Described in `Exact solutions to the nonlinear dynamics of learning in deep linear neural networks, Saxe et al. (2013) <https://arxiv.org/abs/1312.6120>`_
+1. Initialise the weights from a standard normal distribution: :math:`\theta_i \sim N(0, 1)`.
+2. Perform a `QR decomposition <https://ml-compiled.readthedocs.io/en/latest/linear_algebra.html#qr-decomposition>`_ and use Q as the initialization matrix. Alternatively, do `SVD <https://ml-compiled.readthedocs.io/en/latest/linear_algebra.html#singular-value-decomposition-svd>`_ and pick U or V as the initialization matrix.
+
+| **Proposed in**
+| `Exact solutions to the nonlinear dynamics of learning in deep linear neural networks, Saxe et al. (2013) <https://arxiv.org/abs/1312.6120>`_
 
 Xavier initialization
 -----------------------

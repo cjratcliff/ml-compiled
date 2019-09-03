@@ -65,7 +65,7 @@ Distributed training
 
 Asynchronous SGD
 ___________________
-Each worker processes a batch of data and computes the gradients. These gradients are then sent to the server holding the parameters which are then updated.
+Each worker processes a batch of data and computes the gradients. A central server holds the model parameters. The workers fetch the parameters from the parameter server and use them to compute gradients, which are then sent to the parameter server so the weights can be updated.
 
 `Project Adam: Building an Efficient and Scalable Deep Learning Training System , Chilimbi et al. (2014) <https://pdfs.semanticscholar.org/043a/fbd936c95d0e33c4a391365893bd4102f1a7.pdf>`_
 

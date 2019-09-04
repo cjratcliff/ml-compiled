@@ -21,6 +21,7 @@ The images in the training set are randomly altered in order to improve the gene
 * Sample pairing - Combine two random images into a new synthetic image. See `Data Augmentation by Pairing Samples for Images Classification, Inoue (2018) <https://arxiv.org/pdf/1801.02929.pdf>`_.
 * Shearing
 * Solarize - Pixels above a random value are inverted.
+* Translation
 
 Datasets
 ---------

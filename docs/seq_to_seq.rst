@@ -50,11 +50,11 @@ Common architecture for translation.
 Consists of two RNNs. One encodes the input sequence into a fixed-length vector representation, the other decodes it into an output sequence. Uses a special type of hidden unit that improves the model’s memory by adaptively remembering and forgetting.
 Can be augmented with sampled softmax, bucketing and padding.
 
-| ** Proposed in**
+| **Proposed in**
 | `Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation, Cho et al. (2014) <https://arxiv.org/pdf/1406.1078.pdf>`_
 
 Transformer
 ---------------
 
-| ** Proposed in**
+| **Proposed in**
 | `Attention is All You Need, Vaswani et al. (2017) <https://arxiv.org/abs/1706.03762>`_.

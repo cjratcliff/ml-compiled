@@ -14,7 +14,7 @@ The images in the training set are randomly altered in order to improve the gene
 * Contrast
 * Cropping - The image is randomly cropped and the result is fed into the network instead.
 * Cutout - Mask a random square region of the image, replacing it with grey. Was used to get state of the art results on the CIFAR-10, CIFAR-100 and SVHN datasets. Proposed in `Improved Regularization of Convolutional Neural Networks with Cutout, DeVries and Taylor (2017) <https://arxiv.org/pdf/1708.04552.pdf>`_
-* Equalize
+* Equalize - Perform histogram equalization on the image. This adjusts the contrast.
 * Flipping - The image is flipped with probability 0.5 and left as it is otherwise. Normally only horizontal flipping is used but vertical flipping can be used where it makes sense - satellite imagery for example.
 * Posterize - Decrease the bits per pixel
 * Rotation

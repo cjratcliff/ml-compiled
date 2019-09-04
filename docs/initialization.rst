@@ -30,12 +30,16 @@ Layer-sequential unit-variance initialization. An iterative initialization proce
 
 .. code-block:: none
 
-  1. pre-initialize the layers with orthonormal matrices as proposed in Saxe et al. (2013)
-  2. for each layer:
-  3.    set w equal to the weights of the layer
-  4.    set b equal to the output of the layer 
-  5.    while abs(var(b) - 1) >= tol_var and t_i < t_max:
-  6.        w = w / sqrt(var(b))
+  1. t_max = 10
+  2. tol_var = 0.05
+  3. pre-initialize the layers with orthonormal matrices as proposed in Saxe et al. (2013)
+  4. for each layer:
+  5.    let w be the weights of the layer
+  6.    let b be the output of the layer 
+  7.    for i in range(t_max):
+  8.        w = w / sqrt(var(b))
+  9.        if abs(var(b) - 1) < tol_var:
+  10.            break
 
 | **Proposed in**
 | `All you need is a good init, Mishkin and Matas (2015) <https://arxiv.org/abs/1511.06422>`_

@@ -8,7 +8,6 @@ List of sections that need expanding in rough priority order (high at the top):
 
 * Deconvolution layer
 * REINFORCE algorithm
-* Training in parallel
 * Rademacher complexity
 * VC dimension
 * Evidence lower-bound

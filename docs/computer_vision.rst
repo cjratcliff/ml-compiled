@@ -18,7 +18,7 @@ The images in the training set are randomly altered in order to improve the gene
 * Flipping - The image is flipped with probability 0.5 and left as it is otherwise. Normally only horizontal flipping is used but vertical flipping can be used where it makes sense - satellite imagery for example.
 * Posterize - Decrease the bits per pixel
 * Rotation
-* Sample pairing
+* Sample pairing - Combine two random images into a new synthetic image. See `Data Augmentation by Pairing Samples for Images Classification, Inoue (2018) <https://arxiv.org/pdf/1801.02929.pdf>`_.
 * Shearing
 * Solarize - Pixels above a random value are inverted.
 

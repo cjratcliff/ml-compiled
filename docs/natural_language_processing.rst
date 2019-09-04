@@ -8,45 +8,15 @@ Datasets
 Labelled
 ____________
 
-`bAbI <https://research.fb.com/downloads/babi/>`_
-'''''''''''''''''''
-Dataset for question answering
-
-`GLUE <https://gluebenchmark.com/>`_
-'''''''''''''''''''''''''''''
-Stands for General Language Understanding Evaluation. 
-
-Assesses performance across 11 different tasks including sentiment analysis, question answering and entailment, more details of which can be found on `their website <https://gluebenchmark.com/tasks>`_. 
-
-Leaderboard `here <https://gluebenchmark.com/leaderboard>`_.
-
-IMDB
-'''''''
-Dataset of movie reviews, used for sentiment classification. Each review is labelled as either positive or negative.
-
-`RACE <https://www.cs.cmu.edu/~glai1/data/race/>`_
-''''''''''''''''
-Reading comprehension dataset. Leaderboard `here <http://www.qizhexie.com/data/RACE_leaderboard.html>`_.
-
-`RACE: Large-scale ReAding Comprehension Dataset From Examinations, Lai et al. (2017) <https://arxiv.org/pdf/1704.04683.pdf>`_
-
-`SQuAD <https://rajpurkar.github.io/SQuAD-explorer/>`_
-''''''''''''''''''''''''
-Stanford Question Answering Dataset
-
-`SuperGLUE <https://super.gluebenchmark.com/>`_
-''''''''''''''''''''''''
-Harder successor to the GLUE dataset. Assesses performance across 10 different tasks (more details `here <https://super.gluebenchmark.com/tasks>`_).
-
-Leaderboard `here <https://super.gluebenchmark.com/leaderboard>`_.
-
-TIMIT
-''''''''''
-Speech corpus
-
-WMT
-'''''''
-https://nlp.stanford.edu/projects/nmt/
+* `bAbI <https://research.fb.com/downloads/babi/>`_ - Dataset for question answering
+* `GLUE <https://gluebenchmark.com/>`_ - Stands for General Language Understanding Evaluation. Assesses performance across 11 different tasks including sentiment analysis, question answering and entailment, more details of which can be found on `their website <https://gluebenchmark.com/tasks>`_. Leaderboard `here <https://gluebenchmark.com/leaderboard>`_.
+* IMDB - Dataset of movie reviews, used for sentiment classification. Each review is labelled as either positive or negative.
+* `RACE <https://www.cs.cmu.edu/~glai1/data/race/>`_ - Reading comprehension dataset. Leaderboard `here <http://www.qizhexie.com/data/RACE_leaderboard.html>`_.
+* `RACE: Large-scale ReAding Comprehension Dataset From Examinations, Lai et al. (2017) <https://arxiv.org/pdf/1704.04683.pdf>`_
+* `SQuAD <https://rajpurkar.github.io/SQuAD-explorer/>`_ - Stanford Question Answering Dataset
+* `SuperGLUE <https://super.gluebenchmark.com/>`_ - Harder successor to the GLUE dataset. Assesses performance across 10 different tasks (more details `here <https://super.gluebenchmark.com/tasks>`_). Leaderboard `here <https://super.gluebenchmark.com/leaderboard>`_.
+* TIMIT - Speech corpus
+* WMT - https://nlp.stanford.edu/projects/nmt/
 
 Unlabelled
 ________________

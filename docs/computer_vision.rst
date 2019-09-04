@@ -8,7 +8,7 @@ The images in the training set are randomly altered in order to improve the gene
 
 `Cubuk et al. (2018) <https://arxiv.org/pdf/1805.09501.pdf>`_, who evaluate a number of different data augmentation techniques, use the following transforms:
 
-* Blur - The entire iamge is blurred by a random amount.
+* Blur - The entire image is blurred by a random amount.
 * Brightness
 * Color balance
 * Contrast

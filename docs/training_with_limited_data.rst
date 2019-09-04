@@ -15,7 +15,7 @@ Datasets
 
 Omniglot
 __________
-1623 handwritten characters from 50 alphabets. Useful for one-shot learning.
+1623 handwritten characters from 50 alphabets with 20 examples of each character. Useful for one-shot learning. Introduced in `One shot learning of simple visual concepts, Lake et al. (2011) <https://cims.nyu.edu/~brenden/papers/LakeEtAl2011CogSci.pdf>`_.
 
 **Notable results**
 

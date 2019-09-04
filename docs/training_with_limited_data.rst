@@ -21,6 +21,12 @@ __________
 
 * 93.8% - `Matching Networks for One Shot Learning, Vinyals et al. (2016) <https://arxiv.org/abs/1606.04080>`_
 
+miniImageNet
+______________
+60,000 84x84 images from 100 classes, each with 600 examples. There are 80 classes in the training set and 20 in the test set. Much harder than Omniglot.
+
+Introduced in `Vinyals et al. (2016) <https://arxiv.org/abs/1606.04080>`_.
+
 One-shot learning
 ------------------
 Classification where only one member of that class has been seen before. Matching Networks achieve 93.2% top-5 accuracy on ImageNet compared to 96.5% for Inception v3.

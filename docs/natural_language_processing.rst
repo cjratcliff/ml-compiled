@@ -20,7 +20,7 @@ ____________
 
 Unlabelled
 ________________
-A list of some of the most frequently used unlabelled datasets and text corpora, suitable for tasks like generative text modelling and learning word embeddings.
+A list of some of the most frequently used unlabelled datasets and text corpora, suitable for tasks like language modelling and learning word embeddings.
 
 * `1 Billion Word Language Model Benchmark <http://www.statmt.org/lm-benchmark/>`_
 * `Common Crawl <http://commoncrawl.org/the-data/>`_

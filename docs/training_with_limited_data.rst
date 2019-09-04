@@ -20,6 +20,7 @@ __________
 | **Notable results**
 | 20-way one shot accuracies are reported. This means one labelled example is provided from each of the 20 classes that were not in the training set. The task is then to classify unlabelled examples into these 20 classes.
 
+* 98.2% - `Object-Level Representation Learning for Few-Shot Image Classification, Long et al. (2018) <https://arxiv.org/pdf/1805.10777.pdf>`_
 * 93.8% - `Matching Networks for One Shot Learning, Vinyals et al. (2016) <https://arxiv.org/abs/1606.04080>`_
 * 88.1% - `Siamese Neural Networks for One-shot Image Recognition, Koch et al. (2015) <https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf>`_
 

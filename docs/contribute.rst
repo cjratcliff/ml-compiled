@@ -15,6 +15,7 @@ List of sections that need expanding in rough priority order (high at the top):
 * Change of variables
 * ZCA
 * Gradient boosting
+* CRFs
 * Codomain
 * Continuous
 * Image
@@ -30,3 +31,6 @@ List of sections to be added:
 * Canonical Correlation Analysis (CCA)
 * Compositionality
 * Bayesian neural networks
+* Deep Belief Networks/Machines
+* Restricted Boltzmann Machines
+* Regression - p-values

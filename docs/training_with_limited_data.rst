@@ -17,8 +17,8 @@ Omniglot
 __________
 1623 handwritten characters from 50 alphabets with 20 examples of each character. Useful for one-shot learning. Introduced in `One shot learning of simple visual concepts, Lake et al. (2011) <https://cims.nyu.edu/~brenden/papers/LakeEtAl2011CogSci.pdf>`_.
 
-**Notable results**
-20-way one shot accuracies are reported.
+| **Notable results**
+| 20-way one shot accuracies are reported.
 
 * 93.8% - `Matching Networks for One Shot Learning, Vinyals et al. (2016) <https://arxiv.org/abs/1606.04080>`_
 * 88.1% - `Siamese Neural Networks for One-shot Image Recognition, Koch et al. (2015) <https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf>`_

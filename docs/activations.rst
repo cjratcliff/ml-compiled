@@ -182,7 +182,7 @@ All entries in the output vector are in the range (0,1) and sum to 1, making the
 
     f(x)_j = \frac{e^{x_j}}{\sum_{k=1}^K e^{x_k}}, j \in {1,...,K}
     
-Where :math:`x` is a vector of length :math:`K`.
+Where :math:`x` is a vector of length :math:`K`. This vector is often referred to as the **logit**.
     
 Unlike most other activation functions, the softmax does not apply the same function to each item in the input independently. The requirement that the output vector sums to 1 means that if one of the inputs is increased the others must decrease in the output.
 

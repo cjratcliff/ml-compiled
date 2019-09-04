@@ -22,10 +22,21 @@ Unlabelled
 ________________
 A list of some of the most frequently used unlabelled datasets and text corpora, suitable for tasks like language modelling and learning word embeddings.
 
+PTB
+''''''''
+Stands for 'Penn Treebank'. Notable results, given in word-level `perplexity <https://ml-compiled.readthedocs.io/en/latest/metrics.html#perplexity>`_ (lower is better):
+
+* 35.8 - `Language Models are Unsupervised Multitask Learners, Radford et al. (2019) <https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf>`_
+* 47.7 - `Breaking the Softmax Bottleneck: A High-Rank RNN Language Model, Yang et al. (2017) <https://arxiv.org/abs/1711.03953v4>`_
+* 55.8 - `Efficient Neural Architecture Search via Parameter Sharing, Pham et al. (2018) <https://arxiv.org/abs/1802.03268>`_
+* 62.4 - `Neural Architecture Search with Reinforcement Learning, Zoph and Le (2016) <https://arxiv.org/pdf/1611.01578v2.pdf>`_
+* 68.7 - `Recurrent Neural Network Regularization, Zaremba et al. (2014) <https://arxiv.org/pdf/1409.2329v1.pdf>`_
+
+Other datasets:
+''''''''''''''''
 * `1 Billion Word Language Model Benchmark <http://www.statmt.org/lm-benchmark/>`_
 * `Common Crawl <http://commoncrawl.org/the-data/>`_
 * `Gigaword 5 <https://catalog.ldc.upenn.edu/LDC2011T07>`_
-* PTB - Stands for 'Penn Treebank'
 * `Project Gutenberg <http://www.gutenberg.org/>`_
 * `Shakespeare <https://ocw.mit.edu/ans7870/6/6.006/s08/lecturenotes/files/t8.shakespeare.txt>`_
 

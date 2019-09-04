@@ -30,7 +30,7 @@ Layer-sequential unit-variance initialization. An iterative initialization proce
 
 1. Pre-initialize the layers with orthonormal matrices as proposed in.
 2. For each layer:
-3. While :math:`Var() - 1 \geq Tol_{var}` and :math:`T_i < T_\max`:
+3. While :math:`Var() - 1 \geq Tol_{var}` and :math:`T_i < T_{\max}`:
 4.    :math:`\theta^(i) = \theta^(i) / \sqrt{Var(O^(i))}`
 
 | **Proposed in**

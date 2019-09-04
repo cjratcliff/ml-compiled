@@ -16,7 +16,7 @@ ____________
 * `SQuAD <https://rajpurkar.github.io/SQuAD-explorer/>`_ - Stanford Question Answering Dataset
 * `SuperGLUE <https://super.gluebenchmark.com/>`_ - Harder successor to the GLUE dataset. Assesses performance across 10 different tasks (more details `here <https://super.gluebenchmark.com/tasks>`_). Leaderboard `here <https://super.gluebenchmark.com/leaderboard>`_.
 * TIMIT - Speech corpus
-* WMT - https://nlp.stanford.edu/projects/nmt/
+* `WMT <https://nlp.stanford.edu/projects/nmt/>`_ - Parallel corpora for translation. Aligned on the sentence level.
 
 Unlabelled
 ________________

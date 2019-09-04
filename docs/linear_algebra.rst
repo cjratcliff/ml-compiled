@@ -260,6 +260,16 @@ Satisfies the following properties:
 Types of matrix
 ----------------
 
+This table summarises the relationship between types of real and complex matrices. The concept in the 'complex column' is the same as the concept in the same row of the 'real' column if the matrix is real-valued.
+
+============ ========================
+Real          Complex
+============ ========================
+Symettric     Hermitian
+Orthogonal    Unitary
+Transpose     Conjugate transpose
+============ ========================
+
 Diagonal matrix
 ________________
 A matrix where :math:`A_{ij} = 0` if :math:`i \neq j`.

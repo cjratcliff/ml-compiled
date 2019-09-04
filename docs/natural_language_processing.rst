@@ -38,6 +38,7 @@ Other datasets:
 * `Common Crawl <http://commoncrawl.org/the-data/>`_
 * `Gigaword 5 <https://catalog.ldc.upenn.edu/LDC2011T07>`_
 * `Project Gutenberg <http://www.gutenberg.org/>`_
+* WikiText-2
 * `Shakespeare <https://ocw.mit.edu/ans7870/6/6.006/s08/lecturenotes/files/t8.shakespeare.txt>`_
 
 Entailment

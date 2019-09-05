@@ -43,6 +43,14 @@ Layer normalization
 ----------------------
 Can be easily applied to RNNs, unlike batch normalization.
 
+.. math::
+
+  h_t = f(W x_t + b) = f(a + b)
+
+.. math::
+
+  h_t = f(\frac{g}{\sigma_t}*(a - \mu_t) + b)
+
 | **Proposed in** 
 | `Layer Normalization, Ba et al. (2016) <https://arxiv.org/abs/1607.06450>`_
 

@@ -47,22 +47,22 @@ Information theory
 
 Linear algebra
 --------------
-=================  ====================================
-  Symbol             Meaning   
-=================  ==================================== 
-:math:`x`            A vector
-:math:`X`            A matrix
-:math:`X^T`         Transpose of X
-:math:`X^*`         Conjugate transpose of X
+====================  ====================================
+  Symbol                Meaning   
+====================  ==================================== 
+:math:`x`              A vector
+:math:`X`              A matrix
+:math:`X^T`            Transpose of X
+:math:`X^*`            Conjugate transpose of X
 :math:`X^{-1}`         Inverse of X
 :math:`||x||_2`        Euclidean norm of x
-:math:`I`            Identity matrix
-:math:`X*Y`         Element-wise product of X and Y
-:math:`X\otimesY`   Kronecker product of X and Y
-:math:`x \cdot y`   Dot product of x and y
-:math:`tr(X)`       Trace of X
-:math:`det(X)`      Determinant of X
-=================  ====================================
+:math:`I`              Identity matrix
+:math:`X*Y`            Element-wise product of X and Y
+:math:`X \otimes Y`    Kronecker product of X and Y
+:math:`x \cdot y`      Dot product of x and y
+:math:`tr(X)`          Trace of X
+:math:`det(X)`         Determinant of X
+====================  ====================================
 
 Probability
 ------------

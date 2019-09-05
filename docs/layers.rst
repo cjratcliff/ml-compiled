@@ -131,6 +131,8 @@ The formula is exactly the same as normal batch normalization except :math:`\gam
 
 Was used to achieve `state of the art results <https://arxiv.org/pdf/1707.03017.pdf>`_ on the CLEVR visual reasoning benchmark.
 
+`Learning Visual Reasoning Without Strong Priors, Perez et al. (2017) <https://arxiv.org/pdf/1707.03017.pdf>`_
+
 Convolutional layer
 -----------------------
 Transforms an image according to the convolution operation shown below, where the image on the left is the input and the image being created on the right is the output:

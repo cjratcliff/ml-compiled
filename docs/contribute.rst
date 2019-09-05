@@ -6,6 +6,7 @@ Please contribute by opening a pull request at https://github.com/cjratcliff/ml-
 
 List of sections that need expanding in rough priority order (high at the top):
 
+* Transformer
 * Deconvolution layer
 * REINFORCE algorithm
 * Rademacher complexity
@@ -24,6 +25,7 @@ List of sections that need expanding in rough priority order (high at the top):
 
 List of sections to be added:
 
+* Softmax bottleneck
 * Wide Residual Networks
 * Self-attention
 * Lipschitz smoothness

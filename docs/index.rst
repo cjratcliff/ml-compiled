@@ -45,6 +45,7 @@ Contents
    initialization
    layers
    loss_functions
+   normalization
    optimizers
    recurrent
    regularization

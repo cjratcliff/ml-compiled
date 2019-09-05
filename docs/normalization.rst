@@ -43,13 +43,19 @@ Layer normalization
 ----------------------
 Can be easily applied to RNNs, unlike batch normalization.
 
+If the hidden state at time :math:`t` of an RNN is given by:
+
 .. math::
 
-  h_t = f(W x_t + b) = f(a + b)
+  h_t = f(W x_t + b) = f(a_t + b)
+
+Then the layer normalized version is:
 
 .. math::
 
   h_t = f(\frac{g}{\sigma_t}*(a - \mu_t) + b)
+  
+where :math:`\mu_t` and :math:`\sigma_t` are the mean and variance of :math:`a_t`.
 
 | **Proposed in** 
 | `Layer Normalization, Ba et al. (2016) <https://arxiv.org/abs/1607.06450>`_

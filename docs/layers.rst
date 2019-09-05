@@ -203,7 +203,7 @@ Alternative methods include `Noise Contrastive Estimation <https://ml-compiled.r
 
 Inception layer
 --------------------
-At each layer of a traditional CNN we can choose it to be either a convolutional or a pooling layer. If it is convolutional we then need to choose the kernel size (1x1, 3x3, 5x5 etc.). The inception module negates this choice by choosing them all and concatenating the results.
+Using convolutional layers means it is necessary to choose the kernel size (1x1, 3x3, 5x5 etc.). Inception layers negate this choice by using multiple convolutional layers with different kernel sizes and concatenating the results.
 
 Padding can ensure the different convolution sizes still have the same size of output. The pooling component can be concatenated by using a stride of length 1 for the pooling.
 
@@ -211,12 +211,15 @@ Padding can ensure the different convolution sizes still have the same size of o
 
 5x5 convolutions are expensive so the `1x1 convolutions <https://ml-compiled.readthedocs.io/en/latest/layers.html#x1-convolutions>`_ make the architecture computationally viable. The 1x1 convolutions perform dimensionality reduction by reducing the number of filters. This is not a characteristic necessarily found in all 1x1 convolutions. Rather, the authors have specified to have the number of output filters less than the number of input filters.
 
+| **Proposed in**
+| `Going deeper with convolutions, Szegedy et al. (2014) <https://arxiv.org/pdf/1409.4842.pdf>`_
+
 Layer normalization
 ----------------------
 Can be easily applied to RNNs, unlike batch normalization.
 
 | **Proposed in** 
-| `Layer Normalization, Ba et al. (2016) <https://arxiv.org/abs/1607.06450>`_. 
+| `Layer Normalization, Ba et al. (2016) <https://arxiv.org/abs/1607.06450>`_
 
 Pooling layer
 ---------------

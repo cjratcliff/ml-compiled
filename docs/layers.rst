@@ -104,7 +104,7 @@ Batch Normalization is often found to improve generalization performance (`Zhang
 
 Training
 _________________
-The batch-normalized version of a layer, :math:`x`, is:
+The batch-normalized version of the inputs, :math:`x \in \mathbb{R}^{d}`, to a layer is:
 
 .. math::
 
@@ -112,7 +112,7 @@ The batch-normalized version of a layer, :math:`x`, is:
   
 Where :math:`\gamma` and :math:`\beta` are learned and :math:`\epsilon` is a hyperparameter. If there are multiple batch normalization layers a separate :math:`\gamma` and :math:`\beta` will be learned for each of them.
 
-:math:`\mu_x` and :math:`\sigma_x^2` are moving averages of the mean and variance of :math:`x`. They do not need to be learned.
+:math:`\mu_x \in \mathbb{R}^{d}` and :math:`\sigma_x^2 \in \mathbb{R}^{d}` are moving averages of the mean and variance of :math:`x`. They do not need to be learned. The moving averages are calculated independently for each feature.
 
 Inference
 ___________

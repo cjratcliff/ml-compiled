@@ -57,7 +57,9 @@ The weights of the network are reparameterized as:
   
 where :math:`g` is a learnt scalar and :math:`v` is a learnt vector.
 
-This guarantees that :math:`||w|| = g` without the need for explicit normalization.
+This guarantees that :math:`||w|| = g` without the need for explicit normalization. 
+
+Simple to use in RNNs, unlike batch normalization.
 
 | **Proposed in**
 | `Weight Normalization: A Simple Reparameterization to Accelerate Training of Deep Neural Networks, Salimans and Kingma (2016) <https://arxiv.org/abs/1602.07868>`_

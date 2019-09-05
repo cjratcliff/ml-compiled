@@ -9,6 +9,7 @@ List of sections that need expanding in rough priority order (high at the top):
 * Transformer
 * Deconvolution layer
 * REINFORCE algorithm
+* Layer normalization
 * Rademacher complexity
 * VC dimension
 * Evidence lower-bound

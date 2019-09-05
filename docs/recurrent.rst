@@ -36,11 +36,9 @@ The heads use three forms of differentiable attention which:
 
 GRU (Gated Recurrent Unit)
 -------------------------------
-Variation of the LSTM that is simpler to compute and implement.
-Merges the cell and the hidden state.
-Comparable performance to LSTMs on a translation task. Has two gates, a reset gate :math:`r` and an update gate :math:`z`. Not reducible from LSTM as there is only one tanh nonlinearity.
-Cannot ‘count’ as LSTMs can.
-Partially negates the vanishing gradient problem, as LSTMs do.
+Variation of the LSTM that is simpler to compute and implement, mergeing the cell and the hidden state.
+
+Comparable performance to LSTMs on a translation task. Has two gates, a reset gate :math:`r` and an update gate :math:`z`. Not reducible from LSTM as there is only one tanh nonlinearity. Cannot ‘count’ as LSTMs can. Partially negates the vanishing gradient problem, as LSTMs do.
 
 The formulation is:
 
@@ -48,14 +46,14 @@ The formulation is:
 
     z = \sigma(x_t U_z + h_{t-1} W_z)
 
-    r=\sigma(x_t U_r + h_{t-1} W_r)
+    r = \sigma(x_t U_r + h_{t-1} W_r)
 
     o_t = \tanh(x_tU_o + (h_{t-1}*r)W_h)
 
     h_t = (1-z)*o + z*h_{t-1}
 
 
-Where * represents element-wise multiplication. Biases have been omitted for simplicity.
+Where :math:`*` represents element-wise multiplication. Biases have been omitted for simplicity.
 
 :math:`z` is used for constructing the new hidden vector and dictates which information is updated from the new output and which is remembered from the old hidden vector.
 :math:`r` is used for constructing the output and decides which parts of the hidden vector will be used and which won’t be. The input for the current time-step is always used.

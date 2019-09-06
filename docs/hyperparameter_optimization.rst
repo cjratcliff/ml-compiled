@@ -45,6 +45,8 @@ As with grid search, it begins by deciding the hyperparameters to be evaluated. 
     
 Then random combinations of hyperparameters are chosen. For each one we train a model and calculate the accuracy on the validation set.
 
+Extremely simple to implement and easy to parallelize.
+
 `Random Search for Hyper-Parameter Optimization, Bergstra and Bengio (2012) <http://www.jmlr.org/papers/volume13/bergstra12a/bergstra12a.pdf>`_
 
 Reinforcement learning

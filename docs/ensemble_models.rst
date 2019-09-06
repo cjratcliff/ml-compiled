@@ -18,7 +18,17 @@ Build models sequentially, each one trying to reduce the bias of the combined es
 
 Gradient boosting
 ___________________
-Can learn with any differentiable loss function.
+Learns a weighted sum of weak learners:
+
+.. math::
+
+  \hat{y}_i = \sum_{i=1}^M \gamma_i h_i(x)
+  
+where :math:`\gamma_i` is the weight associated with the weak learner :math:`h_i`. :math:`M` is the total number of weak learners.
+
+The first learner predicts a constant for all examples. All subsequent learners try to predict the residuals.
+
+Can learn with any differentiable loss function. 
 
 Weak learner
 --------------

@@ -68,6 +68,13 @@ Reward function
 ------------------
 Maps state-action pairs to rewards.
 
+REINFORCE
+------------
+Simple algorithm.
+
+| **Proposed in**
+| `Simple Statistical Gradient-Following Algorithms for Connectionist Reinforcement Learning, Williams (1992) <http://www-anw.cs.umass.edu/~barto/courses/cs687/williams92simple.pdf>`_
+
 Trajectory
 --------------
 The sequence of states and actions experienced by the agent.

@@ -39,7 +39,7 @@ Polysemous words (words with multiple meanings) cannot be modeled effectively by
 
 CBOW (Continuous Bag of Words)
 -----------------------------------
-Used to create word embeddings. Predicts a word given its context. The context is the surrounding n words, as in the skip-gram model. Referred to as a bag of words model as the order of words within the window does not affect the embedding. Mikolov et al. (2013) use a window size of 4 on either side.
+Used to create word embeddings. Predicts a word given its context. The context is the surrounding n words, as in the skip-gram model. Referred to as a bag of words model as the order of words within the window does not affect the embedding. 
 
 Several times faster to train than the skip-gram model and has slightly better accuracy for words which occur frequently.
 
@@ -79,7 +79,9 @@ https://nlp.stanford.edu/projects/glove/
 
 Skip-gram
 -----------
-Used to create word embeddings. Predicts the context given a word. For example, let the window size be 2. Then the relevant window is :math:`\{w_{i-2}, w_{i-1},w_i,w_{i+1},w_{i+2}\}`. The model picks a random word :math:`w_k \in \{w_{i-2},w_{i-1},w_{i+1},w_{i+2}\}` and trains a model that predicts :math:`w_k` given :math:`w_i`.
+Word-embedding algorithm that works by predicting the context of a word given the word itself. The context is defined as other words appearing within a window of constant size, centered on the word.
+
+For example, let the window size be 2. Then the relevant window is :math:`\{w_{i-2}, w_{i-1},w_i,w_{i+1},w_{i+2}\}`. The model picks a random word :math:`w_k \in \{w_{i-2},w_{i-1},w_{i+1},w_{i+2}\}` and attempts to predict :math:`w_k` given :math:`w_i`.
 
 Increasing the window size improves the quality of the word vectors but also makes them more expensive to compute. Samples less from words that are far away from the known word, since the influence will be weaker. Works well with a small amount of data and can represent even rare words or phrases well.
 

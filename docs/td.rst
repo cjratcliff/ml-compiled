@@ -123,9 +123,8 @@ Both of these problems are solved by using experience replay.
 
 The use of a replay memory means it is necessary to learn off-policy.
 
-`Self-Improving Reactive Agents Based on Reinforcement Learning, Planning and Teaching, Lin (1992) <http://www.incompleteideas.net/lin-92.pdf>`_
-
-`Playing Atari with Deep Reinforcement Learning, Mnih et al. (2013) <https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf>`_
+| `Self-Improving Reactive Agents Based on Reinforcement Learning, Planning and Teaching, Lin (1992) <http://www.incompleteideas.net/lin-92.pdf>`_
+| `Playing Atari with Deep Reinforcement Learning, Mnih et al. (2013) <https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf>`_
 
 Prioritized Experience Replay
 ''''''''''''''''''''''''''''''''
@@ -161,9 +160,8 @@ The motivation for multi-step bootstrap targets is to speed up learning.
 
 `Hessel et al. (2017) <https://arxiv.org/pdf/1710.02298.pdf>`_ set the hyperparameter :math:`n` equal to 3.
 
-`Asynchronous Methods for Deep Reinforcement Learning, Mnih et al. (2016) <https://arxiv.org/abs/1602.01783>`_
-
-`Learning to Predict by the Methods of Temporal Differences, Sutton (1988) <https://pdfs.semanticscholar.org/9c06/865e912788a6a51470724e087853d7269195.pdf>`_
+| `Asynchronous Methods for Deep Reinforcement Learning, Mnih et al. (2016) <https://arxiv.org/abs/1602.01783>`_
+| `Learning to Predict by the Methods of Temporal Differences, Sutton (1988) <https://pdfs.semanticscholar.org/9c06/865e912788a6a51470724e087853d7269195.pdf>`_
 
 Noisy parameters
 '''''''''''''''''''

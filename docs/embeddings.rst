@@ -19,6 +19,12 @@ Siamese network
 """"""""""""""""""""""""
 An architecture that is often used for calculating similarities, as in `face verification <https://ml-compiled.readthedocs.io/en/latest/computer_vision.html#face-verification>`_ for example.
 
+The network is trained with random pairs of inputs that are either positive (the examples are similar) or negative (they are not similar).
+
+.. image:: ../img/siamese.png
+  :align: center
+  :scale: 50%
+
 Often used with the `contrastive loss <https://ml-compiled.readthedocs.io/en/latest/loss_functions.html#contrastive-loss>`_.
 
 """"""""""""""""""""""""
@@ -27,6 +33,10 @@ Triplet network
 Architecture for learning embeddings for calculating similarities. Useful for tasks like `face verification <https://ml-compiled.readthedocs.io/en/latest/computer_vision.html#face-verification>`_.
 
 During each iteration in training, an 'anchor' example is supplied along with a positive that is similar to it and a negative that is not. Each of the three inputs (the anchor, the positive and the negative) are processed separately to produce an embedding for each. 
+
+.. image:: ../img/triplet.png
+  :align: center
+  :scale: 50%
 
 Uses the `triplet loss <https://ml-compiled.readthedocs.io/en/latest/loss_functions.html#triplet-loss>`_.
 

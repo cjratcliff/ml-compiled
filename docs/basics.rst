@@ -70,7 +70,13 @@ Maps state-action pairs to rewards.
 
 REINFORCE
 ------------
-Simple algorithm.
+Simple policy learning algorithm.
+
+If a policy :math:`\pi_\theta` executes action :math:`a` in state :math:`s` has a value :math:`v` the update rule is:
+
+.. math::
+
+  \Delta \theta = \alpha \nabla_\theta \pi_theta(a|s) v
 
 | **Proposed in**
 | `Simple Statistical Gradient-Following Algorithms for Connectionist Reinforcement Learning, Williams (1992) <http://www-anw.cs.umass.edu/~barto/courses/cs687/williams92simple.pdf>`_

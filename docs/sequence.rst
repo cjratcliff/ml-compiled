@@ -216,7 +216,7 @@ RNN Encoder-Decoder
 -------------------------
 Common architecture for translation.
 
-Consists of two RNNs. One encodes the input sequence into a fixed-length vector representation, the other decodes it into an output sequence. Uses a special type of hidden unit that improves the model’s memory by adaptively remembering and forgetting.
+Consists of two RNNs. One encodes the input sequence into a fixed-length vector representation, the other decodes it into an output sequence. Uses a special type of hidden unit (similar to a GRU or LSTM) that improves the model’s memory by adaptively remembering and forgetting.
 Can be augmented with sampled softmax, bucketing and padding.
 
 | **Proposed in**

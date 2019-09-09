@@ -186,6 +186,14 @@ Where :math:`x` is a vector of length :math:`K`. This vector is often referred t
     
 Unlike most other activation functions, the softmax does not apply the same function to each item in the input independently. The requirement that the output vector sums to 1 means that if one of the inputs is increased the others must decrease in the output.
 
+Mixture of Softmaxes
+_____________________
+
+Mixture model intended to avoid the 'softmax bottleneck'. 
+
+| **Proposed by**
+| `Breaking the Softmax Bottleneck: A High-Rank RNN Language Model, Yang et al. (2017) <https://arxiv.org/abs/1711.03953v4>`_
+
 Softplus
 ----------
 Activation whose output is bounded between 0 and infinity, making it useful for modeling quantities that should never be negative such as the variance of a distribution. 

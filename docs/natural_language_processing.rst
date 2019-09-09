@@ -6,7 +6,23 @@ Datasets
 -----------
 
 Labelled
-____________
+__________
+
+`WMT <https://nlp.stanford.edu/projects/nmt/>`_
+''''''''''''''''''
+Parallel corpora for translation. Aligned on the sentence level. 
+
+Notable results in BLEU (higher is better):
+
+English-to-German (2014)
+* 28.4 - `Attention is All You Need, Vaswani et al. (2017) <https://arxiv.org/abs/1706.03762>`_
+* 23.8 - `Neural Machine Translation in Linear Time, Kalchbrenner et al. (2017) <https://arxiv.org/pdf/1610.10099.pdf>`_
+
+English-to-French (2014)
+* 41.8 - `Attention is All You Need, Vaswani et al. (2017) <https://arxiv.org/abs/1706.03762>`_
+
+Other datasets
+''''''''''''''''
 
 * `bAbI <https://research.fb.com/downloads/babi/>`_ - Dataset for question answering
 * `GLUE <https://gluebenchmark.com/>`_ - Stands for General Language Understanding Evaluation. Assesses performance across 11 different tasks including sentiment analysis, question answering and entailment, more details of which can be found on `their website <https://gluebenchmark.com/tasks>`_. Leaderboard `here <https://gluebenchmark.com/leaderboard>`_.
@@ -16,7 +32,6 @@ ____________
 * `SQuAD <https://rajpurkar.github.io/SQuAD-explorer/>`_ - Stanford Question Answering Dataset
 * `SuperGLUE <https://super.gluebenchmark.com/>`_ - Harder successor to the GLUE dataset. Assesses performance across 10 different tasks (more details `here <https://super.gluebenchmark.com/tasks>`_). Leaderboard `here <https://super.gluebenchmark.com/leaderboard>`_.
 * TIMIT - Speech corpus
-* `WMT <https://nlp.stanford.edu/projects/nmt/>`_ - Parallel corpora for translation. Aligned on the sentence level.
 
 Unlabelled
 ________________
@@ -32,7 +47,7 @@ Stands for 'Penn Treebank'. Notable results, given in word-level `perplexity <ht
 * 62.4 - `Neural Architecture Search with Reinforcement Learning, Zoph and Le (2016) <https://arxiv.org/pdf/1611.01578v2.pdf>`_
 * 68.7 - `Recurrent Neural Network Regularization, Zaremba et al. (2014) <https://arxiv.org/pdf/1409.2329v1.pdf>`_
 
-Other datasets:
+Other datasets
 ''''''''''''''''
 * `1 Billion Word Language Model Benchmark <http://www.statmt.org/lm-benchmark/>`_
 * `Common Crawl <http://commoncrawl.org/the-data/>`_

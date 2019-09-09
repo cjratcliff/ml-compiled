@@ -56,7 +56,11 @@ Label smoothing
 -----------------
 Replaces the labels with a weighted average of the true labels and the uniform distribution.
 
-`When Does Label Smoothing Help?, Müller, R. et al. (2019) <https://arxiv.org/abs/1906.02629>`_
+| **Further reading**
+| `When Does Label Smoothing Help?, Müller, R. et al. (2019) <https://arxiv.org/abs/1906.02629>`_
+|
+| **Used in**
+| `Attention is All You Need, Vaswani et al. (2017) <https://arxiv.org/abs/1706.03762>`_
 
 Overfitting
 -------------

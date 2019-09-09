@@ -47,9 +47,8 @@ Contents
    loss_functions
    normalization
    optimizers
-   recurrent
    regularization
-   seq_to_seq
+   sequence
    
 .. toctree::
    :caption: Other models

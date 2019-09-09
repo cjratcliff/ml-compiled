@@ -228,3 +228,15 @@ Transformer
 
 | **Proposed in**
 | `Attention is All You Need, Vaswani et al. (2017) <https://arxiv.org/abs/1706.03762>`_
+
+
+Sequence to sequence	
+------------------------
+Any machine learning task that takes one sequence and turns it into another.	
+
+ Examples include:
+ 
+ * Translation	
+ * Text-to-speech	
+ * Speech-to-text	
+ * Part of speech tagging (POS tagging)

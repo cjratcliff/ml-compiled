@@ -74,10 +74,10 @@ A simple baseline method for text classification.
 
 The architecture is as follows:
 
-* The inputs are n-grams features from the original input sequence. Using n-grams means some of the word-order information is preserved without the large increase in computational complexity characteristic of recurrent networks.
-* An embedding layer.
-* A mean-pooling layer averages the features over the length of the inputs.
-* A softmax layer gives the class probabilities.
+1. The inputs are n-grams features from the original input sequence. Using n-grams means some of the word-order information is preserved without the large increase in computational complexity characteristic of recurrent networks.
+2. An embedding layer.
+3. A mean-pooling layer averages the embeddings over the length of the inputs.
+4. A softmax layer gives the class probabilities.
 
 The model is trained with the `cross-entropy loss <https://ml-compiled.readthedocs.io/en/latest/loss_functions.html#cross-entropy-loss>`_ as normal.
 

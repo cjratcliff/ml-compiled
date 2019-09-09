@@ -223,13 +223,6 @@ Can be augmented with sampled softmax, bucketing and padding.
 | `Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation, Cho et al. (2014) <https://arxiv.org/pdf/1406.1078.pdf>`_
 
 
-Transformer
----------------
-
-| **Proposed in**
-| `Attention is All You Need, Vaswani et al. (2017) <https://arxiv.org/abs/1706.03762>`_
-
-
 Sequence to sequence	
 ------------------------
 Any machine learning task that takes one sequence and turns it into another.	
@@ -240,3 +233,11 @@ Examples include:
 * Text-to-speech	
 * Speech-to-text	
 * Part of speech tagging (POS tagging)
+
+
+Transformer
+---------------
+
+| **Proposed in**
+| `Attention is All You Need, Vaswani et al. (2017) <https://arxiv.org/abs/1706.03762>`_
+

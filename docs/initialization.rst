@@ -52,6 +52,9 @@ ____________________________
 
 | **Proposed in**
 | `Exact solutions to the nonlinear dynamics of learning in deep linear neural networks, Saxe et al. (2013) <https://arxiv.org/abs/1312.6120>`_
+|
+| **Used by**
+| `Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation, Cho et al. (2014) <https://arxiv.org/pdf/1406.1078.pdf>`_
 
 Xavier initialization
 -----------------------

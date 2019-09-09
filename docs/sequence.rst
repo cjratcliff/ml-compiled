@@ -250,4 +250,10 @@ Attained state of the art accuracy on translation tasks.
 
 | **Proposed in**
 | `Attention is All You Need, Vaswani et al. (2017) <https://arxiv.org/abs/1706.03762>`_
+|
+| **Used in**
+| `BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding, Devlin et al. (2018)<https://arxiv.org/pdf/1810.04805.pdf>`_
+| `Improving Language Understanding by Generative Pre-Training, Radford et al. (2018) <https://pdfs.semanticscholar.org/cd18/800a0fe0b668a1cc19f2ec95b5003d0a5035.pdf?_ga=2.41548523.873668896.1568045194-1332261.1564593648>`_
+| `Language Models are Unsupervised Multitask Learners, Radford et al. (2019) <https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf>`_
+
 

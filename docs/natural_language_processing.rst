@@ -17,13 +17,13 @@ Notable results in BLEU (higher is better):
 English-to-German (2014)
 
 * 28.4 - `Attention is All You Need, Vaswani et al. (2017) <https://arxiv.org/abs/1706.03762>`_
-* 24.7 - `Google’s Neural Machine Translation System: Bridging the Gap between Human and Machine Translation, Wu et al. (2016)<https://arxiv.org/abs/1609.08144>`_
+* 24.7 - `Google’s Neural Machine Translation System: Bridging the Gap between Human and Machine Translation, Wu et al. (2016) <https://arxiv.org/abs/1609.08144>`_
 * 23.8 - `Neural Machine Translation in Linear Time, Kalchbrenner et al. (2016) <https://arxiv.org/pdf/1610.10099.pdf>`_
 
 English-to-French (2014)
 
 * 41.8 - `Attention is All You Need, Vaswani et al. (2017) <https://arxiv.org/abs/1706.03762>`_
-* 39.0 - `Google’s Neural Machine Translation System: Bridging the Gap between Human and Machine Translation, Wu et al. (2016)<https://arxiv.org/abs/1609.08144>`_
+* 39.0 - `Google’s Neural Machine Translation System: Bridging the Gap between Human and Machine Translation, Wu et al. (2016) <https://arxiv.org/abs/1609.08144>`_
 
 Other datasets
 ''''''''''''''''

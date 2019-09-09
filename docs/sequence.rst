@@ -67,6 +67,12 @@ The heads use three forms of differentiable attention which:
 * Record transitions between consecutively written locations in an NxN temporal link matrix L.
 * Allocate memory for writing.
 
+| **Proposed in**
+| `Hybrid computing using a neural network with dynamic external memory, Graves et al. (2016) <https://www.nature.com/articles/nature20101.epdf?author_access_token=ImTXBI8aWbYxYQ51Plys8NRgN0jAjWel9jnR3ZoTv0MggmpDmwljGswxVdeocYSurJ3hxupzWuRNeGvvXnoO8o4jTJcnAyhGuZzXJ1GEaD-Z7E6X_a9R-xqJ9TfJWBqz>`_
+
+| **Further reading**
+| https://deepmind.com/blog/article/differentiable-neural-computers
+
 
 GRU (Gated Recurrent Unit)
 -------------------------------
@@ -93,7 +99,7 @@ Where :math:`*` represents element-wise multiplication and :math:`W_r`, :math:`U
 :math:`r` is used for constructing the output and decides which parts of the hidden vector will be used and which won’t be. The input for the current time-step is always used.
 
 | **Proposed by**
-`Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation, Cho et al. (2014) <https://www.aclweb.org/anthology/D14-1179>`_
+| `Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation, Cho et al. (2014) <https://www.aclweb.org/anthology/D14-1179>`_
 
 | **Further reading**
 | `Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling, Chung et al. (2014) <https://arxiv.org/abs/1412.3555>`_
@@ -192,7 +198,8 @@ Combats possible dispersion of weightings over time.
 
   w_t(i) := \frac{w_t(i)^{\gamma_t}}{\sum_j w_t(j)^{\gamma_t}}
 
-`Neural Turing Machines, Graves et al. (2014) <https://arxiv.org/abs/1410.5401>`_
+| **Proposed in**
+| `Neural Turing Machines, Graves et al. (2014) <https://arxiv.org/abs/1410.5401>`_
 
 
 RNN (Recurrent Neural Network)

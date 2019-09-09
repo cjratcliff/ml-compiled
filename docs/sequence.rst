@@ -108,20 +108,20 @@ The activations of the input, forget and output gates are :math:`i_t`, :math:`f_
 
 .. math::
 
-    i_t = \sigma(W_i x_t + U_i h_{t-1})
+    i_t = \sigma(W_i x_t + U_i h_{t-1} + b_i)
 
-    f_t = \sigma(W_f x_t + U_f h_{t-1})
+    f_t = \sigma(W_f x_t + U_f h_{t-1} + b_f)
 
-    \tilde C_t = \tanh(W_c x_t + U_c h_{t-1})
+    \tilde C_t = \tanh(W_c x_t + U_c h_{t-1} + b_c)
 
     C_t = i_t*\tilde C_t + f_t*C_{t-1}
 
-    o_t = (W_o x_t + U_o h_{t-1} + V_o C_t)
+    o_t = \sigma(W_o x_t + U_o h_{t-1} + V_o C_t + b_o)
 
-    h_t = o_t*\tanh(C_t)
+    h_t = o_t * \tanh(C_t)
 
 
-Where :math:`*` represents element-wise multiplication. Biases have been omitted for simplicity.
+Where :math:`*` represents element-wise multiplication.
 
 Each of the input, output and forget gates is surrounded by a sigmoid nonlinearity. This squashes the input so it is between 0 (let nothing through the gate) and 1 (let everything through).
 
@@ -131,7 +131,8 @@ The :math:`\tanh` functions serve to add nonlinearities.
 
 Using an LSTM does not protect from exploding gradients. 
 
-Hochreiter and Schmidhuber (1997)
+| **Proposed by**
+| `Long Short-Term Memory, Hochreiter and Schmidhuber (1997) <https://www.bioinf.jku.at/publications/older/2604.pdf>`_
 
 Forget bias initialization
 ____________________________________

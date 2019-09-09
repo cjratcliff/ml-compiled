@@ -244,6 +244,9 @@ Examples include:
 
 Transformer
 ---------------
+Sequence model notable for not using recurrence or convolutions - only attention.
+
+Attained state of the art accuracy on translation tasks.
 
 | **Proposed in**
 | `Attention is All You Need, Vaswani et al. (2017) <https://arxiv.org/abs/1706.03762>`_

@@ -234,9 +234,9 @@ Sequence to sequence
 ------------------------
 Any machine learning task that takes one sequence and turns it into another.	
 
- Examples include:
+Examples include:
  
- * Translation	
- * Text-to-speech	
- * Speech-to-text	
- * Part of speech tagging (POS tagging)
+* Translation	
+* Text-to-speech	
+* Speech-to-text	
+* Part of speech tagging (POS tagging)

@@ -246,7 +246,8 @@ Transformer
 ---------------
 Sequence model notable for not using recurrence or convolutions - only attention.
 
-Attained state of the art accuracy on translation tasks and has subsequently been used to get new records on a variety of other tasks.
+Attained state of the art accuracy on translation tasks `Vaswani et al. (2017) <https://arxiv.org/abs/1706.03762>`_
+and has subsequently been used to get new records on a variety of other tasks (see 'Used in').
 
 | **Proposed in**
 | `Attention is All You Need, Vaswani et al. (2017) <https://arxiv.org/abs/1706.03762>`_

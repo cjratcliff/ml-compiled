@@ -78,25 +78,25 @@ The formulation is:
 
 .. math::
 
-    z = \sigma(x_t U_z + h_{t-1} W_z)
+    r_t = \sigma(W_r x_t + U_r h_{t-1})
+    
+    z_t = \sigma(W_z x_t + U_z h_{t-1})
 
-    r = \sigma(x_t U_r + h_{t-1} W_r)
+    \tilde h_t = \tanh(Wx + U(h_{t-1}*r))
 
-    o_t = \tanh(x_tU_o + (h_{t-1}*r)W_h)
-
-    h_t = (1-z)*o + z*h_{t-1}
+    h_t = z_t*h_{t-1} + (1-z) * \tilde h_t
 
 
-Where :math:`*` represents element-wise multiplication. Biases have been omitted for simplicity.
+Where :math:`*` represents element-wise multiplication and :math:`W_r`, :math:`U_r`, :math:`W_z`, :math:`U_z`, :math:`W` and :math:`U` are parameters to be learnt. Note the lack of bias terms, in contrast with the LSTM.
 
 :math:`z` is used for constructing the new hidden vector and dictates which information is updated from the new output and which is remembered from the old hidden vector.
 :math:`r` is used for constructing the output and decides which parts of the hidden vector will be used and which won’t be. The input for the current time-step is always used.
 
-Papers
-_________
+| **Proposed by**
 `Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation, Cho et al. (2014) <https://www.aclweb.org/anthology/D14-1179>`_
 
-`Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling, Chung et al. (2014) <https://arxiv.org/abs/1412.3555>`_
+| **Further reading**
+| `Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling, Chung et al. (2014) <https://arxiv.org/abs/1412.3555>`_
 
 LSTM (Long Short-Term Memory)
 --------------------------------
@@ -108,17 +108,17 @@ The activations of the input, forget and output gates are :math:`i_t`, :math:`f_
 
 .. math::
 
-    i_t=\sigma(W_i x_t + U_i h_{t-1})
+    i_t = \sigma(W_i x_t + U_i h_{t-1})
 
-    f_t=\sigma(W_f x_t + U_f h_{t-1})
+    f_t = \sigma(W_f x_t + U_f h_{t-1})
 
-    \tilde C_t=\tanh(W_c x_t + U_c h_{t-1})
+    \tilde C_t = \tanh(W_c x_t + U_c h_{t-1})
 
-    C_t=i_t*\tilde C_t + f_t*C_{t-1}
+    C_t = i_t*\tilde C_t + f_t*C_{t-1}
 
-    o_t=(W_o x_t + U_o h_{t-1} + V_o C_t)
+    o_t = (W_o x_t + U_o h_{t-1} + V_o C_t)
 
-    h_t=o_t*\tanh(C_t)
+    h_t = o_t*\tanh(C_t)
 
 
 Where :math:`*` represents element-wise multiplication. Biases have been omitted for simplicity.
@@ -205,9 +205,9 @@ The most basic type of RNN has the functional form:
 
 .. math::
 
-  h_t = \tanh(W_h x_t + U_h h_{t-1})
+  h_t = \tanh(W_h x_t + U_h h_{t-1} + b_h)
   
-  o_t = V h_t
+  o_t = V h_t + b_o
   
 Where :math:`x_t`, :math:`o_t` and :math:`h_t` are the input, output and hidden states at time t, respectively.
 
@@ -216,8 +216,7 @@ RNN Encoder-Decoder
 -------------------------
 Common architecture for translation.
 
-Consists of two RNNs. One encodes the input sequence into a fixed-length vector representation, the other decodes it into an output sequence. Uses a special type of hidden unit (similar to a GRU or LSTM) that improves the model’s memory by adaptively remembering and forgetting.
-Can be augmented with sampled softmax, bucketing and padding.
+Consists of two RNNs. One encodes the input sequence into a fixed-length vector representation, the other decodes it into an output sequence. The original, proposed in `Cho et al. (2014) <https://arxiv.org/pdf/1406.1078.pdf>`_, uses the `GRU <https://ml-compiled.readthedocs.io/en/latest/sequence.html#gru-gated-recurrent-unit>`_ to model sequential information using fewer parameters than the LSTM. Can be augmented with sampled softmax, bucketing and padding.
 
 | **Proposed in**
 | `Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation, Cho et al. (2014) <https://arxiv.org/pdf/1406.1078.pdf>`_

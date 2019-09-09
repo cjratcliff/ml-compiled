@@ -60,6 +60,7 @@ where :math:`\mu_t` and :math:`\sigma_t` are the mean and variance of :math:`a_t
 | **Proposed in** 
 | `Layer Normalization, Ba et al. (2016) <https://arxiv.org/abs/1607.06450>`_
 
+
 | **Used in**
 | `Attention is All You Need, Vaswani et al. (2017) <https://arxiv.org/abs/1706.03762>`_
 

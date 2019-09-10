@@ -19,6 +19,8 @@ Where :math:`\gamma` and :math:`\beta` are learned and :math:`\epsilon` is a sma
 
 :math:`\mu_x \in \mathbb{R}^{d}` and :math:`\sigma_x^2 \in \mathbb{R}^{d}` are moving averages of the mean and variance of :math:`x`. They do not need to be learned. The moving averages are calculated independently for each feature in :math:`x`.
 
+Batch normalization does not work well with small batch sizes (`Wu and He, 2018 <https://arxiv.org/abs/1803.08494>`_). The small batches cause the statistics to become inaccurate. This can cause problems when training models with large images where large batches will not fit in memory.
+
 Inference
 ___________
 Batch normalization's stabilizing effect is helpful during training but unnecessary at inference time. Therefore, once the network is trained the population mean and variance are used for normalization, rather than the batch mean and variance. This means the networks output can depend only on the input, not also on other examples in the batch.

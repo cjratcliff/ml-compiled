@@ -71,6 +71,7 @@ It is likely that while a worker is computing gradients other worker(s) have alr
 
 | `Project Adam: Building an Efficient and Scalable Deep Learning Training System , Chilimbi et al. (2014) <https://pdfs.semanticscholar.org/043a/fbd936c95d0e33c4a391365893bd4102f1a7.pdf>`_
 | `Massively Parallel Methods for Deep Reinforcement Learning, Nair et al. (2015) <https://arxiv.org/abs/1507.04296>`_
+| `Large Scale Distributed Deep Networks, Dean et al. (2012) <https://papers.nips.cc/paper/4687-large-scale-distributed-deep-networks.pdf>`_
 
 Synchronous SGD
 _________________

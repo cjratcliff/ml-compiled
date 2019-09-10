@@ -64,7 +64,7 @@ Unsupervised pre-training
 ____________________________
 Layers are first trained using an auto-encoder and then fine tuned over labelled data. Improves the initialization of the weights, making optimization faster and reducing overfitting. Most useful in semi-supervised learning.
 
-`Why Does Unsupervised Pre-training Help Deep Learning? (2010) <http://www.jmlr.org/papers/volume11/erhan10a/erhan10a.pdf>`_
+`Why Does Unsupervised Pre-training Help Deep Learning?, Erhan et al. (2010) <http://www.jmlr.org/papers/volume11/erhan10a/erhan10a.pdf>`_
 
 Transfer learning
 -------------------

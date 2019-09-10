@@ -14,7 +14,7 @@ where :math:`\theta^{(i)}` are the parameters for layer :math:`i` of the network
 
 The biases are initialized to zero as usual.
 
-Was used to improve the state of the art for image classification (`He et al., 2015 <https://arxiv.org/abs/1502.01852>`_). 
+Was used to improve the state of the art for image classification (`He et al., 2015 <https://arxiv.org/abs/1502.01852>`_) but the improvement over ReLU activations with Xavier initialization was very small, reducing top-1 error on ImageNet from 33.9% to 33.8%. 
 
 | **Proposed in** 
 | `Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification , He et al. (2015) <https://arxiv.org/abs/1502.01852>`_
@@ -68,7 +68,7 @@ Sometimes referred to as Glorot initialization.
   
 where :math:`\theta^{(i)}` are the parameters for layer :math:`i` of the network and :math:`n_i` is the size of layer :math:`i` of the network.
 
-Xavier initialization's derivation assumes linear activations.
+Xavier initialization's derivation assumes linear activations. Despite this it has been observed to work well in practice.
 
 | **Proposed in** 
 | `Understanding the difficulty of training deep feedforward neural networks, Glorot and Bengio (2010) <http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf>`_

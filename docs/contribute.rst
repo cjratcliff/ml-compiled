@@ -28,7 +28,6 @@ List of sections to be added:
 * Softmax bottleneck
 * Wide Residual Networks
 * Whitening
-* Saturation
 * Self-attention
 * Lipschitz smoothness
 * Lipschitz constant

@@ -40,6 +40,13 @@ Was used to achieve `state of the art results <https://arxiv.org/pdf/1707.03017.
 
 `Learning Visual Reasoning Without Strong Priors, Perez et al. (2017) <https://arxiv.org/pdf/1707.03017.pdf>`_
 
+Group normalization
+----------------------
+
+Can be used with small batch sizes, unlike batch normalization.
+
+| **Proposed in** 
+| `Group Normalization, Wu and He. (2018) <https://arxiv.org/abs/1803.08494>`_
 
 Layer normalization
 ----------------------

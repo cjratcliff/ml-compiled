@@ -34,6 +34,10 @@ Application to RNNs
 ____________________
 Batch normalization is difficult to apply to RNNs since it requires storing the batch statistics for every time step in the sequence. This can be problematic if a sequence input during inference is longer than those seen during training.
 
+`Coojimans et al. (2016) <https://arxiv.org/abs/1603.09025>`_ propose a variant of the LSTM that applies batch normalization to the hidden-to-hidden transitions.
+
+`Recurrent Batch Normalization, Coojimans et al. (2016) <https://arxiv.org/abs/1603.09025>`_
+
 Conditional batch normalization
 ________________________________
 The formula is exactly the same as normal batch normalization except :math:`\gamma` and :math:`\beta` are not learned parameters, but rather the outputs of functions.

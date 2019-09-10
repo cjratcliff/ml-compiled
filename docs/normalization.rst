@@ -14,7 +14,7 @@ Batch Normalization is often found to improve generalization performance (`Zhang
 
 Training
 _________________
-The batch-normalized version of the inputs, :math:`x \in \mathbb{R}^{d}`, to a layer is:
+The batch-normalized version of the inputs, :math:`x \in \mathbb{R}^{n \times d}`, to a layer is:
 
 .. math::
 

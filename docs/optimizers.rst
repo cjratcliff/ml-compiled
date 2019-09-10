@@ -365,6 +365,10 @@ Gradients around saddle points are close to zero which makes learning slow. The 
 | **Further reading** 
 | `Identifying and attacking the saddle point problem in high-dimensional non-convex optimization, Dauphin et al. (2014) <https://arxiv.org/abs/1406.2572>`_
 
+Saturation
+--------------
+When the input to a neuron is such that the gradient is close to zero. This makes learning very slow. This is a common problem for `sigmoid <https://ml-compiled.readthedocs.io/en/latest/activations.html#sigmoid>`_ and `tanh <https://ml-compiled.readthedocs.io/en/latest/activations.html#tanh>`_ activations, which saturate for inputs that are too high or too low.
+
 Vanishing gradient problem
 -----------------------------
 The gradients of activation functions like the sigmoid are all between 0 and 1. When gradients are computed via the chain rule they become smaller, increasingly so towards the beginning of the network. This means the affected layers train slowly.

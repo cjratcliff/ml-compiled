@@ -66,5 +66,7 @@ Sometimes referred to as Glorot initialization.
   
 where :math:`\theta^{(i)}` are the parameters for layer :math:`i` of the network and :math:`n_i` is the size of layer :math:`i` of the network.
 
+Xavier initialization's derivation assumes linear activations.
+
 | **Proposed in** 
 | `Understanding the difficulty of training deep feedforward neural networks, Glorot and Bengio (2010) <http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf>`_

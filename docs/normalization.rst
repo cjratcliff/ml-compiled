@@ -43,7 +43,13 @@ Was used to achieve `state of the art results <https://arxiv.org/pdf/1707.03017.
 Group normalization
 ----------------------
 
-Can be used with small batch sizes, unlike batch normalization.
+Group normalization implements the same formula as batch normalization but takes the average over the feature dimension(s) rather than the batch dimension.
+
+.. math::
+
+  GN(x) = \gamma \frac{x - \mu_x}{\sqrt{\sigma_x^2 + \epsilon}} + \beta
+  
+Can be used with small batch sizes, unlike batch normalization. 
 
 | **Proposed in** 
 | `Group Normalization, Wu and He. (2018) <https://arxiv.org/abs/1803.08494>`_

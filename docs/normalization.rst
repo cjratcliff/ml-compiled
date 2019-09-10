@@ -5,6 +5,8 @@ Batch normalization
 -------------------------
 Normalizes the input vector to a layer to have zero mean and unit variance, making training more efficient. Training deep neural networks is complicated by the fact that the distribution of each layer’s inputs changes during training, as the parameters of the previous layers change. This slows down the training by requiring lower learning rates and careful parameter initialization. This phenomenon is referred to as internal covariate shift.
 
+Adding '\beta' to the normalized input and scaling it by '\gamma' ensures the model does not lose representational power from the normalization.
+
 Batch Normalization is often found to improve generalization performance (`Zhang et al. (2016) <https://arxiv.org/pdf/1611.03530.pdf>`_).
 
 Training
@@ -19,7 +21,7 @@ Where :math:`\gamma` and :math:`\beta` are learned and :math:`\epsilon` is a sma
 
 :math:`\mu_x \in \mathbb{R}^{d}` and :math:`\sigma_x^2 \in \mathbb{R}^{d}` are moving averages of the mean and variance of :math:`x`. They do not need to be learned. The moving averages are calculated independently for each feature in :math:`x`.
 
-Batch normalization does not work well with small batch sizes (`Wu and He, 2018 <https://arxiv.org/abs/1803.08494>`_). The small batches cause the statistics to become inaccurate. This can cause problems when training models with large images where large batches will not fit in memory.
+Batch normalization does not work well with small batch sizes (`Wu and He, 2018 <https://arxiv.org/abs/1803.08494>`_). Small batches cause the statistics to become inaccurate. This can cause problems when training models with large images where large batches will not fit in memory.
 
 Inference
 ___________

@@ -54,7 +54,8 @@ Group normalization implements the same formula as batch normalization but takes
 .. math::
 
   GN(x) = \gamma \frac{x - \mu_x}{\sqrt{\sigma_x^2 + \epsilon}} + \beta
- 
+  
+Where \gamma and \beta are learned and \epsilon is a small hyperparameter that prevents division by zero. Separate \gamma and \beta are learned for each group normalization layer. :math:`\beta` and :math:`\gamma` make sure the model does not lose any representational power from the normalization.
 
 | **Proposed in** 
 | `Group Normalization, Wu and He. (2018) <https://arxiv.org/abs/1803.08494>`_

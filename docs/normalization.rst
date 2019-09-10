@@ -87,5 +87,7 @@ This guarantees that :math:`||w|| = g` without the need for explicit normalizati
 
 Simple to use in RNNs, unlike batch normalization.
 
+Unlike batch normalization, weight normalization only affects the weights - it does not normalize the activations of the network.
+
 | **Proposed in**
 | `Weight Normalization: A Simple Reparameterization to Accelerate Training of Deep Neural Networks, Salimans and Kingma (2016) <https://arxiv.org/abs/1602.07868>`_

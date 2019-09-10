@@ -14,6 +14,8 @@ where :math:`\theta^{(i)}` are the parameters for layer :math:`i` of the network
 
 The biases are initialized to zero as usual.
 
+Was used to improve the state of the art for image classification (`He et al., 2015 <https://arxiv.org/abs/1502.01852>`_). 
+
 | **Proposed in** 
 | `Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification , He et al. (2015) <https://arxiv.org/abs/1502.01852>`_
 

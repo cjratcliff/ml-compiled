@@ -9,6 +9,9 @@ Adding :math:`\beta` to the normalized input and scaling it by :math:`\gamma` en
 
 Batch Normalization is often found to improve generalization performance (`Zhang et al. (2016) <https://arxiv.org/pdf/1611.03530.pdf>`_).
 
+| **Proposed in** 
+| `Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift (2015) <https://arxiv.org/abs/1502.03167>`_
+
 Training
 _________________
 The batch-normalized version of the inputs, :math:`x \in \mathbb{R}^{d}`, to a layer is:
@@ -30,9 +33,6 @@ Batch normalization's stabilizing effect is helpful during training but unnecess
 Application to RNNs
 ____________________
 Batch normalization is difficult to apply to RNNs since it requires storing the batch statistics for every time step in the sequence. This can be problematic if a sequence input during inference is longer than those seen during training.
-
-| **Proposed in** 
-| `Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift (2015) <https://arxiv.org/abs/1502.03167>`_
 
 Conditional batch normalization
 ________________________________

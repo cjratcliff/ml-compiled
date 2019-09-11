@@ -41,6 +41,9 @@ The total loss is the sum of the reconstruction loss (mean squared error) and th
   
 where :math:`\mu` and :math:`\sigma` are the mean and standard deviation of the encoding.
 
+| **Proposed in**
+| `Auto-Encoding Variational Bayes (2014) <https://arxiv.org/abs/1312.6114>`_
+
 Evidence-lower bound (ELBO)
 '''''''''''''''''''''''''''''
 A lower bound on the log probability of the data given the parameters. In a VAE this function is maximised instead of the true likelihood.
@@ -55,8 +58,6 @@ Problems
 '''''''''''
 * The use of the mean squared error means the network tends to produce blurry images. A GAN does not have this problem. 
 * The assumption of independence in the entries of the hidden vector may also contribute to poor results.
-
-`Auto-Encoding Variational Bayes (2014) <https://arxiv.org/abs/1312.6114>`_
 
 Autoregressive Networks
 ------------------------------------
@@ -74,7 +75,8 @@ The model reads the image one pixel at a time and row by row, form the top left 
 
 Pixels are modelled as being drawn from a discrete distribution with 256 values. The model has one 256-way output layer for each colour channel. When reading in the pixels, colour channels are handled sequentially so that the red channel is conditioned only on the previous pixels, the blue channel can use the red as well as the previous pixels and the green can use both the blue and red.
 
-`Pixel Recurrent Neural Networks, van den Oord et al. (2016) <https://arxiv.org/abs/1601.06759>`_
+| **Proposed in**
+| `Pixel Recurrent Neural Networks, van den Oord et al. (2016) <https://arxiv.org/abs/1601.06759>`_
 
 PixelCNN
 ___________
@@ -90,11 +92,14 @@ PixelCNN++ improves upon PixelCNN with a number of modifications, improving upon
 
 `PixelCNN++: Improving the PixelCNN with Discretized Logistic Mixture Likelihood and Other Modifications, Salimans et al. (2016) <https://arxiv.org/abs/1701.05517>`_
 
-`Conditional Image Generation with PixelCNN Decoders, van den Oord et al. (2016b) <https://arxiv.org/abs/1606.05328>`_
+| **Proposed in**
+| `Conditional Image Generation with PixelCNN Decoders, van den Oord et al. (2016b) <https://arxiv.org/abs/1606.05328>`_
 
 WaveNet
 ___________
-`WaveNet: A Generative Model for Raw Audio, van den Oord et al. (2016) <https://arxiv.org/abs/1609.03499>`_
+
+| **Proposed in**
+| `WaveNet: A Generative Model for Raw Audio, van den Oord et al. (2016) <https://arxiv.org/abs/1609.03499>`_
 
 Other papers
 ___________

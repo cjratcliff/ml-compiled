@@ -42,7 +42,7 @@ The total loss is the sum of the reconstruction loss (mean squared error) and th
 where :math:`\mu` and :math:`\sigma` are the mean and standard deviation of the encoding.
 
 | **Proposed in**
-| `Auto-Encoding Variational Bayes (2014) <https://arxiv.org/abs/1312.6114>`_
+| `Auto-Encoding Variational Bayes, Kingma and Welling (2014) <https://arxiv.org/abs/1312.6114>`_
 
 Evidence-lower bound (ELBO)
 '''''''''''''''''''''''''''''

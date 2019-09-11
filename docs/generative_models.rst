@@ -19,7 +19,7 @@ Autoencoders can be used as generative networks by sampling a new hidden state i
 
 Convolutional autoencoders
 ______________________________
-Composed of standard convolutional layers and upsampling layers.
+An autoencoder composed of standard convolutional layers and `upsampling <https://ml-compiled.readthedocs.io/en/latest/layers.html#upsampling-layer>`_ layers rather than fully connected layers.
 
 Denoising Autoencoder (DAE)
 ______________________________

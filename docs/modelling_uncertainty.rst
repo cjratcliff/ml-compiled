@@ -54,6 +54,6 @@ The loss function is the negative log likelihood of the observation under the pr
 
   L(y,\mu,\sigma) = - \frac{1}{2}\log(\sigma^2) - \frac{1}{2n \sigma^2}\sum_{i=1}^n (y - \mu)^2
 
-Example paper
-________________
-`Asynchronous Methods for Deep Reinforcement Learning, Mnih et al. (2016) <https://arxiv.org/abs/1602.01783>`_ - Section 9
+| **Example papers**
+| `PixelCNN++: Improving the PixelCNN with Discretized Logistic Mixture Likelihood and Other Modifications, Salimans et al.  (2017) <https://arxiv.org/pdf/1701.05517.pdf>`_
+| `Asynchronous Methods for Deep Reinforcement Learning, Mnih et al. (2016) <https://arxiv.org/abs/1602.01783>`_ - Section 9

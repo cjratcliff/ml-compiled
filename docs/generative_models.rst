@@ -18,15 +18,15 @@ In its simplest form, an autoencoder takes the original input (eg the pixel valu
 Autoencoders can be used as generative networks by sampling a new hidden state in the bottleneck layer and running it through the decoder.
 
 Convolutional autoencoders
-===============================
+______________________________
 Composed of standard convolutional layers and upsampling layers.
 
 Denoising Autoencoder (DAE)
-===============================
+______________________________
 Adds noise to prevent the hidden layer(s) from learning the identity function. This is particularly useful when the width of the narrowest hidden layer is at least as wide as the input layer.
 
 Variational Autoencoder (VAE)
-==================================
+______________________________
 Unlike the standard autoencoder, the VAE can take noise as an input and use it to generate a sample from the distribution being modelled. 'Variational' refers to the Variational Bayes method which is used to approximate the true objective function with one that is more computable.
 
 In order to modify the standard autoencoder to allow sampling, the distribution of the encoded image vectors is constrained to be roughly Normal(0,1). This means sampling can be done by sampling a random vector from N(0,1) and running the decoder on it.
@@ -69,7 +69,7 @@ Autoregressive networks exploit the chain rule to express the joint probability 
   p(x) = \prod_{i=1}^n p(x_i|x_1, ..., x_{i-1})
 
 PixelRNN
-==========
+___________
 The model reads the image one pixel at a time and row by row, form the top left to the bottom right. Their best model used a 7 layer diagonal bidirectional LSTM with residual connections between the layers to ease training.
 
 Pixels are modelled as being drawn from a discrete distribution with 256 values. The model has one 256-way output layer for each colour channel. When reading in the pixels, colour channels are handled sequentially so that the red channel is conditioned only on the previous pixels, the blue channel can use the red as well as the previous pixels and the green can use both the blue and red.
@@ -77,7 +77,7 @@ Pixels are modelled as being drawn from a discrete distribution with 256 values.
 `Pixel Recurrent Neural Networks, van den Oord et al. (2016) <https://arxiv.org/abs/1601.06759>`_
 
 PixelCNN
-===========
+___________
 PixelCNN was also proposed in `van den Oord et al. (2016) <https://arxiv.org/abs/1601.06759>`_ but the results were not as good as PixelRNN.
 
 PixelCNN++ improves upon PixelCNN with a number of modifications, improving upon both it and PixelRNN. The modifications are:
@@ -93,11 +93,11 @@ PixelCNN++ improves upon PixelCNN with a number of modifications, improving upon
 `Conditional Image Generation with PixelCNN Decoders, van den Oord et al. (2016b) <https://arxiv.org/abs/1606.05328>`_
 
 WaveNet
-=========
+___________
 `WaveNet: A Generative Model for Raw Audio, van den Oord et al. (2016) <https://arxiv.org/abs/1609.03499>`_
 
 Other papers
-=================
+___________
 `Neural Machine Translation in Linear Time, Kalchbrenner et al. (2017) <https://arxiv.org/abs/1610.10099>`_
 
 Energy-based Models
@@ -115,27 +115,22 @@ Generative Adversarial Network (GAN)
 Unsupervised, generative image model. A GAN consists of two components; a generator, G which converts random noise into images and a discriminator, D which tries to distinguish between generated and real images. Here, 'real' means that the image came from the training set of images in contrast to the generated fakes.
 
 Problems
-================
+___________
 * The training process can be unstable when trained solely with the adversarial loss as G can create images to confuse D that are not close to the actual image distribution. D will then learn to discriminate amongst these samples, causing G to create new confusing samples. This problem can be addressed by adding an L2 loss which penalizes a lack of similarity with the input distribution.
 * Mode collapse. This is when the network stops generating certain classes (or more generally, modes). For example, it may only create 6’s on MNIST.
 * There is no way of telling how well it is doing except by manually inspecting the image outputs. This makes comparing different approaches difficult and early stopping impossible.
 
 Notable variants
-===================
+___________________
 * `DCGAN, 2015 <https://arxiv.org/abs/1511.06434>`_ - Has a number of architectural improvements over the original GAN but is not fundamentally different.
 * `InfoGAN, 2016 <https://arxiv.org/abs/1606.03657>`_ - Is able to disentangle various aspects like pose vs lighting and digit shape vs writing style.
 * `Wasserstein GAN (WGAN), 2017 <https://arxiv.org/abs/1701.07875>`_ - Replaces the original loss function, improving stability. The WGAN-GP (2017) is a further improved version.
 * `Boundary Equilibrium GAN (BEGAN), 2017 <https://arxiv.org/abs/1703.10717>`_ - Gets similar quality results as the WGAN-GP.
 
-Further reading
-===================
-`Generative Adversarial Nets, Goodfellow et al. (2014) <https://arxiv.org/abs/1406.2661>`_
-
-`How to Train a GAN? Tips and tricks to make GANs work, Chintala (2016) <https://github.com/soumith/ganhacks>`_
-
-`Fantastic GANs and where to find them part one <http://guimperarnau.com/blog/2017/03/Fantastic-GANs-and-where-to-find-them>`_ and `two <http://guimperarnau.com/blog/2017/11/Fantastic-GANs-and-where-to-find-them-II>`_
-
-`The GAN Zoo <https://github.com/hindupuravinash/the-gan-zoo>`_
-
-`Are GANs Created Equal? A Large-Scale Study, Lucic et al. (2017) <https://arxiv.org/abs/1711.10337>`_
+| **Further reading**
+| `Generative Adversarial Nets, Goodfellow et al. (2014) <https://arxiv.org/abs/1406.2661>`_
+| `How to Train a GAN? Tips and tricks to make GANs work, Chintala (2016) <https://github.com/soumith/ganhacks>`_
+| `Fantastic GANs and where to find them part one <http://guimperarnau.com/blog/2017/03/Fantastic-GANs-and-where-to-find-them>`_ and `two <http://guimperarnau.com/blog/2017/11/Fantastic-GANs-and-where-to-find-them-II>`_
+| `The GAN Zoo <https://github.com/hindupuravinash/the-gan-zoo>`_
+| `Are GANs Created Equal? A Large-Scale Study, Lucic et al. (2017) <https://arxiv.org/abs/1711.10337>`_
 

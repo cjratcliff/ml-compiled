@@ -90,10 +90,11 @@ PixelCNN++ improves upon PixelCNN with a number of modifications, improving upon
 * Residual connections are added between the convolutional layers. These help to prevent information being lost through the downsampling.
 * Dropout is added on the model's residual connection to improve generalization.
 
-`PixelCNN++: Improving the PixelCNN with Discretized Logistic Mixture Likelihood and Other Modifications, Salimans et al. (2016) <https://arxiv.org/abs/1701.05517>`_
-
 | **Proposed in**
-| `Conditional Image Generation with PixelCNN Decoders, van den Oord et al. (2016b) <https://arxiv.org/abs/1606.05328>`_
+| `Pixel Recurrent Neural Networks, van den Oord et al. (2016) <https://arxiv.org/abs/1601.06759>`_
+| `PixelCNN++: Improving the PixelCNN with Discretized Logistic Mixture Likelihood and Other Modifications, Salimans et al. (2016) <https://arxiv.org/abs/1701.05517>`_
+
+`Conditional Image Generation with PixelCNN Decoders, van den Oord et al. (2016b) <https://arxiv.org/abs/1606.05328>`_
 
 WaveNet
 ___________

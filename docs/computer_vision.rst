@@ -154,7 +154,6 @@ Object recognition
 
 One-stage detector
 _____________________
-Faster but tend to be less accurate than two-stage detectors.
 
 | **Example papers**
 | `You Only Look Once: Unified, Real-Time Object Detection, Redmon et al. (2015) <https://arxiv.org/abs/1506.02640>`_
@@ -171,8 +170,6 @@ ________________
 
 Two-stage detector
 ____________________
-Slower but more accurate than one-stage detectors.
-
 The first stage proposes regions that may contain objects of interest.
 
 | **Example papers**

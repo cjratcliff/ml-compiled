@@ -156,6 +156,7 @@ One-stage detector
 _____________________
 
 | **Example papers**
+| `Focal Loss for Dense Object Detection, Lin et al. (2017) <https://arxiv.org/pdf/1708.02002.pdf>`_
 | `You Only Look Once: Unified, Real-Time Object Detection, Redmon et al. (2015) <https://arxiv.org/abs/1506.02640>`_
 | `YOLO9000: Better, Faster, Stronger, Redmon and Farhadi (2016) <https://arxiv.org/abs/1612.08242>`_
 | `SSD: Single Shot MultiBox Detector, Liu et al. (2015) <https://arxiv.org/abs/1512.02325>`_

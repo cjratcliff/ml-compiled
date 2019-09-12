@@ -13,6 +13,7 @@ When one or more classes occur much more frequently in the dataset than others. 
 Methods for addressing the problem include:
 
 * Focal loss
+* Weight the loss function (increase the weight for the minority class)
 * Oversampling the minority class
 * Undersampling the majority class
 

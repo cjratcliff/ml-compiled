@@ -174,6 +174,7 @@ ____________________
 The first stage proposes regions that may contain objects of interest.
 
 | **Example papers**
+| `Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks, Ren et al. (2015) <https://arxiv.org/abs/1506.01497>`_
 | `Selective Search for Object Recognition, Uijlings et al. (2012) <http://www.huppelen.nl/publications/selectiveSearchDraft.pdf>`_
 | `Edge Boxes: Locating Object Proposals from Edges, Zitnick and Dollar (2014) <https://pdollar.github.io/files/papers/ZitnickDollarECCV14edgeBoxes.pdf>`_
 |
@@ -181,7 +182,6 @@ The second stage classifies these regions.
 
 | **Example papers**
 | `Fast R-CNN, Girshick et al. (2015) <https://arxiv.org/abs/1504.08083>`_
-| `Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks, Ren et al. (2015) <https://arxiv.org/abs/1506.01497>`_
 | `Mask R-CNN, He et al. (2017) <https://arxiv.org/abs/1703.06870>`_
 
 Saliency map

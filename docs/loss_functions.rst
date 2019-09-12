@@ -54,7 +54,7 @@ Variant of the cross-entropy loss, designed for use on datasets with severe clas
 Where :math:`\gamma` is the 'focusing parameter'. If :math:`\gamma = 0` the focal loss is equivalent to the cross-entropy loss. 
 
 | **Proposed in**
-| `Focal Loss for Dense Object Detection <https://arxiv.org/pdf/1708.02002.pdf>`_
+| `Focal Loss for Dense Object Detection, Lin et al. (2017) <https://arxiv.org/pdf/1708.02002.pdf>`_
 
 Hinge loss
 -------------------

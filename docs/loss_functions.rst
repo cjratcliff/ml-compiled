@@ -45,13 +45,13 @@ For discrete distributions (ie classification problems rather than regression) t
 
 Focal loss
 ------------
-Variant of the cross-entropy loss, designed for use on datasets with severe class imbalance.
+Variant of the cross-entropy loss, designed for use on datasets with severe class imbalance. It is defined as:
 
 .. math::
 
   L(p) = -(1 - p)^\gamma \log(p)
   
-Where :math:`\gamma` is the 'focusing parameter'. If :math:`\gamma = 0` the focal loss is equivalent to the cross-entropy loss. 
+Where :math:`\gamma` is a hyperparameter that determines the relative importance of the classes. If :math:`\gamma = 0` the focal loss is equivalent to the cross-entropy loss. 
 
 | **Proposed in**
 | `Focal Loss for Dense Object Detection, Lin et al. (2017) <https://arxiv.org/pdf/1708.02002.pdf>`_

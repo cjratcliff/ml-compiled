@@ -49,9 +49,9 @@ Variant of the cross-entropy loss, designed for use on datasets with severe clas
 
 .. math::
 
-  L(p) = (1 - p)^\gamma \log(p)
+  L(p) = -(1 - p)^\gamma \log(p)
   
-Where :math:`\gamma` is the 'focusing parameter'. 
+Where :math:`\gamma` is the 'focusing parameter'. If :math:`\gamma = 0` the focal loss is equivalent to the cross-entropy loss. 
 
 | **Proposed in**
 | `Focal Loss for Dense Object Detection <https://arxiv.org/pdf/1708.02002.pdf>`_

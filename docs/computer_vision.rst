@@ -161,15 +161,6 @@ Faster but tend to be less accurate than two-stage detectors.
 | `YOLO9000: Better, Faster, Stronger, Redmon and Farhadi (2016) <https://arxiv.org/abs/1612.08242>`_
 | `SSD: Single Shot MultiBox Detector, Liu et al. (2015) <https://arxiv.org/abs/1512.02325>`_
 
-R-CNN
-________
-Type of network for object detection. Stands for Region-based CNN. 
-
-| **Further reading**
-| `Fast R-CNN, Girshick et al. (2015) <https://arxiv.org/abs/1504.08083>`_
-| `Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks, Ren et al. (2015) <https://arxiv.org/abs/1506.01497>`_
-| `Mask R-CNN, He et al. (2017) <https://arxiv.org/abs/1703.06870>`_
-
 Region of interest
 _______________________
 A region in an image (usually defined by a rectangle) identified as containing an object of interest with high probability, relative to the background.
@@ -180,11 +171,20 @@ ________________
 
 Two-stage detector
 ____________________
-
 Slower but more accurate than one-stage detectors.
+
+The first stage proposes regions that may contain objects of interest.
+
+| **Example papers**
+| `Selective Search for Object Recognition, Uijlings et al. (2012)<http://www.huppelen.nl/publications/selectiveSearchDraft.pdf>`_
+| `Edge Boxes: Locating Object Proposals from Edges, Zitnick and Dollar (2014)<https://pdollar.github.io/files/papers/ZitnickDollarECCV14edgeBoxes.pdf>`_
+
+The second stage classifies these regions.
 
 | **Example papers**
 | `Fast R-CNN, Girshick et al. (2015) <https://arxiv.org/abs/1504.08083>`_
+| `Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks, Ren et al. (2015) <https://arxiv.org/abs/1506.01497>`_
+| `Mask R-CNN, He et al. (2017) <https://arxiv.org/abs/1703.06870>`_
 
 Saliency map
 ---------------

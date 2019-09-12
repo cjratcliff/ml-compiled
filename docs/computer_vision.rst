@@ -149,8 +149,20 @@ Examples:
 
 `Image-to-Image Translation with Conditional Adversarial Networks, Isola et al. (2016) <https://arxiv.org/abs/1611.07004>`_
 
+Object recognition
+-------------------
+
+One-stage detector
+_____________________
+Faster but tend to be less accurate than two-stage detectors.
+
+| **Example papers**
+| `You Only Look Once: Unified, Real-Time Object Detection, Redmon et al. (2015) <https://arxiv.org/abs/1506.02640>`_
+| `YOLO9000: Better, Faster, Stronger, Redmon and Farhadi (2016) <https://arxiv.org/abs/1612.08242>`_
+| `SSD: Single Shot MultiBox Detector, Liu et al. (2015) <https://arxiv.org/abs/1512.02325>`_
+
 R-CNN
-------
+________
 Type of network for object detection. Stands for Region-based CNN. 
 
 | **Further reading**
@@ -159,8 +171,20 @@ Type of network for object detection. Stands for Region-based CNN.
 | `Mask R-CNN, He et al. (2017) <https://arxiv.org/abs/1703.06870>`_
 
 Region of interest
---------------------
+_______________________
 A region in an image (usually defined by a rectangle) identified as containing an object of interest with high probability, relative to the background.
+
+Region proposal
+________________
+
+
+Two-stage detector
+____________________
+
+Slower but more accurate than one-stage detectors.
+
+| **Example papers**
+| `Fast R-CNN, Girshick et al. (2015) <https://arxiv.org/abs/1504.08083>`_
 
 Saliency map
 ---------------

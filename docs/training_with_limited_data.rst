@@ -10,6 +10,12 @@ Class imbalance problem
 --------------------------
 When one or more classes occur much more frequently in the dataset than others. This can lead to classifiers maximising their objective by predicting the majority class(es) all of the time, ignoring the features.
 
+Methods for addressing the problem include:
+
+* Focal loss
+* Oversampling the minority class
+* Undersampling the majority class
+
 Datasets
 ----------
 

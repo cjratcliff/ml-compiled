@@ -178,7 +178,7 @@ The first stage proposes regions that may contain objects of interest.
 | `Selective Search for Object Recognition, Uijlings et al. (2012) <http://www.huppelen.nl/publications/selectiveSearchDraft.pdf>`_
 | `Edge Boxes: Locating Object Proposals from Edges, Zitnick and Dollar (2014) <https://pdollar.github.io/files/papers/ZitnickDollarECCV14edgeBoxes.pdf>`_
 |
-The second stage classifies these regions.
+The second stage classifies these regions as either background or one of the classes. There is often a significant class-imbalance problem since background regions greatly outnumber the other classes.
 
 | **Example papers**
 | `Fast R-CNN, Girshick et al. (2015) <https://arxiv.org/abs/1504.08083>`_

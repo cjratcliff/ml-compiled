@@ -8,7 +8,6 @@ List of sections that need expanding in rough priority order (high at the top):
 
 * Transformer
 * Deconvolution layer
-* Layer normalization
 * Rademacher complexity
 * VC dimension
 * Evidence lower-bound
@@ -20,13 +19,14 @@ List of sections that need expanding in rough priority order (high at the top):
 * Codomain
 * Continuous
 * Image
-* Surjective
 * SVMs - dual form, primal form and training
 
 List of sections to be added:
 
+* Focal loss
+* Two-stage detector
+* One-stage detector
 * Softmax bottleneck
-* Wide Residual Networks
 * Whitening
 * Self-attention
 * Lipschitz smoothness

@@ -43,6 +43,19 @@ where c are the classes. :math:`y_{i,c}` equals 1 if example :math:`i` is in cla
 
 For discrete distributions (ie classification problems rather than regression) this is the same as the negative log-likelihood loss.
 
+Focal loss
+------------
+Variant of the cross-entropy loss, designed for use on datasets with severe class imbalance.
+
+.. math::
+
+  L(p) = (1 - p)^\gamma \log(p)
+  
+Where :math:`\gamma` is the 'focusing parameter'. 
+
+| **Proposed in**
+| `Focal Loss for Dense Object Detection <https://arxiv.org/pdf/1708.02002.pdf>`_
+
 Hinge loss
 -------------------
 Let positives be encoded as :math:`y = 1` and negatives as :math:`y = -1`. Then the hinge loss is defined as:

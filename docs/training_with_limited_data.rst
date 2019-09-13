@@ -37,6 +37,10 @@ ______________
 
 Introduced in `Vinyals et al. (2016) <https://arxiv.org/abs/1606.04080>`_.
 
+Meta-learning
+---------------
+Learning from tasks with the goal of using that knowledge to solve other unseen tasks.
+
 One-shot learning
 ------------------
 Classification where only one member of that class has been seen before. Matching Networks achieve 93.2% top-5 accuracy on ImageNet compared to 96.5% for Inception v3.

@@ -253,7 +253,7 @@ Attention layers use `scaled-dot product attention <https://ml-compiled.readthed
 
 Multi-head attention
 ________________________
-Concatenates the output of multiple parallel attention layers. Each layer has the same inputs (Q, K and V) but different weights. `Vaswani et al. (2017) <https://arxiv.org/abs/1706.03762>`_ use 8 layers in each multi-head attention component but use a small dimensionality size for each (64), which keeps the computational cost low.
+Concatenates the output of multiple parallel attention layers. Each layer has the same inputs (Q, K and V) but different weights. `Vaswani et al. (2017) <https://arxiv.org/abs/1706.03762>`_ use 8 layers in each multi-head attention component but reduce the dimensionality of each from 512 to 64, which keeps the computational cost the same overall.
 
 Positional encoding
 _____________________

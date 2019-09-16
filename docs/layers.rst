@@ -66,7 +66,7 @@ Where :math:`Q` is the query matrix, :math:`K` is the matrix of keys and :math:`
 
 The queries and keys have the same dimension.
 
-The query might be the hidden state of the decoder, the key the hidden state of the decoder and the value the word vector at the corresponding position.
+The query might be the hidden state of the decoder, the key the hidden state of the encoder and the value the word vector at the corresponding position.
 
 
 Scaled dot-product attention

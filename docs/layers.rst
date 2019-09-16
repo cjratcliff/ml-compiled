@@ -89,8 +89,6 @@ Form of attention that attends only to one input, unlike soft attention. Trained
 Self-attention
 __________________________
 
-| **Proposed in** 
-| `Attention is All You Need (2017) <https://arxiv.org/pdf/1706.03762.pdf>`_
 
 Soft attention
 __________________________

@@ -41,6 +41,7 @@ Large eigenvalues at the solution are related to poor generalization.
 | **Further reading**
 | `Empirical Analysis of the Hessian of Over-Parametrized Neural Networks, Sagun et al. (2017) <https://leon.bottou.org/publications/pdf/tr-expl-2017.pdf>`_
 | `Sharp Minima Can Generalize For Deep Nets, Dinh et al. (2017) <https://arxiv.org/pdf/1703.04933.pdf>`_
+| `On Large Batch Training for Deep Learning: Generalization Gap and Sharp Minima, Keskar et al. (2016) <https://arxiv.org/pdf/1609.04836.pdf>`_
 
 Jacobian matrix
 ======================

@@ -358,6 +358,9 @@ Polyak averaging
 ------------------
 The final parameters are set to the average of the parameters from the last n iterations.
 
+| **Proposed in**
+| `Acceleration of Stochastic Approximation by Averaging, Polyak and Juditsky (1992) <https://pdfs.semanticscholar.org/6dc6/1f37ecc552413606d8c89ffbc46ec98ed887.pdf>`_
+
 Saddle points
 -------------------
 A point on a function which is not a local or global optimum but where the derivatives are zero.

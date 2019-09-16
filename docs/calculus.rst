@@ -36,7 +36,7 @@ Recall that the condition number of a matrix is the ratio of the highest and low
 
 Relationship to generalization
 ---------------------------------
-Large eigenvalues at the solution are related to poor generalization.
+`Keskar et al. (2016) <https://arxiv.org/pdf/1609.04836.pdf>`_ argue large eigenvalues of the Hessian at the solution are related to poor generalization since they correspond to sharper minima than small eigenvalues.
 
 | **Further reading**
 | `Empirical Analysis of the Hessian of Over-Parametrized Neural Networks, Sagun et al. (2017) <https://leon.bottou.org/publications/pdf/tr-expl-2017.pdf>`_

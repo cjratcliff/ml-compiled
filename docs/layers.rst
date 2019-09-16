@@ -14,9 +14,11 @@ Attention has been used to improve image classification, image captioning, speec
 
 Computational complexity
 __________________________
-When using two RNNs (an encoder and a decoder) to translate a sequence of length :math:`n` the time complexity is :math:`O(n)`.
+Let :math:`n` be the length of a sequence and :math:`d` be the embedding size.
 
-However, a soft attention mechanism must look over every item in the input sequence for every item in the output sequence, resulting in a quadratic complexity:  :math:`O(n^2)`.
+A recurrent network's complexity will be :math:`O(nd^2)`. 
+
+A soft attention mechanism must look over every item in the input sequence for every item in the output sequence, resulting in complexity that is quadratic in the sequence length:  :math:`O(n^2d)`.
 
 Additive attention
 __________________________

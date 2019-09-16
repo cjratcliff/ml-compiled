@@ -251,13 +251,18 @@ and has subsequently been used to get new records on a variety of other tasks (s
 
 Attention layers use `scaled-dot product attention <https://ml-compiled.readthedocs.io/en/latest/layers.html#scaled-dot-product-attention>`_.
 
+Both the encoder and decoder are comprised of multiple blocks each with a multi-ahead attention layer, two fully-connected layers and two layer-normalisation components.
+
 Multi-head attention
 ________________________
 Concatenates the output of multiple parallel attention layers. Each layer has the same inputs (Q, K and V) but different weights. `Vaswani et al. (2017) <https://arxiv.org/abs/1706.03762>`_ use 8 layers in each multi-head attention component but reduce the dimensionality of each from 512 to 64, which keeps the computational cost the same overall.
 
 Positional encoding
 _____________________
-Positional encodings are added (summed, not concatenated) to the input embeddings to allow the model to be aware of the sequence order. 
+Positional encodings are added (summed, not concatenated) to the input embeddings to allow the model to be aware of the sequence order.
+
+Self-attention
+_________________
 
 
 | **Proposed in**

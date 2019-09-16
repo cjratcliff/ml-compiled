@@ -267,7 +267,7 @@ _________________
 
 Usage in pre-trained language models
 ______________________________________
-`Devlin et al. (2018) <https://arxiv.org/pdf/1810.04805.pdf>`_ pre-train a bidirectional transformer to attain state of the art accuracy on a variety of natural language tasks.
+`Devlin et al. (2018) <https://arxiv.org/pdf/1810.04805.pdf>`_ pre-train a bidirectional transformer to attain state of the art accuracy on a variety of natural language tasks. The transformer is first pre-trained to predict masked out tokens and predict next sentences and then fine-tuned on the tasks to be evaluated.
 
 | **Proposed in**
 | `Attention is All You Need, Vaswani et al. (2017) <https://arxiv.org/abs/1706.03762>`_

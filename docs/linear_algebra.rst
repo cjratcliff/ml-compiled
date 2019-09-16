@@ -270,6 +270,10 @@ Orthogonal    Unitary
 Transpose     Conjugate transpose
 ============ ========================
 
+Degenerate
+____________
+A matrix that is not invertible.
+
 Diagonal matrix
 ________________
 A matrix where :math:`A_{ij} = 0` if :math:`i \neq j`.

@@ -249,6 +249,13 @@ Sequence model notable for not using recurrence or convolutions - only attention
 Attained state of the art accuracy on translation tasks `(Vaswani et al., 2017) <https://arxiv.org/abs/1706.03762>`_
 and has subsequently been used to get new records on a variety of other tasks (see 'Used in').
 
+Multi-head attention
+________________________
+Concatenates the output of multiple parallel attention layers. Each layer has the same inputs (Q, K and V) but different weights. `Vaswani et al. (2017) <https://arxiv.org/abs/1706.03762>`_ use 8 layers in each multi-head attention component but use a small dimensionality size for each (64), which keeps the computational cost low.
+
+Positional encoding
+_____________________
+
 | **Proposed in**
 | `Attention is All You Need, Vaswani et al. (2017) <https://arxiv.org/abs/1706.03762>`_
 |

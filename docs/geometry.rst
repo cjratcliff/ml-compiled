@@ -94,9 +94,9 @@ Inner product of random samples
 ''''''''''''''''''''''''''''''''''''''''''''''
 * Two random high-dimensional vectors are likely to be close to orthogonal. This is because orthogonality is measured by the inner product, which is the sum of the elementwise products. Over a large number of dimensions, this will tend towards the mean of the products which will be zero, so long as the mean of the sampling distribution is also zero.
 
-https://www.cs.cmu.edu/~venkatg/teaching/CStheory-infoage/chap1-high-dim-space.pdf  
-
-http://www.inference.vc/high-dimensional-gaussian-distributions-are-soap-bubble
+| **Further reading**
+| https://www.cs.cmu.edu/~venkatg/teaching/CStheory-infoage/chap1-high-dim-space.pdf  
+| http://www.inference.vc/high-dimensional-gaussian-distributions-are-soap-bubble
 
 Lebesgue measure
 -------------------

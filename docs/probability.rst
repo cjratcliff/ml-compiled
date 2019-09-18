@@ -209,7 +209,7 @@ Maximum a posteriori estimation. A type of point estimate. Can be seen as a regu
 
 .. math::
 
-    \hat{\theta}_{MAP}(O) = \arg \max_\theta p(\theta|O) = \arg \max_\theta \frac{p(\theta|O)q(\theta)}{\int_{\theta'} p(\theta'|O)q(\theta') d\theta'}=  \arg \max_\theta p(\theta|O)q(\theta)
+    \hat{\theta}_{MAP}(O) = \arg \max_\theta p(\theta|O) = \arg \max_\theta \frac{p(O|\theta)q(\theta)}{\int_{\theta'} p(O|\theta')q(\theta') d\theta'} = \arg \max_\theta p(O|\theta)q(\theta)
 
 Where :math:`q(\theta)` is the prior for the parameters.
 

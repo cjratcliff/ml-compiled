@@ -95,6 +95,8 @@ Note that if a point is outside the support of Q (:math:`Q_i = 0`), the KL-diver
 
 The KL-divergence is not symmetric.
 
+A KL-Divergence of 0 means the distributions are identical. As the distributions become more different the divergence becomes more negative.
+
 Mutual information
 -----------------------
 Measures the dependence between two random variables.

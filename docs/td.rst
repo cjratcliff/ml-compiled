@@ -50,11 +50,11 @@ Where
 
     R_t=\sum_{k=0}^{\infty}\gamma^k r_{t+k}
     
-and :math:`H(\pi(s_t;\theta)` is the entropy of the policy. This term is used to incentivize exploration. :math:`\beta` is a hyperparameter.
+and :math:`H(\pi(s_t;\theta)` is the entropy of the policy's distribution over actions. This term is used to incentivize exploration. :math:`\beta` is a hyperparameter.
 
 :math:`R_t-V(s_t;\theta_v)` is the temporal difference term. 
 
-It’s multiplied by the probability assigned by the policy for the action at time :math:`t`. This means policies which are more certain will be penalized more heavily for incorrectly estimating the value function. The final term is the entropy of the policy's distribution over actions.
+It’s multiplied by the probability assigned by the policy for the action at time :math:`t`. This means policies which are more certain will be penalized more heavily for incorrectly estimating the value function.
 
 | **Proposed in**
 | `Asynchronous Methods for Deep Reinforcement Learning, Mnih et al. (2016) <https://arxiv.org/abs/1602.01783>`_

@@ -123,6 +123,9 @@ Image segmentation
 --------------------
 Partitions an object into meaningful parts with associated labels. May also be referred to as per-pixel classification.
 
+| **Further reading**
+| `U-Net: Convolutional Networks for Biomedical Image Segmentation, Ronneberger et al. <https://arxiv.org/abs/1505.04597>`_
+
 Instance segmentation
 _______________________
 Unlike semantic segmentation, different instances of the same object type have to be labelled as separate objects (eg person 1, person 2). Harder than semantic segmentation.

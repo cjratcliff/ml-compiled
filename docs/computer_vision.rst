@@ -182,12 +182,12 @@ There is often a significant class-imbalance problem since background regions gr
 
 Contrast with one-stage detectors.
 
-| **Example papers**
+| **Example papers for the first stage**
 | `Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks, Ren et al. (2015) <https://arxiv.org/abs/1506.01497>`_
 | `Edge Boxes: Locating Object Proposals from Edges, Zitnick and Dollar (2014) <https://pdollar.github.io/files/papers/ZitnickDollarECCV14edgeBoxes.pdf>`_
 | `Selective Search for Object Recognition, Uijlings et al. (2012) <http://www.huppelen.nl/publications/selectiveSearchDraft.pdf>`_
 |
-| **Example papers**
+| **Example papers for the second stage**
 | `Mask R-CNN, He et al. (2017) <https://arxiv.org/abs/1703.06870>`_
 | `Fast R-CNN, Girshick et al. (2015) <https://arxiv.org/abs/1504.08083>`_
 

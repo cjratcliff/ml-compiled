@@ -42,6 +42,7 @@ Meta-learning
 Learning from tasks with the goal of using that knowledge to solve other unseen tasks.
 
 | **Further reading**
+| `Rapid Learning or Feature Reuse? Towards Understanding the Effectiveness of MAML, Raghu et al. (2019) <https://arxiv.org/abs/1909.09157v1>`_
 | `Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks, Finn et al. (2017) <https://arxiv.org/abs/1703.03400>`_
 
 One-shot learning

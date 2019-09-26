@@ -168,11 +168,11 @@ Contrast with two-stage detectirs.
 
 Region of interest
 _______________________
-A region in an image (usually defined by a rectangle) identified as containing an object of interest with high probability, relative to the background.
+See 'region proposal'.
 
 Region proposal
 ________________
-
+A region in an image (usually defined by a rectangle) identified as containing an object of interest with high probability, relative to the background.
 
 Two-stage detector
 ____________________

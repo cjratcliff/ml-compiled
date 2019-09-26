@@ -12,7 +12,7 @@ When one or more classes occur much more frequently in the dataset than others. 
 
 Methods for addressing the problem include:
 
-* Focal loss
+* `Focal loss <https://ml-compiled.readthedocs.io/en/latest/loss_functions.html#focal-loss>`_
 * Weight the loss function (increase the weight for the minority class)
 * Oversampling the minority class
 * Undersampling the majority class

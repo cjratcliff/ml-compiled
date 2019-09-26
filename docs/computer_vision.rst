@@ -155,6 +155,8 @@ Object recognition
 One-stage detector
 _____________________
 
+Contrast with two-stage detectirs.
+
 | **Example papers**
 | `Focal Loss for Dense Object Detection, Lin et al. (2017) <https://arxiv.org/pdf/1708.02002.pdf>`_
 | `YOLO9000: Better, Faster, Stronger, Redmon and Farhadi (2016) <https://arxiv.org/abs/1612.08242>`_
@@ -171,14 +173,17 @@ ________________
 
 Two-stage detector
 ____________________
-The first stage proposes regions that may contain objects of interest.
+The first stage proposes regions that may contain objects of interest. The second stage classifies these regions as either background or one of the classes. 
+
+There is often a significant class-imbalance problem since background regions greatly outnumber the other classes.
+
+Contrast with one-stage detectors.
 
 | **Example papers**
 | `Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks, Ren et al. (2015) <https://arxiv.org/abs/1506.01497>`_
 | `Edge Boxes: Locating Object Proposals from Edges, Zitnick and Dollar (2014) <https://pdollar.github.io/files/papers/ZitnickDollarECCV14edgeBoxes.pdf>`_
 | `Selective Search for Object Recognition, Uijlings et al. (2012) <http://www.huppelen.nl/publications/selectiveSearchDraft.pdf>`_
 |
-The second stage classifies these regions as either background or one of the classes. There is often a significant class-imbalance problem since background regions greatly outnumber the other classes.
 
 | **Example papers**
 | `Mask R-CNN, He et al. (2017) <https://arxiv.org/abs/1703.06870>`_

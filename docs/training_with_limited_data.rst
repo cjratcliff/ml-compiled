@@ -49,6 +49,11 @@ One-shot learning
 ------------------
 Classification where only one member of that class has been seen before. Matching Networks achieve 93.2% top-5 accuracy on ImageNet compared to 96.5% for Inception v3.
 
+| **Further reading**
+| `Object-Level Representation Learning for Few-Shot Image Classification, Long et al. (2018) <https://arxiv.org/pdf/1805.10777.pdf>`_
+| `Matching Networks for One Shot Learning, Vinyals et al. (2016) <https://arxiv.org/abs/1606.04080>`_
+| `Siamese Neural Networks for One-shot Image Recognition, Koch et al. (2015) <https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf>`_
+
 Semi-supervised learning
 ---------------------------
 Training using a limited set of labelled data and a (usually much larger) set of unlabelled data.

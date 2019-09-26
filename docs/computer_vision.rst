@@ -124,7 +124,7 @@ Image segmentation
 Partitions an object into meaningful parts with associated labels. May also be referred to as per-pixel classification.
 
 | **Further reading**
-| `U-Net: Convolutional Networks for Biomedical Image Segmentation, Ronneberger et al. <https://arxiv.org/abs/1505.04597>`_
+| `U-Net: Convolutional Networks for Biomedical Image Segmentation, Ronneberger et al. (2015) <https://arxiv.org/abs/1505.04597>`_
 
 Instance segmentation
 _______________________

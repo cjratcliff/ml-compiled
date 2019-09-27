@@ -39,7 +39,7 @@ Introduced in `Vinyals et al. (2016) <https://arxiv.org/abs/1606.04080>`_.
 
 Few-shot learning
 --------------------
-Classification where only a few members of that class have been seen before. 
+Classification where only a few (normally < 20) members of that class have been seen before. 
 
 Meta-learning
 ---------------

@@ -37,6 +37,10 @@ ______________
 
 Introduced in `Vinyals et al. (2016) <https://arxiv.org/abs/1606.04080>`_.
 
+Few-shot learning
+--------------------
+Classification where only a few members of that class have been seen before. 
+
 Meta-learning
 ---------------
 Learning from tasks with the goal of using that knowledge to solve other unseen tasks.

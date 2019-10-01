@@ -60,6 +60,7 @@ Imagenet Large Scale Recognition Challenge. Popular image classification task in
 
 Notable results (top-1 accuracy):
 
+* 85.0% - `RandAugment: Practical data augmentation with no separate search, Cubuk et al. (2019)<https://arxiv.org/pdf/1909.13719v1.pdf>`_
 * 83.9% - `Regularized Evolution for Image Classifier Architecture Search, Real et al. (2018) <https://arxiv.org/pdf/1802.01548.pdf>`_
 * 83.5% - `AutoAugment: Learning Augmentation Strategies from Data, Cubuk et al. (2018) <https://arxiv.org/pdf/1805.09501.pdf>`_
 * 82.7% - `Learning Transferable Architectures for Scalable Image Recognition, Zoph et al. (2017) <https://arxiv.org/pdf/1707.07012.pdf>`_

@@ -54,6 +54,11 @@ COCO
 _________
 Common Objects in COntext. A dataset for image recognition, segmentation and captioning.
 
+Detection task - Notable results (mAP):
+
+* 42.1% - `AutoAugment: Learning Augmentation Strategies from Data, Cubuk et al. (2018) <https://arxiv.org/pdf/1805.09501.pdf>`_
+* 35.9% - `Fast R-CNN, Girshick et al. (2015) <https://arxiv.org/abs/1504.08083>`_
+
 ILSVRC
 ________
 Imagenet Large Scale Recognition Challenge. Popular image classification task in which the algorithm must use a dataset of ~1.4m images to classify 1000 classes.

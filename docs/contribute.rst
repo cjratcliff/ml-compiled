@@ -21,8 +21,6 @@ List of sections that need expanding in rough priority order (high at the top):
 * Image
 * SVMs - dual form, primal form and training
 * Matrix differentiation
-* Beta distribution
-* Dirichlet distribution
 * Weibull distribution
 * Vanishing/exploding gradient problem
 * Feature scaling
@@ -51,8 +49,7 @@ List of sections that need expanding in rough priority order (high at the top):
 * Reward sparsity
 * Value iteration
 * Mean field approach
-* Partition function 
-* Gaussian process
+* Partition function
 
 
 List of sections to be added:

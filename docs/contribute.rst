@@ -72,5 +72,3 @@ List of sections to be added:
 * Mean field approach
 * Partition function 
 * Gaussian process
-* Rademacher complexity
-* VC dimension

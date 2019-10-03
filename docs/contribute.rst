@@ -20,22 +20,6 @@ List of sections that need expanding in rough priority order (high at the top):
 * Continuous
 * Image
 * SVMs - dual form, primal form and training
-
-List of sections to be added:
-
-* Softmax bottleneck
-* Whitening
-* Self-attention
-* Lipschitz smoothness
-* Lipschitz constant
-* Canonical Correlation Analysis (CCA)
-* Compositionality
-* Bayesian neural networks
-* Deep Belief Networks/Machines
-* Restricted Boltzmann Machines
-* Regression - p-values
-
-
 * Matrix differentiation
 * Beta distribution
 * Dirichlet distribution
@@ -55,10 +39,8 @@ List of sections to be added:
 * Expectation-maximisation (EM)
 * Inductive bias
 * Metric learning
-* Imitation learning
 * Overcomplete representation
 * Bayesian neural network
-* Catastrophic forgetting
 * Sparsity
 * Advantage function
 * Counterfactual regret minimization
@@ -67,8 +49,25 @@ List of sections to be added:
 * Regret matching
 * Reward clipping
 * Reward sparsity
-* Trust region policy optimization
 * Value iteration
 * Mean field approach
 * Partition function 
 * Gaussian process
+
+
+List of sections to be added:
+
+* Imitation learning
+* Catastrophic forgetting
+* Trust region policy optimization
+* Softmax bottleneck
+* Whitening
+* Self-attention
+* Lipschitz smoothness
+* Lipschitz constant
+* Canonical Correlation Analysis (CCA)
+* Compositionality
+* Bayesian neural networks
+* Deep Belief Networks/Machines
+* Restricted Boltzmann Machines
+* Regression - p-values

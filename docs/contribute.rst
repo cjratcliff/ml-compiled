@@ -23,9 +23,6 @@ List of sections that need expanding in rough priority order (high at the top):
 
 List of sections to be added:
 
-* Focal loss
-* Two-stage detector
-* One-stage detector
 * Softmax bottleneck
 * Whitening
 * Self-attention
@@ -37,3 +34,43 @@ List of sections to be added:
 * Deep Belief Networks/Machines
 * Restricted Boltzmann Machines
 * Regression - p-values
+
+
+Matrix differentiation
+Beta distribution
+Dirichlet distribution
+Weibull distribution
+Vanishing/exploding gradient problem
+Feature scaling
+Object tracking
+Positve-unlabeled learning
+Logit
+Question answering
+Translation
+Manifold hypothesis
+Variational Bayes
+Parametric and non-parametric models
+Discriminative model
+Energy-based model
+Expectation-maximisation (EM)
+Inductive bias
+Metric learning
+Imitation learning
+Overcomplete representation
+Bayesian neural network
+Catastrophic forgetting
+Sparsity
+Advantage function
+Counterfactual regret minimization
+Direct policy search
+Information set
+Regret matching
+Reward clipping
+Reward sparsity
+Trust region policy optimization
+Value iteration
+Mean field approach
+Partition function 
+Gaussian process
+Rademacher complexity
+VC dimension

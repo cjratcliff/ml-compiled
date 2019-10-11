@@ -132,6 +132,7 @@ ___________
 
 Notable variants
 ___________________
+* `A Style-Based Generator Architecture for Generative Adversarial Networks, Karras et al. (2018) <https://arxiv.org/pdf/1812.04948.pdf>`_
 * `Progressive Growing of GANs for Improved Quality, Stability, and Variation, Karras et al. (2017) <https://arxiv.org/abs/1710.10196>`_
 * `Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks, Zhu et al. (2017) <https://arxiv.org/pdf/1703.10593.pdf>`_
 * `BEGAN: Boundary Equilibrium Generative Adversarial Networks, Berthelot et al. (2017) <https://arxiv.org/abs/1703.10717>`_ - Gets similar quality results as the WGAN-GP.

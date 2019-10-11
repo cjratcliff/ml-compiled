@@ -134,6 +134,7 @@ Notable variants
 ___________________
 * `Progressive Growing of GANs for Improved Quality, Stability, and Variation, Karras et al. (2017) <https://arxiv.org/abs/1710.10196>`_
 * `BEGAN: Boundary Equilibrium Generative Adversarial Networks, Berthelot et al. (2017) <https://arxiv.org/abs/1703.10717>`_ - Gets similar quality results as the WGAN-GP.
+* `Improved Training of Wasserstein GANs, Gulrajani et al. (2017) <https://arxiv.org/abs/1704.00028>`_
 * `Wasserstein GAN, Arjovsky et al. (2017) <https://arxiv.org/abs/1701.07875>`_ - Replaces the original loss function, improving stability. The WGAN-GP (2017) is a further improved version.
 * `InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets, Chen et al. (2016) <https://arxiv.org/abs/1606.03657>`_ - Is able to disentangle various aspects like pose vs lighting and digit shape vs writing style.
 * `Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks, Radford et al. (2015) <https://arxiv.org/abs/1511.06434>`_ - Has a number of architectural improvements over the original GAN but is not fundamentally different.

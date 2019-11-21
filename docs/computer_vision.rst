@@ -67,6 +67,7 @@ ILSVRC stands for Imagenet Large Scale Recognition Challenge. Popular image clas
 
 Notable results (top-1 accuracy):
 
+* 87.4% - `Self-training with Noisy Student improves ImageNet classification, Xie et al. (2019) <https://arxiv.org/pdf/1911.04252v1.pdf>`_
 * 85.0% - `RandAugment: Practical data augmentation with no separate search, Cubuk et al. (2019) <https://arxiv.org/pdf/1909.13719v1.pdf>`_
 * 84.4% - `EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks, Tan and Le (2019) <https://arxiv.org/abs/1905.11946>`_
 * 83.9% - `Regularized Evolution for Image Classifier Architecture Search, Real et al. (2018) <https://arxiv.org/pdf/1802.01548.pdf>`_

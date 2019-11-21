@@ -32,6 +32,7 @@ ______________
 
 Notable results - CIFAR-10
 
+* 98.9% - `EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks, Tan and Le (2019) <https://arxiv.org/abs/1905.11946>`_
 * 98.5% - `AutoAugment: Learning Augmentation Strategies from Data, Cubuk et al. (2018) <https://arxiv.org/pdf/1805.09501.pdf>`_
 * 97.6% - `Learning Transferable Architectures for Scalable Image Recognition, Zoph et al. (2017) <https://arxiv.org/pdf/1707.07012.pdf>`_
 * 97.4% - `Improved Regularization of Convolutional Neural Networks with Cutout, DeVries and Taylor (2017) <https://arxiv.org/pdf/1708.04552.pdf>`_
@@ -42,6 +43,7 @@ Notable results - CIFAR-10
 
 Notable results - CIFAR-100
 
+* 91.7% - `EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks, Tan and Le (2019) <https://arxiv.org/abs/1905.11946>`_
 * 89.3% - `AutoAugment: Learning Augmentation Strategies from Data, Cubuk et al. (2018) <https://arxiv.org/pdf/1805.09501.pdf>`_
 * 84.8% - `Improved Regularization of Convolutional Neural Networks with Cutout, de Vries and Taylor (2017) <https://arxiv.org/pdf/1708.04552.pdf>`_
 * 81.1% - `Wide Residual Networks, Zagoruyko and Komodakis (2016) <https://arxiv.org/pdf/1605.07146.pdf>`_
@@ -59,13 +61,14 @@ Detection task - Notable results (mAP):
 * 42.1% - `AutoAugment: Learning Augmentation Strategies from Data, Cubuk et al. (2018) <https://arxiv.org/pdf/1805.09501.pdf>`_
 * 35.9% - `Fast R-CNN, Girshick et al. (2015) <https://arxiv.org/abs/1504.08083>`_
 
-ILSVRC
-________
-Imagenet Large Scale Recognition Challenge. Popular image classification task in which the algorithm must use a dataset of ~1.4m images to classify 1000 classes.
+ImageNet (ILSVRC)
+___________________
+ILSVRC stands for Imagenet Large Scale Recognition Challenge. Popular image classification task in which the algorithm must use a dataset of ~1.4m images to classify 1000 classes.
 
 Notable results (top-1 accuracy):
 
 * 85.0% - `RandAugment: Practical data augmentation with no separate search, Cubuk et al. (2019) <https://arxiv.org/pdf/1909.13719v1.pdf>`_
+* 84.4% - `EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks, Tan and Le (2019) <https://arxiv.org/abs/1905.11946>`_
 * 83.9% - `Regularized Evolution for Image Classifier Architecture Search, Real et al. (2018) <https://arxiv.org/pdf/1802.01548.pdf>`_
 * 83.5% - `AutoAugment: Learning Augmentation Strategies from Data, Cubuk et al. (2018) <https://arxiv.org/pdf/1805.09501.pdf>`_
 * 82.7% - `Learning Transferable Architectures for Scalable Image Recognition, Zoph et al. (2017) <https://arxiv.org/pdf/1707.07012.pdf>`_

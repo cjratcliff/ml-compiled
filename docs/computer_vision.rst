@@ -77,6 +77,8 @@ Notable results (top-1 accuracy):
 * 76.3% - `Very deep convolutional networks for large-scale image recognition, Simonyan and Zisserman (2014) <https://arxiv.org/abs/1409.1556>`_
 * 62.5% - `ImageNet Classification with Deep Convolutional Neural Networks, Krizhevsky et al. (2012) <https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf>`_
 
+NB: `Xie et al. (2019) <https://arxiv.org/pdf/1911.04252v1.pdf>`_ also use unlabeled data.
+
 MNIST
 ________
 70000 28x28 pixel grayscale images of handwritten digits (10 classes), 60000 in the training set and 10000 in the test set.

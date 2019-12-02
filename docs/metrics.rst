@@ -59,11 +59,11 @@ To calculate it first define the overlap criterion. This could be that the IoU f
 
 Normalized Discounted Cumulative Gain (NDCG)
 ---------------------------------------------
-Used for ranking.
+Used for ranking. Normalizes the DCG by dividing by the score that would be achieved by a perfect ranking. NDCG is always between 0 and 1.
 
 .. math::
 
-  NDCG = \frac{DCG}{IDCG}
+  NDCG_p = \frac{DCG_p}{IDCG_p}
 
 Where
 

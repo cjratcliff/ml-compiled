@@ -18,7 +18,7 @@ Below is the median human-normalized performance on the 57 Atari games dataset w
 * 102% - `Noisy Networks for Exploration, Fortunato et al. (2017) <https://arxiv.org/abs/1706.10295>`_
 * 68% - `Human-level control through deep reinforcement learning, Mnih et al. (2015) <https://www.nature.com/articles/nature14236>`_
 
-Human starts are used in the evaluation to avoid rewarding agents that have overfitted to their own trajectories.
+Human starts refers to starting episodes at points randomly chosen from the set of human expert trajectories. They are used in the evaluation to avoid rewarding agents that have overfitted to their own trajectories.
 
 Go
 ----

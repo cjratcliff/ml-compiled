@@ -29,7 +29,7 @@ Where :math:`r_i` is the relevance of document :math:`i`.
 
 Discounted Cumulative Gain (DCG)
 ----------------------------------
-Used for ranking. Takes the position of the documents in the rankiung into account.
+Used for ranking. Takes the position of the documents in the ranking into account.
 
 .. math::
 

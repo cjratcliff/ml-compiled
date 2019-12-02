@@ -61,7 +61,9 @@ Normalized Discounted Cumulative Gain (NDCG)
 ---------------------------------------------
 Used for ranking.
 
-NDCG = \frac{DCG}{IDCG}
+.. math::
+
+  NDCG = \frac{DCG}{IDCG}
 
 Where
 

@@ -58,6 +58,8 @@ Common Objects in COntext. A dataset for image recognition, segmentation and cap
 
 Detection task - Notable results (mAP):
 
+* 51.0% - `EfficientDet: Scalable and Efficient Object Detection, Tan et al. (2019) <https://arxiv.org/abs/1911.09070v1>`_
+* 48.3% - `NAS-FPN: Learning Scalable Feature Pyramid Architecture for Object Detection, Ghaisi et al. (2019) <https://arxiv.org/pdf/1904.07392.pdf>`_
 * 42.1% - `AutoAugment: Learning Augmentation Strategies from Data, Cubuk et al. (2018) <https://arxiv.org/pdf/1805.09501.pdf>`_
 * 35.9% - `Fast R-CNN, Girshick et al. (2015) <https://arxiv.org/abs/1504.08083>`_
 

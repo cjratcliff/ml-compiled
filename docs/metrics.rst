@@ -17,6 +17,26 @@ Often uses multiple reference translations.
 
 `BLEU: a Method for Automatic Evaluation of Machine Translation, Papineni et al. (2002) <https://www.aclweb.org/anthology/P02-1040.pdf>`_
 
+Cumulative Gain
+-----------------
+A simple metric for ranking that does not take position into account.
+
+.. math::
+
+  CG = \sum_{i} r_i
+  
+Where :math:`r_i` is the relevance of document :math:`i`.
+
+Discounted Cumulative Gain (DCG)
+----------------------------------
+Used for ranking. Takes the position of the documents in the rankiung into account.
+
+.. math::
+
+  DCG = \sum_i \frac{r_i}{\log_2{i+1}}
+
+Where :math:`r_i` is the relevance of the document in position :math:`i`.
+
 F1-score
 ----------
 The F1-score is the harmonic mean of the precision and the recall.
@@ -36,6 +56,10 @@ Mean Average Precision
 The main evaluation metric for object detection.
 
 To calculate it first define the overlap criterion. This could be that the IoU for two bounding boxes be greater than 0.5. Since the ground truth is always that the class is present, this means each predicted box is either a true-positive or a false-positive. This means the precision can be calculated using TP/(TP+FN).
+
+Normalized Discounted Cumulative Gain (NDCG)
+---------------------------------------------
+Used for ranking.
 
 Perplexity
 ------------

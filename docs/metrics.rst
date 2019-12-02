@@ -23,7 +23,7 @@ A simple metric for ranking that does not take position into account.
 
 .. math::
 
-  CG = \sum_{i} r_i
+  CG_p = \sum_{i=1}^p r_i
   
 Where :math:`r_i` is the relevance of document :math:`i`.
 
@@ -33,7 +33,7 @@ Used for ranking. Takes the position of the documents in the rankiung into accou
 
 .. math::
 
-  DCG = \sum_i \frac{r_i}{\log_2{i+1}}
+  DCG_p = \sum_{i=1}^p \frac{r_i}{\log_2{i+1}}
 
 Where :math:`r_i` is the relevance of the document in position :math:`i`.
 
@@ -60,6 +60,20 @@ To calculate it first define the overlap criterion. This could be that the IoU f
 Normalized Discounted Cumulative Gain (NDCG)
 ---------------------------------------------
 Used for ranking.
+
+NDCG = \frac{DCG}{IDCG}
+
+Where
+
+.. math::
+
+  DCG_p = \sum_{i=1}^p \frac{r_i}{\log_2{i+1}}
+  
+and IDCG is the Ideal Discounted Cumulative Gain, the DCG that would be produced by a perfect ranking:
+
+.. math::
+
+  IDCG_p = \sum_{i=1}^p \frac{2^{r_i} - 1}{\log_2{i+1}}
 
 Perplexity
 ------------

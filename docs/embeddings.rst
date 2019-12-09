@@ -97,6 +97,8 @@ For example, let the window size be 2. Then the relevant window is :math:`\{w_{i
 
 Increasing the window size improves the quality of the word vectors but also makes them more expensive to compute. Samples less from words that are far away from the known word, since the influence will be weaker. Works well with a small amount of data and can represent even rare words or phrases well.
 
+Augmentations
+__________________
 The efficiency and quality of the skip-gram model is improved by two additions:
 
 1. Subsampling frequent words. Words like ‘the’ and ‘is’ occur very frequently in most text corpora yet contain little useful semantic information about surrounding words. To reduce this inefficiency words are sampled according to :math:`P(w_i)=1-t/f_i` where :math:`f_i` is the frequency of word i and t is a manually set threshold, usually around 10-5.

@@ -126,6 +126,11 @@ and IDCG is the Ideal Discounted Cumulative Gain, the DCG that would be produced
 
   IDCG_p = \sum_{i=1}^p \frac{2^{r_i} - 1}{\log_2{i+1}}
   
+Precision @ k
+________________
+
+The number of relevant documents returned in the top k results.
+  
 Regression
 -------------
 

@@ -31,6 +31,8 @@ It starts by manually specifying the hyperparameters to be evaluated. For exampl
     
 Then every combination is tested one by one by training a model with those settings and calculating the accuracy on the validation set.
 
+Believed to be less efficient than random search (see `Bergstra and Bengio (2012) <http://jmlr.csail.mit.edu/papers/volume13/bergstra12a/bergstra12a.pdf>`_.
+
 Neural Architecture Search
 ----------------------------
 The automatic design of the architecture of neural networks. Typically involves deciding aspects like the size, connections and type of layers as well as their activations.

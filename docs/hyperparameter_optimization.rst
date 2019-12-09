@@ -31,7 +31,11 @@ It starts by manually specifying the hyperparameters to be evaluated. For exampl
     
 Then every combination is tested one by one by training a model with those settings and calculating the accuracy on the validation set.
 
-Believed to be less efficient than random search (see `Bergstra and Bengio (2012) <http://jmlr.csail.mit.edu/papers/volume13/bergstra12a/bergstra12a.pdf>`_.
+Effectiveness
+________________
+Grid search is believed to be less efficient than random search, particularly when tuning a large number of parameters. (`Bergstra and Bengio (2012) <http://jmlr.csail.mit.edu/papers/volume13/bergstra12a/bergstra12a.pdf>`_. 
+
+The reasoning is that typically in neural networks a few hyperparameters matter a great deal and most do not change the results much. Grid search looks at exponentially fewer values of each hyperparameter than random search does. In essence, grid search wastes far more time evaluating combinations of variables that don't matter.
 
 Neural Architecture Search
 ----------------------------

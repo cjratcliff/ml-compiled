@@ -36,6 +36,7 @@ Neural Architecture Search
 
 | **Notable papers**
 | `EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks, Tan and Le (2019) <https://arxiv.org/abs/1905.11946>`_
+| `Efficient Neural Architecture Search via Parameter Sharing, Pham et al. (2018) <https://arxiv.org/abs/1802.03268>`_
 | `Regularized Evolution for Image Classifier Architecture Search, Real et al. (2018) <https://arxiv.org/abs/1802.01548>`_
 | `Learning Transferable Architectures for Scalable Image Recognition, Zoph et al. (2017) <https://arxiv.org/pdf/1707.07012.pdf>`_
 | `Neural Architecture Search with Reinforcement Learning, Zoph and Le (2016) <https://arxiv.org/abs/1611.01578>`_

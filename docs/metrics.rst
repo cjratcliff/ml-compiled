@@ -97,6 +97,15 @@ Used for ranking. Takes the position of the documents in the ranking into accoun
 
 Where :math:`r_i` is the relevance of the document in position :math:`i`.
 
+Mean Reciprocal Rank (MRR)
+____________________________
+
+.. math::
+
+  MRR = 1/|Q| \sum_{q \in Q} \frac{1}{rank(q)}
+  
+Where :math:`q \in Q` is a query taken from a set of queries and :math:`rank(q)` is the rank of the first document that is relevant for query :math:`q`. 
+
 Normalized Discounted Cumulative Gain (NDCG)
 ______________________________________________
 Used for ranking. Normalizes the DCG by dividing by the score that would be achieved by a perfect ranking. NDCG is always between 0 and 1.

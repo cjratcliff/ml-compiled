@@ -102,7 +102,7 @@ ____________________________
 
 .. math::
 
-  MRR = 1/|Q| \sum_{q \in Q} \frac{1}{rank(q)}
+  MRR = \frac{1}{|Q|} \sum_{q \in Q} \frac{1}{rank(q)}
   
 Where :math:`q \in Q` is a query taken from a set of queries and :math:`rank(q)` is the rank of the first document that is relevant for query :math:`q`. 
 

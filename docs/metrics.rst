@@ -93,7 +93,7 @@ Used for ranking. Takes the position of the documents in the ranking into accoun
 
 .. math::
 
-  DCG_p = \sum_{i=1}^p \frac{r_i}{\log_2{i+1}}
+  DCG_p = \sum_{i=1}^p \frac{r_i}{\log_2{(i+1)}}
 
 Where :math:`r_i` is the relevance of the document in position :math:`i`.
 
@@ -118,13 +118,13 @@ Where
 
 .. math::
 
-  DCG_p = \sum_{i=1}^p \frac{r_i}{\log_2{i+1}}
+  DCG_p = \sum_{i=1}^p \frac{r_i}{\log_2{(i+1)}}
   
 and IDCG is the Ideal Discounted Cumulative Gain, the DCG that would be produced by a perfect ranking:
 
 .. math::
 
-  IDCG_p = \sum_{i=1}^p \frac{2^{r_i} - 1}{\log_2{i+1}}
+  IDCG_p = \sum_{i=1}^p \frac{2^{r_i} - 1}{\log_2{(i+1)}}
   
 Precision @ k
 ________________

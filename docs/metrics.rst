@@ -129,7 +129,7 @@ and IDCG is the Ideal Discounted Cumulative Gain, the DCG that would be produced
 Precision @ k
 ________________
 
-The number of relevant documents returned in the top k results.
+The proportion of documents returned in the top k results which are relevant. ie the number of relevant documents divided by k.
   
 Regression
 -------------

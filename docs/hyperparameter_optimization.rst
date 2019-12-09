@@ -33,6 +33,7 @@ Then every combination is tested one by one by training a model with those setti
 
 Neural Architecture Search
 ----------------------------
+The automatic design of the architecture of neural networks. Typically involves deciding aspects like the size, connections and type of layers as well as their activations.
 
 | **Notable papers**
 | `EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks, Tan and Le (2019) <https://arxiv.org/abs/1905.11946>`_

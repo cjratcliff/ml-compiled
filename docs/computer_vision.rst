@@ -172,7 +172,7 @@ Object recognition
 One-stage detector
 _____________________
 
-Contrast with two-stage detectirs.
+Contrast with two-stage detectors.
 
 | **Example papers**
 | `Focal Loss for Dense Object Detection, Lin et al. (2017) <https://arxiv.org/pdf/1708.02002.pdf>`_

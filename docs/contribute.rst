@@ -38,7 +38,6 @@ List of sections that need expanding in rough priority order (high at the top):
 * Inductive bias
 * Metric learning
 * Overcomplete representation
-* Bayesian neural network
 * Sparsity
 * Advantage function
 * Counterfactual regret minimization
@@ -65,6 +64,7 @@ List of sections to be added:
 * Canonical Correlation Analysis (CCA)
 * Compositionality
 * Bayesian neural networks
+* Bayesian optimisation
 * Deep Belief Networks/Machines
 * Restricted Boltzmann Machines
 * Regression - p-values

@@ -80,7 +80,7 @@ Special case of the Binomial distribution, which generalizes the Bernoulli to mu
   
 Beta
 _______
-Family of distributions defined over :math:`[0,1]`.
+Family of distributions defined over :math:`[0,1]`. This makes them particularly useful for defining the distribution of probabilities.
 
 Binomial
 ___________

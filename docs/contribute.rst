@@ -8,6 +8,7 @@ List of sections that need expanding in rough priority order (high at the top):
 
 * Transformer
 * Deconvolution layer
+* Lambda loss
 * Rademacher complexity
 * VC dimension
 * Evidence lower-bound

@@ -55,10 +55,10 @@ A prior for a likelihood function is conjugate if it is from the same family of 
 ====================== ======================
  Bernoulli               Beta
  Binomial                Beta
- Negative binomial        Beta
- Categorical               Dirichlet
- Multinomial              Dirichlet
- Poisson                  Gamma
+ Negative binomial       Beta
+ Categorical             Dirichlet
+ Multinomial             Dirichlet
+ Poisson                 Gamma
 ====================== ======================
 
 Distributions

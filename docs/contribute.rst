@@ -26,7 +26,7 @@ List of sections that need expanding in rough priority order (high at the top):
 * Vanishing/exploding gradient problem
 * Feature scaling
 * Object tracking
-* Positve-unlabeled learning
+* Positive-unlabeled learning
 * Logit
 * Question answering
 * Translation

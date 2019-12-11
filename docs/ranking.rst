@@ -3,7 +3,7 @@ Ranking
 
 LambdaMART
 ------------
-Combines the boosted tree model MART with LambdaRank.
+Combines the boosted tree model `MART (Friedman, 1999)<https://statweb.stanford.edu/~jhf/ftp/trebst.pdf>`_ with LambdaRank.
 
 LambdaRank
 -----------

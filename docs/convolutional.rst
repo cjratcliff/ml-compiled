@@ -25,8 +25,8 @@ A basic convolutional network, historically used for the MNIST dataset.
 | **Proposed in**
 | `Gradient-based learning applied to document recognition, LeCun et al. (1998) <http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf>`_
 
-Residual network
--------------------
+Residual network (ResNet)
+---------------------------
 An architecture that uses skip connections to create very deep networks. The `original paper <https://arxiv.org/abs/1512.03385>`_ achieved 152 layers, 8 times deeper than VGG nets. Used for image recognition, winning first place in the ILSVRC 2015 classification task. Residual connections can also be used to create deeper RNNs such as Google’s 16-layer RNN encoder-decoder (Wu et al., 2016).
 
 Uses shortcut connections performing the identity mapping, which are added to the outputs of the stacked layers. Each residual block uses the equation:
@@ -38,6 +38,14 @@ Uses shortcut connections performing the identity mapping, which are added to th
 where :math:`f` is a sequence of layers such as convolutions and nonlinearities.
 
 Similar but superior to `Highway Networks <https://arxiv.org/abs/1505.00387>`_ as they do not introduce any extra parameters.
+
+Motivation
+_____________
+There are a number of hypothesized reasons for why residual networks are effective:
+
+* Shorter paths: The skip connections provide short paths between the input and output, making residual networks able to avoid the vanishing gradient problem more easily.
+* Increased depth: As a result of the reduced vanishing gradients problem ResNets can be trained with more layers, enabling more sophisticated functions to be learnt.
+* Ensembling effect: `Veit et al. (2016) <https://arxiv.org/pdf/1605.06431.pdf>`_ demonstrate that a residual network can be seen as an ensemble of sub-networks of different lengths.
 
 | **Proposed in**
 | `Deep Residual Learning for Image Recognition, He et al. (2015) <https://arxiv.org/abs/1512.03385>`_

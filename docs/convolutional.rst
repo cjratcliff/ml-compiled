@@ -53,7 +53,7 @@ ___________________________________
 
   y = H(x, W_H) \cdot T(x, W_T) + x \cdot (1 - T(x, W_T))
 
-Similar but superior to  as they do not introduce any extra parameters.
+Comparisons between the accuracies of the two approaches suggest the gating is not useful and so is detrimental overall as it increases the number of parameters and the computational complexity of the network.
 
 | **Proposed in**
 | `Deep Residual Learning for Image Recognition, He et al. (2015) <https://arxiv.org/abs/1512.03385>`_

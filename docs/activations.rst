@@ -195,6 +195,10 @@ _____________________
 
 Mixture model intended to avoid the 'softmax bottleneck'. 
 
+.. math::
+
+  P(x|c) = \sum_{k=1}^K \pi_{ck} \frac{\exp h_{ck}^T w_{x}}{\sum_{x'} \exp h_{ck}^T w_{x'}} s.t. \sum_{k=1}^K \pi_{ck} = 1
+
 | **Proposed by**
 | `Breaking the Softmax Bottleneck: A High-Rank RNN Language Model, Yang et al. (2017) <https://arxiv.org/abs/1711.03953v4>`_
 

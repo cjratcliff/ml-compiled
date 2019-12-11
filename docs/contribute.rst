@@ -16,6 +16,7 @@ List of sections that need expanding in rough priority order (high at the top):
 * Change of variables
 * ZCA
 * Gradient boosting
+* Softmax bottleneck
 * CRFs
 * Codomain
 * Continuous
@@ -57,7 +58,6 @@ List of sections to be added:
 * Imitation learning
 * Catastrophic forgetting
 * Trust region policy optimization
-* Softmax bottleneck
 * Whitening
 * Self-attention
 * Lipschitz smoothness

@@ -1,5 +1,6 @@
 Ranking
 """"""""""
+Given a query retrieve the most relevant documents from a set. If the ranking is personalized a context including user history or location may also be taken into account.
 
 LambdaMART
 ------------

@@ -31,7 +31,9 @@ An architecture that uses skip connections to create very deep networks. The `or
 
 Uses shortcut connections performing the identity mapping, which are added to the outputs of the stacked layers. Each residual block uses the equation:
 
-`residual_block(x) = relu(conv(relu(conv(x))) + x)`
+```
+residual_block(x) = relu(conv(relu(conv(x))) + x)
+```
 
 Similar but superior to `Highway Networks <https://arxiv.org/abs/1505.00387>`_ as they do not introduce any extra parameters.
 

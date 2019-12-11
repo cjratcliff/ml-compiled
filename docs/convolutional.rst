@@ -29,11 +29,9 @@ Residual network
 -------------------
 An architecture that uses skip connections to create very deep networks. The `original paper <https://arxiv.org/abs/1512.03385>`_ achieved 152 layers, 8 times deeper than VGG nets. Used for image recognition, winning first place in the ILSVRC 2015 classification task. Residual connections can also be used to create deeper RNNs such as Google’s 16-layer RNN encoder-decoder (Wu et al., 2016).
 
-Uses shortcut connections performing the identity mapping, which are added to the outputs of the stacked layers. Each layer uses the equation:
+Uses shortcut connections performing the identity mapping, which are added to the outputs of the stacked layers. Each residual block uses the equation:
 
-.. math::
-
-  F(x) + x
+`residual_block(x) = relu(conv(relu(conv(x))) + x)`
 
 Similar but superior to `Highway Networks <https://arxiv.org/abs/1505.00387>`_ as they do not introduce any extra parameters.
 

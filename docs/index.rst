@@ -73,7 +73,8 @@ Contents
    hyperparameter_optimization
    modelling_uncertainty
    multimodal
-   natural_language_processing   
+   natural_language_processing  
+   ranking
    training_with_limited_data
    
 .. toctree::

@@ -4,6 +4,8 @@ Ranking
 LambdaMART
 ------------
 
+LambdaRank
+-----------
 
 Listwise ranking
 -----------------
@@ -20,3 +22,7 @@ Pairwise ranking
 
 Pointwise ranking
 ----------------------
+
+
+RankNet
+--------

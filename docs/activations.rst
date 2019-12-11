@@ -158,6 +158,8 @@ The SELU is designed to be used in networks composed of many fully-connected lay
 
 The `ELU <https://ml-compiled.readthedocs.io/en/latest/activations.html#elu>`_ is a very similar activation. The only difference is that it has :math:`\lambda =  1` and :math:`\alpha = 1`. 
 
+Initialisation
+________________
 `Klambauer et al. (2017) <https://arxiv.org/pdf/1706.02515.pdf>`_ recommend initialising layers with SELU activations according to :math:`\theta^{(i)} \sim N(0, \sqrt{1/n_i})` where :math:`\theta^{(i)}` are the parameters for layer :math:`i` of the network and :math:`n_i` is the size of layer :math:`i` of the network.
 
 | **Proposed in**

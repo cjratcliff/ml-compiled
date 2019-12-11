@@ -192,7 +192,7 @@ Unlike most other activation functions, the softmax does not apply the same func
 
 The Softmax Bottleneck
 ________________________
-Views language modeling as a matrix factorization problem:
+A theorised problem that occurs when using the softmax to predict the next token in language modeling. It views language modeling as a matrix factorization problem:
 
 .. math::
 

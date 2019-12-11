@@ -262,6 +262,8 @@ texinfo_documents = [
 #site base url
 site_url = 'https://ml-compiled.readthedocs.io/en/latest/'
 
+imgmath_image_format = 'svg'
+
 def setup(app):
     app.add_stylesheet('css/cookieconsent.min.css')
     app.add_javascript("js/cookieconsent.min.js")

@@ -6,7 +6,7 @@ AlexNet
 --------
 Performed considerably better than the state of the art at the time. Has 60 million parameters, 650,000 neurons and includes five convolutional layers.
 
-The two 'streams' only exist to allow training on two GPUs.
+The two 'streams' shown in the paper only exist to allow training on two GPUs.
 
 | **Proposed in**
 | `ImageNet Classification with Deep Convolutional Neural Networks, Krizhevsky et al. (2012) <https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf>`_

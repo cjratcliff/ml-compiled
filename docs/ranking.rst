@@ -3,6 +3,7 @@ Ranking
 
 LambdaMART
 ------------
+Combines the boosted tree model MART with LambdaRank.
 
 LambdaRank
 -----------

@@ -27,7 +27,7 @@ Pairwise ranking
 
 Pointwise ranking
 ----------------------
-
+Poses learning to rank as a regression problem where a relevance score must be predicted given a document and query.
 
 RankNet
 --------

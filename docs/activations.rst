@@ -190,10 +190,20 @@ Where :math:`x` is a vector of length :math:`K`. This vector is often referred t
     
 Unlike most other activation functions, the softmax does not apply the same function to each item in the input independently. The requirement that the output vector sums to 1 means that if one of the inputs is increased the others must decrease in the output.
 
+The Softmax Bottleneck
+________________________
+Views language modeling as a matrix factorization problem:
+
+.. math::
+
+  HW^T = A
+  
+Where :math:`H` is the contexts, :math:`W` are the word vectors and :math:`A` are the conditional probabilities for words given contexts. The vast number of contexts in language means that the matrix :math:`A` is almost certainly high rank and so the dimensionality of the word embeddings is probably not sufficient to solve the matrix factorization problem adequately.
+
 Mixture of Softmaxes
 _____________________
-
-Mixture model intended to avoid the 'softmax bottleneck'. The probability of a word :math:`x` given somen context :math:`c` is the weighted average of :math:`k` softmax distributions:
+Mixture model intended to avoid the Softmax Bottleneck.
+The probability of a word :math:`x` given some context :math:`c` is the weighted average of :math:`k` softmax distributions:
 
 .. math::
 

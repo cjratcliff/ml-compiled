@@ -37,8 +37,6 @@ Uses shortcut connections performing the identity mapping, which are added to th
 
 where :math:`f` is a sequence of layers such as convolutions and nonlinearities.
 
-Similar but superior to `Highway Networks <https://arxiv.org/abs/1505.00387>`_ as they do not introduce any extra parameters.
-
 Motivation
 _____________
 There are a number of hypothesized reasons for why residual networks are effective:
@@ -46,6 +44,16 @@ There are a number of hypothesized reasons for why residual networks are effecti
 * Shorter paths: The skip connections provide short paths between the input and output, making residual networks able to avoid the vanishing gradient problem more easily.
 * Increased depth: As a result of the reduced vanishing gradients problem ResNets can be trained with more layers, enabling more sophisticated functions to be learnt.
 * Ensembling effect: `Veit et al. (2016) <https://arxiv.org/pdf/1605.06431.pdf>`_ demonstrate that a residual network can be seen as an ensemble of sub-networks of different lengths.
+
+Comparison with Highway Networks
+___________________________________
+`Highway Networks, Srivastava et al (2015) <https://arxiv.org/abs/1505.00387>`_ also use skip connections to attempt to make it easier to train very deep networks. In contrast to Residual Networks their connections are gated as follows:
+
+.. math::
+
+  y = H(x, W_H) \cdot T(x, W_T) + x \cdot (1 - T(x, W_T))
+
+Similar but superior to  as they do not introduce any extra parameters.
 
 | **Proposed in**
 | `Deep Residual Learning for Image Recognition, He et al. (2015) <https://arxiv.org/abs/1512.03385>`_

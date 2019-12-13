@@ -28,6 +28,8 @@ The use of Bayes' rule to update a probability distribution as the amount of evi
 
 Chain rule of probability
 --------------------------
+Gives the joint probability for a set of variables as the product of conditionals and a prior.
+
 .. math::
   P(A_n, ..., A_1) = \prod_{i=1}^{n}P(A_i|A_1,...,A_{i-1})
 

@@ -7,9 +7,9 @@ Classification
 
 AUC (Area Under the Curve)
 ____________________________
-Summarises the ROC curve with one number, equal to the integral of the curve.
+Summarises the `ROC curve <https://ml-compiled.readthedocs.io/en/latest/metrics.html#roc-curve>`_ with a single number, equal to the integral of the curve.
 
-Sometimes referred to as AUROC. (Area Under the Receiver Operating Characteristics)
+Sometimes referred to as AUROC (Area Under the Receiver Operating Characteristics).
 
 F1-score
 __________
@@ -46,6 +46,8 @@ ______________
 Plots the true positive rate against the false positive rate for different values of the threshold in a binary classifier.
 
 ROC stands for Receiver Operating Characteristic.
+
+The ROC curve can be described with one number using the `ROC <https://ml-compiled.readthedocs.io/en/latest/metrics.html#auc-area-under-the-curve>`_.
 
 
 Language modelling

@@ -57,11 +57,16 @@ Bits per character (BPC)
 __________________________
 Used for assessing character-level language models.
 
-Identical to the cross-entropy loss, but uses base 2 for the logarithm.
+Identical to the `cross-entropy loss <https://ml-compiled.readthedocs.io/en/latest/loss_functions.html#cross-entropy-loss>`_, but uses base 2 for the logarithm:
+
+.. math::
+  BPC(y,\hat{y}) = -\sum_i \sum_c y_{i,c} \log_2(\hat{y}_{i,c})
+  
+where :math:`c` are the character classes. :math:`y_{i,c}` equals 1 if example i is character c and 0 otherwise. :math:`\hat{y}_{i,c}` is the predicted probability that example i is character c.
 
 Perplexity
 ___________
-Used to measure how well a probabilistic model predicts a sample. It is equivalent to the exponential of the cross-entropy loss.
+Used to measure how well a probabilistic model predicts a sample. It is equivalent to the exponential of the `cross-entropy loss <https://ml-compiled.readthedocs.io/en/latest/loss_functions.html#cross-entropy-loss>`_.
 
 
 Object detection

@@ -13,7 +13,7 @@ If a variable ‘admits a distribution’, that means it can be described by a p
       0 ,& \text{otherwise}
     \end{cases}
 
-which cannot be described by a pdf.
+which cannot be described by a pdf, so we would say that :math:`X` does not admit a distribution.
 
 Bayes' rule
 -------------

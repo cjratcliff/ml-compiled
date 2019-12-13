@@ -155,6 +155,20 @@ When n and k take on specific values or ranges the Multinomial distribution has 
 | :math:`n \geq 1`       | Binomial        | Multinomial      |
 +------------------------+-----------------+------------------+
 
+Multivariate
+______________
+This section summarises some univariate distributions and their multivariate versions:
+
++-----------------+------------------+
+| Univariate      | Multivariate     |
++=================+==================+
+| Beta            | Dirichlet        |
++-----------------+------------------+
+| Bernoulli       | Binomial         |
++-----------------+------------------+
+| Categorical     | Multinomial      |
++-----------------+------------------+
+
 Negative Binomial
 __________________
 Distribution of the number of successes before a given number of failures occur.

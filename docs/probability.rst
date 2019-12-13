@@ -240,13 +240,13 @@ A prior whose probability distribution has infinitesimal density over an infinit
 
 Informative and uninformative priors
 ______________________________________
-Examples:
+Below are some examples for each:
 
-Informative:
+**Informative**
 
 * The temperature is normally distributed with mean 20 and variance 3.
 
-Uninformative:
+**Uninformative**
 
 * The temperature is positive.
 * The temperature is less than 200.

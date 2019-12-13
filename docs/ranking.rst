@@ -9,6 +9,8 @@ Combines the boosted tree model `MART (Friedman, 1999) <https://statweb.stanford
 LambdaRank
 -----------
 
+Builds upon RankNet.
+
 | **Proposed in**
 | `Learning to Rank with Nonsmooth Cost Functions, Burges et al. (2006) <https://papers.nips.cc/paper/2971-learning-to-rank-with-nonsmooth-cost-functions.pdf>`_
 

@@ -9,6 +9,8 @@ AUC (Area Under the Curve)
 ____________________________
 Summarises the ROC curve with one number, equal to the integral of the curve.
 
+Sometimes referred to as AUROC. (Area Under the Receiver Operating Characteristics)
+
 F1-score
 __________
 The F1-score is the harmonic mean of the precision and the recall.

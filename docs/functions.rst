@@ -16,7 +16,7 @@ A function is concave if:
 
   f(\alpha x + (1 - \alpha) y) \geq \alpha f(x) + (1 - \alpha) f(y)
 
-See also: convex
+Contrast with convex.
 
 Continuous
 ---------------
@@ -32,7 +32,7 @@ A function is convex if:
 
 :math:`x^2` is an example of a convex function.
 
-See also: concave
+Contrast with concave.
 
 Domain
 --------

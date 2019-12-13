@@ -23,7 +23,7 @@ Listwise ranking
 
 Pairwise ranking
 --------------------
-
+Learning to rank is seen as a classification problem where the task is to predict whether a document A is more relevant than some other document B given a query. 
 
 Pointwise ranking
 ----------------------
@@ -31,6 +31,8 @@ Poses learning to rank as a regression problem where a relevance score must be p
 
 RankNet
 --------
+
+A pairwise ranking algorithm.
 
 | **Proposed in**
 | `Learning to Rank using Gradient Descent, Burges et al. (2005) <https://icml.cc/2015/wp-content/uploads/2015/06/icml_ranking.pdf>`_

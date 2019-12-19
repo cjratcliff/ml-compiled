@@ -162,12 +162,12 @@ Initialisation
 ________________
 `Klambauer et al. (2017) <https://arxiv.org/pdf/1706.02515.pdf>`_ recommend initialising layers with SELU activations according to :math:`\theta^{(i)} \sim N(0, \sqrt{1/n_i})` where :math:`\theta^{(i)}` are the parameters for layer :math:`i` of the network and :math:`n_i` is the size of layer :math:`i` of the network.
 
-| **Proposed in**
-| `Self-Normalizing Neural Networks, Klambauer et al. (2017) <https://arxiv.org/pdf/1706.02515.pdf>`_
-
 Dropout
 _________
 Instead of randomly setting units to zero as in conventional dropout, the authors propose setting units to :math:`\alpha ' = -\lambda \alpha`. They refer to this as **alpha dropout**.
+
+| **Proposed in**
+| `Self-Normalizing Neural Networks, Klambauer et al. (2017) <https://arxiv.org/pdf/1706.02515.pdf>`_
 
 Sigmoid
 ---------

@@ -15,7 +15,7 @@ Builds upon RankNet. Uses the loss function:
 
   L(y,s) = \sum_{y_i > y_j} \Delta NDCG(i,j) \log(1 + \exp(-\sigma(s_i - s_j)))
   
-where:
+where :math:`\Delta NDCG(i,j)` is the change in NDCG that would result from the ranking of documents i and j being swapped:
 
 .. math::
 

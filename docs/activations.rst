@@ -156,7 +156,7 @@ Where :math:`\lambda` and :math:`\alpha` are hyperparameters, set to :math:`\lam
 
 The SELU is designed to be used in networks composed of many fully-connected layers, as opposed to CNNs or RNNs, the principal difference being that CNNs and RNNs stabilize their learning via weight sharing. As with batch normalization, SELU activations give rise to activations with zero mean and unit variance but without having to explicitly normalize.
 
-The `ELU <https://ml-compiled.readthedocs.io/en/latest/activations.html#elu>`_ is a very similar activation. The only difference is that it has :math:`\lambda =  1` and :math:`\alpha = 1`. 
+The `ELU <https://ml-compiled.readthedocs.io/en/latest/activations.html#elu>`_ is a very similar activation. The only difference is that it has :math:`\lambda =  1` and :math:`\alpha = 1`.
 
 Initialisation
 ________________
@@ -164,6 +164,10 @@ ________________
 
 | **Proposed in**
 | `Self-Normalizing Neural Networks, Klambauer et al. (2017) <https://arxiv.org/pdf/1706.02515.pdf>`_
+
+Dropout
+_________
+Instead of randomly setting units to zero as in conventional dropout, the authors propose setting units to :math:`\alpha ' = -\lambda \alpha`. They refer to this as **alpha dropout**.
 
 Sigmoid
 ---------

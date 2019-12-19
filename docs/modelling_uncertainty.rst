@@ -19,10 +19,6 @@ Multi-class classification
 ____________________________
 Reduce the problem to n one-vs-all binary classification tasks and use the method in the preceding section for each of them. Normalise the resulting distribution to ensure it sums to 1.
 
-Regression
-_____________
-TODO
-
 Measuring uncertainty
 ----------------------
 This section describes methods for estimating the uncertainty of a classifier. Note that additional methods may be necessary to ensure that this estimate is well-calibrated.

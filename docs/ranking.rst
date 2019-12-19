@@ -9,7 +9,7 @@ Combines the boosted tree model `MART (Friedman, 1999) <https://statweb.stanford
 LambdaRank
 -----------
 
-Builds upon RankNet. Uses the loss function:
+Builds upon RankNet. The loss is a function of the labeled relevance :math:`y` and the score :math:`s`:
 
 .. math::
 

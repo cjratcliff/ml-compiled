@@ -9,7 +9,17 @@ Combines the boosted tree model `MART (Friedman, 1999) <https://statweb.stanford
 LambdaRank
 -----------
 
-Builds upon RankNet.
+Builds upon RankNet. Uses the loss function:
+
+.. math::
+
+  L(y,s) = \sum_{y_i > y_j} \Delta NDCG(i,j) \log(1 + \exp(-\sigma(s_i - s_j)))
+  
+where:
+
+.. math::
+
+  \Delta NDCG(i,j) = |G_i - G_j| |\frac{1}{D_i} - \frac{1}{D_j}|
 
 | **Proposed in**
 | `Learning to Rank with Nonsmooth Cost Functions, Burges et al. (2006) <https://papers.nips.cc/paper/2971-learning-to-rank-with-nonsmooth-cost-functions.pdf>`_

@@ -22,6 +22,8 @@ where :math:`\Delta NDCG(i,j)` is the change in NDCG that would result from the 
 .. math::
 
   \Delta NDCG(i,j) = |G_i - G_j| |\frac{1}{D_i} - \frac{1}{D_j}|
+  
+:math:`G` and :math:`D` are the gain and discount functions. 
 
 | **Proposed in**
 | `Learning to Rank with Nonsmooth Cost Functions, Burges et al. (2006) <https://papers.nips.cc/paper/2971-learning-to-rank-with-nonsmooth-cost-functions.pdf>`_

@@ -62,7 +62,7 @@ The loss function is defined over the list of documents.
 Metrics
 -----------------
 
-See `the main section on metrics <https://ml-compiled.readthedocs.io/en/latest/metrics.html#ranking>`_:
+See `the main section on metrics <https://ml-compiled.readthedocs.io/en/latest/metrics.html#ranking>`_ or jump to one of its subsections:
 
 * `Cumulative Gain <https://ml-compiled.readthedocs.io/en/latest/metrics.html#cumulative-gain>`_
 * `Discounted Cumulative Gain (DCG) <https://ml-compiled.readthedocs.io/en/latest/metrics.html#discounted-cumulative-gain-dcg>`_

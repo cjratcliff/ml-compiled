@@ -31,6 +31,8 @@ where :math:`\Delta NDCG(i,j)` is the change in NDCG that would result from the 
 Listwise ranking
 -----------------
 
+| **Example papers**
+
 `Loss functions <https://ml-compiled.readthedocs.io/en/latest/loss_functions.html#ranking>`_
 ------------------------------------------------------------------------------------------------
 
@@ -39,11 +41,16 @@ Listwise ranking
 
 Pairwise ranking
 --------------------
-Learning to rank is seen as a classification problem where the task is to predict whether a document A is more relevant than some other document B given a query. 
+Learning to rank is seen as a classification problem where the task is to predict whether a document A is more relevant than some other document B given a query.
+
+| **Example papers**
+| `Learning to Rank using Gradient Descent, Burges et al. (2005) <https://icml.cc/2015/wp-content/uploads/2015/06/icml_ranking.pdf>`_
 
 Pointwise ranking
 ----------------------
 Poses learning to rank as a regression problem where a relevance score must be predicted given a document and query.
+
+| **Example papers**
 
 RankNet
 --------

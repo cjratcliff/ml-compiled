@@ -77,7 +77,7 @@ Poses learning to rank as a regression problem where a relevance score must be p
 RankNet
 --------
 
-A pairwise ranking algorithm.
+A pairwise ranking algorithm. Can be built using any differentiable model such as neural networks or boosted trees.
 
 | **Proposed in**
 | `Learning to Rank using Gradient Descent, Burges et al. (2005) <https://icml.cc/2015/wp-content/uploads/2015/06/icml_ranking.pdf>`_

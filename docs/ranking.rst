@@ -23,7 +23,15 @@ where :math:`\Delta NDCG(i,j)` is the change in NDCG that would result from the 
 
   \Delta NDCG(i,j) = |G_i - G_j| |\frac{1}{D_i} - \frac{1}{D_j}|
   
-:math:`G` and :math:`D` are the gain and discount functions. 
+:math:`G` and :math:`D` are the gain and discount functions:
+
+.. math::
+
+  G_i = \frac{2^{y_i} - 1}{maxDCG}
+  
+.. math::
+
+  D_i = \log(1+i)
 
 | **Proposed in**
 | `Learning to Rank with Nonsmooth Cost Functions, Burges et al. (2006) <https://papers.nips.cc/paper/2971-learning-to-rank-with-nonsmooth-cost-functions.pdf>`_

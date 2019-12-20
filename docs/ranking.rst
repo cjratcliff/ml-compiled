@@ -11,7 +11,7 @@ LambdaRank
 
 Builds upon RankNet. 
 
-The loss is a function of the labeled relevance :math:`y` and the score :math:`s`, summing over pairs of relevance labels:
+The loss is a function of the labeled relevance :math:`y` and the predicted score :math:`s`, summing over pairs of relevance labels where :math:`y_i > y_j`:
 
 .. math::
 

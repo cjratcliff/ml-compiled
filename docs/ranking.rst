@@ -53,6 +53,16 @@ Listwise ranking
 `Metrics <https://ml-compiled.readthedocs.io/en/latest/metrics.html#ranking>`_
 -----------------
 
+See the main section on metrics
+
+* `Cumulative Gain <https://ml-compiled.readthedocs.io/en/latest/metrics.html#cumulative-gain>`_
+* `Discounted Cumulative Gain (DCG)
+ <https://ml-compiled.readthedocs.io/en/latest/metrics.html#discounted-cumulative-gain-dcg>`_
+* `Mean Reciprocal Rank (MRR) <https://ml-compiled.readthedocs.io/en/latest/metrics.html#mean-reciprocal-rank-mrr>`_
+* `Normalized Discounted Cumulative Gain (NDCG)
+ <https://ml-compiled.readthedocs.io/en/latest/metrics.html#normalized-discounted-cumulative-gain-ndcg>`_
+* `Precision@k <https://ml-compiled.readthedocs.io/en/latest/metrics.html#precision-k>`_
+
 Pairwise ranking
 --------------------
 Learning to rank is seen as a classification problem where the task is to predict whether a document A is more relevant than some other document B given a query.

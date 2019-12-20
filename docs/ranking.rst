@@ -65,6 +65,8 @@ Pairwise ranking
 --------------------
 Learning to rank is seen as a classification problem where the task is to predict whether a document A is more relevant than some other document B given a query.
 
+Simple to train using the cross-entropy loss but requires more computational effort at inference time since there are :math:`O(n^2)` possible comparisons in a list of :math:`n` items.
+
 | **Example papers**
 | `Learning to Rank using Gradient Descent, Burges et al. (2005) <https://icml.cc/2015/wp-content/uploads/2015/06/icml_ranking.pdf>`_
 

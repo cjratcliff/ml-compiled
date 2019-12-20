@@ -53,14 +53,12 @@ Listwise ranking
 `Metrics <https://ml-compiled.readthedocs.io/en/latest/metrics.html#ranking>`_
 -----------------
 
-See the main section on metrics
+See the main section on metrics:
 
 * `Cumulative Gain <https://ml-compiled.readthedocs.io/en/latest/metrics.html#cumulative-gain>`_
-* `Discounted Cumulative Gain (DCG)
- <https://ml-compiled.readthedocs.io/en/latest/metrics.html#discounted-cumulative-gain-dcg>`_
+* `Discounted Cumulative Gain (DCG) <https://ml-compiled.readthedocs.io/en/latest/metrics.html#discounted-cumulative-gain-dcg>`_
 * `Mean Reciprocal Rank (MRR) <https://ml-compiled.readthedocs.io/en/latest/metrics.html#mean-reciprocal-rank-mrr>`_
-* `Normalized Discounted Cumulative Gain (NDCG)
- <https://ml-compiled.readthedocs.io/en/latest/metrics.html#normalized-discounted-cumulative-gain-ndcg>`_
+* `Normalized Discounted Cumulative Gain (NDCG) <https://ml-compiled.readthedocs.io/en/latest/metrics.html#normalized-discounted-cumulative-gain-ndcg>`_
 * `Precision@k <https://ml-compiled.readthedocs.io/en/latest/metrics.html#precision-k>`_
 
 Pairwise ranking

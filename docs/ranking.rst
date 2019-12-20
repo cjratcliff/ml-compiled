@@ -6,6 +6,9 @@ LambdaMART
 ------------
 Combines the boosted tree model `MART (Friedman, 1999) <https://statweb.stanford.edu/~jhf/ftp/trebst.pdf>`_ with LambdaRank.
 
+| **Further reading**
+| `From RankNet to LambdaRank to LambdaMART: An Overview (Burges, 2010) <https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/MSR-TR-2010-82.pdf>`_
+
 LambdaRank
 -----------
 
@@ -35,6 +38,9 @@ where :math:`\Delta NDCG(i,j)` is the change in NDCG that would result from the 
 
 | **Proposed in**
 | `Learning to Rank with Nonsmooth Cost Functions, Burges et al. (2006) <https://papers.nips.cc/paper/2971-learning-to-rank-with-nonsmooth-cost-functions.pdf>`_
+
+| **Further reading**
+| `From RankNet to LambdaRank to LambdaMART: An Overview (Burges, 2010) <https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/MSR-TR-2010-82.pdf>`_
 
 Listwise ranking
 -----------------
@@ -67,3 +73,6 @@ A pairwise ranking algorithm.
 
 | **Proposed in**
 | `Learning to Rank using Gradient Descent, Burges et al. (2005) <https://icml.cc/2015/wp-content/uploads/2015/06/icml_ranking.pdf>`_
+
+| **Further reading**
+| `From RankNet to LambdaRank to LambdaMART: An Overview (Burges, 2010) <https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/MSR-TR-2010-82.pdf>`_

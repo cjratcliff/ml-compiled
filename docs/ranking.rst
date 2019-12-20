@@ -50,10 +50,10 @@ Listwise ranking
 `Loss functions <https://ml-compiled.readthedocs.io/en/latest/loss_functions.html#ranking>`_
 ------------------------------------------------------------------------------------------------
 
-`Metrics <https://ml-compiled.readthedocs.io/en/latest/metrics.html#ranking>`_
+Metrics
 -----------------
 
-See the main section on metrics:
+See `the main section on metrics <<https://ml-compiled.readthedocs.io/en/latest/metrics.html#ranking>`_:
 
 * `Cumulative Gain <https://ml-compiled.readthedocs.io/en/latest/metrics.html#cumulative-gain>`_
 * `Discounted Cumulative Gain (DCG) <https://ml-compiled.readthedocs.io/en/latest/metrics.html#discounted-cumulative-gain-dcg>`_

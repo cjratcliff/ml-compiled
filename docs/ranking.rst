@@ -79,7 +79,7 @@ Poses learning to rank as a regression problem where a relevance score must be p
 RankNet
 --------
 
-A pairwise ranking algorithm. Can be built using any differentiable model such as neural networks or boosted trees. For a given pair of inputs i and j the model computes the probability that i should be ranked higher than j:
+A pairwise ranking algorithm. Can be built using any differentiable model such as neural networks or boosted trees. For a given pair of documents i and j the model computes the probability that i should be ranked higher than j:
 
 .. math::
 

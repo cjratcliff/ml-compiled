@@ -11,5 +11,7 @@ Log-sum-exponential
   
 Is equivalent to:
 
+.. math::
+
   LSE(x_1, ..., x_n) = x^* +  \log \sum_{i=1}^n \exp(x_i - x^*)
   

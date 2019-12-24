@@ -15,5 +15,5 @@ Is equivalent to:
 
   LSE(x_1, ..., x_n) = x^* +  \log \sum_{i=1}^n \exp(x_i - x^*)
   
-where :math:`x^* = \max{x_1, ..., x_n}
+where :math:`x^* = \max{x_1, ..., x_n}`
   

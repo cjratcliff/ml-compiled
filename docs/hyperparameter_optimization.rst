@@ -3,6 +3,8 @@ Hyperparameter optimization
 """"""""""""""""""""""""""""""
 A hyperparameter is a parameter of the model which is set according to the design of the model rather than learnt through the training process. Examples of hyperparameters include the learning rate, the dropout rate and the number of layers. Since they cannot be learnt by gradient descent hyperparameter optimization is a difficult problem.
 
+`Gaussian processes <https://ml-compiled.readthedocs.io/en/latest/gaussian_processes.html#gaussian-processes>`_
+
 Bayesian optimization
 ----------------------
 

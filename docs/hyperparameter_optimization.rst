@@ -5,7 +5,28 @@ A hyperparameter is a parameter of the model which is set according to the desig
 
 Bayesian optimization
 ----------------------
-TODO
+
+Acquisition function
+_________________________
+A function that decides the next point to sample while trying to maximize the cumulative reward, balancing exploration and exploitation.
+
+https://www.cse.wustl.edu/~garnett/cse515t/spring_2015/files/lecture_notes/12.pdf
+
+Probability of improvement
+'''''''''''''''''''''''''''
+Pick the action which maximises the chance of getting to a state with a value greater than the current best state. The reward is 1 if the new state is better and 0 otherwise. This means that it will eschew possible large improvements in favour of more certain small ones.
+
+If all nearby states are known to be worse this strategy can lead to getting stuck in local optima.
+
+Expected improvement
+''''''''''''''''''''''
+Pick the action which maximises the expected improvement of that new state over the current best state. The reward is the difference between the values if the new state is better than the old one and zero otherwise.
+
+A higher expected improvement can be obtained either by increasing either the variance or the mean of the value distribution of the next state.
+
+Upper confidence bound
+'''''''''''''''''''''''''''
+Calculate confidence intervals for the rewards from each action in a given state. Pick the action for which the upper bound of the reward is greatest. This will lead to actions with greater uncertainty being chosen since the confidence interval will be larger.
 
 Cross-validation
 ------------------

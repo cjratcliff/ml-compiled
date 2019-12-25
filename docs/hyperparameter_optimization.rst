@@ -5,6 +5,7 @@ A hyperparameter is a parameter of the model which is set according to the desig
 
 `Gaussian processes <https://ml-compiled.readthedocs.io/en/latest/gaussian_processes.html#gaussian-processes>`_
 -------------------------
+Gaussian processes are used to model the function we are trying to optimise.
 
 Bayesian optimization
 ----------------------

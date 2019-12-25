@@ -26,7 +26,13 @@ A higher expected improvement can be obtained either by increasing either the va
 
 Upper confidence bound
 '''''''''''''''''''''''''''
-Calculate confidence intervals for the rewards from each action in a given state. Pick the action for which the upper bound of the reward is greatest. This will lead to actions with greater uncertainty being chosen since the confidence interval will be larger.
+Calculate confidence intervals for the rewards from each action in a given state. Pick the action for which the upper bound of the reward is greatest. This will lead to actions with greater uncertainty being chosen since their confidence interval will be larger.
+
+Using a Gaussian distribution gives a simple expression for the bound, that it is :math:`\beta` standard deviations away from the mean:
+
+.. math::
+
+  UCB = \mu + \beta \sigma
 
 Cross-validation
 ------------------

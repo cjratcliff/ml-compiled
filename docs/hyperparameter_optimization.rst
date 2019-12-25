@@ -6,6 +6,8 @@ A hyperparameter is a parameter of the model which is set according to the desig
 Bayesian optimization
 ----------------------
 
+Note that much of the below explanation references states. These are irrelevant for hyperparameter optimisation since each training run is initialized in the same way.
+
 Acquisition function
 _________________________
 A function that decides the next point to sample while trying to maximize the cumulative reward, balancing exploration and exploitation.

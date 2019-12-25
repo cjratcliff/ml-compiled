@@ -33,7 +33,7 @@ Upper confidence bound
 '''''''''''''''''''''''''''
 Calculate the upper bound of the confidence interval for the rewards from each action in a given state. Pick the action for which the upper bound of the reward is greatest. This will lead to actions with greater uncertainty being chosen since their confidence interval will be larger.
 
-Using a Gaussian distribution gives a simple expression for the bound, that it is :math:`\beta` standard deviations away from the mean of the distribution of rewards given an action in some state:
+Using a Gaussian distribution gives a simple expression for the bound, that it is :math:`\beta` standard deviations away from the mean of the distribution of rewards given an action :math:`a` in some state :math:`s`:
 
 .. math::
 

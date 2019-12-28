@@ -51,6 +51,16 @@ Feature normalization
 
 This class of normalizations refers to methods that transform the inputs to the model, as opposed to the activations within it.
 
+Min-max normalization
+_______________________
+
+Rescales the features so they have a specified minimum and maximum.
+
+.. math::
+
+  x_{ij} := 
+
+
 Principal Component Analysis (PCA)
 _____________________________________
 Decomposes a matrix :math:`X \in \mathbb{R}^{n \times m}` into a set of :math:`k` orthogonal vectors. The matrix :math:`X` represents a dataset with :math:`n` examples and :math:`m` features.

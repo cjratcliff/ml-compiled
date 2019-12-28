@@ -56,9 +56,11 @@ _______________________
 
 Rescales the features so they have a specified minimum and maximum.
 
+To rescale to between a and b:
+
 .. math::
 
-  x_{ij} := 
+  x_{ij} := \frac{(x_{ij} - min_j x_{ij})(b - a)}{max_j x_{ij} - min_j x_{ij}}
 
 
 Principal Component Analysis (PCA)

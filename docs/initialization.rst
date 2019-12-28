@@ -23,6 +23,8 @@ Orthogonal initialization
 ----------------------------
 Initializes the weights as an orthogonal matrix. Useful for training very deep networks. Can be used to help with vanishing and exploding gradients in RNNs.
 
+The procedure is as follows:
+
 .. code-block:: none
 
   1. Generate a matrix of random numbers, X (eg from the normal distribution)

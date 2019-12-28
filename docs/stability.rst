@@ -19,7 +19,7 @@ where :math:`x^* = \max{x_1, ..., x_n}`
 
 Softmax
 ----------
-For background read the main article on `softmax <https://ml-compiled.readthedocs.io/en/latest/activations.html#softmax>`_.
+For background read the main article on the `softmax <https://ml-compiled.readthedocs.io/en/latest/activations.html#softmax>`_ activation.
 
 .. math:: 
 

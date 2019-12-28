@@ -72,6 +72,7 @@ ____________________________
 
 Symmetry breaking
 ------------------
+An essential property of good initialization for fully connected layers. In a fully connected layer every hidden node has exactly the same set of inputs so if all nodes are initialised to the same value their gradients will also be identical. Thus they will never take on different values.
 
 Xavier initialization
 -----------------------

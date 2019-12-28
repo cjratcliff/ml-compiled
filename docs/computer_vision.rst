@@ -6,9 +6,9 @@ Tasks which have an image or video as their input. This includes:
 
 * Image captioning
 * Image classification
-* Image segmentation
-* Image-to-image translation
-* Object detection
+* `Image segmentation <https://ml-compiled.readthedocs.io/en/latest/computer_vision.html#image-segmentation>`_
+* `Image-to-image translation <https://ml-compiled.readthedocs.io/en/latest/computer_vision.html#image-to-image-translation>`_
+* `Object detection <https://ml-compiled.readthedocs.io/en/latest/computer_vision.html#object-detection>`_
 
 Data augmentation
 --------------------
@@ -174,7 +174,7 @@ Examples:
 
 `Image-to-Image Translation with Conditional Adversarial Networks, Isola et al. (2016) <https://arxiv.org/abs/1611.07004>`_
 
-Object recognition
+Object detection
 -------------------
 
 One-stage detector

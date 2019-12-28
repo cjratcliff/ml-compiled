@@ -10,6 +10,12 @@ Tasks which have an image or video as their input. This includes:
 * `Image-to-image translation <https://ml-compiled.readthedocs.io/en/latest/computer_vision.html#image-to-image-translation>`_
 * `Object detection <https://ml-compiled.readthedocs.io/en/latest/computer_vision.html#object-detection>`_
 
+Challenges
+------------
+
+* Photos can be taken at different angles.
+* Different lighting conditions.
+
 Data augmentation
 --------------------
 The images in the training set are randomly altered in order to improve the generalization of the network.
@@ -117,10 +123,9 @@ The normal face recognition pipeline is:
 
 Challenges
 ______________
-* Photos being taken at different angles.
-* Different lighting conditions.
+In addition to the standard challenges in computer vision facial recognition also encounters the following problems:
 * Changes in facial hair.
-* Glasses.
+* Glasses, which may not always be worn.
 * People aging over time.
 
 Datasets

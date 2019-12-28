@@ -68,6 +68,17 @@ PCA can also be done via SVD.
 ZCA
 _____
 Like PCA, ZCA converts the data to have zero mean and an identity covariance matrix. Unlike PCA, it does not reduce the dimensionality of the data and tries to create a whitened version that is minimally different from the original.
+
+Z-score normalization
+_______________________
+
+The features are transformed by subtracting their mean and dividing by their standard deviation:
+
+.. math::
+
+  x_{ij} := \frac{x_{ij} - \mu_i}{\sigma_i}
+  
+where :math:`x_{ij}` is the jth instance of feature i and :math:`\mu_i` and :math:`\sigma_i` are the mean and standard deviation of feature x_i respectively.
   
 
 Group normalization

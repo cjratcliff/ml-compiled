@@ -141,20 +141,6 @@ The outer product of two column vectors :math:`x` and :math:`y` is:
 
   A = xy^T
 
-Principal Component Analysis (PCA)
----------------------------------------
-Decomposes a matrix :math:`X \in \mathbb{R}^{n \times m}` into a set of :math:`k` orthogonal vectors. The matrix :math:`X` represents a dataset with :math:`n` examples and :math:`m` features.
-
-Method for PCA via eigendecomposition:
-
-1. Center the data by subtracting the mean for each dimension.
-2. Compute the covariance matrix on the centered data :math:`C = (X^TX)/(n-1)`.
-3. Do eigendecomposition of the covariance matrix to get :math:`C = Q \Lambda Q^*`.
-4. Take the k largest eigenvalues and their associated eigenvectors. These eigenvectors are the 'principal components'.
-5. Construct the new matrix from the principal components by multiplying the centered :math:`X` by the truncated :math:`Q`.
-
-PCA can also be done via SVD.
-
 Rank
 --------
 
@@ -363,8 +349,4 @@ A matrix where its inverse is the same as its complex conjugate. The complex ver
 .. math::
 
   A^*A = AA^* = I
-  
-ZCA
-------
-Like PCA, ZCA converts the data to have zero mean and an identity covariance matrix. Unlike PCA, it does not reduce the dimensionality of the data and tries to create a whitened version that is minimally different from the original.
   

@@ -51,6 +51,10 @@ Feature normalization
 
 This class of normalizations refers to methods that transform the inputs to the model, as opposed to the activations within it.
 
+Feature scaling
+__________________
+Examples include min-max and z-score normalization.
+
 Min-max normalization
 _______________________
 

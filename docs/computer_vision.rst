@@ -2,6 +2,14 @@
 Computer vision
 """""""""""""""""""
 
+Tasks which have an image or video as their input. This includes:
+
+* Image captioning
+* Image classification
+* Image segmentation
+* Image-to-image translation
+* Object detection
+
 Data augmentation
 --------------------
 The images in the training set are randomly altered in order to improve the generalization of the network.

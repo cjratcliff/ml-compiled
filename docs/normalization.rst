@@ -46,6 +46,30 @@ Was used to achieve `state of the art results <https://arxiv.org/pdf/1707.03017.
 
 `Learning Visual Reasoning Without Strong Priors, Perez et al. (2017) <https://arxiv.org/pdf/1707.03017.pdf>`_
 
+Feature normalization
+-----------------------
+
+This class of normalizations refers to methods that transform the inputs to the model, as opposed to the activations within it.
+
+Principal Component Analysis (PCA)
+_____________________________________
+Decomposes a matrix :math:`X \in \mathbb{R}^{n \times m}` into a set of :math:`k` orthogonal vectors. The matrix :math:`X` represents a dataset with :math:`n` examples and :math:`m` features.
+
+Method for PCA via eigendecomposition:
+
+1. Center the data by subtracting the mean for each dimension.
+2. Compute the covariance matrix on the centered data :math:`C = (X^TX)/(n-1)`.
+3. Do eigendecomposition of the covariance matrix to get :math:`C = Q \Lambda Q^*`.
+4. Take the k largest eigenvalues and their associated eigenvectors. These eigenvectors are the 'principal components'.
+5. Construct the new matrix from the principal components by multiplying the centered :math:`X` by the truncated :math:`Q`.
+
+PCA can also be done via SVD.
+
+ZCA
+_____
+Like PCA, ZCA converts the data to have zero mean and an identity covariance matrix. Unlike PCA, it does not reduce the dimensionality of the data and tries to create a whitened version that is minimally different from the original.
+  
+
 Group normalization
 ----------------------
 

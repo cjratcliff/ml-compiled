@@ -21,10 +21,16 @@ Was used to improve the state of the art for image classification (`He et al., 2
 
 Orthogonal initialization
 ----------------------------
-Useful for training very deep networks.
-Can be used to help with vanishing and exploding gradients in RNNs.
+Initializes the weights as an orthogonal matrix. Useful for training very deep networks. Can be used to help with vanishing and exploding gradients in RNNs.
 
-`Explaining and illustrating orthogonal initialization for recurrent neural networks, Merity (2016) <https://smerity.com/articles/2016/orthogonal_init.html>`_
+.. code-block:: none
+
+  1. Generate a matrix of random numbers, X (eg from the normal distribution)
+  2. Perform the QR decomposition X = QR, resulting in an orthogonal matrix Q and an upper triangular matrix R.
+  3. Initialise with Q.
+
+| **Further reading**
+| `Explaining and illustrating orthogonal initialization for recurrent neural networks, Merity (2016) <https://smerity.com/articles/2016/orthogonal_init.html>`_
 
 LSUV initialization
 ______________________

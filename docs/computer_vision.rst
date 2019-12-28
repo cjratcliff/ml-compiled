@@ -15,7 +15,7 @@ Challenges
 
 * Parts of the object may be obscured.
 * Photos can be taken at different angles.
-* Different lighting conditions.
+* Different lighting conditions. Both the direction and amount of light may differ, as well as the number of light sources.
 * Objects belonging to one class can come in a variety of forms.
 
 Data augmentation

@@ -19,6 +19,10 @@ Was used to improve the state of the art for image classification (`He et al., 2
 | **Proposed in** 
 | `Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification , He et al. (2015) <https://arxiv.org/abs/1502.01852>`_
 
+Initialization with zeros
+-----------------------------
+All of the weights are initialised to zero. Used for bias vectors since the weight matrix, which is initialized with random weights, provides the symmetry breaking.
+
 Orthogonal initialization
 ----------------------------
 Initializes the weights as an orthogonal matrix. Useful for training very deep networks. Can be used to help with vanishing and exploding gradients in RNNs.
@@ -65,6 +69,9 @@ ____________________________
 |
 | **Used by**
 | `Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation, Cho et al. (2014) <https://arxiv.org/pdf/1406.1078.pdf>`_
+
+Symmetry breaking
+------------------
 
 Xavier initialization
 -----------------------

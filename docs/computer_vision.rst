@@ -13,8 +13,10 @@ Tasks which have an image or video as their input. This includes:
 Challenges
 ------------
 
+* Parts of the object may be obscured.
 * Photos can be taken at different angles.
 * Different lighting conditions.
+* Objects belonging to one class can come in a variety of forms.
 
 Data augmentation
 --------------------
@@ -124,6 +126,7 @@ The normal face recognition pipeline is:
 Challenges
 ______________
 In addition to the standard challenges in computer vision facial recognition also encounters the following problems:
+
 * Changes in facial hair.
 * Glasses, which may not always be worn.
 * People aging over time.

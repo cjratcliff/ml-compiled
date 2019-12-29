@@ -65,6 +65,8 @@ To rescale to between a and b:
 .. math::
 
   x_{ij} := \frac{(x_{ij} - min_j x_{ij})(b - a)}{max_j x_{ij} - min_j x_{ij}}
+  
+When computing the min and max be sure to use only the training data, as opposed to calculating these statistics on the entire dataset.
 
 
 Principal Component Analysis (PCA)
@@ -95,7 +97,8 @@ The features are transformed by subtracting their mean and dividing by their sta
   x_{ij} := \frac{x_{ij} - \mu_i}{\sigma_i}
   
 where :math:`x_{ij}` is the jth instance of feature i and :math:`\mu_i` and :math:`\sigma_i` are the mean and standard deviation of feature x_i respectively.
-  
+
+Ensure that the mean and standard deviation are calculated on the training set, not on the entire dataset.
 
 Group normalization
 ----------------------

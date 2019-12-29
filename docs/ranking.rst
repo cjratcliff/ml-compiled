@@ -2,6 +2,10 @@ Ranking
 """"""""""
 Given a query retrieve the most relevant documents from a set. If the ranking is personalized a context including user history or location may also be taken into account. Often referred to as 'learning to rank'.
 
+Inversion
+-----------
+An instance where two documents have been ranked in the wrong order given the ground truth. That is to say the less relevant document is ranked above the more relevant one.
+
 LambdaLoss
 ------------
 

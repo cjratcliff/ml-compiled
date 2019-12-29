@@ -115,5 +115,7 @@ SoftRank
 
 A listwise ranking algorithm. Optimises a smoothed approximation of NDCG which is obtained by treating the scores as random variables.
 
+Each score is viewed as being sampled from a Gaussian distribution centered on the true score.
+
 | **Proposed in**
 | `SoftRank: Optimising Non-Smooth Rank Metrics, Taylor et al. (2008) <https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/SoftRankWsdm08Submitted.pdf>`_

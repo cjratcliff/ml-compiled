@@ -59,6 +59,7 @@ Listwise ranking
 The loss function is defined over the list of documents.
 
 | **Example papers**
+| `SoftRank: Optimising Non-Smooth Rank Metrics, Taylor et al. (2008) <https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/SoftRankWsdm08Submitted.pdf>`_
 
 `Loss functions <https://ml-compiled.readthedocs.io/en/latest/loss_functions.html#ranking>`_
 ------------------------------------------------------------------------------------------------
@@ -106,3 +107,11 @@ Given the prediction, the model is then trained using the cross-entropy loss.
 |
 | **Further reading**
 | `From RankNet to LambdaRank to LambdaMART: An Overview, Burges (2010) <https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/MSR-TR-2010-82.pdf>`_
+
+SoftRank
+----------
+
+A listwise ranking algorithm.
+
+| **Proposed in**
+| `SoftRank: Optimising Non-Smooth Rank Metrics, Taylor et al. (2008) <https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/SoftRankWsdm08Submitted.pdf>`_

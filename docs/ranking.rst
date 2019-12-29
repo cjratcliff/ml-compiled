@@ -2,6 +2,8 @@ Ranking
 """"""""""
 Given a query retrieve the most relevant documents from a set. If the ranking is personalized a context including user history or location may also be taken into account. Often referred to as 'learning to rank'.
 
+Ranking problems tend to be hard to optimise for since the performance of the algorithm depends on the order of the documents when they are sorted according to their predicted scores. This is non-differentiable.
+
 Inversion
 -----------
 An instance where two documents have been ranked in the wrong order given the ground truth. That is to say the less relevant document is ranked above the more relevant one.
@@ -111,7 +113,7 @@ Given the prediction, the model is then trained using the cross-entropy loss.
 SoftRank
 ----------
 
-A listwise ranking algorithm.
+A listwise ranking algorithm. Optimises a smoothed approximation of NDCG which is obtained by treating the scores as random variables.
 
 | **Proposed in**
 | `SoftRank: Optimising Non-Smooth Rank Metrics, Taylor et al. (2008) <https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/SoftRankWsdm08Submitted.pdf>`_

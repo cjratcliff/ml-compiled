@@ -56,7 +56,7 @@ where :math:`\Delta NDCG(i,j)` is the change in NDCG that would result from the 
 
 Listwise ranking
 -----------------
-The loss function is defined over the list of documents.
+The loss function is defined over the list of documents, as opposed to just a pair of documents for example.
 
 | **Example papers**
 | `SoftRank: Optimising Non-Smooth Rank Metrics, Taylor et al. (2008) <https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/SoftRankWsdm08Submitted.pdf>`_

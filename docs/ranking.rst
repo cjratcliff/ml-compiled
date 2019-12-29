@@ -87,7 +87,7 @@ Simple to train using the cross-entropy loss but requires more computational eff
 
 Pointwise ranking
 ----------------------
-Poses learning to rank as a regression problem where a relevance score must be predicted given a document and query.
+Poses learning to rank as a regression problem where a relevance score must be predicted given a document and query. A squared loss is typically used to minimise the difference between the predicted and target relevance.
 
 | **Example papers**
 

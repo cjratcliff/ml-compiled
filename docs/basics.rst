@@ -4,7 +4,7 @@ Basics
 
 Absorbing state
 ----------------
-Terminal state.
+See terminal state.
 
 Action space
 --------------
@@ -80,6 +80,10 @@ If a policy :math:`\pi_\theta` executes action :math:`a` in state :math:`s` has 
 
 | **Proposed in**
 | `Simple Statistical Gradient-Following Algorithms for Connectionist Reinforcement Learning, Williams (1992) <http://www-anw.cs.umass.edu/~barto/courses/cs687/williams92simple.pdf>`_
+
+Terminal state
+----------------
+A state which ends the episode when reached. No further actions by the agent are possible.
 
 Trajectory
 --------------

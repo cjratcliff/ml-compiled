@@ -155,6 +155,7 @@ Unlike the Kullback-Leibler divergence, Jensen-Shannon divergence and total vari
 
 Exact computation of the Wasserstein distance is intractable.
 
-https://vincentherrmann.github.io/blog/wasserstein/
+| **Further reading**
+| https://vincentherrmann.github.io/blog/wasserstein/
 
     

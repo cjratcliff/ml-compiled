@@ -16,7 +16,8 @@ Naively summing the product of derivatives over all paths to a node is computati
 
 Instead, the sum over paths is calculated by merging paths back together at the nodes. Derivatives can be computed either forward or backward with this method.
 
-http://colah.github.io/posts/2015-08-Backprop/
+| **Further reading** 
+| http://colah.github.io/posts/2015-08-Backprop/
 
 Backpropagation through time (BPTT)
 ________________________________________
@@ -110,7 +111,8 @@ When the gradient grows exponentially as we move backward through the layers.
 
 Gradient clipping can be an effective antidote.
 
-`On the difficulty of training recurrent neural networks, Pascanu et al. (2012) <https://arxiv.org/pdf/1211.5063.pdf>`_
+| **Further reading** 
+| `On the difficulty of training recurrent neural networks, Pascanu et al. (2012) <https://arxiv.org/pdf/1211.5063.pdf>`_
 
 
 Gradient clipping

@@ -1,4 +1,5 @@
 Motivation
 Method
-Proposed in / example papers
-Used by
+Proposed in
+Used by / example papers
+Further reading

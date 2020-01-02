@@ -12,7 +12,7 @@ The space of all possible actions. May be discrete as in Chess or continuous as 
 
 Behaviour distribution
 -----------------------
-The probability distribution over sequences of states and actions.
+The probability distribution over sequences of state-action pairs that describes the behaviour of an agent.
 
 Bellman equation
 ------------------

@@ -31,3 +31,4 @@ Tasks where the algorithm must answer questions given some piece of visual infor
 Datasets:
 
 * CLEVR
+* `VQA <https://visualqa.org/>`_

@@ -13,13 +13,21 @@ LambdaLoss
 
 Builds upon LambdaRank.
 
+NDCG-Loss2
+____________
+
+.. math::
+
+  \Delta NDCG(i,j) = |G_i - G_j| |\frac{1}{D_{|i-j|}} - \frac{1}{D_{|i-j+1|}}|
+
+
 | **Proposed in**
 `The LambdaLoss Framework for Ranking Metric Optimization, Wang et al. (2018) <https://storage.googleapis.com/pub-tools-public-publication-data/pdf/1e34e05e5e4bf2d12f41eb9ff29ac3da9fdb4de3.pdf>`_
 
 
 LambdaMART
 ------------
-Combines the boosted tree model `MART (Friedman, 1999) <https://statweb.stanford.edu/~jhf/ftp/trebst.pdf>`_ with LambdaRank.
+Combines the boosted tree model MART `(Friedman, 1999) <https://statweb.stanford.edu/~jhf/ftp/trebst.pdf>`_ with LambdaRank.
 
 | **Further reading**
 | `From RankNet to LambdaRank to LambdaMART: An Overview, Burges (2010) <https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/MSR-TR-2010-82.pdf>`_

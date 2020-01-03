@@ -63,9 +63,6 @@ The loss function is defined over the list of documents, as opposed to just a pa
 | **Example papers**
 | `SoftRank: Optimising Non-Smooth Rank Metrics, Taylor et al. (2008) <https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/SoftRankWsdm08Submitted.pdf>`_
 
-`Loss functions <https://ml-compiled.readthedocs.io/en/latest/loss_functions.html#ranking>`_
-------------------------------------------------------------------------------------------------
-
 Metrics
 -----------------
 

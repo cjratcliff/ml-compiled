@@ -11,6 +11,8 @@ An instance where two documents have been ranked in the wrong order given the gr
 LambdaLoss
 ------------
 
+Builds upon LambdaRank.
+
 | **Proposed in**
 `The LambdaLoss Framework for Ranking Metric Optimization, Wang et al. (2018) <https://storage.googleapis.com/pub-tools-public-publication-data/pdf/1e34e05e5e4bf2d12f41eb9ff29ac3da9fdb4de3.pdf>`_
 

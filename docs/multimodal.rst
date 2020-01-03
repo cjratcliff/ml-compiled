@@ -9,7 +9,7 @@ Datasets
 
 CLEVR
 _________
-Dataset for visual question answering. Given a scene of objects of different shapes, colours and sizes the algorithm must answer questions such as *"What color is	the	cube to the	right of the yellow sphere?"* and *"How	many cylinders are in	front of the small	
+A synthetic dataset for visual question answering. Given a scene of objects of different shapes, colours and sizes the algorithm must answer questions such as *"What color is	the	cube to the	right of the yellow sphere?"* and *"How	many cylinders are in	front of the small	
 thing	and	on the left side of the green object?"*.
 
 Notable results:

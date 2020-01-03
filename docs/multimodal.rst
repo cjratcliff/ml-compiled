@@ -25,4 +25,8 @@ TODO
 
 Visual Question Answering (VQA)
 ---------------------------------
-TODO
+Tasks where the algorithm must answer questions given some piece of visual information. 
+
+Datasets:
+
+* CLEVR

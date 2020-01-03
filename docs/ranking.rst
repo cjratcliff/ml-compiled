@@ -18,6 +18,10 @@ ____________
 
 .. math::
 
+  L(y,s) = \sum_{y_i > y_j} \Delta NDCG(i,j) \log(1 + \exp(-\sigma(s_i - s_j)))
+
+.. math::
+
   \Delta NDCG(i,j) = |G_i - G_j| |\frac{1}{D_{|i-j|}} - \frac{1}{D_{|i-j+1|}}|
 
 

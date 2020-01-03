@@ -133,15 +133,6 @@ The margin
 ______________
 We want to minimize :math:`d(a_i,p_i)` and maximize :math:`d(a_i,n_i)`. The former is lower-bounded by 0 but the latter has no upper bound (distances can be arbitrarily large). However, beyond the threshold to classify a pair as a negative, increasing this distance will not help improve the accuracy, a fact which needs to be reflected in the loss function. The margin does this by ensuring that there is no gain from increasing :math:`d(a_i,n_i)` beyond :math:`m + d(a_i,p_i)` since the loss will be set to 0 by the maximum.
 
-Ranking
-----------
-
-Lambda Loss
-_____________
-
-| **Proposed in**
-| `The LambdaLoss Framework for Ranking Metric Optimization, Wang et al. (2018) <https://storage.googleapis.com/pub-tools-public-publication-data/pdf/1e34e05e5e4bf2d12f41eb9ff29ac3da9fdb4de3.pdf>`_
-
 Regression
 ---------------
 

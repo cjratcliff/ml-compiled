@@ -14,6 +14,7 @@ thing	and	on the left side of the green object?"*.
 
 Notable results:
 
+* 99.1% - `Transparency by Design: Closing the Gap Between Performance and Interpretability in Visual Reasoning, Mascharka et al. (2018) <https://arxiv.org/pdf/1803.05268.pdf>`_
 * 97.6% - `Learning Visual Reasoning Without Strong Priors, Perez et al. (2017) <https://arxiv.org/pdf/1707.03017.pdf>`_
 
 | **Introduced in**

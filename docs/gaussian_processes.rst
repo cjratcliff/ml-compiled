@@ -52,7 +52,7 @@ ___________________
 
 .. math::
 
-  k(x,x') = (x \cdot x' + a)^b
+  k(x,x';a,b) = (x \cdot x' + a)^b
   
 Functions sampled from a Gaussian process with a polynomial kernel where :math:`a=1` and :math:`b=2`:
 

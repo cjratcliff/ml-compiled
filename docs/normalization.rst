@@ -86,6 +86,11 @@ Whitening
 ____________
 The process of transforming the inputs so that they have zero mean and a covariance matrix which is the identity. This means the features will be linearly uncorrelated with each other and have variances equal to 1.
 
+Examples:
+
+* PCA
+* ZCA
+
 ZCA
 _____
 Like PCA, ZCA converts the data to have zero mean and an identity covariance matrix. Unlike PCA, it does not reduce the dimensionality of the data and tries to create a whitened version that is minimally different from the original.

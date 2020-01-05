@@ -17,7 +17,7 @@ Naively summing the product of derivatives over all paths to a node is computati
 Instead, the sum over paths is calculated by merging paths back together at the nodes. Derivatives can be computed either forward or backward with this method.
 
 | **Further reading** 
-| http://colah.github.io/posts/2015-08-Backprop/
+| `Calculus on Computational Graphs: Backpropagation, Olah (2015) <http://colah.github.io/posts/2015-08-Backprop/>`_
 
 Backpropagation through time (BPTT)
 ________________________________________

@@ -63,6 +63,9 @@ Potential solutions include:
 
 Distributed training
 -----------------------
+Training a neural network using multiple machines in parallel. Unfortunately gradient descent is a naturally sequential process since each iteration uses the parameters from the previous one. This means distributed training requires algorithms written specifically for that purpose.
+
+Distributed training methods are broadly classified as being either synchronous or asynchronous, more details of which are given in their sections below.
 
 Asynchronous SGD
 ___________________

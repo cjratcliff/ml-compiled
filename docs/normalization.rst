@@ -68,7 +68,6 @@ To rescale to between a and b:
   
 When computing the min and max be sure to use only the training data, as opposed to calculating these statistics on the entire dataset.
 
-
 Principal Component Analysis (PCA)
 _____________________________________
 Decomposes a matrix :math:`X \in \mathbb{R}^{n \times m}` into a set of :math:`k` orthogonal vectors. The matrix :math:`X` represents a dataset with :math:`n` examples and :math:`m` features.
@@ -82,6 +81,10 @@ Method for PCA via eigendecomposition:
 5. Construct the new matrix from the principal components by multiplying the centered :math:`X` by the truncated :math:`Q`.
 
 PCA can also be done via SVD.
+
+Whitening
+____________
+The process of transforming the inputs so that they have zero mean and a covariance matrix which is the identity. This means the features will be linearly uncorrelated with each other and have variances equal to 1.
 
 ZCA
 _____

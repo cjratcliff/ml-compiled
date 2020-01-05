@@ -58,7 +58,6 @@ List of sections to be added:
 * Imitation learning
 * Catastrophic forgetting
 * Trust region policy optimization
-* Whitening
 * Self-attention
 * Lipschitz smoothness
 * Lipschitz constant

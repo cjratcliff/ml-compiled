@@ -68,7 +68,7 @@ where :math:`\Delta NDCG(i,j)` is the change in NDCG that would result from the 
 |
 | **Further reading**
 | `From RankNet to LambdaRank to LambdaMART: An Overview, Burges (2010) <https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/MSR-TR-2010-82.pdf>`_
-`The LambdaLoss Framework for Ranking Metric Optimization, Wang et al. (2018) <https://storage.googleapis.com/pub-tools-public-publication-data/pdf/1e34e05e5e4bf2d12f41eb9ff29ac3da9fdb4de3.pdf>`_
+| `The LambdaLoss Framework for Ranking Metric Optimization, Wang et al. (2018) <https://storage.googleapis.com/pub-tools-public-publication-data/pdf/1e34e05e5e4bf2d12f41eb9ff29ac3da9fdb4de3.pdf>`_
 
 Listwise ranking
 -----------------

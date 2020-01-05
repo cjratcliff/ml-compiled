@@ -90,7 +90,7 @@ Form of attention that attends only to one input, unlike soft attention. Trained
 
 Self-attention
 __________________________
-
+TODO
 
 Soft attention
 __________________________

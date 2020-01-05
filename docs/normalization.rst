@@ -48,16 +48,16 @@ Was used to achieve `state of the art results <https://arxiv.org/pdf/1707.03017.
 
 Feature normalization
 -----------------------
-
 This class of normalizations refers to methods that transform the inputs to the model, as opposed to the activations within it.
 
 Feature scaling
 __________________
-Examples include min-max and z-score normalization.
+Scaling the inputs to the network with a linear transformation. Examples include min-max and z-score normalization.
+
+Feature scaling is motivated by practical considerations in optimization. 
 
 Min-max normalization
 _______________________
-
 Rescales the features so they have a specified minimum and maximum.
 
 To rescale to between a and b:

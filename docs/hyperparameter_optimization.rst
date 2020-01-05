@@ -101,11 +101,13 @@ Then random combinations of hyperparameters are chosen. For each one we train a 
 
 Extremely simple to implement and easy to parallelize.
 
-`Random Search for Hyper-Parameter Optimization, Bergstra and Bengio (2012) <http://www.jmlr.org/papers/volume13/bergstra12a/bergstra12a.pdf>`_
+| **Further reading**
+| `Random Search for Hyper-Parameter Optimization, Bergstra and Bengio (2012) <http://www.jmlr.org/papers/volume13/bergstra12a/bergstra12a.pdf>`_
 
 Reinforcement learning
 -------------------------
 Hyperparameter optimisation can be framed as a problem for reinforcement learning by letting the accuracy on the validation set be the reward and training with a standard algorithm like REINFORCE.
 
+| **Used by**
 | `Neural Architecture Search with Reinforcement Learning, Zoph and Le (2016) <https://arxiv.org/abs/1611.01578>`_
 | `Efficient Neural Architecture Search via Parameter Sharing, Pham et al. (2018) <https://arxiv.org/abs/1802.03268>`_

@@ -1,6 +1,6 @@
 Ranking
 """"""""""
-Given a query retrieve the most relevant documents from a set. If the ranking is personalized a context including user history or location may also be taken into account. Often referred to as 'learning to rank'.
+The task of retrieving the most relevant documents from a set given a query. If the ranking is personalized, a context including user history or location may also be taken into account. Often referred to as 'learning to rank'.
 
 Ranking problems tend to be hard to optimise for since the performance of the algorithm depends on the order of the documents when they are sorted according to their predicted scores. This is non-differentiable.
 

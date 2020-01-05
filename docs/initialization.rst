@@ -14,6 +14,8 @@ where :math:`\theta^{(i)}` are the parameters for layer :math:`i` of the network
 
 The biases are initialized to zero as usual.
 
+Effectiveness
+_______________
 Was used to improve the state of the art for image classification (`He et al., 2015 <https://arxiv.org/abs/1502.01852>`_) but the improvement over ReLU activations with Xavier initialization was very small, reducing top-1 error on ImageNet from 33.9% to 33.8%. 
 
 | **Proposed in** 

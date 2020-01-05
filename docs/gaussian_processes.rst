@@ -62,6 +62,7 @@ Functions sampled from a Gaussian process with a polynomial kernel where :math:`
   
 Gaussian kernel
 ________________
+This kernel is also known as the **radial basis function or RBF** kernel.
 
 .. math::
 

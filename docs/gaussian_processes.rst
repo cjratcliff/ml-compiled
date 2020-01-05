@@ -94,5 +94,5 @@ The method is as follows:
 1. Decide on a vector of inputs :math:`x` for which we want to compute :math:`f(x)`, where :math:`f` is some function which we will sample from the Gaussian process.
 2. Compute the matrix :math:`K` where :math:`K_{ij} = k(x_i,x_j)`.
 3. Perform `Cholesky decomposition <https://ml-compiled.readthedocs.io/en/latest/linear_algebra.html#cholesky-decomposition>`_ on :math:`K`, yielding a lower triangular matrix :math:`L`.
-4. Sample a vector of numbers from a standard Gaussian distribution.
-5. Take the dot product of :math:`L` and the vector of points to get the samples for :math:`f(x)`.
+4. Sample a vector of numbers from a standard Gaussian distribution, :math:`s_i \sim N(0, 1)`.
+5. Take the dot product of :math:`L` and the vector :math:`s` to get the samples for :math:`f(x)`.

@@ -65,7 +65,7 @@ ________________
 
 .. math::
 
-  k(x,x') = \exp(-{(x - x')}_2)
+  k(x,x'; \sigma, l) = \sigma_2 \exp(-\frac{{(x - x')}_2}{2l^2})
   
 Some functions sampled from a GP with a Gaussian kernel:
 

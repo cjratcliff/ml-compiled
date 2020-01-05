@@ -65,7 +65,7 @@ ________________
 
 .. math::
 
-  k(x,x') = \exp({{-||x - x'||}_2^2})
+  k(x,x') = \exp(-{(x - x')}_2)
   
 Some functions sampled from a GP with a Gaussian kernel:
 
@@ -78,7 +78,7 @@ _________________
 
 .. math::
 
-  k(x,x') = \exp({{-||x - x'||}_2})
+  k(x,x') = \exp(-|x - x'|)
   
 Functions sampled from a GP with a Laplacian kernel:
 

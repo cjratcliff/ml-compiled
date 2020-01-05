@@ -87,12 +87,12 @@ Functions sampled from a GP with a Laplacian kernel:
   :align: center
   :scale: 50 %
 
-Sampling
----------
-Pseudocode to sample from a Gaussian process:
+Sampling from a Gaussian process
+---------------------------------------
+The method is as follows:
 
 1. Decide on a vector of inputs :math:`x` for which we want to compute :math:`f(x)`, where :math:`f` is some function which we will sample from the Gaussian process.
-2. Compute :math:`K = k(x,x)`.
+2. Compute the matrix :math:`K` where :math:`K_{ij} = k(x_i,x_j)`.
 3. Perform `Cholesky decomposition <https://ml-compiled.readthedocs.io/en/latest/linear_algebra.html#cholesky-decomposition>`_ on :math:`K`, yielding a lower triangular matrix :math:`L`.
 4. Sample a vector of numbers from a standard Gaussian distribution.
 5. Take the dot product of :math:`L` and the vector of points to get the samples for :math:`f(x)`.

@@ -221,6 +221,9 @@ Adds a fraction of the update from the previous time step to the current time st
 
 Deep architectures often have deep ravines in their landscape near local optimas. They can lead to slow convergence with vanilla SGD since the negative gradient will point down one of the steep sides rather than towards the optimum. Momentum pushes optimization to the minimum faster. Commonly set to 0.9.
 
+| **Further reading**
+| `Why Momentum Really Works, Goh (2017) <https://distill.pub/2017/momentum/>`_
+
 Optimizers
 -------------
 

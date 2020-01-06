@@ -41,7 +41,7 @@ Geometric mean
 
     G(x_1,x_2,...,x_n) = \sqrt[\leftroot{-2}\uproot{2}n]{x_1x_2...x_n}
 
-Only applicable to positive numbers.
+Only applicable to positive numbers since otherwise it may involve taking the root of a negative number.
 
 Harmonic mean
 ---------------

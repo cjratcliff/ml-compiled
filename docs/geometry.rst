@@ -16,7 +16,7 @@ Measures the similarity of two vectors by calculating the cosine of the angle be
 Where :math:`x \cdot y` is the dot product.
 
 Relationship with the Euclidean distance
-'''''''''''''''''''''''''''''''''''''''''''
+___________________________________________
 The major differences between the Euclidean distance and cosine similarity are as follows:
 
 * The Euclidean distance takes magnitude of the two vectors into account. The cosine similarity ignores it.
@@ -62,7 +62,7 @@ Measures the distance between two vectors.
   d(x,y) = \sqrt{\sum_i (x_i - y_i)^2}
 
 Disadvantages
-'''''''''''''''''''''''
+__________________
 The Euclidean distance can have poor performance under high dimensionality. For points randomly distributed in space, the distribution of distances between random pairs of points falls tightly around the mean. This is because the Euclidean distance is the nth root of the sum of distances along each dimension. So this becomes close to the mean, just as for any sufficiently large sample.
 
 The ratio between the distance between the two furthest points and the distance between the two closest approaches 1 as the dimensionality increases.
@@ -71,32 +71,33 @@ High dimensionality
 --------------------
 
 Euclidean distance
-'''''''''''''''''''''''
+_____________________
 * For points randomly distributed in space, the distribution of the distances between them falls tightly around the mean.
 * For this reason the usefulness of the Euclidean distance is limited in high dimensions.
 * This also means the ratio between the distance between the two furthest points and the distance between the two closest approaches 1 for high dimensions.
 
 Gaussian distribution
-'''''''''''''''''''''''
+_____________________
 * Although the value remains highest at the origin, there is very little volume there. Most points are in the ‘tails’. This reflects the intuition that over many dimensions, any given point is likely to be anomalous in at least one aspect.
 
 Sphere
-'''''''''''''''''''''''
+_____________________
 * There is almost no interior volume. This follows the same intuition as for the Gaussian distribution - a random point is likely to be near the edge in at least one dimension, which is sufficient to call it exterior.
 * The volume is mostly contained in a thin ring around the equator at the surface.
 * The surface area is almost all at the equator.
 
 Interpolation
-'''''''''''''''''''''''
+_____________________
 * Linearly interpolating between two high-dimensional vectors will produce something that doesn't look much like either. The entries will tend to be atypically close to the mean. Polar interpolation should be used instead.
 
 Inner product of random samples
-''''''''''''''''''''''''''''''''''''''''''''''
+__________________________________________
 * Two random high-dimensional vectors are likely to be close to orthogonal. This is because orthogonality is measured by the inner product, which is the sum of the elementwise products. Over a large number of dimensions, this will tend towards the mean of the products which will be zero, so long as the mean of the sampling distribution is also zero.
 
-| **Further reading**
-| https://www.cs.cmu.edu/~venkatg/teaching/CStheory-infoage/chap1-high-dim-space.pdf  
-| http://www.inference.vc/high-dimensional-gaussian-distributions-are-soap-bubble
+Further reading
+_____________________
+| `High-Dimensional Space, Hopcroft and Kannan <https://www.cs.cmu.edu/~venkatg/teaching/CStheory-infoage/chap1-high-dim-space.pdf>`_
+| `Gaussian Distributions are Soap Bubbles, Huszár (2017) <http://www.inference.vc/high-dimensional-gaussian-distributions-are-soap-bubble>`_
 
 Lebesgue measure
 -------------------
@@ -140,22 +141,23 @@ Wasserstein distance
 Also known as the earth mover distance. Like the Kullback-Leibler divergence, it is a way of measuring the difference between two different probability distributions.
 
 Intuition
-'''''''''''''''''''''''
+_____________________
 If the two probability distributions are visualised as mounds of earth, the Wasserstein distance is the amount of effort required to turn one mound into the other. That is, the amount of earth mutliplied by the distance it has to be moved.
 
 Defining the Wasserstein distance
-''''''''''''''''''''''''''''''''''''''''''''''
+__________________________________________
 There are many different ways to move the earth so calculating the Wasserstein distance requires solving an optimisation problem, in general.
 
 An exact solution exists if both distributions are normal.
 
 Properties
-'''''''''''''''''''''''
+_____________________
 Unlike the Kullback-Leibler divergence, Jensen-Shannon divergence and total variation distance, this metric does not have zero gradients when the supports of P and Q are disjoint (the probability distributions have no overlap).
 
 Exact computation of the Wasserstein distance is intractable.
 
-| **Further reading**
-| https://vincentherrmann.github.io/blog/wasserstein/
+Further reading
+_____________________
+https://vincentherrmann.github.io/blog/wasserstein/
 
     

@@ -69,6 +69,9 @@ Where :math:`I(X,T)` and :math:`I(T,Y)` represent the `mutual information <https
 
 When the expression is minimised there is very little mutual information between the compressed representation and the input. There is a lot of mutual information between the representation and the output, meaning it is useful for prediction.
 
+| **Proposed in**
+| `The information bottleneck method, Tishby et al. (2000) <https://arxiv.org/pdf/physics/0004057.pdf>`_
+
 Jensen-Shannon divergence
 ---------------------------
 Symmetric version of the KL-divergence.

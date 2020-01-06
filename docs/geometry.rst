@@ -123,18 +123,15 @@ A metric :math:`d(x,y)` must have the following properties:
     
 Polar interpolation
 -----------------------
-For two vectors x and y, linear interpolation is :math:`px + (1-p)y`, where :math:`0 \leq p \leq 1`.
-
-Polar interpolation by contrast, is:
+The polar interpolation of two vectors :math:`x` and :math:`y` is:
 
 .. math::
 
     \sqrt{p}x + \sqrt{1-p}y
+    
+Contrast this with linear interpolation which is :math:`px + (1-p)y`, where :math:`0 \leq p \leq 1`.
 
-
-Unlike linear interpolation, the sum of the coefficients can exceed 1.
-
-http://www.inference.vc/high-dimensional-gaussian-distributions-are-soap-bubble/
+Unlike linear interpolation, the sum of the coefficients may exceed 1.
 
 Wasserstein distance
 -------------------------

@@ -35,6 +35,7 @@ Measures the entropy of a joint distribution.
 
 Conditional entropy
 _____________________
+Measures the entropy of the distribution of one random variable given that the value of another is known.
 
 .. math::
 

@@ -18,7 +18,7 @@ The capacity of a machine learning model describes the complexity of the functio
 
 Entropy
 -------------
-The entropy of a discrete probability distribution :math:`p` is:
+The entropy of a discrete probability distribution :math:`p(x)` is:
 
 .. math::
 
@@ -26,7 +26,7 @@ The entropy of a discrete probability distribution :math:`p` is:
 
 Joint entropy
 _______________
-Measures the entropy of a joint distribution.
+Measures the entropy of a joint distribution :math:`p(x,y)`.
 
 .. math::
 

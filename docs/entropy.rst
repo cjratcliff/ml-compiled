@@ -60,14 +60,15 @@ The Fisher Information Matrix is equal to the negative expected `Hessian <https:
 
 Information bottleneck
 -------------------------
+An objective for training compressed representations.
 
 .. math::
 
   \min I(X,T) - \beta I(T,Y)
   
-Where :math:`I(X,T)` and :math:`I(T,Y)` represent the `mutual information <https://ml-compiled.readthedocs.io/en/latest/entropy.html#mutual-information>`_ between their respective arguments. :math:`X` is the input features, :math:`Y` is the labels and :math:`T` is a representation of the input such as the activations of a hidden layer in a neural network.
+Where :math:`I(X,T)` and :math:`I(T,Y)` represent the `mutual information <https://ml-compiled.readthedocs.io/en/latest/entropy.html#mutual-information>`_ between their respective arguments. :math:`X` is the input features, :math:`Y` is the labels and :math:`T` is a representation of the input such as the activations of a hidden layer in a neural network. :math:`\beta` is a hyperparameter controlling the trade-off between compression and predictive power.
 
-When the expression is minimised there is very little mutual information between the compressed representation and the input. There is a lot of mutual information between the representation and the output, meaning it is useful for prediction.
+When the expression is minimised there is very little mutual information between the compressed representation and the input. At the same time, there is a lot of mutual information between the representation and the output, meaning the representation is useful for prediction.
 
 | **Proposed in**
 | `The information bottleneck method, Tishby et al. (2000) <https://arxiv.org/pdf/physics/0004057.pdf>`_

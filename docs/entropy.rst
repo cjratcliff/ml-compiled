@@ -93,9 +93,11 @@ For discrete distributions it is given as:
 
 Note that if a point is outside the support of Q (:math:`Q_i = 0`), the KL-divergence will explode since :math:`\log (0)` is undefined. This can be dealt with by adding some random noise to Q. However, this introduces a degree of error and a lot of noise is often needed for convergence when using the KL-divergence for MLE. The `Wasserstein distance <https://ml-compiled.readthedocs.io/en/latest/high_dimensionality.html#wasserstein-distance>`_, which also measures the distance between two distributions, does not have this problem.
 
-The KL-divergence is not symmetric.
+Properties
+______________
 
-A KL-Divergence of 0 means the distributions are identical. As the distributions become more different the divergence becomes more negative.
+* The KL-divergence is not symmetric.
+* A KL-Divergence of 0 means the distributions are identical. As the distributions become more different the divergence becomes more negative.
 
 Mutual information
 -----------------------

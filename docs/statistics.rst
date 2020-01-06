@@ -48,7 +48,9 @@ Harmonic mean
 
 .. math::
 
-    H(x_1,x_2,...,x_n) = n/\sum_{i=1}^n \frac{1}{x_i} 
+    H(x_1,x_2,...,x_n) = n/\sum_{i=1}^n \frac{1}{x_i}
+    
+Cannot be computed if one of the numbers is zero since that would necessitate dividing by zero.
     
 Heteroscedasticity
 --------------------

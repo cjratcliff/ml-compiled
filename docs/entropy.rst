@@ -86,7 +86,7 @@ See also: `Wasserstein distance <https://ml-compiled.readthedocs.io/en/latest/hi
     
 Kullback-Leibler divergence
 ----------------------------------
-A measure of the difference between two probability distributions. Also known as the relative entropy. In the usual use case one distribution is the true distribution of the data and the other is a model of it. 
+A measure of the difference between two probability distributions. Also known as the KL-divergence and the relative entropy. In the usual use case one distribution is the true distribution of the data and the other is an approximation of it. 
 
 For discrete distributions it is given as:
 

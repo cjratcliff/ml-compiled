@@ -61,7 +61,7 @@ The Fisher Information Matrix is equal to the negative expected `Hessian <https:
 
 Information bottleneck
 -------------------------
-An objective for training compressed representations.
+An objective for training compressed representations that have predictive power.
 
 .. math::
 

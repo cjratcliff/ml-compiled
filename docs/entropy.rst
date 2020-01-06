@@ -74,7 +74,7 @@ When the expression is minimised there is very little mutual information between
 
 Jensen-Shannon divergence
 ---------------------------
-Symmetric version of the KL-divergence.
+A symmetric version of the KL-divergence. This means that :math:`JS(P,Q) = JS(Q,P)`, which is not true for the KL-divergence.
 
 .. math::
 

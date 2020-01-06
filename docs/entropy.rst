@@ -24,9 +24,9 @@ The entropy of a discrete probability distribution :math:`p` is:
 
     H(X) = -\sum_{x \in X} p(x) \log p(x)
 
-
 Joint entropy
 _______________
+Measures the entropy of a joint distribution.
 
 .. math::
 

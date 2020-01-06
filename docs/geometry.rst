@@ -69,6 +69,7 @@ The ratio between the distance between the two furthest points and the distance 
 
 High dimensionality
 --------------------
+This section describes the properties of some mathematical concepts in high dimensions.
 
 Euclidean distance
 _____________________

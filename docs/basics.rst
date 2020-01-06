@@ -4,7 +4,7 @@ Basics
 
 Absorbing state
 ----------------
-See terminal state.
+See `terminal state <https://ml-compiled.readthedocs.io/en/latest/basics.html#terminal-state>`_.
 
 Action space
 --------------

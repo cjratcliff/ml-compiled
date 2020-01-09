@@ -5,5 +5,5 @@ Quick definitions and intuitive explanations around machine learning.
 
 Contribute
 ----------
-
+Please contribute by opening a pull request.
 

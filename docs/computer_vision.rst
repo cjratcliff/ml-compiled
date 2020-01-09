@@ -44,7 +44,7 @@ Datasets
 
 CIFAR-10/100
 ______________
-60000 32x32 colour images in 10 (100) classes with 6000 (600) images each. 50000 images in the training set and 10000 in the test.
+CIFAR-10 is a dataset of 60000 32x32 colour images in 10 classes with 6000 images each. CIFAR-100 has 100 classes, with only 600 images for each. The dataset comprises 50000 images in the training set and 10000 in the test.
 
 Notable results - CIFAR-10
 

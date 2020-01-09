@@ -182,7 +182,8 @@ Examples:
 * Greyscale to colour
 * Streetmap to satellite view
 
-`Image-to-Image Translation with Conditional Adversarial Networks, Isola et al. (2016) <https://arxiv.org/abs/1611.07004>`_
+| **Example papers**
+| `Image-to-Image Translation with Conditional Adversarial Networks, Isola et al. (2016) <https://arxiv.org/abs/1611.07004>`_
 
 Object detection
 -------------------

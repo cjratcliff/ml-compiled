@@ -53,7 +53,7 @@ Let :math:`f:\mathbb{R}^n \rightarrow \mathbb{R}^m` be a function. Then the Jaco
 
 Applied to neural networks
 ---------------------------------
-It is common in machine learning to compute the Jacobian of the loss function of a network with respect to its parameters. Then :math:`m = 1` and the Jacobian is a vector representing the gradients of the network:
+It is common in machine learning to compute the Jacobian of the loss function of a network with respect to its parameters. Then :math:`m` in :math:`f:\mathbb{R}^n \rightarrow \mathbb{R}^m` is 1 and the Jacobian is a vector representing the gradients of the network:
 
 .. math::
 

@@ -187,6 +187,7 @@ Examples:
 
 Object detection
 -------------------
+The task of finding objects of interest in a scene and determining what they are. 
 
 One-stage detector
 _____________________

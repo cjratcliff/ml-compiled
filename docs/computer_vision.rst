@@ -127,7 +127,7 @@ The normal face recognition pipeline is:
 
 Challenges
 ______________
-In addition to the standard challenges in computer vision facial recognition also encounters the following problems:
+In addition to the `standard challenges <https://ml-compiled.readthedocs.io/en/latest/computer_vision.html#challenges>`_ in computer vision facial recognition also encounters the following problems:
 
 * Changes in facial hair.
 * Glasses, which may not always be worn.

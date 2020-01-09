@@ -226,5 +226,5 @@ Contrast with one-stage detectors.
 
 Saliency map
 ---------------
-A heatmap over an image which shows each pixel's importance for the classification.
+A heatmap over an image which shows each pixel's importance for the predicted classification.
 

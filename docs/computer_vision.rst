@@ -111,7 +111,9 @@ ____________
 
 SVHN
 ______
-Street View House Numbers.
+Street View House Numbers. Contains images of the numbers 0-9 (10 classes) in over 600,000 images. Harder than MNIST since the images come from natural scenes.
+
+http://ufldl.stanford.edu/housenumbers/
 
 Face recognition
 --------------------

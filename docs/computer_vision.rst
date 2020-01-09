@@ -187,12 +187,17 @@ Examples:
 
 Object detection
 -------------------
-The task of finding objects of interest in a scene and determining what they are. 
+The task of finding objects of interest in a scene and determining what they are.
+
+Object detection algorithms can generally be divided into two categories:
+
+* One-stage detectors
+* Two-stage detectors
 
 One-stage detector
 _____________________
 
-Contrast with two-stage detectors.
+A class of object detection algorithm. Contrast with two-stage detectors.
 
 | **Example papers**
 | `Focal Loss for Dense Object Detection, Lin et al. (2017) <https://arxiv.org/pdf/1708.02002.pdf>`_
@@ -210,6 +215,8 @@ A region in an image (usually defined by a rectangle) identified as containing a
 
 Two-stage detector
 ____________________
+A type of object detection algorithm. 
+
 The first stage proposes regions that may contain objects of interest. The second stage classifies these regions as either background or one of the classes. 
 
 There is often a significant class-imbalance problem since background regions greatly outnumber the other classes.

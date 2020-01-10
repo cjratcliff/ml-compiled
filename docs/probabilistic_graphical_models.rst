@@ -73,7 +73,7 @@ A simple state transition model where the next state depends only on the current
 .. figure:: ../img/markov_chain.PNG
   :align: center
   
-  Source: https://en.wikipedia.org/wiki/Markov_chain#/media/File:Markovkate_01.svg
+  Source: `Wikipedia <https://en.wikipedia.org/wiki/Markov_chain#/media/File:Markovkate_01.svg>`_
 
 Markov property
 --------------------

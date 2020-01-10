@@ -162,11 +162,13 @@ This section summarises some univariate distributions and their multivariate ver
 +-----------------+------------------+
 | Univariate      | Multivariate     |
 +=================+==================+
-| Beta            | Dirichlet        |
-+-----------------+------------------+
 | Bernoulli       | Binomial         |
 +-----------------+------------------+
 | Categorical     | Multinomial      |
++-----------------+------------------+
+| Beta            | Dirichlet        |
++-----------------+------------------+
+| Gamma           | Wishart          |
 +-----------------+------------------+
 
 Negative Binomial

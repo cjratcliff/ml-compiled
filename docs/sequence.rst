@@ -226,9 +226,9 @@ Where :math:`x_t`, :math:`o_t` and :math:`h_t` are the input, output and hidden 
 
 RNN Encoder-Decoder
 -------------------------
-Common architecture for translation.
+A simple architecture for sequence-to-sequence tasks.
 
-Consists of two RNNs. One encodes the input sequence into a fixed-length vector representation, the other decodes it into an output sequence. The original, proposed in `Cho et al. (2014) <https://arxiv.org/pdf/1406.1078.pdf>`_, uses the `GRU <https://ml-compiled.readthedocs.io/en/latest/sequence.html#gru-gated-recurrent-unit>`_ to model sequential information using fewer parameters than the LSTM. Can be augmented with sampled softmax, bucketing and padding.
+It consists of two RNNs. One encodes the input sequence into a fixed-length vector representation, the other decodes it into an output sequence. The original, proposed in `Cho et al. (2014) <https://arxiv.org/pdf/1406.1078.pdf>`_, uses the `GRU <https://ml-compiled.readthedocs.io/en/latest/sequence.html#gru-gated-recurrent-unit>`_ to model sequential information using fewer parameters than the LSTM. Can be augmented with sampled softmax, bucketing and padding.
 
 | **Proposed in**
 | `Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation, Cho et al. (2014) <https://arxiv.org/pdf/1406.1078.pdf>`_

@@ -72,7 +72,7 @@ REINFORCE
 ------------
 Simple policy learning algorithm.
 
-If a policy :math:`\pi_\theta` executes action :math:`a` in state :math:`s` has a value :math:`v` the update rule is:
+If a policy :math:`\pi_\theta` executes action :math:`a` in state :math:`s` with some corresponding value :math:`v` the update rule is:
 
 .. math::
 

@@ -50,7 +50,7 @@ Where :math:`f` is an invertible function.
 
 Conjugate prior
 ----------------
-A prior for a likelihood function is conjugate if it is from the same family of distributions (eg Gaussian) as the posterior.
+If the prior :math:`p(\theta)` and the posterior :math:`p(X|\theta)` are both from the same family of distributions (eg Beta) the likelihood :math:`p(X|\theta)` is distributed according to the table below:
 
 ====================== ======================
  Likelihood             Conjugate prior

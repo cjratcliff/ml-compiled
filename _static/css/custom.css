@@ -8,6 +8,15 @@
     background-color: #a53737;
 }
 
+/* Code blocks */
+.rst-content pre.literal-block, .rst-content div[class^='highlight'] pre, .rst-content .linenodiv pre {
+    font-size: 14px;
+    line-height: 1.4;
+    background-color: #3a3a3a;
+    color: #e6e6e6;
+    border-radius: 8px;
+}
+
 /*
 h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
 

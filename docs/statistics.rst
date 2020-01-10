@@ -19,7 +19,7 @@ The correlation between two random variables :math:`X` and :math:`Y` is:
 
 Covariance
 -------------
-The covariance between two random variables :math:`X` and :math:`Y` is:
+The covariance between two random variables :math:`X` and :math:`Y` is defined as:
 
 .. math::
 

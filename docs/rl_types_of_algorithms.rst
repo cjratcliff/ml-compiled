@@ -20,7 +20,7 @@ The policy determines the samples the network is trained on. Can introduce bias 
 
 Policy-based method
 ----------------------
-Does not use a value function. Learns the policy explicitly, unlike value-based methods.
+Does not use a value function. Learns the policy explicitly, unlike value-based methods which instead choose the action which maximises the value function.
 
 Policy gradient method
 -------------------------

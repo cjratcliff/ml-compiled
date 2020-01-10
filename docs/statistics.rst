@@ -11,6 +11,7 @@ The arithmetic mean of a set of inputs :math:`\{x_1,x_2,...,x_n\}` is:
   
 Correlation
 --------------
+The correlation between two random variables :math:`X` and :math:`Y` is:
 
 .. math::
 
@@ -18,6 +19,7 @@ Correlation
 
 Covariance
 -------------
+The covariance between two random variables :math:`X` and :math:`Y` is:
 
 .. math::
 

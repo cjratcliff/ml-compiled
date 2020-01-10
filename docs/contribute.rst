@@ -68,3 +68,4 @@ List of sections to be added:
 * Deep Belief Networks/Machines
 * Restricted Boltzmann Machines
 * Regression - p-values
+* Empirical risk

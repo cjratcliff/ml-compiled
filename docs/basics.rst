@@ -76,7 +76,7 @@ If a policy :math:`\pi_\theta` executes action :math:`a` in state :math:`s` with
 
 .. math::
 
-  \Delta \theta = \alpha \nabla_\theta \pi_\theta(a|s) v
+  \Delta \theta = \alpha \nabla_\theta \pi_\theta(s,a) v
   
 Where :math:`\nabla_\theta` means the derivative with respect to :math:`\theta`.
 

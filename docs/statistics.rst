@@ -94,7 +94,7 @@ See `Adam: A Method for Stochastic Optimization, Kingma et al. (2015) <https://a
     
 Point estimate
 ----------------
-An estimate for a parameter.
+An estimate for a parameter, such as the mean of a population for example. It describes the belief about this quantity with a single number, in contrast with a distribution which could be used to describe the belief for the parameter with multiple numbers.
 
 Skewness
 ----------

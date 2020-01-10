@@ -3,6 +3,7 @@ Statistics
 
 Arithmetic mean
 --------------------
+The arithmetic mean of a set of inputs :math:`\{x_1,x_2,...,x_n\}` is:
 
 .. math::
 

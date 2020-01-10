@@ -140,19 +140,19 @@ Also known as the earth mover distance. Like the Kullback-Leibler divergence, it
 
 Intuition
 _____________________
-If the two probability distributions are visualised as mounds of earth, the Wasserstein distance is the amount of effort required to turn one mound into the other. That is, the amount of earth mutliplied by the distance it has to be moved.
+If the two probability distributions are visualised as mounds of earth, the Wasserstein distance is the least possible amount of effort required to turn one mound into the other. That is, the amount of earth mutliplied by the distance it has to be moved.
 
 Defining the Wasserstein distance
 __________________________________________
-There are many different ways to move the earth so calculating the Wasserstein distance requires solving an optimisation problem, in general.
+There are many different ways to move the earth so calculating the Wasserstein distance requires solving an optimisation problem, in general. However, an exact solution exists if both distributions are normal.
 
-An exact solution exists if both distributions are normal.
-
-Properties
-_____________________
+Advantages
+____________
 Unlike the Kullback-Leibler divergence, Jensen-Shannon divergence and total variation distance, this metric does not have zero gradients when the supports of P and Q are disjoint (the probability distributions have no overlap).
 
-Exact computation of the Wasserstein distance is intractable.
+Disadvantages
+_______________
+Exact computation of the Wasserstein distance is intractable except in some special cases.
 
 Used by
 __________

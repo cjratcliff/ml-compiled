@@ -89,7 +89,7 @@ A symmetric version of the KL-divergence. This means that :math:`JS(P,Q) = JS(Q,
 where :math:`M` is a mixture distribution equal to :math:`\frac{1}{2}(P + Q)`
 
 | **Alternatives**
-|`Wasserstein distance <https://ml-compiled.readthedocs.io/en/latest/high_dimensionality.html#wasserstein-distance>`_
+| `Wasserstein distance <https://ml-compiled.readthedocs.io/en/latest/high_dimensionality.html#wasserstein-distance>`_
     
 Kullback-Leibler divergence
 ----------------------------------
@@ -128,7 +128,7 @@ Total variation distance
 Like the Kullback-Leibler divergence, it is also a way of measuring the difference between two different probability distributions.
 
 | **Alternatives**
-|`Wasserstein distance <https://ml-compiled.readthedocs.io/en/latest/geometry.html#wasserstein-distance>`_
+| `Wasserstein distance <https://ml-compiled.readthedocs.io/en/latest/geometry.html#wasserstein-distance>`_
 
 VC dimension
 --------------

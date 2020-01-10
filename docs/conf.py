@@ -106,7 +106,6 @@ html_theme = 'default'
 # documentation.
 html_theme_options = {
   'style_external_links': True,
-  'sticky_navigation': True,
 }
 
 # Add any paths that contain custom themes here, relative to this directory.

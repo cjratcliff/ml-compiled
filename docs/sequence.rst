@@ -154,14 +154,18 @@ Tie the input and output embeddings. May only be applicable to generative models
 Cell clipping
 __________________
 Clip the activations of the memory cells to a range such as [-3,3] or [-50,50]. Helps with convergence problems by preventing exploding gradients and saturation in the sigmoid/tanh nonlinearities.
-Deep Recurrent Neural Networks for Acoustic Modelling, Chan and Lane (2015)
-LSTM RNN Architectures for Large Scale Acoustic Modeling, Sak et al. (2014)
+
+| **Used in**
+| `Deep Recurrent Neural Networks for Acoustic Modelling, Chan and Lane (2015) <https://arxiv.org/abs/1504.01482>`_
+| `LSTM RNN Architectures for Large Scale Acoustic Modeling, Sak et al. (2014) <https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43905.pdf>`_
 
 Peep-hole connections
 ___________________________
 Allows precise timing to be learned, such as the frequency of a signal and other periodic patterns.
-Learning Precise Timing with LSTM Recurrent Networks, Ger et al. (2002)
-LSTM RNN Architectures for Large Scale Acoustic Modeling, Sak et al. (2014)
+
+| **Used in**
+| `Learning Precise Timing with LSTM Recurrent Networks, Ger et al. (2002) <http://www.jmlr.org/papers/volume3/gers02a/gers02a.pdf>`_
+| `LSTM RNN Architectures for Large Scale Acoustic Modeling, Sak et al. (2014) <https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43905.pdf>`_
 
 Neural Turing Machine (NTM)
 ------------------------------

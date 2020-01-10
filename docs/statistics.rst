@@ -37,6 +37,7 @@ A valid covariance matrix is always symmetric and positive semi-definite.
 
 Geometric mean
 ----------------
+The geometric mean of a set of inputs :math:`\{x_1,x_2,...,x_n\}` is:
 
 .. math::
 
@@ -46,6 +47,7 @@ Only applicable to positive numbers since otherwise it may involve taking the ro
 
 Harmonic mean
 ---------------
+The harmonic mean for a set of inputs :math:`\{x_1,x_2,...,x_n\}` is:
 
 .. math::
 

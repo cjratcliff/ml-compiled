@@ -204,11 +204,11 @@ Law of total probability
 
 Likelihood
 -----------
-The likelihood of the parameters given the data is equal to the probability of the data given the parameters.
+The likelihood of the parameters :math:`\theta` given the observation data :math:`X` is equal to the probability of the data given the parameters.
 
 .. math::
 
-    L(\theta|O) = P(O|\theta)
+    L(\theta|X) = P(X|\theta)
 
 
 Marginal distribution
@@ -222,23 +222,23 @@ A likelihood function in which some variable has been marginalised out (removed 
 
 MAP estimation
 ----------------
-Maximum a posteriori estimation. A type of point estimate. Can be seen as a regularization of MLE since it also incorporates a prior distribution. Uses Bayes rule to incorporate a prior over the parameters and find the parameters that are most likely given the data (rather than the other way around). Unlike with MLE (which is a bit of a simplification), the most likely parameters given the data are exactly what we want to find.
+Maximum a posteriori estimation. A point estimate for the parameters :math:`\theta`, given the observations :math:`X`. Can be seen as a regularization of MLE since it also incorporates a prior distribution. Uses Bayes' rule to incorporate a prior over the parameters and find the parameters that are most likely given the data (rather than the other way around). Unlike with MLE (which is a bit of a simplification), the most likely parameters given the data are exactly what we want to find.
 
 .. math::
 
-    \hat{\theta}_{MAP}(O) = \arg \max_\theta p(\theta|O) = \arg \max_\theta \frac{p(O|\theta)q(\theta)}{\int_{\theta'} p(O|\theta')q(\theta') d\theta'} = \arg \max_\theta p(O|\theta)q(\theta)
+    \hat{\theta}_{MAP}(X) = \arg \max_\theta p(\theta|X) = \arg \max_\theta \frac{p(X|\theta)q(\theta)}{\int_{\theta'} p(O|\theta')q(\theta') d\theta'} = \arg \max_\theta p(X|\theta)q(\theta)
 
 Where :math:`q(\theta)` is the prior for the parameters.
 
-In the equation above the denominator vanishes since it does not depend on :math:`\theta`.
+Note that in the equation above the denominator vanishes since it does not depend on :math:`\theta`.
 
 Maximum likelihood estimation (MLE)
 -------------------------------------
-Finds the set of parameters that are most likely, given the data. Since priors over parameters are not taken into account unless MAP estimation is taking place, this is equivalent to finding the parameters that maximize the probability of the data given the parameters.
+Finds the set of parameters :math:`\theta` that are most likely, given the data :math:`X`. Since priors over parameters are not taken into account unless MAP estimation is taking place, this is equivalent to finding the parameters that maximize the probability of the data given the parameters:
 
 .. math::
 
-    \hat{\theta}_{MLE}(O) = \arg \max_\theta p(O|\theta)
+    \hat{\theta}_{MLE}(X) = \arg \max_\theta p(X|\theta)
 
 Normalizing flow
 ------------------

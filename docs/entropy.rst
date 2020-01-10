@@ -26,7 +26,9 @@ The entropy of a discrete probability distribution :math:`p(x)` is:
 
 Joint entropy
 _______________
-Measures the entropy of a joint distribution :math:`p(x,y)`. The joint entropy for a discrete distribution over two variables, X and Y is:
+Measures the entropy of a joint distribution :math:`p(x,y)`. 
+
+The joint entropy for a discrete distribution over two variables, X and Y is:
 
 .. math::
 
@@ -35,7 +37,9 @@ Measures the entropy of a joint distribution :math:`p(x,y)`. The joint entropy f
 
 Conditional entropy
 _____________________
-Measures the entropy of the distribution of one random variable given that the value of another is known. The conditional entropy for a discrete distribution is given by:
+Measures the entropy of the distribution of one random variable given that the value of another is known. 
+
+The conditional entropy for a discrete distribution is given by:
 
 .. math::
 

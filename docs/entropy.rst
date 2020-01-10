@@ -89,6 +89,8 @@ A symmetric version of the KL-divergence. This means that :math:`JS(P,Q) = JS(Q,
 where :math:`M` is a mixture distribution equal to :math:`\frac{1}{2}(P + Q)`
 
 | **Alternatives**
+| `KL divergence <https://ml-compiled.readthedocs.io/en/latest/entropy.html#kullback-leibler-divergence>`_
+| `Total variation distance <https://ml-compiled.readthedocs.io/en/latest/entropy.html#total-variation-distance>`_
 | `Wasserstein distance <https://ml-compiled.readthedocs.io/en/latest/geometry.html#wasserstein-distance>`_
     
 Kullback-Leibler divergence
@@ -110,6 +112,11 @@ ______________
 
 * The KL-divergence is not symmetric.
 * A KL-Divergence of 0 means the distributions are identical. As the distributions become more different the divergence becomes more negative.
+
+| **Advantage**
+| `Jensen-Shannon divergence <https://ml-compiled.readthedocs.io/en/latest/entropy.html#jensen-shannon-divergence>`_
+| `Total variation distance <https://ml-compiled.readthedocs.io/en/latest/entropy.html#total-variation-distance>`_
+| `Wasserstein distance <https://ml-compiled.readthedocs.io/en/latest/geometry.html#wasserstein-distance>`_
 
 Mutual information
 -----------------------
@@ -134,6 +141,8 @@ For two discrete distributions the total variation distance is given by:
 TODO
 
 | **Alternatives**
+| `Jensen-Shannon divergence <https://ml-compiled.readthedocs.io/en/latest/entropy.html#jensen-shannon-divergence>`_
+| `KL divergence <https://ml-compiled.readthedocs.io/en/latest/entropy.html#kullback-leibler-divergence>`_
 | `Wasserstein distance <https://ml-compiled.readthedocs.io/en/latest/geometry.html#wasserstein-distance>`_
 
 VC dimension

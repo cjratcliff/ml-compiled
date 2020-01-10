@@ -127,6 +127,12 @@ Total variation distance
 -----------------------------
 Like the Kullback-Leibler divergence, it is also a way of measuring the difference between two different probability distributions.
 
+For two discrete distributions the total variation distance is given by:
+
+.. math::
+
+  \delta(P,Q) = \frac{1}{2} \sum_{x \in X} p(x) - q(x)
+
 | **Alternatives**
 | `Wasserstein distance <https://ml-compiled.readthedocs.io/en/latest/geometry.html#wasserstein-distance>`_
 

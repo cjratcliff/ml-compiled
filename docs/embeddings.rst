@@ -47,7 +47,7 @@ Word vectors
 """""""""""""
 The meaning of a word is represented by a vector of fixed size.
 
-Polysemous words (words with multiple meanings) are hard to model effectively with a single point.
+Polysemous words (words with multiple meanings) can be hard to model effectively with a single point if the dimensionality is too small.
 
 CBOW (Continuous Bag of Words)
 -----------------------------------

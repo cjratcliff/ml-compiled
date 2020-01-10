@@ -45,7 +45,8 @@ Discriminative model that can be seen as a generalization of logistic regression
 
 Common applications of CRFs include `image segmentation <https://ml-compiled.readthedocs.io/en/latest/computer_vision.html#semantic-segmentation>`_ and `named entity recognition <https://ml-compiled.readthedocs.io/en/latest/natural_language_processing.html#named-entity-recognition-ner>`_.
 
-`Seed, Expand and Constrain: Three Principles for Weakly-Supervised Image Segmentation, Kolesnikov and Lampert (2016) <https://arxiv.org/abs/1603.06098>`_
+| **Used in**
+| `Seed, Expand and Constrain: Three Principles for Weakly-Supervised Image Segmentation, Kolesnikov and Lampert (2016) <https://arxiv.org/abs/1603.06098>`_
 
 Linear Chain CRFs
 ___________________

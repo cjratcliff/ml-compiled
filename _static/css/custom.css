@@ -17,8 +17,12 @@
     border-radius: 8px;
 }
 
-/*
-h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
-
+h1 {
+    font-size: 250%;
 }
-*/
+
+
+h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
+    font-family: Segoe UI, "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif
+}
+

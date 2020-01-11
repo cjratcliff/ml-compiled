@@ -8,7 +8,7 @@
     box-shadow: none;
     border-color: #a53737;
 }
-.wy-side-nav-search input[type=text] a:active {
+.wy-side-nav-search input[type=text] a:focus {
     background-color: #3a3a3a;
 }
 .wy-menu-vertical p.caption {

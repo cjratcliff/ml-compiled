@@ -4,7 +4,8 @@
 .wy-side-nav-search input[type=text] {
     background-color: #a53737;
     border: none;
-    /*border-radius: 0px;*/
+    border-radius: 0px;
+    box-shadow: none;
     border-color: #a53737;
 }
 .wy-side-nav-search input[type=text] a:active {

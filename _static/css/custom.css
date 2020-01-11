@@ -1,6 +1,14 @@
 .wy-side-nav-search {
     background-color: #a53737;
+}
+.wy-side-nav-search input[type=text] {
+    background-color: #a53737;
+    border: none;
+    /*border-radius: 0px;*/
     border-color: #a53737;
+}
+.wy-side-nav-search input[type=text] a:active {
+    background-color: #3a3a3a;
 }
 .wy-menu-vertical p.caption {
     color: #da8888;
@@ -24,4 +32,3 @@ h1 {
 h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
     font-family: Segoe UI, "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif
 }
-

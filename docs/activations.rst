@@ -164,7 +164,7 @@ ________________
 
 Dropout
 _________
-Instead of randomly setting units to zero as in conventional dropout, the authors propose setting units to :math:`\alpha ' = -\lambda \alpha`. They refer to this as **alpha dropout**.
+Instead of randomly setting units to zero as in conventional dropout, the authors propose setting units to :math:`\alpha ' = -\lambda \alpha` where :math:`\lambda` and :math:`\alpha` are the hyperparameters given previously. They refer to this as **alpha dropout**.
 
 | **Proposed in**
 | `Self-Normalizing Neural Networks, Klambauer et al. (2017) <https://arxiv.org/pdf/1706.02515.pdf>`_

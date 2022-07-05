@@ -1,7 +1,7 @@
 -e .[dev]
 -r requirements.txt
 alabaster==0.7.10
-arrow==0.12.1
+arrow==0.15.1
 attrs==17.4.0
 babel==2.9.1
 binaryornot==0.4.4

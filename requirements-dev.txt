@@ -22,7 +22,7 @@ packaging==17.1
 pluggy==0.6.0
 poyo==0.4.1
 py==1.10.0
-pygments==2.7.4
+pygments==2.15.0
 pyparsing==2.2.0
 pytest-cov==2.5.1
 pytest-timeout==1.2.1

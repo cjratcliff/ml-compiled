@@ -20,5 +20,5 @@ six==1.11.0
 sphinx-sitemap==0.2
 stevedore==1.28.0
 unidecode==1.0.22
-urllib3==2.5.0
+urllib3==2.6.0
 whistle==1.0.0
